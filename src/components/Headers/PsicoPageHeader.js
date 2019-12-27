@@ -1,11 +1,13 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { 
+  // Button, 
+  Container } from "reactstrap";
 
 // core components
 
-function LandingPageHeader() {
+function PsicoPageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -27,14 +29,14 @@ function LandingPageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/mano.jpeg") + ")"
           }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">This is our great company.</h1>
-            <div className="text-center">
+            <h1 className="title2">Psicoterapia a orientamento contemplativo e transpersonale</h1>
+            {/* <div className="text-center">
               <Button
                 className="btn-icon btn-round"
                 color="info"
@@ -59,7 +61,7 @@ function LandingPageHeader() {
               >
                 <i className="fab fa-google-plus"></i>
               </Button>
-            </div>
+            </div> */}
           </Container>
         </div>
       </div>
@@ -67,4 +69,4 @@ function LandingPageHeader() {
   );
 }
 
-export default LandingPageHeader;
+export default PsicoPageHeader;

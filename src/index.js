@@ -28,7 +28,7 @@ import "assets/demo/nucleo-icons-page-styles.css";
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/LandingPage.js";
+import PsicoterapiaPage from "views/examples/PsicoterapiaPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
 ReactDOM.render(
@@ -41,8 +41,8 @@ ReactDOM.render(
           render={props => <NucleoIcons {...props} />}
         />
         <Route
-          path="/landing-page"
-          render={props => <LandingPage {...props} />}
+          path="/psicoterapia"
+          render={props => <PsicoterapiaPage {...props} />}
         />
         <Route
           path="/profile-page"

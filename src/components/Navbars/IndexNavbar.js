@@ -57,6 +57,7 @@ function IndexNavbar() {
             <NavbarBrand
               target="_blank"
               id="navbar-brand"
+              to="/" tag={Link}
             >
                  <img
               alt="..."
@@ -94,6 +95,14 @@ function IndexNavbar() {
                   to="/profile-page" tag={Link}
                 >
                   <p>Chi sono</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/psicoterapia" tag={Link}
+                >
+                  <p>Psicoterapia</p>
                 </NavLink>
               </NavItem>
               {/* <NavItem>
