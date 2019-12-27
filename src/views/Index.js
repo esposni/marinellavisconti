@@ -43,7 +43,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Images />
+          {/* <Images />
           <BasicElements />
           <Navbars />
           <Tabs />
@@ -54,9 +54,9 @@ function Index() {
           <Carousel />
           <NucleoIcons />
           <CompleteExamples />
-          <SignUp />
+          <SignUp /> */}
           <Examples />
-          <Download />
+          {/* <Download /> */}
         </div>
         <DarkFooter />
       </div>
