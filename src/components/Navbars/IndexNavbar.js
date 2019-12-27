@@ -50,6 +50,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
+      {/* change info color */}
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
@@ -57,6 +58,11 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
+                 <img
+              alt="..."
+              className="logo"
+              src={require("assets/img/logo1.png")}
+            ></img>
               MARINELLA VISCONTI
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
