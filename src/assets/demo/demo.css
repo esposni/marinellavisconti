@@ -465,6 +465,12 @@
   color:rgb(254, 224, 105);
 }
 
+#small-logo-text{
+  width: 300px;
+}
+#small-logo{
+  width: 100px;
+}
 
 .brand .n-logo {
   max-width: 100px;

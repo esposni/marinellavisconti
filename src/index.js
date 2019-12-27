@@ -26,9 +26,10 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
+// import NucleoIcons from "views/NucleoIcons.js";
+// import LoginPage from "views/examples/LoginPage.js";
 import PsicoterapiaPage from "views/examples/PsicoterapiaPage.js";
+import FormazionePage from "views/examples/FormazionePage";
 import ProfilePage from "views/examples/ProfilePage.js";
 
 ReactDOM.render(
@@ -37,8 +38,8 @@ ReactDOM.render(
       <Switch>
         <Route path="/index" render={props => <Index {...props} />} />
         <Route
-          path="/nucleo-icons"
-          render={props => <NucleoIcons {...props} />}
+          path="/formazione"
+          render={props => <FormazionePage {...props} />}
         />
         <Route
           path="/psicoterapia"
@@ -48,7 +49,7 @@ ReactDOM.render(
           path="/profile-page"
           render={props => <ProfilePage {...props} />}
         />
-        <Route path="/login-page" render={props => <LoginPage {...props} />} />
+        {/* <Route path="/login-page" render={props => <LoginPage {...props} />} /> */}
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>

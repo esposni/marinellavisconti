@@ -105,6 +105,18 @@ function IndexNavbar() {
                   <p>Psicoterapia</p>
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/formazione" tag={Link}
+                  id="formazione-tooltip"
+                >
+                  <p>Formazione</p>
+                </NavLink>
+                <UncontrolledTooltip target="#formazione-tooltip">
+                  Formazione in mindfulness transpersonale e in relazione
+                </UncontrolledTooltip>
+              </NavItem>
               {/* <NavItem>
                 <NavLink
                   href="#pablo"
