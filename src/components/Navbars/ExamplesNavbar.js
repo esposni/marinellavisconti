@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  NavbarBrand,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+  // UncontrolledDropdown,
+  // NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -51,7 +51,7 @@ function ExamplesNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
-          <UncontrolledDropdown className="button-dropdown">
+          {/* <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
               caret
               data-toggle="dropdown"
@@ -86,18 +86,10 @@ function ExamplesNavbar() {
                 One more separated link
               </DropdownItem>
             </DropdownMenu>
-          </UncontrolledDropdown>
+          </UncontrolledDropdown> */}
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
-              Now Ui Kit
-            </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
+          
+          
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -120,30 +112,14 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                  Back to Kit
+                  Home
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
-                </NavLink>
-              </NavItem>
+           
+            
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href=""
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -151,22 +127,10 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                  Like us on Facebook
+                  Like me on Facebook
                 </UncontrolledTooltip>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
-                </UncontrolledTooltip>
-              </NavItem>
+              
             </Nav>
           </Collapse>
         </Container>

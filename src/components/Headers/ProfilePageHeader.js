@@ -25,35 +25,22 @@ function ProfilePageHeader() {
     <>
       <div
         className="page-header clear-filter page-header-small"
-        filter-color="blue"
+        filter-color=""
       >
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/budda2.jpeg") + ")"
           }}
           ref={pageHeader}
         ></div>
         <Container>
           <div className="photo-container">
-            <img alt="..." src={require("assets/img/ryan.jpg")}></img>
+            <img alt="..." src={require("assets/img/marinella.png")}></img>
           </div>
-          <h3 className="title">Ryan Scheinder</h3>
-          <p className="category">Photographer</p>
-          <div className="content">
-            <div className="social-description">
-              <h2>26</h2>
-              <p>Comments</p>
-            </div>
-            <div className="social-description">
-              <h2>26</h2>
-              <p>Comments</p>
-            </div>
-            <div className="social-description">
-              <h2>48</h2>
-              <p>Bookmarks</p>
-            </div>
-          </div>
+          <h3 className="title">Marinella Visconti</h3>
+          <p className="category">Psicoterapeuta ad orientamento contemplativo e transpersonale</p>
+          
         </Container>
       </div>
     </>

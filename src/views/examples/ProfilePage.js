@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
+  // Button,
   NavItem,
   NavLink,
   Nav,
@@ -11,7 +11,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  // UncontrolledTooltip
 } from "reactstrap";
 
 // core components
@@ -37,39 +37,12 @@ function ProfilePage() {
         <ProfilePageHeader />
         <div className="section">
           <Container>
-            <div className="button-container">
-              <Button className="btn-round" color="info" size="lg">
-                Follow
-              </Button>
-              <Button
-                className="btn-round btn-icon"
-                color="default"
-                id="tooltip515203352"
-                size="lg"
-              >
-                <i className="fab fa-twitter"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip515203352">
-                Follow me on Twitter
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round btn-icon"
-                color="default"
-                id="tooltip340339231"
-                size="lg"
-              >
-                <i className="fab fa-instagram"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip340339231">
-                Follow me on Instagram
-              </UncontrolledTooltip>
-            </div>
-            <h3 className="title">About me</h3>
-            <h5 className="description">
-              An artist of considerable range, Ryan — the name taken by
-              Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-              and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure. An artist of considerable range.
+            <h3 className="title">Chi sono</h3>
+            <h5 >
+            Psicoterapeuta sistemico relazionale ad orientamento contemplativo e transpersonale e Supervisione contemplativa.Foundation Course con il Karuna Institute England.
+Formazione continua in Core Process Psychotherapy con Anne Overzee e Deirdre Gordon, docenti del Karuna Institute.Terapista Craniosacrale Biodinamica, approfondimenti della pratica con ritiri seminari tenuti da Franklin Sills co-fondatore del Karuna Institute e M. Shea.
+Training e pratica di Kum Nye con Maura Sills Fondatrice del Karuna Institute England. Ricercatrice in formazione del Filo d’oro con Daniel Lumera.
+Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psicologia buddhista e psicoterapia occidentale.Docente in percorsi di formazione professionale e di crescita personale e spirituale in Mindfulness in relazione e Mindfulness transpersonale e co-fondatore e membro dell’Associazione Mudita (www.associazionemudita.org) riferimento in Italia del Modello di Mindfulness in relazione ispirato alla Core Process Psychotherapy del Karuna Institute England. È socio, membro e co-referente organizzativo del Centro Mindfulness Milano.
             </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">

@@ -11,7 +11,7 @@ function Examples() {
       <div className="section section-examples" data-background-color="black">
         <div className="space-50"></div>
         <Container className="text-center">
-          <Row>
+          {/* <Row>
             <div className="col">
               <a href="examples/landing-page.html" target="_blank">
                 <img
@@ -48,7 +48,7 @@ function Examples() {
                 View Profile Page
               </Button>
             </div>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     </>

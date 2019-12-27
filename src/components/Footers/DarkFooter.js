@@ -8,7 +8,7 @@ function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
       <Container>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <a
@@ -28,9 +28,9 @@ function DarkFooter() {
             </li>
 
           </ul>
-        </nav>
+        </nav> */}
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()},{" "}
+          © {new Date().getFullYear()} {"  "}
           Marinella Visconti
         
         </div>

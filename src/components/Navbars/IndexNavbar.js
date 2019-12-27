@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
+  // Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+  // UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -88,6 +88,14 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
+             <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/profile-page" tag={Link}
+                >
+                  <p>Chi sono</p>
+                </NavLink>
+              </NavItem>
               {/* <NavItem>
                 <NavLink
                   href="#pablo"
@@ -129,6 +137,7 @@ function IndexNavbar() {
                 </DropdownMenu>
               </UncontrolledDropdown> */}
 
+{/* Social                 ---------------------------------------------- */}
               {/* <NavItem>
                 <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -155,7 +164,7 @@ function IndexNavbar() {
                   Like me on Facebook
                 </UncontrolledTooltip>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   href=""
                   target="_blank"
@@ -167,7 +176,7 @@ function IndexNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow me on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>
