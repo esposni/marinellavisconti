@@ -82,7 +82,7 @@ Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libert�
 <p>È possibile  partecipare ad un singolo incontro, a un gruppo di incontri o  abbracciare l’intero percorso nella consapevolezza che la pratica del cuore è ospitante...ma verrà data precedenza di partecipazione a coloro che seguono l’intero percorso.
 
 Il numero massimo di partecipanti per modulo è 16 persone.</p>
-<h2 className="">ISTRUTTURA DELLA SCUOLA </h2>
+<h2 className="">STRUTTURA DELLA SCUOLA </h2>
 <h5 align="left">Il percorso  quadriennale è suddiviso in tre moduli l’anno.
 
 Prevede  14  moduli, di cui quattro  di 4 giorni e gli altri di tre giorni per un totale di 46 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con un insegnante di Vipassana e Heartfulness dello Spirit Rock Center Anushka  Fernandopulle con cui sono previste  due giornate di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola.
@@ -157,10 +157,21 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/marinella.png")}
+                     
+                      src={require("assets/img/simone-spina.png")}
                     ></img>
                     <h4 className="title">Simone Spina  </h4>
-                    <p className="category text-info">Psichiatra Psicoterapeuta ad orientamento transpersonale </p>    
+                    <p className="category text-info">Psichiatra Psicoterapeuta ad orientamento transpersonale </p>  
+                    <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    href="http://centromindfulnessmilano.com/myportfolio/simone-spina/"
+                    
+                    size="sm"
+                  >
+                      Curriculum
+                    </Button>  
                   </div>
                 </Col>   
                 <Col md="4">
