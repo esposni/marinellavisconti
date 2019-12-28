@@ -22,7 +22,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 // import NucleoIcons from "./index-sections/NucleoIcons.js";
 // import CompleteExamples from "./index-sections/CompleteExamples.js";
 // import SignUp from "./index-sections/SignUp.js";
-// import Examples from "./index-sections/Examples.js";
+import Examples from "./index-sections/Examples.js";
 // import Download from "./index-sections/Download.js";
 
 function Index() {
@@ -55,7 +55,7 @@ function Index() {
           <NucleoIcons />
           <CompleteExamples />
           <SignUp /> */}
-          {/* <Examples /> */}
+          <Examples />
           {/* <Download /> */}
         </div>
         <DarkFooter />

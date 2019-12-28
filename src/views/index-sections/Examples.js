@@ -11,6 +11,7 @@ function Examples() {
       <div className="section section-examples" data-background-color="black">
         <div className="space-50"></div>
         <Container className="text-center">
+         <h3 className="title">Collaborazioni</h3>
           {/* <Row>
             <div className="col">
               <a href="examples/landing-page.html" target="_blank">

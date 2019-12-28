@@ -134,16 +134,40 @@ function IndexNavbar() {
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem to="/formazione" tag={Link}>
-                  Formazione in mindfulness transpersonale e in relazione
+                  Formazione in mindfulness <br/>transpersonale e in relazione
                   </DropdownItem>
                   <DropdownItem
-                    target="_blank"
+                    // target="_blank"
                     to="/formazione-avanzata" tag={Link}
                   >
-                   Formazione in mindfulness transpersonale e in relazione avanzata
+                   Formazione in mindfulness transpersonale <br/> e in relazione avanzata
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/ritiri" tag={Link}
+                >
+                  <p>Ritiri Laboratori</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/pratica-di-servizio" tag={Link}
+                >
+                  <p>Pratica di servizio</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/craniosacrale" tag={Link}
+                >
+                  <p>Craniosacrale</p>
+                </NavLink>
+              </NavItem>
 
 {/* Social                 ---------------------------------------------- */}
               {/* <NavItem>

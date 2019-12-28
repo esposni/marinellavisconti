@@ -7,7 +7,7 @@ import {
 
 // core components
 
-export default function FormazioneAvanzataPageHeader() {
+export default function PraticaServPageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -35,7 +35,7 @@ export default function FormazioneAvanzataPageHeader() {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title2">Formazione in mindfulness transpersonale e in relazione avanzata</h1>
+        <h1 className="title2">Pratica di servizio </h1>   <h1 className="title2">Dãna </h1>
             {/* <div className="text-center">
               <Button
                 className="btn-icon btn-round"

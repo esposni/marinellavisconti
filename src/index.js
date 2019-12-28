@@ -30,6 +30,10 @@ import Index from "views/Index.js";
 // import LoginPage from "views/examples/LoginPage.js";
 import PsicoterapiaPage from "views/examples/PsicoterapiaPage.js";
 import FormazionePage from "views/examples/FormazionePage";
+import FormazioneAvanzataPage from "views/examples/FormazioneAvanzataPage";
+import PraticaServPage from "views/examples/PraticaServPage";
+import CraniosacralePage from "views/examples/CraniosacralePage";
+import RitiriPage from "views/examples/RitiriPage";
 import ProfilePage from "views/examples/ProfilePage.js";
 
 ReactDOM.render(
@@ -43,7 +47,19 @@ ReactDOM.render(
         />
         <Route
           path="/formazione-avanzata"
-          render={props => <FormazionePage {...props} />}
+          render={props => <FormazioneAvanzataPage {...props} />}
+        />
+         <Route
+          path="/pratica-di-servizio"
+          render={props => <PraticaServPage {...props} />}
+        />
+         <Route
+          path="/craniosacrale"
+          render={props => <CraniosacralePage {...props} />}
+        />
+         <Route
+          path="/ritiri"
+          render={props => <RitiriPage {...props} />}
         />
         <Route
           path="/psicoterapia"

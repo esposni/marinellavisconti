@@ -7,7 +7,7 @@ import {
 
 // core components
 
-export default function FormazioneAvanzataPageHeader() {
+export default function RitiriPageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -29,13 +29,13 @@ export default function FormazioneAvanzataPageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/ciotola.jpeg") + ")"
+            backgroundImage: "url(" + require("assets/img/budda-face.jpeg") + ")"
           }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title2">Formazione in mindfulness transpersonale e in relazione avanzata</h1>
+            <h1 className="title2">Ritiri Laboratori</h1>
             {/* <div className="text-center">
               <Button
                 className="btn-icon btn-round"

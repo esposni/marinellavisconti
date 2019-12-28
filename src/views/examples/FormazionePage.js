@@ -18,7 +18,7 @@ import FormazionePageHeader from "components/Headers/FormazionePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import AlertDialogSlide from "components/PopUpButton.js";
 
-function PsicoterapiaPage() {
+export default function FormazionePage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
@@ -498,5 +498,3 @@ Camera multipla 136 euro.
     </>
   );
 }
-
-export default PsicoterapiaPage;
