@@ -178,6 +178,7 @@ Camera multipla 136 euro.
                   <Input
                     placeholder="Nome Cognome..."
                     type="text"
+                    id="name"
                     onFocus={() => setFirstFocus(true)}
                     onBlur={() => setFirstFocus(false)}
                   ></Input>
@@ -195,6 +196,7 @@ Camera multipla 136 euro.
                   <Input
                     placeholder="Email..."
                     type="text"
+                    id="email"
                     onFocus={() => setLastFocus(true)}
                     onBlur={() => setLastFocus(false)}
                   ></Input>
@@ -206,6 +208,7 @@ Camera multipla 136 euro.
                     placeholder="Scrivi il messaggio..."
                     rows="4"
                     type="textarea"
+                    id="message"
                   ></Input>
                 </div>
                 <div className="send-button">
@@ -213,8 +216,18 @@ Camera multipla 136 euro.
                     block
                     className="btn-round"
                     color="info"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
+                    // href="#pablo"
+                    onClick={e => {
+                      let form=document.getElementById("form1");
+                      let textarea=form.elements["body"];
+                      let message=document.getElementById("name").value;
+                      message+="  "+document.getElementById("email").value;
+                      message+="\n Messaggio: \n";
+                      message+=document.getElementById("message").value;
+                      textarea.value=message;
+                      // console.log(textarea.value);
+                      form.submit();
+                    }}
                     size="lg"
                   >
                     Invia
@@ -223,6 +236,9 @@ Camera multipla 136 euro.
               </Col>
             </Row>
           </Container>
+          <form action="mailto:marinellavisconti@outlook.it" method="GET" id="form1">
+            <textarea hidden name="body"></textarea>
+          </form>
         </div>
         <DefaultFooter />
       </div>

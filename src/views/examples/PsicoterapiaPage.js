@@ -3,10 +3,7 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
   Row,
   Col
@@ -16,10 +13,10 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PsicoPageHeader from "components/Headers/PsicoPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
+import FormMessage from"components/FormMessage.js";
 
 function PsicoterapiaPage() {
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -141,111 +138,7 @@ Tutto ciò che riguarda l’umanità è un mistero e può essere solo abbracciat
               </Row>
             </div> */}
           </Container>
-        </div>
-        <div className="section section-team text-center">
-          <Container>
-            <h2 className="title">Dove trovarmi</h2>
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio-milano.jpg")}
-                    ></img>
-                    <h4 className="title">Centro Mindfulness Milano</h4>
-                    {/* <p className="category text-info">Model</p> */}
-                   
-                    Via Cenisio, 5 <br/>
-                    Per contattarmi: 338 2331754
-                    
-                   
-                  </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio2.png")}
-                    ></img>
-                    <h4 className="title">Studio privato</h4>
-                  
-                    Via Auguadri 22 Como
-               
-                   
-                  </div>
-                </Col>
-               
-              </Row>
-            </div>
-          </Container>
-        </div>
-        <div className="section section-contact-us text-center">
-          <Container>
-            <h2 className="title">Scrivimi</h2>
-            {/* <p className="description">Your project is very important to us.</p> */}
-            <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <InputGroup
-                  className={
-                    "input-lg" + (firstFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons users_circle-08"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Nome Cognome..."
-                    type="text"
-                    onFocus={() => setFirstFocus(true)}
-                    onBlur={() => setFirstFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <InputGroup
-                  className={
-                    "input-lg" + (lastFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons ui-1_email-85"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Email..."
-                    type="text"
-                    onFocus={() => setLastFocus(true)}
-                    onBlur={() => setLastFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <div className="textarea-container">
-                  <Input
-                    cols="80"
-                    name="name"
-                    placeholder="Scrivi il messaggio..."
-                    rows="4"
-                    type="textarea"
-                  ></Input>
-                </div>
-                <div className="send-button">
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                    size="lg"
-                  >
-                    Invia
-                  </Button>
-                </div>
-              </Col>
-            </Row>
-          </Container>
+          <FormMessage />
         </div>
         <DefaultFooter />
       </div>

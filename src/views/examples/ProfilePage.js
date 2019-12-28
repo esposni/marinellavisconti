@@ -18,6 +18,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
+import FormMessage from"components/FormMessage.js";
 
 function ProfilePage() {
   // const [pills, setPills] = React.useState("2");
@@ -198,6 +199,7 @@ Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psico
               </TabContent>
             </Row> */}
           </Container>
+          <FormMessage/>
         </div>
         <DefaultFooter />
       </div>
