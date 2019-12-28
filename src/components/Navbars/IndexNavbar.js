@@ -194,8 +194,8 @@ function IndexNavbar() {
               </NavItem> */}
               <NavItem>
                 <NavLink
-                  // href=""
-                  // target="_blank"
+                  href="https://www.facebook.com/marinella.visconti"
+                  target="_blank"
                   id="facebook-tooltip"
                 >
                   <i className="fab fa-facebook-square"></i>
