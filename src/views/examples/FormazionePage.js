@@ -13,7 +13,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import FormazionePageHeader from "components/Headers/FormazionePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import AlertDialogSlide from "components/PopUpButton.js";
-import FormMessage from"components/FormMessage.js";
+import DataFormMessage from"components/DataFormMessage.js";
 
 export default function FormazionePage() {
 
@@ -422,7 +422,7 @@ Camera multipla 136 euro.
               </Row>
             </div>
           </Container>
-          <FormMessage/>
+          <DataFormMessage/>
         </div>
         <DefaultFooter />
       </div>
