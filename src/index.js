@@ -42,6 +42,10 @@ ReactDOM.render(
           render={props => <FormazionePage {...props} />}
         />
         <Route
+          path="/formazione-avanzata"
+          render={props => <FormazionePage {...props} />}
+        />
+        <Route
           path="/psicoterapia"
           render={props => <PsicoterapiaPage {...props} />}
         />

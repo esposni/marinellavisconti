@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import {
   // Button,
   Collapse,
-  // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -105,18 +105,7 @@ function IndexNavbar() {
                   <p>Psicoterapia</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  to="/formazione" tag={Link}
-                  id="formazione-tooltip"
-                >
-                  <p>Formazione</p>
-                </NavLink>
-                <UncontrolledTooltip target="#formazione-tooltip">
-                  Formazione in mindfulness transpersonale e in relazione
-                </UncontrolledTooltip>
-              </NavItem>
+              
               {/* <NavItem>
                 <NavLink
                   href="#pablo"
@@ -132,7 +121,7 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem> */}
               
-              {/* <UncontrolledDropdown nav>
+              <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
                   color="default"
@@ -141,22 +130,20 @@ function IndexNavbar() {
                   onClick={e => e.preventDefault()}
                 >
                   <i className="now-ui-icons design_app mr-1"></i>
-                  <p>Components</p>
+                  <p>Formazione</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    All components
+                  <DropdownItem to="/formazione" tag={Link}>
+                  Formazione in mindfulness transpersonale e in relazione
                   </DropdownItem>
                   <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
                     target="_blank"
+                    to="/formazione-avanzata" tag={Link}
                   >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    Documentation
+                   Formazione in mindfulness transpersonale e in relazione avanzata
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown> */}
+              </UncontrolledDropdown>
 
 {/* Social                 ---------------------------------------------- */}
               {/* <NavItem>

@@ -2573,7 +2573,6 @@ p {
   font-weight: 300; }
 
 .category {
-  text-transform: capitalize;
   font-weight: 700;
   color: #9A9A9A; }
 
@@ -4013,7 +4012,8 @@ img {
 
 .profile-page .title {
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #fee069; }
 
 .profile-page .description,
 .profile-page .category {
@@ -4272,7 +4272,7 @@ img {
     position: relative; }
   .page-header .category,
   .page-header .description {
-    color: rgba(255, 255, 255, 0.8); }
+    color: #fee069; }
   .page-header:after, .page-header:before {
     position: absolute;
     z-index: 0;
