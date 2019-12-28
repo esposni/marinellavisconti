@@ -3,14 +3,14 @@ import React from "react";
 // reactstrap components
 import {
   // Button,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
+  // NavItem,
+  // NavLink,
+  // Nav,
+  // TabContent,
+  // TabPane,
   Container,
-  Row,
-  Col,
+  // Row,
+  // Col,
   // UncontrolledTooltip
 } from "reactstrap";
 
@@ -20,7 +20,7 @@ import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 
 function ProfilePage() {
-  const [pills, setPills] = React.useState("2");
+  // const [pills, setPills] = React.useState("2");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
     document.body.classList.add("sidebar-collapse");
@@ -56,7 +56,7 @@ Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psico
             <h5 align="left">L’apertura mentale e l’autonomia la spinge a cercare e incontrare ciò che funziona e sostiene le relazioni intorno a noi facendo la differenza nel qui e ora e che  consente di coltivare relazioni capaci di accrescere il senso della vita coltivando le migliori qualità del cuore che sono il lievito della trasformazione.</h5>
             <h5 align="left">Il cuore in tutto questo diventa l’insegnante, per rafforzare la capacità di essere connessi, fluidi e presenti nella vita.</h5>
             
-            <Row>
+            {/* <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">My Portfolio</h4>
                 <div className="nav-align-center">
@@ -196,7 +196,7 @@ Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psico
                   </Col>
                 </TabPane>
               </TabContent>
-            </Row>
+            </Row> */}
           </Container>
         </div>
         <DefaultFooter />

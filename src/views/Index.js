@@ -28,6 +28,8 @@ import Examples from "./index-sections/Examples.js";
 function Index() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
+   
+    
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
     window.scrollTo(0, 0);

@@ -20,21 +20,30 @@ import {
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
+  
   React.useEffect(() => {
     const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 399 ||
-        document.body.scrollTop > 399
-      ) {
+      if(window.location.pathname==="/index"){
         setNavbarColor("");
-      } else if (
-        document.documentElement.scrollTop < 400 ||
-        document.body.scrollTop < 400
-      ) {
-        setNavbarColor("navbar-transparent");
+      }else{
+        if (
+          document.documentElement.scrollTop > 399 ||
+          document.body.scrollTop > 399
+        ) {
+          setNavbarColor("");
+        } else if (
+          document.documentElement.scrollTop < 400 ||
+          document.body.scrollTop < 400
+        ) {
+          setNavbarColor("navbar-transparent");
+        }
       }
+     
+     
     };
     window.addEventListener("scroll", updateNavbarColor);
+    window.addEventListener("load", updateNavbarColor);
+    
     return function cleanup() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
@@ -55,7 +64,7 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              target="_blank"
+              // target="_blank"
               id="navbar-brand"
               to="/" tag={Link}
             >
@@ -185,8 +194,8 @@ function IndexNavbar() {
               </NavItem> */}
               <NavItem>
                 <NavLink
-                  href=""
-                  target="_blank"
+                  // href=""
+                  // target="_blank"
                   id="facebook-tooltip"
                 >
                   <i className="fab fa-facebook-square"></i>
