@@ -201,7 +201,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                   ></Input>
                 </InputGroup>
                 <br/>
-                <label>Ci autorizzi ad inviarti newsletters in futuro e a tenerti aggiornato sulle nostre iniziative? </label>
+                <label>Mi autorizzi ad inviarti newsletters in futuro e a tenerti aggiornato sulle mie iniziative?</label>
                 <br/>
                 <InputGroup>
                   <Input
