@@ -44,6 +44,18 @@ Formazione continua in Core Process Psychotherapy con Anne Overzee e Deirdre Gor
 Training e pratica di Kum Nye con Maura Sills Fondatrice del Karuna Institute England. Ricercatrice in formazione del Filo d’oro con Daniel Lumera.
 Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psicologia buddhista e psicoterapia occidentale.Docente in percorsi di formazione professionale e di crescita personale e spirituale in Mindfulness in relazione e Mindfulness transpersonale e co-fondatore e membro dell’Associazione Mudita (www.associazionemudita.org) riferimento in Italia del Modello di Mindfulness in relazione ispirato alla Core Process Psychotherapy del Karuna Institute England. È socio, membro e co-referente organizzativo del Centro Mindfulness Milano.
             </h5>
+            <h5 align="left">Davanti alle sfide della vita, sin da bambina, alcune domande mi hanno guidata negli anni con curiosità e determinazione:</h5>
+            <h5 align="left">E’ possibile restituire dignità a tutte le esperienze nella vita?</h5>
+            <h5 align="left">Quando si inizia ad avvertire qualcosa di più grande di noi?</h5>
+            <h5 align="left">È possibile immaginare un gruppo di amici di Dharma (Sangha) maestri dell’apprendere da ogni situazione?</h5>
+            <h5 align="left">Cosa ci aiuta a far fiorire l’essere che ci abita?</h5>
+            <h5 align="left">Cosa ci aiuta a coltivare la persona vera semplicemente che fa ciò che dice e dice ciò che fa? La persona che aspira ad una radicale onestà?</h5>
+            <h5 align="left">È possibile cercare le fondamenta di una nuova cultura?</h5>
+            <h5 align="left">Da queste domande è sorta l’esigenza di dare il proprio personale contributo al fondare con altri un’associazione che per più di dieci anni ha organizzato seminari di crescita personale con un gruppo stabile di partecipanti con cui è stato possibile scendere molto in profondità nell’autenticità.</h5>
+            <h5 align="left">La conoscenza della pratica meditativa e del Dharma (gli insegnamenti del Buddha) mi hanno permesso di scoprire di respirare, mi hanno fatto percepire il momento presente e mi hanno insegnato ad assaporare qualsiasi cosa stessi vivendo e hanno restituito dignità e maggiore comprensione ad esperienze di picco che mi hanno accompagnata fin da bambina.</h5>
+            <h5 align="left">L’apertura mentale e l’autonomia la spinge a cercare e incontrare ciò che funziona e sostiene le relazioni intorno a noi facendo la differenza nel qui e ora e che  consente di coltivare relazioni capaci di accrescere il senso della vita coltivando le migliori qualità del cuore che sono il lievito della trasformazione.</h5>
+            <h5 align="left">Il cuore in tutto questo diventa l’insegnante, per rafforzare la capacità di essere connessi, fluidi e presenti nella vita.</h5>
+            
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">My Portfolio</h4>
