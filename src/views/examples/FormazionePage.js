@@ -297,7 +297,7 @@ Kum Nye </p>
                       src={require("assets/img/elsa01.png")}
                     ></img>
                     <h4 className="title">Elsa Chiesa</h4>
-                    <p className="category text-info"> Mindfulness Counselor- la pratica contemplativa e la bio musica</p>    
+                    <p className="category text-info"> Mindfulness Counselor e biomusica</p>    
                   </div>
                   <Button
                     block
@@ -316,7 +316,7 @@ Kum Nye </p>
                       src={require("assets/img/federica.jpeg")}
                     ></img>
                     <h4 className="title">Federica Gonzati </h4>
-                    <p className="category text-info">  Psicologa - insegnante  yoga operatore Craniosacrale biodinamico </p>    
+                    <p className="category text-info">  Sociologa operatore olistico craniosacrale biodinamica </p>    
                   </div>
                   <AlertDialogSlide content={federica_curriculum}/> 
                 </Col> 
