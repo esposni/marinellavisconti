@@ -35,6 +35,7 @@ import PraticaServPage from "views/examples/PraticaServPage";
 import CraniosacralePage from "views/examples/CraniosacralePage";
 import RitiriPage from "views/examples/RitiriPage";
 import ProfilePage from "views/examples/ProfilePage.js";
+import ConsapevolPage from "views/examples/ConsapevolPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -52,6 +53,10 @@ ReactDOM.render(
          <Route
           path="/pratica-di-servizio"
           render={props => <PraticaServPage {...props} />}
+        />
+         <Route
+          path="/consapevolezza"
+          render={props => <ConsapevolPage {...props} />}
         />
          <Route
           path="/craniosacrale"

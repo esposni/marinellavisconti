@@ -36,10 +36,10 @@ export default function PraticaServPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Pratica di servizio</h2>
-              <h5 align="left">Agisci come se quel che fai facesse la differenza. La fa. 
-William James</h5>
-              <h5 align="left">I fiumi non bevono la propria acqua; gli alberi non mangiano i propri frutti.
-Il sole non brilla per se stesso; ed i fiori non disperdono la propria fragranza per se stessi.</h5>
+              <p>Agisci come se quel che fai facesse la differenza. La fa. 
+William James</p>
+              <p>I fiumi non bevono la propria acqua; gli alberi non mangiano i propri frutti.
+Il sole non brilla per se stesso; ed i fiori non disperdono la propria fragranza per se stessi.</p>
               <h5 align="left">Vivere per gli altri è una regola della natura.
 La vita è bella quando tu sei felice, però la vita è molto meglio quando gli altri sono felici per merito tuo.</h5>
               <h5 align="left">La nostra natura è di essere al servizio...</h5>
@@ -63,7 +63,7 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
 
 <h2 className=""> DATE E LUOGO</h2>
-<h5 align="left">Entrata libera tutti i giovedì dalle 12:30 alle 13:30 presso il Centro Mindfullness Milano, Via Cenisio, 5.</h5>
+<h5 align="left">Entrata libera tutti i giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.</h5>
 <h5 align="left" className="bold" >Prossimamente la pratica contemplativa nella vita quotidiana anche a Como</h5>
 
 
@@ -78,7 +78,7 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
                     size="sm"
                   >Ulteriori informazioni
                     </Button>  <br/>
-<h5 align="left">Ritiro di Mindfullness e heartfulness ottobre 2021</h5>
+<h5 align="left">Ritiro di Mindfulness e heartfulness ottobre 2021</h5>
 <Button
                     block
                     className="btn-round"

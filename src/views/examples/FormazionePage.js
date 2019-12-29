@@ -111,7 +111,7 @@ Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libert�
 
 Il numero massimo di partecipanti per modulo è 16 persone.</p>
 <h2 className="">STRUTTURA DELLA SCUOLA </h2>
-<h5 align="left">Il percorso  quadriennale è suddiviso in tre moduli l’anno.
+<h5 align="left">Suddivisa in tre moduli l'anno che hanno la forma del laboratorio/ritiro.
 
 Prevede  15  moduli, di cui quattro  di 4 giorni e gli altri di tre giorni per un totale di 49 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con un insegnante di Vipassana e Heartfulness dello Spirit Rock Center Anushka  Fernandopulle con cui sono previste  due giornate di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola.
 
@@ -154,7 +154,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
 <h5 align="left">9 modulo 22-24 settembre 2023: Allenare il coraggio del cuore con l’audacia della fluid awareness.   Marinella Visconti e Federica Gonzati</h5>
 <h5 align="left">10 modulo 1-3 dicembre 2023 : Allenare il coraggio del cuore con l’audacia del Qi Gong.     Marinella Visconti e Paolo Testa</h5>
 <h5 align="left">11  modulo 22-24 marzo 2024: Allenare il coraggio del cuore con l’audacia della poesia.   Marinella Visconti e Giovanna Santoro </h5>
-<h5 align="left">12 modulo 20-22 settembre 2024: Allenare il coraggio del cuore con l’audacia della creazione.   Marinella Visconti e Gemma D'Alessandro</h5>
+<h5 align="left">12 modulo 20-22 settembre 2024: Allenare il coraggio del cuore con l’audacia del movimento.   Marinella Visconti e Gemma D'Alessandro</h5>
 <h5 align="left"> 13 modulo 12-15 dicembre 2024: Allenare il coraggio del cuore con l'audacia della creazione. Marinella Visconti e Valeria Giunta  </h5>
 <h5 align="left"> 14 modulo 13-16 marzo 2025: Allenare il coraggio del cuore con l’audacia della Presenza...il cuore trascendente. Marinella Visconti e Simone Spina </h5>
 <h5 align="left">15 modulo 2025: RITIRO LABORATORIO FINALE IN LUOGO A FORTE IMPATTO NATURALISTICO SPIRITUALE DA DEFINIRE</h5>
@@ -384,7 +384,7 @@ e il costo per vitto e alloggio è da pagare presso il Centro D’Ompio.</h5>
             <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
             <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>
             <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5>
-            <h5 align="left">Causale: Cognome e Nome del partecipante – Iscrizione brave heartfulness School o modulo n.    Brave heartfulness school</h5>
+            <h5 align="left">Causale: Cognome e Nome del partecipante – Iscrizione Braveheartfulness School o modulo n.    Braveheartfulness school</h5>
       
 
           </Container>

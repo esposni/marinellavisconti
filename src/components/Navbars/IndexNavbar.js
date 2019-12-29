@@ -177,6 +177,15 @@ function IndexNavbar() {
                   <p>Craniosacrale</p>
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  to="/consapevolezza" tag={Link}
+                >
+                  <p>Consapevolezza in cammino</p>
+                </NavLink>
+              </NavItem>
+              
 
 {/* Social                 ---------------------------------------------- */}
               {/* <NavItem>
