@@ -220,7 +220,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                       src={require("assets/img/anuska.jpg")}
                     ></img>
                     <h4 className="title">Anushka Fernandopulle </h4>
-                    <p className="category text-info">Insegnante di meditazione dello Spirit Rock Meditiation Center</p>    
+                    <p className="category text-info">Insegnante allo spirit rock meditation ventre</p>    
                   </div>
                   <Button
                     block
@@ -239,7 +239,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                       src={require("assets/img/sanda.jpg")}
                     ></img>
                     <h4 className="title">Sanda Stojkovich </h4>
-                    <p className="category text-info"> Educatrice peri natale e formazione continua in core process psicoterapy </p>    
+                    <p className="category text-info"> Core process psychotherapy </p>    
                   </div>
                   <AlertDialogSlide content={sanda_curriculum}/> 
                 </Col>  
