@@ -192,7 +192,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                     onBlur={() => setFirstFocus(false)}
                   ></Input>
                 </InputGroup>
-                <label>Ho letto la normativa sulla privacy EX ART. 13 D. LGS. 196/03 (il link è sotto il modulo) e autorizzo al trattamento dei miei dati personali </label>
+                <label>Ho letto la normativa sulla privacy EX ART. 13 D. LGS. 196/03 e autorizzo al trattamento dei miei dati personali </label>
                 <InputGroup>
                   <Input
                     placeholder=""
