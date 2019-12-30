@@ -220,7 +220,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                       src={require("assets/img/anuska.jpg")}
                     ></img>
                     <h4 className="title">Anushka Fernandopulle </h4>
-                    <p className="category text-info">Insegnante allo spirit rock meditation ventre</p>    
+                    <p className="category text-info">Insegnante allo spirit rock meditation centre</p>    
                   </div>
                   <Button
                     block
