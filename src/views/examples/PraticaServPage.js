@@ -56,7 +56,7 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
 
                 <h2 className="title">LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
-                <h5 align="left">Condotto da Marinela Visconti e Roberto Pagani </h5>
+                <h5 align="center">Condotto da Marinella Visconti</h5>
               <h5 align="left">
               Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa
 </h5>  
