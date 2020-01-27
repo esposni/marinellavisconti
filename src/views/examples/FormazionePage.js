@@ -110,13 +110,14 @@ Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libert�
 <p>È possibile  partecipare ad un singolo incontro, a un gruppo di incontri o  abbracciare l’intero percorso nella consapevolezza che la pratica del cuore è ospitante...ma verrà data precedenza di partecipazione a coloro che seguono l’intero percorso.</p>
 <h2 className="">STRUTTURA DELLA SCUOLA </h2>
 <h5 align="left">Il percorso  che inizia a dicembre 2020 e termina nel 2025  è suddiviso in moduli di tre o quattro giorni e prevede anche  due ritiri che saranno il  primo di 7 giorni nel 2021  e il secondo finale di 7/10 giorni da definire nel 2025.</h5>
-<h5 align="left">In tutto 15 moduli, di cui quattro  di 4 giorni e    nove di 3  giorni per un totale di 43 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con Anushka Fernandopulle  insegnante di Vipassana e Heartfulness dello Spirit Rock Meditation Center di San Francisco con cui sono previste  5 giornate di pratica Vipassana e due giornate  di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola e  infine un ritiro laboratorio finale (da definire rispetto a tempi date e costi)  in  un luogo dal  forte impatto energetico e naturalistico in cui tutte le pratiche verranno coltivate contemporaneamente con l’intento di </h5>
+<h5 align="left">In tutto 15 moduli, di cui quattro  di 4 giorni e    nove di 3  giorni per un totale di 43 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con <strong>Anushka Fernandopulle Insegnante di Vipassana e Heartfulness dello Spirit Rock Meditation Center di San Francisco</strong> con cui sono previste  5 giornate di pratica Vipassana e due giornate  di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola e  infine un ritiro laboratorio finale (da definire rispetto a tempi date e costi)  in  un luogo dal  forte impatto energetico e naturalistico in cui tutte le pratiche verranno coltivate contemporaneamente con l’intento di </h5>
 <p> “non conoscere molte cose, ma mettere molte cose in contatto, uno dei primi gradini dello spirito creativo.....”.       H. Von Hofmannsthal</p>
 <h5 align="left">Ogni seminario si svilupperà nel momento presente all’interno di un campo che prevederà quattro momenti  fondanti:
 
 
 
 
+<br/>
 <br/>
 L’amore che si prende cura<br/>
 
@@ -125,20 +126,20 @@ L’amore che risponde al dolore<br/>
 L’amore che apprezza e si delizia <br/>
 
 L’amore che permette</h5>
-<h5 align="left">Il gruppo sosterrà il processo.<br/>
+<h5 align="left">Il gruppo sosterrà il processo.<br/><br/>
 Durante il percorso  è suggerita la frequentazione di almeno un ritiro all’anno (verrà proposta una lista di ritiri all’inizio di ogni anno) oltre ai due previsti  all’interno del percorso volti a consolidare la pratica.</h5>
                
 <h2 className=""> DATE E LUOGO</h2>
-<h5 align="left">Ogni modulo si svolgerà, se di quattro giorni, dal giovedì alle 14.30 alla domenica alle ore 13.00 o se di tre giorni, dal venerdì alle 14.30 alla domenica  alle ore 13.00 presso il Centro D’Ompio a Pettenasco (NO)
+<h5 align="left">Ogni modulo si svolgerà, se di quattro giorni, dal giovedì alle 14.30 alla domenica alle ore 13.00 o se di tre giorni, dal venerdì alle 14.30 alla domenica  alle ore 13.00 presso il Centro D’Ompio a Pettenasco (NO).
 
-Il ritiro dal 1al 5 o ottobre 2021 e le giornate di heartfulness dal 7 all’8 ottobre saranno presso l’eremo di Montecastello (bs).
+Il ritiro dall'1 al 5 ottobre 2021 e le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’Eremo di Montecastello (BS).
 
 Il ritiro finale è da definire.</h5>  
 <h5 align="left">1 modulo 10-13 dicembre 2020: Lo spazio sacro come soglia...Marinella Visconti e Simone Spina    </h5>
 <h5 align="left">2 modulo 4-7 marzo 2021: Cercare l’innocenza in ogni forma. Un viaggio nella profondità della relazione accompagnati dalle perfezioni del cuore.
 
 Prima parte.    Marinella Visconti e Sanda Stojkovich </h5>
-<h5 align="left">3 modulo 1-8 ottobre 2021 Ritiro di Vipassana 1-5 ottobre e 7-8 ottobre pratiche di  heartfulness e colloqui individualizzati con Anushka Fernandopulle presso eremo di Montecastello(BS)</h5>
+<h5 align="left">3 modulo 1-8 ottobre 2021 <strong>Ritiro di Vipassana e  Heartfulness</strong> 1-5 ottobre e 7-8 ottobre<strong>pratiche di  Heartfulness e colloqui individualizzati con Anushka Fernandopulle</strong>  presso eremo di Montecastello(BS)</h5>
 <h5 align="left">4 modulo 9-12 dicembre 2021 : Cercare l’innocenza in ogni forma. Un viaggio nella profondità della relazione accompagnati dalle perfezioni del cuore.
 
 Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>             
@@ -217,7 +218,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                       src={require("assets/img/anuska.jpg")}
                     ></img>
                     <h4 className="title">Anushka Fernandopulle </h4>
-                    <p className="category text-info">Insegnante allo spirit rock meditation centre</p>    
+                    <p className="category text-info">Insegnante allo Spirit Rock Meditation Centre</p>    
                   </div>
                   <Button
                     block
@@ -371,8 +372,8 @@ Kum Nye </p>
             </div>
             <h2 className="">Costi</h2>
             
-            <h5 align="left">Il costo del percorso quadriennale  è di 1350 euro l’anno  divisibile in quattro rate annuali di 300 euro, tranne la prima di 450 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di heartfulness e colloqui individualizzati con Anushka Fernandopulle.</h5>
-            <h5 align="left">La quota non comprende il ritiro finale (modulo 15) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro. (60 euro al giorno per vitto e alloggio in stanza singola con bagno).</h5>
+            <h5 align="left">Il costo del percorso quadriennale  è di 1350 euro l’anno  divisibile in tre rate annuali due da 400 euro e la prima di 550 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle.</h5>
+            <h5 align="left">La quota non comprende il ritiro finale (modulo 15) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro.</h5>
             <h5 align="left">Ecco le coordinate bancarie per il bonifico:</h5>
             <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
             <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>
@@ -420,6 +421,9 @@ Camera multipla 136 euro.
                       src={require("assets/img/eremo.png")}
                     ></img>
                     <h4 className="title">Eremo di Montecastello</h4>
+                   
+                    25080 Montecastello (BS)<br/>
+                    Telefono: +39 0365 760255<br/>
                     {/* <p className="category text-info">Model</p> */}
                  
                   </div>
