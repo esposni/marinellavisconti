@@ -63,7 +63,17 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
 
 <h2 className=""> DATE E LUOGO</h2>
-<h5 align="left">Entrata libera tutti i giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.</h5>
+<h5 align="left">Entrata libera
+N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfullness Milano, Via Cenisio, 5.
+</h5>
+<h5 align="center"><strong>Calendario 2020</strong><br/>
+ 
+13 febbraio 27 febbraio 5 marzo
+12 marzo 16 aprile 23 aprile 30 aprile
+7 maggio 21 maggio 28 maggio 18 giugno 9 luglio
+16 luglio
+
+</h5>
 <h5 align="left" className="bold" >Prossimamente la pratica contemplativa nella vita quotidiana anche a Como</h5>
 
 
