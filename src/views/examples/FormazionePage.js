@@ -411,6 +411,19 @@ Camera multipla 136 euro.
                     </h6> */}
                   </div>
                 </Col>
+
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/eremo.png")}
+                    ></img>
+                    <h4 className="title">Eremo di Montecastello</h4>
+                    {/* <p className="category text-info">Model</p> */}
+                 
+                  </div>
+                </Col>
               
               </Row>
             </div>
