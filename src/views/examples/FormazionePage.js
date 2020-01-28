@@ -57,7 +57,11 @@ Come praticante di meditazione di consapevolezza, è particolarmente interessata
 Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusalemme, dove si è laureata in Psicologia. Da quindici anni si è trasferita in Sabina (Lazio), dove vive in campagna con la sua famiglia.`;
 
 let clarisse_curriculum=`Clarisse Talato Clarisse è  psicologa psicoterapeuta iscritta all’ordine degli psicologi del Piemonte numero 1942. Psicoterapeuta contemplativa secondo il modello Core Process Psycothrapy formata con Anne Overzee e Deirdre Gordon (docenti del Karuna Institute in Inghiltera)  Supervisore  psicoterapia Contemplativa, EMDR Practitioner, danzaterapeuta, esperta nel suono del tamburo e pratiche espressive dell’Africa subsahariana. Specializzata negli imprinting prenatale e alla nascita, seguendo l’approccio del maestro Dominique Degranges e delle teorie della terapia Prenatale e della Nascita, elaborata da Ray Castellino. In formazione per divenire insegnante di yoga tibetano con le pratiche del Kum Nye con la docente Maura Sills del Karuna Institute  Uk `;
-  return (
+  
+let gemma_curriculum = `Gemma è insegnante certificata Yoga Ratna, metodo che ha approfondito formandosi alla scuola della maestra Gabriella Cella. Lo yoga ratna, rispettando l’insegnamento tradizionale indiano, integra le tecniche corporee della sapienza occidentale attraverso una pratica sempre nuova, fondata sulla simbologia e l’ascolto.
+Gemma è impegnata in un percorso di formazione continuo sullo yoga e le discipline della salute indiane, iniziato nel 2006 in India, dove si reca regolarmente, proponendo anche viaggi culturali.
+È diplomata in Hatha yoga e yoga terapia e, oltre al metodo yoga ratna, si dedica all’insegnamento del Vinyasa yoga, secondo la tradizione di Mysore.`;
+return (
     <>
       <IndexNavbar />
       <div className="wrapper">
@@ -368,8 +372,21 @@ Kum Nye </p>
                   </div>
                   <AlertDialogSlide content={valeria_curriculum}/> 
                 </Col> 
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/Gemma.png")}
+                    ></img>
+                    <h4 className="title">Gemma D'Alessandro </h4>
+                    <p className="category text-info"> Insegnante di yoga</p>    
+                  </div>
+                  <AlertDialogSlide content={gemma_curriculum}/> 
+                </Col> 
               </Row>
             </div>
+            <br/>
             <h2 className="">Costi</h2>
             
             <h5 align="left">Il costo del percorso quadriennale  è di 1350 euro l’anno  divisibile in tre rate annuali due da 400 euro e la prima di 550 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle.</h5>
