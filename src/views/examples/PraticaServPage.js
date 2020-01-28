@@ -63,8 +63,10 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
 
 <h2 className=""> DATE E LUOGO</h2>
+<h3 align="center" className="bold" >La pratica contemplativa nella vita quotidiana</h3>
+<h3 align="center" className="bold" >Milano</h3>
 <h5 align="left">Entrata libera
-N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfullness Milano, Via Cenisio, 5.
+N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
 </h5>
 <h5 align="center"><strong>Calendario 2020</strong><br/>
  
@@ -74,7 +76,27 @@ N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfullness Milano, Via
 16 luglio
 
 </h5>
-<h5 align="left" className="bold" >Prossimamente la pratica contemplativa nella vita quotidiana anche a Como</h5>
+<br/>
+<h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
+<br/>
+<h3 align="center" className="bold" >La pratica contemplativa nella vita quotidiana</h3>
+<h3 align="center" className="bold" >Como</h3>
+<h5 align="left">Entrata libera
+N.B. I martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 terzo piano.
+</h5>
+
+<h5 align="center"><strong>Calendario 2020</strong><br/><br/>
+ 
+10 marzo 2020   ore 19.30 - 20.30
+24 marzo 2020   ore 19.30 - 20.30
+21 aprile 2020    ore 19.30 - 20.30
+28 aprile. 2020   ore 19.30 - 20.30
+5 maggio 2020   ore 19.30 - 20.30
+19 maggio 2020 ore 19.30 - 20.30
+26 maggio 2020 ore 19.30 - 20.30
+</h5>
+<h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
+<br/>
 
 
 <h2 className="">ORGANIZZAZIONE DI RITIRI ED EVENTI</h2>
