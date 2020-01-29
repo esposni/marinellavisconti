@@ -72,13 +72,13 @@ return (
               <Col className="ml-auto mr-auto text-center" md="8">
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
                 <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
-                <h2 className="title">La pratica contemplativa quotidiana del cuore coraggioso.</h2>
+                <h2 className="title">Pratiche contemplative quotidiane per cuori CORaggiosi</h2>
                 <h2 className="">Ritiri - laboratori  di ricerca interiore</h2>
                 <p>“Essere qui tutto il tempo con schiettezza e tenerezza....Puoi farlo....” C. Trungpa
 </p><h5 align="left">
 
 
-Si tratta di un percorso del cuore che ha come finalità celebrare la vita permettendo alla nostra natura sacra di esprimersi attraverso il coraggio del cuore che sceglie di esserci nel momento presente in ogni circostanza lasciando andare la paura, i pregiudizi e le convenzioni che oscurano la nostra vera natura e riconosce che la festa della vita è qui nel momento presente e in ogni circostanza.
+Si tratta di un percorso del cuore che ha come finalità il celebrare la Vita permettendo alla nostra natura sacra di esprimersi attraverso il coraggio del cuore, il quale sceglie di esserci nel momento presente, in ogni circostanza, lasciando andare la paura, i pregiudizi e le convenzioni che oscurano la nostra vera natura e riconosce che la festa della vita è proprio qui, ora, e in ogni circostanza.
 
 
 
@@ -98,12 +98,13 @@ Offrire.”
 
 Chandra Livia Candiani</p>
 <h5 align="left">
-Trovare la profondità per trovare le nostre condizioni, coltivare la Presenza in tutte le sue forme per il mio beneficio e per il beneficio degli esseri. Imparare a coltivare cosa mi fa attraversare le inondazioni della vita riconoscendo ciò che mi fa bene nel mezzo delle condizioni e sapendo che non possiamo riporre la fiducia nella forma ma neppure gettarla via senza esplorarla. Forma e saggezza sono parte della nostra Natura e il viaggio della vita è esplorarle.
+Trovare la profondità per trovare le nostre condizioni, coltivare la Presenza in tutte le sue forme, per il mio beneficio e per il beneficio degli esseri. Imparare a coltivare ciò che mi fa attraversare le inondazioni della vita, riconoscendo ciò che mi fa bene nel mezzo delle condizioni e sapendo che non possiamo riporre la fiducia nella forma, ma neppure gettarla via senza averla esplorata. Forma e saggezza sono parte della nostra Natura e il viaggio della vita è esplorarle.
 </h5>
-<h5 align="left">Cercheremo insieme un modo in cui incontrare le circostanze della vita coltivando le perfezioni del cuore (generosità, moralità, pazienza, energia, concentrazione, saggezza) che sostengono e supportano gli stati illimitati del cuore che nella tradizione delle pratiche buddhiste sono parte di ogni essere umano.
+<h5 align="left">Cercheremo insieme un modo in cui incontrare le circostanze della vita, coltivando le perfezioni del cuore (generosità, moralità, pazienza, energia, concentrazione, saggezza) che sostengono e supportano gli stati illimitati del cuore che, nella tradizione delle pratiche buddhiste sono parte di ogni essere umano.
 
-Ci concentreremo sulle tempeste interiori poiché quelle esterne non siamo in grado di controllarle  nella convinzione che nella  tradizione buddhista le condizioni interiori si possono lasciare andare perché rendono la vita più difficile di quello che è.</h5>
-<h5 align="left">Ci accosteremo alle qualità del cuore a partire dagli insegnamenti buddhisti e da quello che  comprendiamo. Trattandosi di qualità intrinseche  possiamo conoscerle senza bisogno di teorie infatti si possono comprendere gli insegnamenti solo dopo averli realizzati concretamente. La nostra natura più profonda è intrinsecamente etica e se siamo nel momento presente le nostre qualità sorgono spontaneamente. Useremo l’approccio della Core Process Psychotherapy in particolare per tutti quegli aspetti del percorso in cui si lavorerà in relazione e diverse pratiche contemplative ed espressive dentro la cornice della consapevolezza in azione convinti che allenare la dimensione analogica faciliti il lasciare andare i condizionamenti che oscurano la nostra vera natura.</h5>
+Ci concentreremo sulle tempeste interiori dal momento che non siamo in grado di controllare quelle esterne nella convinzione che nella  tradizione buddhista, le condizioni interiori si possono lasciare andare, perché rendono la vita più difficile di quello che è.</h5>
+<h5 align="left">Ci accosteremo alle qualità del cuore a partire dagli insegnamenti buddhisti e da quello che  comprendiamo. Trattandosi di qualità intrinseche,  possiamo conoscerle senza bisogno di teorie, infatti si possono comprendere gli insegnamenti solo dopo averli realizzati concretamente. La nostra natura più profonda è intrinsecamente etica e se siamo nel momento presente le nostre qualità sorgono spontaneamente. 
+<br/>Useremo l’approccio della Core Process Psychotherapy in particolare per tutti quegli aspetti del percorso in cui si lavorerà in relazione e diverse pratiche contemplative ed espressive dentro la cornice della consapevolezza in azione, convinti che, allenare la dimensione analogica, faciliti il lasciare andare i condizionamenti che oscurano la nostra vera natura.</h5>
 <h5 align="left">Alleneremo il coraggio del cuore attraverso la  spontaneità, la sacralità e l’intuizione nelle varie forme espressive e attraverso differenti pratiche Contemplative.
 
 Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libertà come esseri umani con compassione e chiarezza.</h5>
@@ -132,7 +133,7 @@ L’amore che apprezza e si delizia <br/>
 L’amore che permette</h5>
 <h5 align="left">Il gruppo sosterrà il processo.<br/><br/>
 Durante il percorso  è suggerita la frequentazione di almeno un ritiro all’anno (verrà proposta una lista di ritiri all’inizio di ogni anno) oltre ai due previsti  all’interno del percorso volti a consolidare la pratica.</h5>
-               
+{/* ------------------------------------------------------------- */}
 
 <h2 className="">RITIRO DI VIPASSANA E HEARTFULNESS CON ANUSHKA FERNANDOPULLE </h2>
 <h3 align="center" className="bold" >MINDFULNESS E HEARTFULNESS PER LA SAGGEZZA E LA
@@ -181,7 +182,7 @@ Avrete un'opportunità di ricevere coaching e una guida di
 orientamento
 per la pratica e l'esperienza individuale.</h5>
 
-
+{/* ------------------------------------------------------------- */}
 
 <h2 className=""> DATE E LUOGO</h2>
 <h5 align="left">Ogni modulo si svolgerà, se di quattro giorni, dal giovedì alle 14.30 alla domenica alle ore 13.00 o se di tre giorni, dal venerdì alle 14.30 alla domenica  alle ore 13.00 presso il Centro D’Ompio a Pettenasco (NO).
