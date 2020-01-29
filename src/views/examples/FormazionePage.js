@@ -133,6 +133,56 @@ L’amore che permette</h5>
 <h5 align="left">Il gruppo sosterrà il processo.<br/><br/>
 Durante il percorso  è suggerita la frequentazione di almeno un ritiro all’anno (verrà proposta una lista di ritiri all’inizio di ogni anno) oltre ai due previsti  all’interno del percorso volti a consolidare la pratica.</h5>
                
+
+<h2 className="">RITIRO DI VIPASSANA E HEARTFULNESS CON ANUSHKA FERNANDOPULLE </h2>
+<h3 align="center" className="bold" >MINDFULNESS E HEARTFULNESS PER LA SAGGEZZA E LA
+LIBERTA'</h3>
+<h5 align="center"><strong>Eremo di Montecastello (Bs)
+1-5 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left">In questo ritiro esploreremo il profondo ben-essere che si rende
+disponibile nell'investigazione del Dharma attraverso la nostra
+personale esperienza.
+Praticheremo la meditazione della visione profonda (Insight
+Meditation /
+Vipassana), camminando, mangiando e svolgendo attività
+quotidiane.
+Accederemo ad un ritiro contemplativo buddhista, semplificando le
+nostre
+vite, lasciando andare lettura, scrittura, apparecchi elettronici,
+attività sessuale, sostanze ad uso ricreativo/alcool per aiutare la
+nostra mente-cuore a trovare quiete e stabilità. Impareremo a
+riconoscerci come parte integrante della natura e a vedere la felicità
+possibile.</h5>
+
+<h2 className="">WORKSHOP CON ANUSHKA FERNANDOPULLE</h2>
+<h3 align="center" className="bold" >UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE</h3>
+<h5 align="center"><strong>Eremo di Montecastello (Bs)
+7 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left">In questo workshop coltiveremo la consapevolezza quale strumento
+per
+riconoscere che cosa sta avvenendo a livello di mente, emozioni e
+corpo.
+Le pratiche che svolgeremo sono basate sulla Mindfulness buddista
+e
+potrà essere di aiuto nello sviluppare maggiore consapevolezza di
+sè,
+intelligenza emotiva, una più profonda intuizione e ascolto non
+giudicante.
+Apprenderemo degli esercizi da portare nella vita quotidiana e nel
+lavoro.</h5>
+
+<h2 className="">COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
+<h5 align="center"><strong>Eremo di Montecastello (Bs) 8 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left">Un'opportunità per continuare ad approfondire la pratica
+attraverso
+istruzioni con lavori in piccoli gruppi e attraverso domande e
+risposte.
+Avrete un'opportunità di ricevere coaching e una guida di
+orientamento
+per la pratica e l'esperienza individuale.</h5>
+
+
+
 <h2 className=""> DATE E LUOGO</h2>
 <h5 align="left">Ogni modulo si svolgerà, se di quattro giorni, dal giovedì alle 14.30 alla domenica alle ore 13.00 o se di tre giorni, dal venerdì alle 14.30 alla domenica  alle ore 13.00 presso il Centro D’Ompio a Pettenasco (NO).
 
