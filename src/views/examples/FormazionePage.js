@@ -154,7 +154,14 @@ attività sessuale, sostanze ad uso ricreativo/alcool per aiutare la
 nostra mente-cuore a trovare quiete e stabilità. Impareremo a
 riconoscerci come parte integrante della natura e a vedere la felicità
 possibile.</h5>
-
+<Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/formazione-events" tag={Link}
+                    size="sm"
+                  >Per maggiori informazioni
+                    </Button>  
 <h2 className="">WORKSHOP CON ANUSHKA FERNANDOPULLE</h2>
 <h3 align="center" className="bold" >UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
@@ -171,7 +178,14 @@ intelligenza emotiva, una più profonda intuizione e ascolto non
 giudicante.
 Apprenderemo degli esercizi da portare nella vita quotidiana e nel
 lavoro.</h5>
-
+<Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/formazione-events" tag={Link}
+                    size="sm"
+                  >Per maggiori informazioni
+                    </Button>  
 <h2 className="">COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
 <h5 align="center"><strong>Eremo di Montecastello (Bs) 8 ottobre 2021</strong><br/><br/></h5>
 <h5 align="left">Un'opportunità per continuare ad approfondire la pratica
@@ -181,7 +195,14 @@ risposte.
 Avrete un'opportunità di ricevere coaching e una guida di
 orientamento
 per la pratica e l'esperienza individuale.</h5>
-
+<Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/formazione-events" tag={Link}
+                    size="sm"
+                  >Per maggiori informazioni
+                    </Button>  
 {/* ------------------------------------------------------------- */}
 
 <h2 className=""> DATE E LUOGO</h2>
@@ -219,6 +240,8 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
           
           </Container>
         </div>
+
+ {/* Conduttori ------------------------------------------------------------- */}
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">CONDUTTORI</h2>
@@ -451,7 +474,7 @@ Kum Nye </p>
 
           </Container>
         </div>
-       
+{/* Luogo ------------------------------------------------------------- */}
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Sede dei Ritiri/Laboratori</h2>

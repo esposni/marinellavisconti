@@ -151,6 +151,12 @@ function IndexNavbar() {
                   >
                    Formazione in mindfulness transpersonale <br/> e in relazione avanzata
                   </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/formazione-events" tag={Link}
+                  >
+                   Eventi
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>

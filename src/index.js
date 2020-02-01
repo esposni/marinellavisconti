@@ -36,6 +36,7 @@ import CraniosacralePage from "views/examples/CraniosacralePage";
 import RitiriPage from "views/examples/RitiriPage";
 import ProfilePage from "views/examples/ProfilePage.js";
 import ConsapevolPage from "views/examples/ConsapevolPage";
+import FormazioneEvents from "views/examples/FormazioneEvents";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -57,6 +58,10 @@ ReactDOM.render(
          <Route
           path="/consapevolezza"
           render={props => <ConsapevolPage {...props} />}
+        />
+         <Route
+          path="/formazione-events"
+          render={props => <FormazioneEvents {...props} />}
         />
          <Route
           path="/craniosacrale"
