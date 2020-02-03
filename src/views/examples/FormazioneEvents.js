@@ -49,9 +49,7 @@ return (
                     </Button>   */}
                 <h2 className="title">Eventi</h2><br/>
                 {/* ------------------------------------------------------------- */}
-                <h2 className="">Lo spazio sacro come soglia</h2>
-                <h5 align="center"><strong>Marinella Visconti e Simone Spina</strong><br/><br/></h5>
-                <hr></hr>
+             
                 <img
                       alt="..."
                       src={require("assets/img/eremo-an.png")}

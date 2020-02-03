@@ -495,12 +495,6 @@ Kum Nye </p>
 Telefono 0323888967<br/>
 
 <br/>
-{/* <h6 align="left">Costo vitto e alloggio da pagare in loco  dal venerdì sera alla domenica a pranzo:<br/>
-
-Camera doppia 166 euro vista lago, 156 euro vista bosco.<br/>
-
-Camera multipla 136 euro.
-                    </h6> */}
                   </div>
                 </Col>
 
@@ -514,7 +508,7 @@ Camera multipla 136 euro.
                     <h4 className="title">Eremo di Montecastello</h4>
                    
                     25080 Montecastello (BS)<br/>
-                    Telefono: +39 0365 760255<br/>
+
                     {/* <p className="category text-info">Model</p> */}
                  
                   </div>

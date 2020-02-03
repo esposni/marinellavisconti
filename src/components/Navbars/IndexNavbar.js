@@ -217,7 +217,20 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                  Like me on Facebook
+                  Profilo
+                </UncontrolledTooltip>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="https://www.facebook.com/marinella.visconti"
+                  target="_blank"
+                  id="facebook-tooltip2"
+                >
+                  <i className="fab fa-facebook-square"></i>
+                  <p className="d-lg-none d-xl-none">Facebook</p>
+                </NavLink>
+                <UncontrolledTooltip target="#facebook-tooltip2">
+                 Pagina scuola
                 </UncontrolledTooltip>
               </NavItem>
               {/* <NavItem>

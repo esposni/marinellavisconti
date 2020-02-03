@@ -70,9 +70,9 @@ N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via 
 </h5>
 <h5 align="center"><strong>Calendario 2020</strong><br/>
  
-13 febbraio 27 febbraio 5 marzo
-12 marzo 16 aprile 23 aprile 30 aprile
-7 maggio 21 maggio 28 maggio 18 giugno 9 luglio
+13 febbraio <br/>27 febbraio<br/> 5 marzo<br/>
+12 marzo<br/> 16 aprile <br/>23 aprile <br/>30 aprile<br/>
+7 maggio <br/>21 maggio <br/>28 maggio <br/>18 giugno <br/>9 luglio<br/>
 16 luglio
 
 </h5>
@@ -87,14 +87,14 @@ N.B. I martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 
 
 <h5 align="center"><strong>Calendario 2020</strong><br/><br/>
  
-10 marzo 2020   ore 19.30 - 20.30
-24 marzo 2020   ore 19.30 - 20.30
-21 aprile 2020    ore 19.30 - 20.30
-28 aprile. 2020   ore 19.30 - 20.30
-5 maggio 2020   ore 19.30 - 20.30
-19 maggio 2020 ore 19.30 - 20.30
-26 maggio 2020 ore 19.30 - 20.30
-</h5>
+10 marzo 2020   ore 19.30 - 20.30 <br/>
+24 marzo 2020   ore 19.30 - 20.30 <br/>
+21 aprile 2020    ore 19.30 - 20.30 <br/>
+28 aprile. 2020   ore 19.30 - 20.30 <br/>
+5 maggio 2020   ore 19.30 - 20.30 <br/>
+19 maggio 2020 ore 19.30 - 20.30 <br/>
+26 maggio 2020 ore 19.30 - 20.30 <br/>
+</h5> 
 <h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
 <br/>
 
@@ -120,7 +120,7 @@ N.B. I martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 
                     size="sm"
                   >Ulteriori informazioni
                     </Button> <br/>
-                    <h5 align="left">La seconda serata al centro mindfulness milano con Rashmi Bhatt e Fabius Constable si terrà a fine Febbraio 2020.</h5>
+                  
               </Col>
             </Row>
           
