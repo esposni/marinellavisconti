@@ -211,7 +211,7 @@ per la pratica e l'esperienza individuale.</h5>
 Il ritiro dall'1 al 5 ottobre 2021 e le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’Eremo di Montecastello (BS).
 
 Il ritiro finale è da definire.</h5>  
-<h5 align="left">1 modulo 10-13 dicembre 2020: Lo spazio sacro come soglia...Marinella Visconti e Simone Spina    </h5>
+<h5 align="left">1 modulo 10-13 dicembre 2020: Quando lo Spazio si fa Sacro...Marinella Visconti e Simone Spina    </h5>
 <h5 align="left">2 modulo 4-7 marzo 2021: Cercare l’innocenza in ogni forma. Un viaggio nella profondità della relazione accompagnati dalle perfezioni del cuore.
 
 Prima parte.    Marinella Visconti e Sanda Stojkovich </h5>

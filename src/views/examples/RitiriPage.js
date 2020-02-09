@@ -229,19 +229,32 @@ Kum Nye </p>
 {/* ------------------------------------------------------------- */}
   <hr></hr>
   
-                <h2 className="">Lo spazio sacro come soglia</h2>
+                <h2 className="">Quando lo Spazio si fa Sacro</h2>
                 <h5 align="center"><strong>Marinella Visconti e Simone Spina</strong><br/><br/></h5>
                 <h5 align="center"><strong>10-13 Dicembre 2020</strong><br/></h5>
                 <img
                       alt="..."
-                      src={require("assets/img/ritiri/8sigilli.jpg")}
+                      src={require("assets/img/ritiri/arcobaleno.jpg")}
                     ></img><br/><br/>
-<h5 align="left">Questo seminario esperienziale ha l’obbiettivo di esplorare la
-percezione incarnata delle qualità più sottili del campo di contenimento psicospirituale nella sua accezione di spazio tribale
-sacro . </h5>
-<h5 align="left">Sacra è infatti l’essenza stessa della “Tribù Umana”, in quanto ogni essere umano è spontaneamente connesso con l’immenso potere del Creato. L’intenzione che scaturisce dal cuore di una o più persone di canalizzare tale Potere per la guarigione, crea un campo dalle qualità straordinarie nel quale la spazialità fisica e la temporalità sono sospese, una soglia attraverso la quale filtrano simultaneamente gli echi della preesistenza e del divenire futuro e la forma e la non forma svaniscono fluidamente l’una nell’altra.
-Imparare a stabilire e sostenere tale spazio nel lavoro terapeutico, portando la consapevolezza alla sua dimensione trans-personale e ad abbracciare senza attaccamento il fluido divenire che in esso si manifesta, consente di vivere la relazione d’aiuto in modo totalmente creativo, lasciandosi guidare dall’intuizione e dalla sincronia nel saltare da un livello all’altro della comunicazione. </h5>
-<h5 align="left">Un po’ come bimbi che estraggono da una scatola singole mattonelle da costruzione e le incastrano una sull’altra, così come vengono e senza curarsi della forma,  costruendo ponti fantastici verso l’immensità.</h5>
+                    <p>“Ben oltre le idee di giusto e di sbagliato c’è un campo...ti aspetterò laggiù “</p>
+<h5 align="left">Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui
+originano. </h5>
+<h5 align="left">
+Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che
+ordina la vita stessa e questo è un punto di vista che contempla il mistero.
+  </h5>
+<h5 align="left">Se coltiviamo Presenza lo spazio diventa Sacro e nulla può accadere di pericoloso....i
+condizionamenti si resettano, le nostre storie individuali diventano quelle di tutti.....siamo
+nell’indifferenziato....ci incontriamo nella stessa radura...sacro e ordinario co emergono.
+La pratica nella vita è condivisa.... Il nostro risveglio è in relazione....il materiale che sorge nel
+lavoro in relazione dà forma al gruppo e parte del processo è scegliere cosa nutrire e cosa no..
+Più ci sentiamo al sicuro, più andiamo in profondità e il modo in cui generiamo sicurezza pulisce
+lo spazio e lo rende onesto, nudo...</h5>
+<h5 align="left">Ognuno incontra la propria sofferenza..... è un lavoro enorme significa chiedersi chi siamo
+sinceramente e prendersi la responsabilità della natura della sofferenza e dei nostri processi.
+La guarigione può avvenire nel presente ed è relazionale....il campo è una rappresentazione della
+compassione in azione.....Lo spazio non è mai vuoto, è una soglia tra ciò che è noto è ciò che non
+è noto o ignoto, è consapevolezza e guarigione.</h5>
 <h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
           <Container>
           
