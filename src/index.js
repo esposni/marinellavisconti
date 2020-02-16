@@ -38,6 +38,13 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import ConsapevolPage from "views/examples/ConsapevolPage";
 import PremessaPage from "views/examples/Premessa";
 import FormazioneEvents from "views/examples/FormazioneEvents";
+import EventoPage from "views/examples/Evento";
+
+let text_event1=`Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.
+Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che ordina la vita stessa e questo è un punto di vista che contempla il mistero.
+Se coltiviamo Presenza lo spazio diventa Sacro e nulla può accadere di pericoloso....i condizionamenti si resettano, le nostre storie individuali diventano quelle di tutti.....siamo nell’indifferenziato....ci incontriamo nella stessa radura...sacro e ordinario co emergono. La pratica nella vita è condivisa.... Il nostro risveglio è in relazione....il materiale che sorge nel lavoro in relazione dà forma al gruppo e parte del processo è scegliere cosa nutrire e cosa no.. Più ci sentiamo al sicuro, più andiamo in profondità e il modo in cui generiamo sicurezza pulisce lo spazio e lo rende onesto, nudo...
+Ognuno incontra la propria sofferenza..... è un lavoro enorme significa chiedersi chi siamo sinceramente e prendersi la responsabilità della natura della sofferenza e dei nostri processi. La guarigione può avvenire nel presente ed è relazionale....il campo è una rappresentazione della compassione in azione.....Lo spazio non è mai vuoto, è una soglia tra ciò che è noto è ciò che non è noto o ignoto, è consapevolezza e guarigione.
+`
 
 ReactDOM.render(
   <BrowserRouter>
@@ -59,6 +66,14 @@ ReactDOM.render(
          <Route
           path="/consapevolezza"
           render={props => <ConsapevolPage {...props} />}
+        />
+          <Route
+          path="/evento-1"
+          render={props => <EventoPage title="Quando lo Spazio si fa Sacro"
+          conduttori="Marinella Visconti e Simone Spina"
+          date="10-13 Dicembre 2020"
+          image="/assets/img/ritiri/arcobaleno.jpg"
+          text={text_event1} {...props} />}
         />
          <Route
           path="/formazione-events"
