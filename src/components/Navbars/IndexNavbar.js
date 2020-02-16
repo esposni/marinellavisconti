@@ -142,6 +142,12 @@ function IndexNavbar() {
                   <p>Formazione</p>
                 </DropdownToggle>
                 <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/premessa" tag={Link}
+                  >
+                   Intento formativo
+                  </DropdownItem>
                   <DropdownItem to="/formazione" tag={Link}>
                   Formazione in mindfulness <br/>transpersonale e in relazione
                   </DropdownItem>
@@ -157,6 +163,7 @@ function IndexNavbar() {
                   >
                    Eventi
                   </DropdownItem>
+                 
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>

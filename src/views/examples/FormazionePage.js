@@ -61,6 +61,42 @@ let clarisse_curriculum=`Clarisse Talato Clarisse è  psicologa psicoterapeuta i
 let gemma_curriculum = `Gemma è insegnante certificata Yoga Ratna, metodo che ha approfondito formandosi alla scuola della maestra Gabriella Cella. Lo yoga ratna, rispettando l’insegnamento tradizionale indiano, integra le tecniche corporee della sapienza occidentale attraverso una pratica sempre nuova, fondata sulla simbologia e l’ascolto.
 Gemma è impegnata in un percorso di formazione continuo sullo yoga e le discipline della salute indiane, iniziato nel 2006 in India, dove si reca regolarmente, proponendo anche viaggi culturali.
 È diplomata in Hatha yoga e yoga terapia e, oltre al metodo yoga ratna, si dedica all’insegnamento del Vinyasa yoga, secondo la tradizione di Mysore.`;
+
+let anushka_curriculum=`Insegno meditazione, lavoro come consulente per le organizzazioni, e
+faccio coaching di leadership in indiividuale e in team. Attraverso il
+mio lavoro, porto le pratiche orientali nella vita moderna occidentale,
+rendendole accessibili agli individui e alle organizzazioni. Sono
+particolarmente interessata ad integrare leadership, creatività e
+consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e
+compassione, affinché la loro visione possa realizzarsi. Insegno in
+workshop e ritiri in tutto il mondo all'interno di organizzazioni,
+conferenze e programmi di leadership.
+Il mio lavoro di consulenza strategica e di coaching è basato su un BA
+di Harvard, un MBA di Yale focalizzato sulla leadership e sul
+comportamento organizzativo, e sulla certificazione in coaching
+dell'Institute Coaching Training (Istituto di formazione per coach). Ho
+più di 20 anni di esperienza di consulenza con gruppi nei settori
+corporativo, governativo e no profit. Sono interessata alla vita della
+città e sono stata nominata sindaco della commissione di San Francisco
+per lo sviluppo della comunità, oltre ad aver servito in molti consigli
+direttivi di organizzazioni no profit. Sono da sempre coinvolta in
+movimenti per la giustizia sociale e diritti civili e ho avuto la
+fortuna di lavorare con numerose grosse organizzazioni comunitarie.
+Pratico la  meditazione buddista da più di 30 anni, principalmente
+Vipassana o Meditazione Insight (la fonte della Mindfulness secolare).
+Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione,
+per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka.
+Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho
+partecipato ad un programma di formazione per insegnanti di meditazione
+della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein,
+Sharon Salzberg e altri importanti insegnanti di meditazione buddista
+occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al
+Spirit Rock Meditation Center.
+Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s
+Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull'
+Huffington Post,
+dedicato al dharma e alla politica.`
+
 return (
     <>
       <IndexNavbar />
@@ -298,14 +334,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
                     <h4 className="title">Anushka Fernandopulle </h4>
                     <p className="category text-info">Insegnante allo Spirit Rock Meditation Centre</p>    
                   </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="https://www.anushkaf.org/about/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
+                  <AlertDialogSlide content={anushka_curriculum}/> 
                 </Col>   
                 <Col md="4">
                   <div className="team-player">

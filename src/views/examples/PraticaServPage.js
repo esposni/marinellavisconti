@@ -48,12 +48,7 @@ La vita è bella quando tu sei felice, però la vita è molto meglio quando gli 
 L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
 La cura ci consente di osservare la propria mente nel bel mezzo del turbamento lasciando spazio alla nascita di qualità fondamentali come la saggezza.</h5>
-<h2 className="title">Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano</h2> 
-<h5 align="left">Da distribuire in centri di ritiri e presso il Centro Mindfulness Milano ad offerta libera.
-L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tradotti sarà devoluta a sostegno del centro di ritiri Theravada Cittaviveka(<a href="http://www.cittaviveka.org">http://www.cittaviveka.org</a>) in inghilterra.</h5>
-<h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
-<h5 align="left">Potete scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
-<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
+
 
                 <h2 className="title">LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
@@ -62,13 +57,14 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 </h5>  
 <h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
 
-<h2 className=""> DATE E LUOGO</h2>
-<h3 align="center" className="bold" >La pratica contemplativa nella vita quotidiana</h3>
+
+
 <h3 align="center" className="bold" >Milano</h3>
-<h5 align="left">Entrata libera
-N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
+<h3 align="center" className="bold" >Entrata libera</h3>
+<h5 align="left">
+Il giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
 </h5>
-<h5 align="center"><strong>Calendario 2020</strong><br/>
+<h5 align="center"><strong>Calendario 2020</strong><br/><br/>
  
 13 febbraio <br/>27 febbraio<br/> 5 marzo<br/>
 12 marzo<br/> 16 aprile <br/>23 aprile <br/>30 aprile<br/>
@@ -81,8 +77,9 @@ N.B. I giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via 
 <br/>
 <h3 align="center" className="bold" >La pratica contemplativa nella vita quotidiana</h3>
 <h3 align="center" className="bold" >Como</h3>
-<h5 align="left">Entrata libera
-N.B. I martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 terzo piano.
+<h3 align="center" className="bold" >Entrata libera</h3>
+<h5 align="left">
+Il martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 terzo piano.
 </h5>
 
 <h5 align="center"><strong>Calendario 2020</strong><br/><br/>
@@ -97,6 +94,13 @@ N.B. I martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 
 </h5> 
 <h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
 <br/>
+
+<h2 className="title">Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano</h2> 
+<h5 align="left">Da distribuire in centri di ritiri e presso il Centro Mindfulness Milano ad offerta libera.
+L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tradotti sarà devoluta a sostegno del centro di ritiri Theravada Cittaviveka(<a href="http://www.cittaviveka.org">http://www.cittaviveka.org</a>) in inghilterra.</h5>
+<h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
+<h5 align="left">Potete scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
+<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
 
 
 <h2 className="">ORGANIZZAZIONE DI RITIRI ED EVENTI</h2>
