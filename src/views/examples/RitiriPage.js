@@ -27,6 +27,17 @@ export default function RitiriPage() {
   
   Parallelamente a ciò, da più di dieci anni approfondisce la pratica contemplativa in relazione e la mindfulness in relazione con Anne Overzee e Deirdre Gordon, Psicoterapeute Core Process e insegnanti senior del Karuna Institute (UK) che integra modelli psicoterapeutici occidentali con la psicologia buddista e pratiche di mindfulness; e frequenta il Foundation Training in Kum Nye con Maura Sills, Psicoterapeuta Core Process e fondatrice del Karuna Institute (UK)`;
 
+  let sanda_curriculum=`Sanda Stojkovic
+Formazione continua in Psicoterapia Core Process, Educatrice Perinatale
+- Dopo aver seguito il ​Foundation Course in Core Process Psychotherapy (2005/2006) presso il ​Karuna Institute (UK)​ prosegue con la ​Formazione continua pluriennale nella Psicoterapia Core Process​ con Anne Overzee e Deirdre Gordon, docenti senior del​ Karuna Institute​ (UK).
+- Mindfulness Training per la Conduzione di Gruppi con Anne Overzee and Deirdre Gordon (2016/2017)
+- Training nella pratica del Kum Nye (in formazione) – Con Maura Sills (​Karuna Institute​) in Italia.
+- ​Educatrice perinatale​ certificata da ​MIPA Centro Studi ​(2013/2015), attualmente offre sostegno alle famiglie nel percorso nascita, offre servizi di supporto domiciliare alle madri nei primi mesi dopo il parto, organizza e facilita gruppi di confronto e mutuo aiuto tra mamme.
+Da diversi anni partecipa attivamente e collabora con il ​Centro Dorje Ling​ che ospita corsi e ritiri di Meditazione, Yoga e Conoscenza di sé, con gli strumenti laici offerti dalla tradizione buddista tibetana integrati alla psicologia trasformativa occidentale.
+Il suo obiettivo professionale risiede nel creare una sintesi tra i differenti approcci e metodi incontrati nel suo percorso di formazione, arricchita dalle esperienze lavorative e di vita, rimanendo in contatto con la natura come parte irrinunciabile dell’essere.
+Come praticante di meditazione di consapevolezza, è particolarmente interessata alla pratica non formale nella vita quotidiana e nell’essere genitore.
+Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusalemme, dove si è laureata in Psicologia. Da quindici anni si è trasferita in Sabina (Lazio), dove vive in campagna con la sua famiglia.`;
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -50,28 +61,26 @@ export default function RitiriPage() {
                 <h2 className="title">Ritiri Laboratori</h2>
                 <h5 align="left">Ritiro laboratorio ad offerta libera presso il B&B Creatività Natura e Salute dal 27 al 29 marzo 2020</h5>
                 <hr></hr>
-                <h2 className="">Allenare il coraggio del cuore con l’audacia dell’espressione </h2>
-                <h5 align="center"><strong>Marinella Visconti e Dafna Moscati</strong><br/><br/></h5>
-                <h5 align="center"><strong>22 Febbraio 10:00 - 23 Febbraio 17:00</strong><br/></h5>
+     {/* ------------------------------------------------------------- */}
+                <h2 className="">Braveheartfulness School – Seminario introduttivo</h2>
+                <h5 align="center"><strong>Marinella Visconti</strong><br/><br/></h5>
+                <h5 align="center"><strong>6 Settembre 09:30 - 18:00</strong><br/></h5>
                 <img
                       alt="..."
-                      src={require("assets/img/allenare.jpg")}
+                      src={require("assets/img/ritiri/seminario.jpg")}
                     ></img><br/><br/>
 
-<h5 align="left">Ognuno di noi porta in sé un capolavoro nascosto, però siamo d’intralcio…spostiamoci, e il capolavoro verrà alla luce…forse la più grande tragedia della nostra vita è che la libertà è possibile eppure ogni giorno ascoltiamo una voce  che ci tiene piccoli..</h5>
-<h5 align="left">SCOPRIRE la verità è arduo e ci chiede l’audacia del cuore tornando ad essere fanciulli e fidandoci delle braccia terapeutiche della vita</h5>
-<h5 align="left">Alcuni degli strumenti espressivi che ci accompagneranno in questo viaggio di ‘allenamento’ all’audacia e alla pratica contemplativa quotidiana del cuore coraggioso saranno l’Arte Intuitiva, la Performance e gli Atti Evolutivi. Queste pratiche di Arte Interattiva saranno facilitate e guidate da Dafna Moscati che le propone da molti anni come potenti e semplici modalità di autoindagine.</h5>
-<h5 align="left">Ciò che accomuna questi strumenti è la possibilità di permetterci di immergerci con immediatezza nella pura Presenza e al tempo stesso fare quel passo ‘oltre la zona di comfort’ verso l’investigazione profonda che ci riconduce con naturalezza all’Essenza di quello spazio di puro Amore e di pieno potenziale infinito.</h5>
-<h5 align="left">Cosa c’è oltre la paura, oltre la comodità, oltre la vergogna, oltre il conosciuto?</h5>
-<h5 align="left">Cosa ti aspetta oltre i soliti conflitti, oltre le solite dinamiche relazionali?</h5>
-<h5 align="left">Quando è stata l’ultima volta che hai fatto qualcosa di nuovo?</h5>
-<h5 align="left">Ogni partecipante sarà accompagnato ed ispirato nella creazione e nell’esperienza diretta di nuove opere espressive partendo dalle proprie ‘domande’ e da tutto ciò che vuole essere esplorato nel momento.
-Un’altro elemento chiave di queste pratiche è l’incontro con l’Altro come nostro specchio.</h5>
-<h5 align="left">Cosa mi spaventa nel contatto con l’altro?</h5>
-<h5 align="left">Mi incuriosisce, mi attira o mi chiudo e mi vergogno?</h5>
-<h5 align="left">Per arrivare fino al cuore in cui L’altro è semplicemente quel te che devi ancora incontrare.</h5>
-<h5 align="left">“Una mente e un cuore che si sono allargati grazie ad una nuova esperienza di Audacia non possono più tornare alle loro vecchie dimensioni”</h5>
-<h5 align="left"><strong>DATA E LUOGO</strong><br/> Il corso si terrà il 22 – 23  febbraio 2020 dalle 10 alle 17 presso il Centro Mindfulness Milano in Via Cenisio 5.</h5>
+<h5 align="left">Si tratta di un percorso del Cuore che ha come finalità il celebrare la Vita permettendo alla nostra natura sacra di esprimersi attraverso il coraggio del cuore che sceglie di esserci nel momento presente, in ogni circostanza lasciando andare la paura, i pregiudizi e le convenzioni che oscurano la nostra vera natura e riconosce che la festa della Vita è proprio qui nel momento presente e in ogni circostanza.
+È questa l’audacia: </h5>
+  <p>“Per avere luce bisogna farsi crepa,
+Spaccarsi,
+Sminuzzarsi,
+Offrire.”
+Chandra Livia Candiani</p>
+<h5 align="left"> Ci accosteremo alle qualità del cuore a partire dagli insegnamenti buddhisti e da quello che comprendiamo. La nostra natura più profonda è intrinsecamente etica e se siamo nel momento presente le nostre qualità sorgono spontaneamente. Useremo l’approccio della Core Process Psychotherapy in particolare per tutti quegli aspetti del percorso in cui si lavorerà in relazione e diverse pratiche contemplative ed espressive dentro la cornice della consapevolezza in azione convinti che allenare la dimensione analogica faciliti il lasciare andare i condizionamenti che oscurano la nostra vera natura. Nessun ascolto profondo è possibile se c’è separazione tra mente e cuore….l’ascolto profondo è possibile solo quando le personalità scompaiono e sorge la natura sacra che ci abita…quando incarniamo il silenzio innocente.
+
+La Braveheartfulness School è un percorso aperto a tutti i ricercatori spirituali, in particolare psicoterapeuti, operatori della salute, insegnanti, meditanti che abbiano una regolare pratica e abbiano già fatto un significativo lavoro su di sé, abbiano familiarità con il lavoro in gruppo e con la pratica del silenzio e desiderano offrire la propria autenticità alla vita nella consapevolezza della sacralità di ogni singola espressività e nella consapevolezza che tutte le manifestazioni dell’essere originano dalla stessa Sorgente che accoglie e sostiene</h5>
+  <h5 align="left"><strong>DATA E LUOGO</strong><br/> Il seminario si svolgerà il 6 settembre 2020 presso il Centro Mindfulness Milano, via Cenisio 5 Milano dalle ore 9:30 alle 18:00</h5>
 <h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
           <Container>
           
@@ -97,27 +106,6 @@ Un’altro elemento chiave di queste pratiche è l’incontro con l’Altro come
                   >Curriculum
                     </Button>  
                 </Col>  
-
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/dafna.png")}
-                    ></img>
-                    <h4 className="title">Dafna Moscati </h4>
-                    <p className="category text-info"> Performer Ricercatrice arte espressiva contemplativa  </p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="https://www.dafnamoscati.com/biografia-dafna-moscati/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col>  
-
               </Row>
             </div>
           </Container> <br/>
@@ -127,7 +115,7 @@ Un’altro elemento chiave di queste pratiche è l’incontro con l’Altro come
                     block
                     className="btn-round"
                     color="info"
-                    href="http://centromindfulnessmilano.com/event/allenare-il-coraggio-del-cuore-con-laudacia-dellespressione-marinella-visconti-e-dafna-moscati/"
+                    href="http://centromindfulnessmilano.com/event/braveheartfulness-school-seminario-introduttivo/"
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
@@ -318,6 +306,93 @@ compassione in azione.....Lo spazio non è mai vuoto, è una soglia tra ciò che
 
                 <hr></hr>
 
+ {/* ------------------------------------------------------------- */}
+ <h2 className="">CERCARE l’INNOCENZA IN OGNI FORMA.
+UN VIAGGIO NELLA PROFONDITÀ DELLA RELAZIONE
+ACCOMPAGNATI DALLE PERFEZIONI DEL CUORE</h2>
+                <h5 align="center"><strong>Marinella Visconti e Sanda Stojkovich</strong><br/><br/></h5>
+                <h5 align="center"><strong> 9-12 dicembre 2021</strong><br/></h5>
+                <img
+                      alt="..."
+                      src={require("assets/img/ritiri/coltivare.JPG")}
+                    ></img><br/><br/>
+
+<h5 align="left">È così facile vedere le cose negli stessi modi nei quali siamo abituati a
+vederle, e sentire negli stessi modi nei quali siamo abituati a sentirle,
+percorrendo le stesse strade che siamo abituati a percorrere.
+C'è qualcosa di confortevole, conosciuto, apparentemente sicuro....
+Anche se non pienamente vivo....
+Cosa accadrebbe se ci aprissimo alla possibilità di incontrare le
+circostanze della vita coltivando le perfezioni del cuore invece che le
+abitudini?</h5>
+<h5 align="left">Paramitas, le perfezioni del cuore, le nobili qualità, significano : “andare
+sull'altra sponda”.
+Sono le perfezioni delle qualità che ci portano sull'altra sponda... ma non
+è sull’arrivare all'altra sponda che ci focalizziamo....è sul viaggio, che è
+unico e di cui possiamo prenderci cura, coltivando le qualità come
+strumenti utili per farlo in modo più abile, con gli occhi e i cuori più aperti.</h5>
+<h5 align="left">Paramitas, le perfezioni del cuore, le nobili qualità, significano : “andare
+sull'altra sponda”.
+Sono le perfezioni delle qualità che ci portano sull'altra sponda... ma non
+è sull’arrivare all'altra sponda che ci focalizziamo....è sul viaggio, che è
+unico e di cui possiamo prenderci cura, coltivando le qualità come
+strumenti utili per farlo in modo più abile, con gli occhi e i cuori più aperti.</h5>
+<h5 align="left"><strong>DATA E LUOGO</strong><br/> Il seminario si svolgerà il  9-12 dicembre 2021 presso il Centro D'Ompio</h5>
+<h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
+          <Container>
+          
+            <div className="team">
+              <Row>
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/marinella.png")}
+                    ></img>
+                    <h4 className="title">Marinella Visconti </h4>
+                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
+                  </div>
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/profile-page" tag={Link}
+                    
+                    size="sm"
+                  >Curriculum
+                    </Button>  
+                </Col>  
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                     
+                      src={require("assets/img/sanda.jpg")}
+                    ></img>
+                    <h4 className="title">Sanda Stojkovich </h4>
+                    <p className="category text-info">Formzione continua in core process psychotherapy - Educatrice perinatale</p>  
+                    <AlertDialogSlide content={sanda_curriculum}/> 
+                  </div>
+                </Col>   
+              </Row>
+            </div>
+          </Container> <br/>
+
+
+{/* <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    href="http://centromindfulnessmilano.com/event/braveheartfulness-school-seminario-introduttivo/"
+                    size="sm"
+                  >Per maggiori informazioni
+                    </Button>   */}
+
+
+
+ {/* ------------------------------------------------------------- */}
 
 
 

@@ -97,6 +97,7 @@ Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull'
 Huffington Post,
 dedicato al dharma e alla politica.`
 
+let roberta_curriculum=`Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR. Formata in psicoterapia del Core Process e in Mindfulness Relazionale, conduce gruppi di mindfulness a Mondovì, Cuneo e Torino, e lavora come psicoterapeuta e come supervisore contemplativo a Mondovì e a Torino. Da diversi anni coltiva la pratica meditativa personale, curando una formazione continua avanzata con gli insegnanti del Karuna Institute (UK).`
 return (
     <>
       <IndexNavbar />
@@ -449,19 +450,12 @@ Kum Nye </p>
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/giovanna.jpg")}
+                      src={require("assets/img/roberta.jpg")}
                     ></img>
-                    <h4 className="title">Giovanna Santoro</h4>
-                    <p className="category text-info">  Mindfulness counselor la pratica contemplativa e la poesia</p>    
+                    <h4 className="title">Roberta Peano</h4>
+                    <p className="category text-info">  Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR</p>    
                   </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/myportfolio/giovanna-santoro-2/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
+                  <AlertDialogSlide content={roberta_curriculum}/> 
                 </Col> 
                 <Col md="4">
                   <div className="team-player">

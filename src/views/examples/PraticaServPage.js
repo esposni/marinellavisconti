@@ -57,7 +57,11 @@ La cura ci consente di osservare la propria mente nel bel mezzo del turbamento l
 </h5>  
 <h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
 
-
+<h5><strong>Il gruppo di PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA con Marinella Visconti continua tutti i lunedì dalle 08:30 alle 09:10,  tutti i giovedì dalle 12.30 alle 13.30 e dalle 18:00 alle 18:40 in diretta streaming . La partecipazione è libera. Chi fosse interessato è pregato di contattare Marinella al 338-2331754 oppure via email scrivendo a <a href="mailto:mariv9162@gmail.com">mariv9162@gmail.com</a>  o <a href="mailto:marinellavisconti@outlook.it">marinellavisconti@outlook.it</a> 
+<br/><br/>
+Lunedì dalle 08:30 alle 09:10<br/>
+Giovedì dalle 12:30 alle 13:30
+e dalle 18:00 alle 18:40</strong></h5>
 
 <h3 align="center" className="bold" >Milano</h3>
 <h3 align="center" className="bold" >Entrata libera</h3>
