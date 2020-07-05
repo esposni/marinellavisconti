@@ -10,7 +10,7 @@ import {
 // import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import RitiriPageHeader from "components/Headers/RitiriPageHeader.js";
+import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
@@ -36,7 +36,7 @@ export default function EventoPage(props) {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <RitiriPageHeader />
+      <PageHeader title="Ritiri Laboratori" image="budda-face.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>

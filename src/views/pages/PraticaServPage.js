@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import PraticaServPageHeader from "components/Headers/PraticaServPageHeader.js";
+import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
@@ -30,7 +30,7 @@ export default function PraticaServPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PraticaServPageHeader />
+        <PageHeader title="Pratica di servizio - Dãna" image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>

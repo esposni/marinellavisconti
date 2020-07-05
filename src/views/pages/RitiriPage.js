@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import RitiriPageHeader from "components/Headers/RitiriPageHeader.js";
+import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import AlertDialogSlide from "components/PopUpButton.js";
@@ -52,15 +52,14 @@ Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusal
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <RitiriPageHeader />
+        <PageHeader title="Ritiri Laboratori" image="budda-face.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               
                 <h2 className="title">Ritiri Laboratori</h2>
-                <h5 align="left">Ritiro laboratorio ad offerta libera presso il B&B Creatività Natura e Salute dal 27 al 29 marzo 2020</h5>
-                <hr></hr>
+               <hr></hr>
 
                 <h2 className="">Prendersi un tempo per coltivare la Grazia, la Gratitudine, la Saggezza e la Forza che ci abitano  </h2>
                 <h5 align="center"><strong>Marinella Visconti e Marialuisa Carenzi</strong><br/><br/></h5>

@@ -10,7 +10,7 @@ import {
 // import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import ConsapevolPageHeader from "components/Headers/ConsapevolPageHeader";
+import PageHeader from "components/Headers/PageHeader";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
@@ -30,7 +30,7 @@ export default function ConsapevolPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <ConsapevolPageHeader />
+        <PageHeader title="Consapevolezza in cammino" image="piedi-budda.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>

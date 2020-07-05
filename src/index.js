@@ -28,19 +28,19 @@ import "assets/demo/nucleo-icons-page-styles.css";
 import Index from "views/Index.js";
 // import NucleoIcons from "views/NucleoIcons.js";
 // import LoginPage from "views/examples/LoginPage.js";
-import PsicoterapiaPage from "views/examples/PsicoterapiaPage.js";
-import FormazionePage from "views/examples/FormazionePage";
-import FormazioneAvanzataPage from "views/examples/FormazioneAvanzataPage";
-import PraticaServPage from "views/examples/PraticaServPage";
-import CraniosacralePage from "views/examples/CraniosacralePage";
-import RitiriPage from "views/examples/RitiriPage";
-import RitiriVipassanaPage from "views/examples/RitiriVipassanaPage";
-import ProfilePage from "views/examples/ProfilePage.js";
-import ConsapevolPage from "views/examples/ConsapevolPage";
-import PremessaPage from "views/examples/Premessa";
-import FormazioneEvents from "views/examples/FormazioneEvents";
-import EventiCentroPage from "views/examples/EventiCentroPage";
-import EventoPage from "views/examples/Evento";
+import PsicoterapiaPage from "views/pages/PsicoterapiaPage.js";
+import FormazionePage from "views/pages/FormazionePage";
+import FormazioneAvanzataPage from "views/pages/FormazioneAvanzataPage";
+import PraticaServPage from "views/pages/PraticaServPage";
+import CraniosacralePage from "views/pages/CraniosacralePage";
+import RitiriPage from "views/pages/RitiriPage";
+import RitiriVipassanaPage from "views/pages/RitiriVipassanaPage";
+import ProfilePage from "views/pages/ProfilePage.js";
+import ConsapevolPage from "views/pages/ConsapevolPage";
+import PremessaPage from "views/pages/Premessa";
+import FormazioneEvents from "views/pages/FormazioneEvents";
+import EventiCentroPage from "views/pages/EventiCentroPage";
+import EventoPage from "views/pages/Evento";
 
 let text_event1=`Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.
 Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che ordina la vita stessa e questo è un punto di vista che contempla il mistero.
@@ -71,7 +71,8 @@ ReactDOM.render(
         />
           <Route
           path="/evento-1"
-          render={props => <EventoPage title="Quando lo Spazio si fa Sacro"
+          render={props => 
+          <EventoPage title="Quando lo Spazio si fa Sacro"
           conduttori="Marinella Visconti e Simone Spina"
           date="10-13 Dicembre 2020"
           image="/assets/img/ritiri/arcobaleno.jpg"

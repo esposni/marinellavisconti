@@ -11,7 +11,7 @@ import {
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import PsicoPageHeader from "components/Headers/PsicoPageHeader.js";
+import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 
@@ -30,7 +30,7 @@ function PsicoterapiaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PsicoPageHeader />
+        <PageHeader title="Psicoterapia a orientamento contemplativo e transpersonale" image="mano.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>

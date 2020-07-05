@@ -5,7 +5,7 @@ import {  Container, Row } from "reactstrap";
 
 // core components
 
-function Examples() {
+export default function Collaborazioni() {
   return (
     <>
       <div className="section section-examples" data-background-color="black">
@@ -100,4 +100,3 @@ function Examples() {
   );
 }
 
-export default Examples;

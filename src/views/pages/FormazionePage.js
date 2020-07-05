@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
-import FormazionePageHeader from "components/Headers/FormazionePageHeader.js";
+import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import AlertDialogSlide from "components/PopUpButton.js";
 import DataFormMessage from"components/DataFormMessage.js";
@@ -102,7 +102,7 @@ return (
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <FormazionePageHeader />
+        <PageHeader title="Formazione in mindfulness transpersonale e in relazione" image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
