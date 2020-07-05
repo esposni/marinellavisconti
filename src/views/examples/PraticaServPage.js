@@ -66,38 +66,13 @@ e dalle 18:00 alle 18:40</strong></h5>
 <h3 align="center" className="bold" >Milano</h3>
 <h3 align="center" className="bold" >Entrata libera</h3>
 <h5 align="left">
-Il giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
+Da settembre 2020 il giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
 </h5>
-<h5 align="center"><strong>Calendario 2020</strong><br/><br/>
- 
-13 febbraio <br/>27 febbraio<br/> 5 marzo<br/>
-12 marzo<br/> 16 aprile <br/>23 aprile <br/>30 aprile<br/>
-7 maggio <br/>21 maggio <br/>28 maggio <br/>18 giugno <br/>9 luglio<br/>
-16 luglio
 
-</h5>
 <br/>
 <h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
 <br/>
-<h3 align="center" className="bold" >La pratica contemplativa nella vita quotidiana</h3>
-<h3 align="center" className="bold" >Como</h3>
-<h3 align="center" className="bold" >Entrata libera</h3>
-<h5 align="left">
-Il martedí dalle 19:30 alle 20:30 presso il  mio studio in via Auguadri 22 terzo piano.
-</h5>
 
-<h5 align="center"><strong>Calendario 2020</strong><br/><br/>
- 
-10 marzo 2020   ore 19.30 - 20.30 <br/>
-24 marzo 2020   ore 19.30 - 20.30 <br/>
-21 aprile 2020    ore 19.30 - 20.30 <br/>
-28 aprile. 2020   ore 19.30 - 20.30 <br/>
-5 maggio 2020   ore 19.30 - 20.30 <br/>
-19 maggio 2020 ore 19.30 - 20.30 <br/>
-26 maggio 2020 ore 19.30 - 20.30 <br/>
-</h5> 
-<h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
-<br/>
 
 <h2 className="title">Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano</h2> 
 <h5 align="left">Da distribuire in centri di ritiri e presso il Centro Mindfulness Milano ad offerta libera.

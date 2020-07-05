@@ -152,7 +152,7 @@ Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libert�
 <p>È possibile  partecipare ad un singolo incontro, a un gruppo di incontri o  abbracciare l’intero percorso nella consapevolezza che la pratica del cuore è ospitante...ma verrà data precedenza di partecipazione a coloro che seguono l’intero percorso.</p>
 <h2 className="">STRUTTURA DELLA SCUOLA </h2>
 <h5 align="left">Il percorso  che inizia a dicembre 2020 e termina nel 2025  è suddiviso in moduli di tre o quattro giorni e prevede anche  due ritiri che saranno il  primo di 7 giorni nel 2021  e il secondo finale di 7/10 giorni da definire nel 2025.</h5>
-<h5 align="left">In tutto 15 moduli, di cui quattro  di 4 giorni e    nove di 3  giorni per un totale di 43 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con <strong>Anushka Fernandopulle Insegnante di Vipassana e Heartfulness dello Spirit Rock Meditation Center di San Francisco</strong> con cui sono previste  5 giornate di pratica Vipassana e due giornate  di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola e  infine un ritiro laboratorio finale (da definire rispetto a tempi date e costi)  in  un luogo dal  forte impatto energetico e naturalistico in cui tutte le pratiche verranno coltivate contemporaneamente con l’intento di </h5>
+<h5 align="left">In tutto 14 moduli, di cui due  di 4 giorni e dieci di 3  giorni per un totale di 38 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con <strong>Anushka Fernandopulle Insegnante di Vipassana e Heartfulness dello Spirit Rock Meditation Center di San Francisco</strong> con cui sono previste  5 giornate di pratica Vipassana e due giornate  di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola e  infine un ritiro laboratorio finale (da definire rispetto a tempi date e costi)  in  un luogo dal  forte impatto energetico e naturalistico in cui tutte le pratiche verranno coltivate contemporaneamente con l’intento di </h5>
 <p> “non conoscere molte cose, ma mettere molte cose in contatto, uno dei primi gradini dello spirito creativo.....”.       H. Von Hofmannsthal</p>
 <h5 align="left">Ogni seminario si svilupperà nel momento presente all’interno di un campo che prevederà quattro momenti  fondanti:
 
@@ -248,11 +248,11 @@ per la pratica e l'esperienza individuale.</h5>
 Il ritiro dall'1 al 5 ottobre 2021 e le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’Eremo di Montecastello (BS).
 
 Il ritiro finale è da definire.</h5>  
-<h5 align="left">1 modulo 10-13 dicembre 2020: Quando lo Spazio si fa Sacro...Marinella Visconti e Simone Spina    </h5>
+<h5 align="left">1 modulo 11-13 dicembre 2020: Quando lo Spazio si fa Sacro...Marinella Visconti e Simone Spina    </h5>
 <h5 align="left">2 modulo 4-7 marzo 2021: Cercare l’innocenza in ogni forma. Un viaggio nella profondità della relazione accompagnati dalle perfezioni del cuore.
 
 Prima parte.    Marinella Visconti e Sanda Stojkovich </h5>
-<h5 align="left">3 modulo 1-8 ottobre 2021 <strong>Ritiro di Vipassana e  Heartfulness</strong> 1-5 ottobre e 7-8 ottobre<strong>pratiche di  Heartfulness e colloqui individualizzati con Anushka Fernandopulle</strong>  presso eremo di Montecastello(BS)</h5>
+<h5 align="left">3 modulo 1-8 ottobre 2021 <strong>Ritiro di Vipassana e  Heartfulness</strong> 1-5 ottobre e 7-8 ottobre<strong> pratiche di  Heartfulness e colloqui individualizzati con Anushka Fernandopulle</strong>  presso eremo di Montecastello(BS)</h5>
 <h5 align="left">4 modulo 9-12 dicembre 2021 : Cercare l’innocenza in ogni forma. Un viaggio nella profondità della relazione accompagnati dalle perfezioni del cuore.
 
 Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>             
@@ -264,11 +264,10 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
 <h5 align="left">8  modulo 24-26 marzo 2023: Allenare il coraggio del cuore con l’audacia delle vibrazioni armoniche. Marinella Visconti e Elsa Chiesa</h5>
 <h5 align="left">9 modulo 22-24 settembre 2023: Allenare il coraggio del cuore con l’audacia della fluid awareness.   Marinella Visconti e Federica Gonzati</h5>
 <h5 align="left">10 modulo 1-3 dicembre 2023 : Allenare il coraggio del cuore con l’audacia del Qi Gong.     Marinella Visconti e Paolo Testa</h5>
-<h5 align="left">11  modulo 22-24 marzo 2024: Allenare il coraggio del cuore con l’audacia della poesia.   Marinella Visconti e Giovanna Santoro </h5>
+<h5 align="left">11 modulo 22-24 marzo 2024: Allenare il coraggio del cuore con l’audacia della poesia.   Marinella Visconti e Roberta Peano </h5>
 <h5 align="left">12 modulo 20-22 settembre 2024: Allenare il coraggio del cuore con l’audacia del movimento.   Marinella Visconti e Gemma D'Alessandro</h5>
-<h5 align="left"> 13 modulo 12-15 dicembre 2024: Allenare il coraggio del cuore con l'audacia della creazione. Marinella Visconti e Valeria Giunta  </h5>
-<h5 align="left"> 14 modulo 13-16 marzo 2025: Allenare il coraggio del cuore con l’audacia della Presenza...il cuore trascendente. Marinella Visconti e Simone Spina </h5>
-<h5 align="left">15 modulo 2025: RITIRO LABORATORIO FINALE IN LUOGO A FORTE IMPATTO NATURALISTICO SPIRITUALE DA DEFINIRE</h5>
+<h5 align="left">13 modulo 12-15 dicembre 2024: Allenare il coraggio del cuore con l'audacia della creazione. Marinella Visconti e Valeria Giunta  </h5>
+<h5 align="left">14 modulo 2025: RITIRO LABORATORIO FINALE IN LUOGO A FORTE IMPATTO NATURALISTICO SPIRITUALE DA DEFINIRE</h5>
 
 
 
@@ -486,8 +485,8 @@ Kum Nye </p>
             <br/>
             <h2 className="">Costi</h2>
             
-            <h5 align="left">Il costo del percorso quadriennale  è di 1350 euro l’anno  divisibile in tre rate annuali due da 400 euro e la prima di 550 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle.</h5>
-            <h5 align="left">La quota non comprende il ritiro finale (modulo 15) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro.</h5>
+            <h5 align="left">Il costo del percorso quadriennale  è di 1200 euro l’anno  divisibile in tre rate annuali da 400 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle. <strong>Per chi si iscrive entro il 31 ottobre 2020 il costo del primo anno è di 1000 euro.</strong></h5>
+            <h5 align="left">La quota non comprende il ritiro finale (modulo 14) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro.</h5>
             <h5 align="left">Ecco le coordinate bancarie per il bonifico:</h5>
             <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
             <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>

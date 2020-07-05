@@ -106,14 +106,64 @@ function IndexNavbar() {
                   <p>Chi sono</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
+
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  href="#pablo"
+                  nav
+                  onClick={e => e.preventDefault()}
+                >
+                  <p>Psicoterapia e <br/> pratiche di <br/>risorsificazione</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                   Psicoterapia transpersonale e contemplativa
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                   Psicoterapia transpersonale e contemplativa - online
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                   Attivismo contemplativo: gruppi solidali di Ascolto Profondo "da essere a essere "
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                  Distance Healing : Pratiche di guarigione a distanza
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/craniosacrale" tag={Link}
+                  >
+                   Craniosacrale Biodinamico
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                  Meditazione: la pratica contemplativa nella vita quotidiana
+                  </DropdownItem>
+              </DropdownMenu>
+              </UncontrolledDropdown>
+              {/* <NavItem>
                 <NavLink
                   href="#pablo"
                   to="/psicoterapia" tag={Link}
                 >
                   <p>Psicoterapia</p>
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               
               {/* <NavItem>
                 <NavLink
@@ -157,23 +207,66 @@ function IndexNavbar() {
                   >
                    Formazione in mindfulness transpersonale <br/> e in relazione avanzata
                   </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/formazione-events" tag={Link}
-                  >
-                   Eventi
-                  </DropdownItem>
                  
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
-                <NavLink
+
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
                   href="#pablo"
-                  to="/ritiri" tag={Link}
+                  nav
+                  onClick={e => e.preventDefault()}
                 >
-                  <p>Ritiri Laboratori</p>
-                </NavLink>
-              </NavItem>
+                  <p>Ritiri e pratiche <br/> di consapevolezza</p>
+                </DropdownToggle>
+                <DropdownMenu>
+               
+                  <DropdownItem
+                    // target="_blank"
+                    to="/ritiri-vipassana" tag={Link}
+                  >
+                   Ritiri di Vipassana
+                  </DropdownItem>
+
+                  <DropdownItem
+                    // target="_blank"
+                    to="/ritiri" tag={Link}
+                  >
+                   Ritiri Laboratori
+                  </DropdownItem>
+              </DropdownMenu>
+              </UncontrolledDropdown>
+
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  href="#pablo"
+                  nav
+                  onClick={e => e.preventDefault()}
+                >
+                  <p>Eventi</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/formazione-events" tag={Link}
+                  >
+                   Eventi residenziali
+                  </DropdownItem>
+
+                  <DropdownItem
+                    // target="_blank"
+                    to="/eventi-centro" tag={Link}
+                  >
+                   Eventi al centro mindfulness milano
+                  </DropdownItem>
+              </DropdownMenu>
+              </UncontrolledDropdown>
+
+
               <NavItem>
                 <NavLink
                   href="#pablo"
@@ -182,14 +275,7 @@ function IndexNavbar() {
                   <p>Pratica di servizio</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  to="/craniosacrale" tag={Link}
-                >
-                  <p>Craniosacrale</p>
-                </NavLink>
-              </NavItem>
+              
               <NavItem>
                 <NavLink
                   href="#pablo"

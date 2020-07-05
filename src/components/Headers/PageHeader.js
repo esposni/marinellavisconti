@@ -7,7 +7,7 @@ import {
 
 // core components
 
-function FormazionePageHeader() {
+export default function PageHeader(props) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -29,13 +29,13 @@ function FormazionePageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/ciotola.jpeg") + ")"
+            backgroundImage: "url(" + require("assets/img/"+props.image) + ")"
           }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title2">Eventi Residenziali</h1>
+            <h1 className="title2">{props.title} </h1>
             {/* <div className="text-center">
               <Button
                 className="btn-icon btn-round"
@@ -68,5 +68,3 @@ function FormazionePageHeader() {
     </>
   );
 }
-
-export default FormazionePageHeader;

@@ -61,69 +61,7 @@ Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusal
                 <h2 className="title">Ritiri Laboratori</h2>
                 <h5 align="left">Ritiro laboratorio ad offerta libera presso il B&B Creatività Natura e Salute dal 27 al 29 marzo 2020</h5>
                 <hr></hr>
-     {/* ------------------------------------------------------------- */}
-                <h2 className="">Braveheartfulness School – Seminario introduttivo</h2>
-                <h5 align="center"><strong>Marinella Visconti</strong><br/><br/></h5>
-                <h5 align="center"><strong>6 Settembre 09:30 - 18:00</strong><br/></h5>
-                <img
-                      alt="..."
-                      src={require("assets/img/ritiri/seminario.jpg")}
-                    ></img><br/><br/>
 
-<h5 align="left">Si tratta di un percorso del Cuore che ha come finalità il celebrare la Vita permettendo alla nostra natura sacra di esprimersi attraverso il coraggio del cuore che sceglie di esserci nel momento presente, in ogni circostanza lasciando andare la paura, i pregiudizi e le convenzioni che oscurano la nostra vera natura e riconosce che la festa della Vita è proprio qui nel momento presente e in ogni circostanza.
-È questa l’audacia: </h5>
-  <p>“Per avere luce bisogna farsi crepa,
-Spaccarsi,
-Sminuzzarsi,
-Offrire.”
-Chandra Livia Candiani</p>
-<h5 align="left"> Ci accosteremo alle qualità del cuore a partire dagli insegnamenti buddhisti e da quello che comprendiamo. La nostra natura più profonda è intrinsecamente etica e se siamo nel momento presente le nostre qualità sorgono spontaneamente. Useremo l’approccio della Core Process Psychotherapy in particolare per tutti quegli aspetti del percorso in cui si lavorerà in relazione e diverse pratiche contemplative ed espressive dentro la cornice della consapevolezza in azione convinti che allenare la dimensione analogica faciliti il lasciare andare i condizionamenti che oscurano la nostra vera natura. Nessun ascolto profondo è possibile se c’è separazione tra mente e cuore….l’ascolto profondo è possibile solo quando le personalità scompaiono e sorge la natura sacra che ci abita…quando incarniamo il silenzio innocente.
-
-La Braveheartfulness School è un percorso aperto a tutti i ricercatori spirituali, in particolare psicoterapeuti, operatori della salute, insegnanti, meditanti che abbiano una regolare pratica e abbiano già fatto un significativo lavoro su di sé, abbiano familiarità con il lavoro in gruppo e con la pratica del silenzio e desiderano offrire la propria autenticità alla vita nella consapevolezza della sacralità di ogni singola espressività e nella consapevolezza che tutte le manifestazioni dell’essere originano dalla stessa Sorgente che accoglie e sostiene</h5>
-  <h5 align="left"><strong>DATA E LUOGO</strong><br/> Il seminario si svolgerà il 6 settembre 2020 presso il Centro Mindfulness Milano, via Cenisio 5 Milano dalle ore 9:30 alle 18:00</h5>
-<h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
-          <Container>
-          
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/marinella.png")}
-                    ></img>
-                    <h4 className="title">Marinella Visconti </h4>
-                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    to="/profile-page" tag={Link}
-                    
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col>  
-              </Row>
-            </div>
-          </Container> <br/>
-
-
-<Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/event/braveheartfulness-school-seminario-introduttivo/"
-                    size="sm"
-                  >Per maggiori informazioni
-                    </Button>  
-
-
-
- {/* ------------------------------------------------------------- */}
-                <hr></hr>
                 <h2 className="">Prendersi un tempo per coltivare la Grazia, la Gratitudine, la Saggezza e la Forza che ci abitano  </h2>
                 <h5 align="center"><strong>Marinella Visconti e Marialuisa Carenzi</strong><br/><br/></h5>
                 <h5 align="center"><strong>3 Ottobre 10:00 - 4 Ottobre 13:00</strong><br/></h5>
@@ -216,10 +154,114 @@ Kum Nye </p>
 
 {/* ------------------------------------------------------------- */}
   <hr></hr>
+     {/* ------------------------------------------------------------- */}
+     
+                <h2 className="">Braveheartfulness School – Seminario introduttivo</h2>
+                <h5 align="center"><strong>Marinella Visconti</strong><br/><br/></h5>
+                <h5 align="center"><strong>7 Novembre 09:30 - 18:00</strong><br/></h5>
+                <img
+                      alt="..."
+                      src={require("assets/img/ritiri/seminario.jpg")}
+                    ></img><br/><br/>
+
+<h5 align="left">Si tratta di un percorso del Cuore che ha come finalità il celebrare la Vita permettendo alla nostra natura sacra di esprimersi attraverso il coraggio del cuore che sceglie di esserci nel momento presente, in ogni circostanza lasciando andare la paura, i pregiudizi e le convenzioni che oscurano la nostra vera natura e riconosce che la festa della Vita è proprio qui nel momento presente e in ogni circostanza.
+È questa l’audacia: </h5>
+  <p>“Per avere luce bisogna farsi crepa,
+Spaccarsi,
+Sminuzzarsi,
+Offrire.”
+Chandra Livia Candiani</p>
+<h5 align="left"> Ci accosteremo alle qualità del cuore a partire dagli insegnamenti buddhisti e da quello che comprendiamo. La nostra natura più profonda è intrinsecamente etica e se siamo nel momento presente le nostre qualità sorgono spontaneamente. Useremo l’approccio della Core Process Psychotherapy in particolare per tutti quegli aspetti del percorso in cui si lavorerà in relazione e diverse pratiche contemplative ed espressive dentro la cornice della consapevolezza in azione convinti che allenare la dimensione analogica faciliti il lasciare andare i condizionamenti che oscurano la nostra vera natura. Nessun ascolto profondo è possibile se c’è separazione tra mente e cuore….l’ascolto profondo è possibile solo quando le personalità scompaiono e sorge la natura sacra che ci abita…quando incarniamo il silenzio innocente.
+
+La Braveheartfulness School è un percorso aperto a tutti i ricercatori spirituali, in particolare psicoterapeuti, operatori della salute, insegnanti, meditanti che abbiano una regolare pratica e abbiano già fatto un significativo lavoro su di sé, abbiano familiarità con il lavoro in gruppo e con la pratica del silenzio e desiderano offrire la propria autenticità alla vita nella consapevolezza della sacralità di ogni singola espressività e nella consapevolezza che tutte le manifestazioni dell’essere originano dalla stessa Sorgente che accoglie e sostiene</h5>
+  <h5 align="left"><strong>DATA E LUOGO</strong><br/> Il seminario si svolgerà il 7 Novembre  2020 presso il Centro d'Ompio Via Pratolungo, 47 Pettenasco (NO) dalle ore 9:30 alle 18:00</h5>
+<h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
+          <Container>
+          
+            <div className="team">
+              <Row>
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/marinella.png")}
+                    ></img>
+                    <h4 className="title">Marinella Visconti </h4>
+                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
+                  </div>
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/profile-page" tag={Link}
+                    
+                    size="sm"
+                  >Curriculum
+                    </Button>  
+                </Col>  
+              </Row>
+            </div>
+          </Container> <br/>
+
+
+<Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    href="http://centromindfulnessmilano.com/event/braveheartfulness-school-seminario-introduttivo/"
+                    size="sm"
+                  >Per maggiori informazioni
+                    </Button>  
+
+ {/* ------------------------------------------------------------- */}
+ <hr></hr>
+ <h2 align="center">Ritiro laboratorio</h2>
+                    <h2 className="">Incontrare a cuore aperto il mistero della sofferenza</h2>
+                <h5 align="center"><strong>Marinella Visconti</strong><br/><br/></h5>
+                <h5 align="center"><strong>8 Novembre 10:00 - 18:00</strong><br/></h5>
+                <img
+                      alt="..."
+                      src={require("assets/img/ritiri/cascata.JPG")}
+                    ></img><br/><br/>
+<h5 align="left"><strong>Costo per la giornata</strong><br/> Euro 30 da consegnare alla segreteria del centro D'Ompio per pranzo e uso della struttura. Il ritiro come da tradizione orientale è ad offerta libera. </h5>
+                <h5 align="left"><strong>DATA E LUOGO</strong><br/> Il seminario si svolgerà il 8 Novembre  2020 presso il Centro d'Ompio Via Pratolungo, 47 Pettenasco (NO) dalle ore 9:30 alle 18:00</h5>
+<h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
+          <Container>
+          
+            <div className="team">
+              <Row>
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/marinella.png")}
+                    ></img>
+                    <h4 className="title">Marinella Visconti </h4>
+                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
+                  </div>
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/profile-page" tag={Link}
+                    
+                    size="sm"
+                  >Curriculum
+                    </Button>  
+                </Col>  
+              </Row>
+            </div>
+          </Container> <br/>
+
+ {/* ------------------------------------------------------------- */}
+                <hr></hr>
+               
   
                 <h2 className="">Quando lo Spazio si fa Sacro</h2>
                 <h5 align="center"><strong>Marinella Visconti e Simone Spina</strong><br/><br/></h5>
-                <h5 align="center"><strong>10-13 Dicembre 2020</strong><br/></h5>
+                <h5 align="center"><strong>11-13 Dicembre 2020</strong><br/></h5>
                 <img
                       alt="..."
                       src={require("assets/img/ritiri/arcobaleno.jpg")}
@@ -311,7 +353,7 @@ compassione in azione.....Lo spazio non è mai vuoto, è una soglia tra ciò che
 UN VIAGGIO NELLA PROFONDITÀ DELLA RELAZIONE
 ACCOMPAGNATI DALLE PERFEZIONI DEL CUORE</h2>
                 <h5 align="center"><strong>Marinella Visconti e Sanda Stojkovich</strong><br/><br/></h5>
-                <h5 align="center"><strong> 9-12 dicembre 2021</strong><br/></h5>
+                <h5 align="center"><strong>Second modulo 4-7 marzo 2021 (Prima parte) e quarto modulo 9-12 dicembre 2021 (Seconda parte)</strong><br/></h5>
                 <img
                       alt="..."
                       src={require("assets/img/ritiri/coltivare.JPG")}
@@ -391,12 +433,88 @@ strumenti utili per farlo in modo più abile, con gli occhi e i cuori più apert
                     </Button>   */}
 
 
+<hr></hr>
 
+{/* ------------------------------------------------------------- */}
  {/* ------------------------------------------------------------- */}
+ <h2 className="">Allenare il coraggio del cuore con l’audacia dell’espressività</h2>
+                <h5 align="center"><strong>Marinella Visconti e  Dafna Moscati</strong><br/><br/></h5>
+                <h5 align="center"><strong>8-10 aprile 2022</strong><br/></h5>
+                <img
+                      alt="..."
+                      src={require("assets/img/ritiri/allenare.jpg")}
+                    ></img><br/><br/>
+                  <h5 align="left"> Ognuno di noi porta in sé un capolavoro nascosto, però siamo d’intralcio…spostiamoci, e il capolavoro verrà alla luce…forse la più grande tragedia della nostra vita è che la libertà è possibile eppure ogni giorno ascoltiamo una voce  che ci tiene piccoli..
 
+SCOPRIRE la verità è arduo e ci chiede l’audacia del cuore tornando ad essere fanciulli e fidandoci delle braccia terapeutiche della vita
 
+Alcuni degli strumenti espressivi che ci accompagneranno in questo viaggio di ‘allenamento’ all’audacia e alla pratica contemplativa quotidiana del cuore coraggioso saranno l’Arte Intuitiva, la Performance e gli Atti Evolutivi. Queste pratiche di Arte Interattiva saranno facilitate e guidate da Dafna Moscati che le propone da molti anni come potenti e semplici modalità di autoindagine.
+Ciò che accomuna questi strumenti è la possibilità di permetterci di immergerci con immediatezza nella pura Presenza e al tempo stesso fare quel passo ‘oltre la zona di comfort’ verso l’investigazione profonda che ci riconduce con naturalezza all’Essenza di quello spazio di puro Amore e di pieno potenziale infinito.
 
+Cosa c’è oltre la paura, oltre la comodità, oltre la vergogna, oltre il conosciuto?
 
+Cosa ti aspetta oltre i soliti conflitti, oltre le solite dinamiche relazionali?
+
+Quando è stata l’ultima volta che hai fatto qualcosa di nuovo?
+
+Ogni partecipante sarà accompagnato ed ispirato nella creazione e nell’esperienza diretta di nuove opere espressive partendo dalle proprie ‘domande’ e da tutto ciò che vuole essere esplorato nel momento.
+Un’altro elemento chiave di queste pratiche è l’incontro con l’Altro come nostro specchio.
+
+Cosa mi spaventa nel contatto con l’altro?
+
+Mi incuriosisce, mi attira o mi chiudo e mi vergogno?
+Per arrivare fino al cuore in cui L’altro è semplicemente quel te che devi ancora incontrare.
+
+“Una mente e un cuore che si sono allargati grazie ad una nuova esperienza di Audacia non possono più tornare alle loro vecchie dimensioni”</h5>
+<h5 align="left"><strong>DATA E LUOGO</strong><br/> Il corso si terrà il 8-10 aprile 2022 dalle 10 alle 17 presso il Centro Mindfulness Milano in Via Cenisio 5.</h5>
+
+<h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>
+          <Container>
+          
+            <div className="team">
+              <Row>
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/marinella.png")}
+                    ></img>
+                    <h4 className="title">Marinella Visconti </h4>
+                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
+                  </div>
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    to="/profile-page" tag={Link}
+                    
+                    size="sm"
+                  >Curriculum
+                    </Button>  
+                </Col>  
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/dafna.png")}
+                    ></img>
+                    <h4 className="title">Dafna Moscati </h4>
+                    <p className="category text-info"> Performer Ricercatrice arte espressiva contemplativa  </p>    
+                  </div>
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    href="https://www.dafnamoscati.com/biografia-dafna-moscati/"
+                    size="sm"
+                  >Curriculum
+                    </Button>  
+                </Col>  
+              </Row>
+            </div>
+          </Container> <br/>
 
 
 

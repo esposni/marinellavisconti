@@ -34,10 +34,12 @@ import FormazioneAvanzataPage from "views/examples/FormazioneAvanzataPage";
 import PraticaServPage from "views/examples/PraticaServPage";
 import CraniosacralePage from "views/examples/CraniosacralePage";
 import RitiriPage from "views/examples/RitiriPage";
+import RitiriVipassanaPage from "views/examples/RitiriVipassanaPage";
 import ProfilePage from "views/examples/ProfilePage.js";
 import ConsapevolPage from "views/examples/ConsapevolPage";
 import PremessaPage from "views/examples/Premessa";
 import FormazioneEvents from "views/examples/FormazioneEvents";
+import EventiCentroPage from "views/examples/EventiCentroPage";
 import EventoPage from "views/examples/Evento";
 
 let text_event1=`Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.
@@ -79,6 +81,10 @@ ReactDOM.render(
           path="/formazione-events"
           render={props => <FormazioneEvents {...props} />}
         />
+         <Route
+          path="/eventi-centro"
+          render={props => <EventiCentroPage {...props} />}
+        />
            <Route
           path="/premessa"
           render={props => <PremessaPage {...props} />}
@@ -90,6 +96,10 @@ ReactDOM.render(
          <Route
           path="/ritiri"
           render={props => <RitiriPage {...props} />}
+        />
+         <Route
+          path="/ritiri-vipassana"
+          render={props => <RitiriVipassanaPage {...props} />}
         />
         <Route
           path="/psicoterapia"
