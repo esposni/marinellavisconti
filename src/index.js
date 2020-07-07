@@ -72,6 +72,7 @@ ReactDOM.render(
           <EventoPage title={el.title}
           conduttori={el.conduttori}
           date={el.date}
+          data_luogo={el.data_luogo}
           image={el.image}
           text={el.text}
           cit={el.cit}

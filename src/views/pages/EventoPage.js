@@ -28,6 +28,7 @@ export default function EventoPage(props) {
        <Evento title={props.title}
           conduttori={props.conduttori}
           date={props.date}
+          data_luogo={props.data_luogo}
           image={props.image}
           text={props.text}
           cit={props.cit}

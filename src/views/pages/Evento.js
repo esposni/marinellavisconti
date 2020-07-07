@@ -43,11 +43,13 @@ export default function Evento(props) {
                       alt="..."
                       src={require("assets/img/ritiri/"+props.image)}
                     ></img><br/><br/>
-                    {(props.cit!=="")? <p>{`"`+props.cit+`"`}</p>: ""}
+                    {(props.cit!==[])? props.cit.map((t)=>{
+                      return <p>" {t.text} "   -    {t.author}</p>
+                    }) : ""}
                     {props.text.map((t)=>{
                       return <h5 align="left">{t}</h5>
                     })}
-                     
+         {(props.data_luogo!=="")?<h5 align="left"><strong>DATA E LUOGO</strong><br/>{props.data_luogo}</h5>:"" } 
          {(props.users.length!==0)? <h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>:""}
           <Container>
           
