@@ -47,10 +47,10 @@ export default function EventoPage(props) {
                 <h2 className="">{props.title}</h2>
                 <h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>
                 <h5 align="center"><strong>{props.date}</strong><br/></h5>
-                {/* <img
+                <img
                       alt="..."
-                      src={require(props.image)}
-                    ></img><br/><br/> */}
+                      src={require("assets/img/ritiri/"+props.image)}
+                    ></img><br/><br/>
                      <h5 align="left">{props.text}</h5>
 
               </Col>
