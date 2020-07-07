@@ -41,13 +41,7 @@ import ConsapevolPage from "views/pages/ConsapevolPage";
 import PremessaPage from "views/pages/Premessa";
 import FormazioneEvents from "views/pages/FormazioneEvents";
 import EventiCentroPage from "views/pages/EventiCentroPage";
-import EventoPage from "views/pages/Evento";
-
-// let text_event1=`Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.
-// Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che ordina la vita stessa e questo è un punto di vista che contempla il mistero.
-// Se coltiviamo Presenza lo spazio diventa Sacro e nulla può accadere di pericoloso....i condizionamenti si resettano, le nostre storie individuali diventano quelle di tutti.....siamo nell’indifferenziato....ci incontriamo nella stessa radura...sacro e ordinario co emergono. La pratica nella vita è condivisa.... Il nostro risveglio è in relazione....il materiale che sorge nel lavoro in relazione dà forma al gruppo e parte del processo è scegliere cosa nutrire e cosa no.. Più ci sentiamo al sicuro, più andiamo in profondità e il modo in cui generiamo sicurezza pulisce lo spazio e lo rende onesto, nudo...
-// Ognuno incontra la propria sofferenza..... è un lavoro enorme significa chiedersi chi siamo sinceramente e prendersi la responsabilità della natura della sofferenza e dei nostri processi. La guarigione può avvenire nel presente ed è relazionale....il campo è una rappresentazione della compassione in azione.....Lo spazio non è mai vuoto, è una soglia tra ciò che è noto è ciò che non è noto o ignoto, è consapevolezza e guarigione.
-// `
+import EventoPage from "views/pages/EventoPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -70,16 +64,23 @@ ReactDOM.render(
           path="/consapevolezza"
           render={props => <ConsapevolPage {...props} />}
         />
-        
-          <Route
-          path="/evento-1"
+        {data.map( (el)=>{
+          return  <Route
+          key={el.id} 
+          path={"/evento-"+el.id}
           render={props => 
-          <EventoPage title={data[0].title}
-          conduttori={data[0].conduttori}
-          date={data[0].date}
-          image={data[0].image}
-          text={data[0].text} {...props} />}
-        />
+          <EventoPage title={el.title}
+          conduttori={el.conduttori}
+          date={el.date}
+          image={el.image}
+          text={el.text}
+          cit={el.cit}
+          users={el.users}
+          more_info={el.more_info}
+          type={el.type} {...props} />}
+          />
+        })}
+         
          <Route
           path="/formazione-events"
           render={props => <FormazioneEvents {...props} />}
@@ -112,7 +113,6 @@ ReactDOM.render(
           path="/profile-page"
           render={props => <ProfilePage {...props} />}
         />
-        {/* <Route path="/login-page" render={props => <LoginPage {...props} />} /> */}
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>
