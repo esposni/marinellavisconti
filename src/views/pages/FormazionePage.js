@@ -177,6 +177,10 @@ Durante il percorso  è suggerita la frequentazione di almeno un ritiro all’an
 LIBERTA'</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
 1-5 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left"><strong>Prerequisiti: Questo ritiro è aperto ai praticanti esperti e agli allievi
+della Breaveheartfulness School</strong>  ed implica una certa qualità di
+impegno: la capacità di sostenere il silenzio, una pratica intensa e
+di tollerare di non mangiare più di due volte al giorno.</h5>
 <h5 align="left">In questo ritiro esploreremo il profondo ben-essere che si rende
 disponibile nell'investigazione del Dharma attraverso la nostra
 personale esperienza.
@@ -203,6 +207,7 @@ possibile.</h5>
 <h3 align="center" className="bold" >UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
 7 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:segreteria@associazionemudita.org">segreteria@associazionemudita.org</a> </h5>
 <h5 align="left">In questo workshop coltiveremo la consapevolezza quale strumento
 per
 riconoscere che cosa sta avvenendo a livello di mente, emozioni e
@@ -225,6 +230,7 @@ lavoro.</h5>
                     </Button>  
 <h2 className="">COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
 <h5 align="center"><strong>Eremo di Montecastello (Bs) 8 ottobre 2021</strong><br/><br/></h5>
+<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:segreteria@associazionemudita.org">segreteria@associazionemudita.org</a> </h5>
 <h5 align="left">Un'opportunità per continuare ad approfondire la pratica
 attraverso
 istruzioni con lavori in piccoli gruppi e attraverso domande e

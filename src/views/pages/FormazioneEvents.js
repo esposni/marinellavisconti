@@ -562,7 +562,7 @@ l’eremo di Montecastello (bs).</h5>
 La quota delle due giornate è compresa nel costo annuale della
 scuola.</h5>
 <h5 align="left">Per coloro che non frequentano la scuola ma solo un modulo o
-parte del percorso la quota di partecipazione è di 550 euro.</h5>
+parte del percorso la quota di partecipazione è di 550 euro per il workshop e il coaching con Anushka Fernandopulle.</h5>
 <hr></hr>
 <h2 className=""><strong>Costi</strong></h2>
             
