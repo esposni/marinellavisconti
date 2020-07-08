@@ -47,6 +47,7 @@ return (
         })} */}
         {data.map( (el)=>{
             return  <AnteprimaEvento 
+            key={el.id}
             num={el.id}
             all={true}
             title={el.title}

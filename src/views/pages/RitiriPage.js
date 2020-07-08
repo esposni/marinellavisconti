@@ -57,6 +57,7 @@ export default function RitiriPage() {
         {data.map( (el)=>{
           if(el.type==="Ritiri Laboratori"){
             return  <AnteprimaEvento 
+            key={el.id}
             num={el.id}
             all={false}
             title={el.title}

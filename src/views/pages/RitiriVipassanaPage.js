@@ -53,6 +53,7 @@ return (
         {data.map( (el)=>{
           if(el.type==="Ritiro di Vipassana"){
             return  <AnteprimaEvento 
+            key={el.id}
             num={el.id}
             all={false}
             title={el.title}
