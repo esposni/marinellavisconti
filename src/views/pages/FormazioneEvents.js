@@ -6,7 +6,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import data from "assets/data_events.json"
-import Evento from "views/pages/Evento.js";
+import AnteprimaEvento from "views/pages/AnteprimaEvento.js";
 
 
 export default function FormazioneEvents() {
@@ -27,7 +27,7 @@ return (
       <div className="wrapper">
         <PageHeader image="ciotola.jpeg" 
         title="Eventi Residenziali" />
-       {data.map( (el)=>{
+       {/* {data.map( (el)=>{
           return  <Evento title={el.title}
           conduttori={el.conduttori}
           date={el.date}
@@ -44,8 +44,17 @@ return (
           users={el.users}
           more_info={el.more_info}
           type={el.type}/>
+        })} */}
+        {data.map( (el)=>{
+            return  <AnteprimaEvento 
+            num={el.id}
+            all={true}
+            title={el.title}
+            conduttori={el.conduttori}
+            date={el.date}
+            image={el.image}
+            type={el.type}/> 
         })}
-
         
      
         <DefaultFooter />

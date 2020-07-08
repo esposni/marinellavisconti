@@ -2,6 +2,14 @@
   margin-bottom: 20px;
 }
 
+.info-event{
+  object-fit: cover;
+  object-position: 100% 0;
+  padding-top:30px;
+  width: 40em;
+  height: 40em;
+}
+
 .tim-white-buttons {
   background-color: #777777;
 }

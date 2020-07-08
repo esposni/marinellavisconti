@@ -7,7 +7,7 @@ import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import data from "assets/data_events.json"
-import Evento from "views/pages/Evento.js";
+import AnteprimaEvento from "views/pages/AnteprimaEvento.js";
 
 
 // import AlertDialogSlide from "components/PopUpButton.js";
@@ -30,7 +30,7 @@ export default function RitiriPage() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader title="Ritiri Laboratori" image="budda-face.jpeg" />
-        {data.map( (el)=>{
+        {/* {data.map( (el)=>{
           if(el.type==="Ritiri Laboratori"){
             return  <Evento title={el.title}
             conduttori={el.conduttori}
@@ -47,6 +47,22 @@ export default function RitiriPage() {
             school={el.school}
             users={el.users}
             more_info={el.more_info}
+            type={el.type}/>
+          }else{
+            return ""
+          }
+          
+        })} */}
+
+        {data.map( (el)=>{
+          if(el.type==="Ritiri Laboratori"){
+            return  <AnteprimaEvento 
+            num={el.id}
+            all={false}
+            title={el.title}
+            conduttori={el.conduttori}
+            date={el.date}
+            image={el.image}
             type={el.type}/>
           }else{
             return ""

@@ -6,7 +6,7 @@ import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import data from "assets/data_events.json"
-import Evento from "views/pages/Evento.js";
+import AnteprimaEvento from "views/pages/AnteprimaEvento.js";
 
 export default function RitiriVipassanaPage() {
 
@@ -27,7 +27,7 @@ return (
       <div className="wrapper">
         <PageHeader image="ciotola.jpeg" 
         title="Ritiri Vipassana" />
-       {data.map( (el)=>{
+       {/* {data.map( (el)=>{
           if(el.type==="Ritiro di Vipassana"){
             return  <Evento title={el.title}
             conduttori={el.conduttori}
@@ -49,8 +49,22 @@ return (
             return ""
           }
           
+        })} */}
+        {data.map( (el)=>{
+          if(el.type==="Ritiro di Vipassana"){
+            return  <AnteprimaEvento 
+            num={el.id}
+            all={false}
+            title={el.title}
+            conduttori={el.conduttori}
+            date={el.date}
+            image={el.image}
+            type={el.type}/>
+          }else{
+            return ""
+          }
+          
         })}
-
         <FormMessage/>
      
         <DefaultFooter />
