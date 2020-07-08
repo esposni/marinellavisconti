@@ -199,7 +199,8 @@ possibile.</h5>
                     block
                     className="btn-round"
                     color="info"
-                    to="/formazione-events" tag={Link}
+                    to="/evento-7" tag={Link}
+                    target="_blank"
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
@@ -224,7 +225,8 @@ lavoro.</h5>
                     block
                     className="btn-round"
                     color="info"
-                    to="/formazione-events" tag={Link}
+                    to="/evento-8" tag={Link}
+                    target="_blank"
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
@@ -242,7 +244,8 @@ per la pratica e l'esperienza individuale.</h5>
                     block
                     className="btn-round"
                     color="info"
-                    to="/formazione-events" tag={Link}
+                    to="/evento-9" tag={Link}
+                    target="_blank"
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
