@@ -8,6 +8,8 @@
   padding-top:30px;
   width: 40em;
   height: 40em;
+  min-width: 20em;
+  min-height: 20em;
 }
 
 .tim-white-buttons {
