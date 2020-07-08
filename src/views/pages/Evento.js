@@ -11,23 +11,8 @@ import { Link } from "react-router-dom";
 // core components
 
 import AlertDialogSlide from "components/PopUpButton.js";
-// import { isPropertySignature } from "typescript";
-
-
-
-// import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function Evento(props) {
-
-  React.useEffect(() => {
-    document.body.classList.add("landing-page");
-    document.body.classList.add("sidebar-collapse");
-    document.documentElement.classList.remove("nav-open");
-    return function cleanup() {
-      document.body.classList.remove("landing-page");
-      document.body.classList.remove("sidebar-collapse");
-    };
-  });
 
   return (
     <>
@@ -132,6 +117,7 @@ export default function Evento(props) {
             </Row>
           
           </Container>
+          <hr></hr>
         </div>
 
     </>
