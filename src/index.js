@@ -75,6 +75,12 @@ ReactDOM.render(
           data_luogo={el.data_luogo}
           image={el.image}
           text={el.text}
+          costo={el.costo}
+          contatto={el.contatto}
+          prerequisiti={el.prerequisiti}
+          school={el.school}
+          offerta_libera={el.offerta_libera}
+          vitto_alloggio={el.vitto_alloggio}
           cit={el.cit}
           users={el.users}
           more_info={el.more_info}

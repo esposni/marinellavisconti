@@ -20,6 +20,8 @@
                 "author":"Marguerite Yourcenar"},
                 {"text":"Queste erano le voci delle donne che in modo femminile parlano di imparare, insegnare guarire. Queste voci sono belle, erotiche. provocatorie e dotte. Esse sono piene di furore, gioia, riso e forza! ",
                     "author":"Omifunke Yyoruba - sacerdotessa della dea Yemaja"}]
+        ,"costo":""
+        ,"contatto":""
         ,"users":[{"name":"Marinella Visconti",
                    "desc":"Psicoterapeuta ad orientamento contemplativo",
                    "img":"marinella.png",
@@ -31,6 +33,10 @@
                          "link":"",
                          "curriculum":"Marialuisa Carenzi, Psicologa e Psicoterapeuta della Gestalt, con esperienza ventennale, ha approfondito la formazione con approcci terapeutici corporei in Bioenergetica, Danzaterapia, Espressione Corporea, Expression  Primitive, Lomi (terapia corporea gestaltica)e approcci energetici con l’uso di cristalli, suono e tocco. Da più di dieci anni anni pratica Meditazione Vipassana sotto la guida di Maestri di Dharma come Ven. Banthe Sujiva, Ven. Banthe Bodhidhamma, Ven. Virahani, Nanni De Ambrogio, James Low, Stephen Batchelor, Ajahn Sucitto. Parallelamente a ciò, da più di dieci anni approfondisce la pratica contemplativa in relazione e la mindfulness in relazione con Anne Overzee e Deirdre Gordon, Psicoterapeute Core Process e insegnanti senior del Karuna Institute (UK) che integra modelli psicoterapeutici occidentali con la psicologia buddista e pratiche di mindfulness; e frequenta il Foundation Training in Kum Nye con Maura Sills, Psicoterapeuta Core Process e fondatrice del Karuna Institute (UK)" }]
         ,"more_info":"http://centromindfulnessmilano.com/event/prendersi-un-tempo-per-coltivare-la-grazia-la-gratitudine-la-saggezza-e-la-forza-che-ci-abitano-con-marinella-visconti-e-marialuisa-carenzi/"
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
     },
     {   "id":2,
         "title":"Braveheartfulness School – Seminario introduttivo",
@@ -42,12 +48,18 @@
         ,"image":"seminario.jpg"
         ,"type":"Ritiri Laboratori"
         ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
         ,"users":[{"name":"Marinella Visconti",
                    "desc":"Psicoterapeuta ad orientamento contemplativo",
                    "img":"marinella.png",
                     "link":"me",
                     "curriculum":"" }]
         ,"more_info":"http://centromindfulnessmilano.com/event/braveheartfulness-school-seminario-introduttivo/"
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
     },
     {   "id":3,
         "title":"Incontrare a cuore aperto il mistero della sofferenza",
@@ -58,12 +70,18 @@
         ,"image":"cascata.JPG"
         ,"type":"Ritiri Laboratori"
         ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
         ,"users":[{"name":"Marinella Visconti",
                    "desc":"Psicoterapeuta ad orientamento contemplativo",
                    "img":"marinella.png",
                     "link":"me",
                     "curriculum":"" }]
         ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
     },
     {
         "id":4,
@@ -79,6 +97,8 @@
         ,"type":"Ritiri Laboratori"
         ,"cit":[{"text":"Ben oltre le idee di giusto e di sbagliato c’è un campo...ti aspetterò laggiù ",
             "author":"Gialal al-Din Rumi"}]
+            ,"costo":""
+            ,"contatto":""
         ,"users":[{"name":"Marinella Visconti",
                    "desc":"Psicoterapeuta ad orientamento contemplativo",
                    "img":"marinella.png",
@@ -90,5 +110,169 @@
                          "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
                          "curriculum":"" }]
         ,"more_info":"http://centromindfulnessmilano.com/myportfolio/braveheartfulness-school-pratiche-contemplative-quotidiane-per-cuori-coraggiosi/"
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+    },
+    {
+        "id":5,
+        "title":"CERCARE l’INNOCENZA IN OGNI FORMA. UN VIAGGIO NELLA PROFONDITÀ DELLA RELAZIONE ACCOMPAGNATI DALLE PERFEZIONI DEL CUORE",
+        "conduttori":"Marinella Visconti e Sanda Stojkovich",
+        "date":"Secondo modulo 4-7 marzo 2021 (Prima parte) e quarto modulo 9-12 dicembre 2021 (Seconda parte)",
+        "text":["È così facile vedere le cose negli stessi modi nei quali siamo abituati a vederle, e sentire negli stessi modi nei quali siamo abituati a sentirle, percorrendo le stesse strade che siamo abituati a percorrere. C'è qualcosa di confortevole, conosciuto, apparentemente sicuro.... Anche se non pienamente vivo.... Cosa accadrebbe se ci aprissimo alla possibilità di incontrare le circostanze della vita coltivando le perfezioni del cuore invece che le abitudini?",
+        "Paramitas, le perfezioni del cuore, le nobili qualità, significano : “andare sull'altra sponda”. Sono le perfezioni delle qualità che ci portano sull'altra sponda... ma non è sull’arrivare all'altra sponda che ci focalizziamo....è sul viaggio, che è unico e di cui possiamo prenderci cura, coltivando le qualità come strumenti utili per farlo in modo più abile, con gli occhi e i cuori più aperti.",
+        "Paramitas, le perfezioni del cuore, le nobili qualità, significano : “andare sull'altra sponda”. Sono le perfezioni delle qualità che ci portano sull'altra sponda... ma non è sull’arrivare all'altra sponda che ci focalizziamo....è sul viaggio, che è unico e di cui possiamo prenderci cura, coltivando le qualità come strumenti utili per farlo in modo più abile, con gli occhi e i cuori più aperti."]
+        ,"image":"coltivare.JPG",
+        "data_luogo":"Il seminario si svolgerà il 9-12 dicembre 2021 presso il Centro D'Ompio"
+        ,"type":"Ritiri Laboratori"
+        ,"cit":[{"text":"Ben oltre le idee di giusto e di sbagliato c’è un campo...ti aspetterò laggiù ",
+            "author":"Gialal al-Din Rumi"}]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"name":"Marinella Visconti",
+                   "desc":"Psicoterapeuta ad orientamento contemplativo",
+                   "img":"marinella.png",
+                    "link":"me",
+                    "curriculum":"" },
+                    {"name":"Sanda Stojkovich",
+                        "img":"sanda.jpg",
+                        "desc":"Formzione continua in core process psychotherapy - Educatrice perinatale",
+                         "link":"",
+                         "curriculum":"Sanda Stojkovic: Formazione continua in Psicoterapia Core Process, Educatrice Perinatale \n - Dopo aver seguito il ​Foundation Course in Core Process Psychotherapy (2005/2006) presso il ​Karuna Institute (UK)​ prosegue con la ​Formazione continua pluriennale nella Psicoterapia Core Process​ con Anne Overzee e Deirdre Gordon, docenti senior del​ Karuna Institute​ (UK). \n - Mindfulness Training per la Conduzione di Gruppi con Anne Overzee and Deirdre Gordon (2016/2017) \n - Training nella pratica del Kum Nye (in formazione) – Con Maura Sills (​Karuna Institute​) in Italia. \n- ​Educatrice perinatale​ certificata da ​MIPA Centro Studi ​(2013/2015), attualmente offre sostegno alle famiglie nel percorso nascita, offre servizi di supporto domiciliare alle madri nei primi mesi dopo il parto, organizza e facilita gruppi di confronto e mutuo aiuto tra mamme. Da diversi anni partecipa attivamente e collabora con il ​Centro Dorje Ling​ che ospita corsi e ritiri di Meditazione, Yoga e Conoscenza di sé, con gli strumenti laici offerti dalla tradizione buddista tibetana integrati alla psicologia trasformativa occidentale. Il suo obiettivo professionale risiede nel creare una sintesi tra i differenti approcci e metodi incontrati nel suo percorso di formazione, arricchita dalle esperienze lavorative e di vita, rimanendo in contatto con la natura come parte irrinunciabile dell’essere. Come praticante di meditazione di consapevolezza, è particolarmente interessata alla pratica non formale nella vita quotidiana e nell’essere genitore. Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusalemme, dove si è laureata in Psicologia. Da quindici anni si è trasferita in Sabina (Lazio), dove vive in campagna con la sua famiglia." }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+    },
+    {
+        "id":6,
+        "title":"Mantenere un buon cuore incontrando la sofferenza",
+        "conduttori":"Ajahn Sucitto",
+        "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021",
+        "text":["Il ritiro prevede solo come da tradizione theravada la colazione e il pasto prima di mezzogiorno. Alla sera sono previste solo tisane. I partecipanti devono potersi trovare a proprio agio nel silenzio e nella consumazione di un unico pasto al giorno."]
+        ,"image":"sucitto.png",
+        "data_luogo":"Dal 15 sera al 25 marzo pranzo 2021 presso il centro d’Ompio – via Pratolungo 47, Pratolungo 28028 Pettenasco (NO). Orario da definire in prossimità del ritiro"
+        ,"type":"Ritiro di Vipassana"
+        ,"cit":[]
+        ,"costo":"Rimborso spese 75 euro più 25 euro di tessera sostenitore Associazione Mudita da versare al momento dell’iscrizione. Questa quota servirà a coprire le spese organizzative e non è rimborsabile. Il pagamento dovrà essere effettuato tramite bonifico bancario a : Associazione Mudita c/o Banca Prossima Iban: IT 30I0335901600100000128339 BIC code : BCITITMX Causale: Cognome e Nome del partecipante – iscrizione al ritiro con Ajahn Sucitto. Per l’insegnante e la traduttice è prevista un’offerta libera."
+        ,"offerta_libera":false,
+        "vitto_alloggio":"", 
+        "contatto":"ritirosucitto@gmail.com"
+        ,"users":[
+                    {"name":"Ajahn Sucitto",
+                        "img":"sucitto.png",
+                        "desc":"",
+                         "link":"",
+                         "curriculum":"Ajahn Sucitto è nato a Londra nel 1949, AjahnSucitto e’ diventato un bhikkhu in Tailandia nel 1976. Si è formato con Ajahn Sumedho, al suo ritorno in Gran Bretagna nel 1979. Dal 1981 tiene ritiri, con insegnamenti in Gran Bretagna e all’estero. Molti dei suoi libri, podcast, file audio e CD sono gratuitamente accessibili nei sotto elencati siti web: www.ajahnsucitto.org, www.dharmaseed.org, www.forestsangha.org"
+                    }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+    },
+    {
+        "id":7,
+        "title":"MINDFULNESS E HEARTFULNESS PER LA SAGGEZZA E LA LIBERTA'",
+        "conduttori":"ANUSHKA FERNANDOPULLE",
+        "date":"Eremo di Montecastello (Bs) 1-5 ottobre 2021",
+        "text":["In questo ritiro esploreremo il profondo ben-essere che si rende disponibile nell'investigazione del Dharma attraverso la nostra personale esperienza. Praticheremo la meditazione della visione profonda (Insight Meditation / Vipassana), camminando, mangiando e svolgendo attività quotidiane. Accederemo ad un ritiro contemplativo buddhista, semplificando le nostre vite, lasciando andare lettura, scrittura, apparecchi elettronici, attività sessuale, sostanze ad uso ricreativo/alcool per aiutare la nostra mente-cuore a trovare quiete e stabilità. Impareremo a riconoscerci come parte integrante della natura e a vedere la felicità possibile."]
+        ,"image":"eremo-an.png",
+        "data_luogo":""
+        ,"type":"Ritiro di Vipassana"
+        ,"cit":[]
+        ,"costo":"L’iscrizione del ritiro, possibile dopo la verifica dei prerequisiti, è formalizzata con il versamento di 85 euro per spese organizzative più 25 euro di tessera associativa da versare all’Associazione Mudita. "
+        ,"offerta_libera":true,
+        "vitto_alloggio":"Eremo di Montecastello (Bs) vitto e alloggio 60 euro al giorno in camera individuale con bagno.", 
+        "contatto":""
+        ,"users":[
+                    {"name":"Anushka Fernandopulle",
+                        "img":"anuska.jpg",
+                        "desc":"Insegnante allo Spirit Rock Meditation Centre",
+                         "link":"",
+                         "curriculum":"Insegno meditazione, lavoro come consulente per le organizzazioni, e faccio coaching di leadership in indiividuale e in team. Attraverso il mio lavoro, porto le pratiche orientali nella vita moderna occidentale, rendendole accessibili agli individui e alle organizzazioni. Sono particolarmente interessata ad integrare leadership, creatività e consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e compassione, affinché la loro visione possa realizzarsi. Insegno in workshop e ritiri in tutto il mondo all'interno di organizzazioni, conferenze e programmi di leadership. Il mio lavoro di consulenza strategica e di coaching è basato su un BA di Harvard, un MBA di Yale focalizzato sulla leadership e sul comportamento organizzativo, e sulla certificazione in coaching dell'Institute Coaching Training (Istituto di formazione per coach). Ho più di 20 anni di esperienza di consulenza con gruppi nei settori corporativo, governativo e no profit. Sono interessata alla vita della città e sono stata nominata sindaco della commissione di San Francisco per lo sviluppo della comunità, oltre ad aver servito in molti consigli direttivi di organizzazioni no profit. Sono da sempre coinvolta in movimenti per la giustizia sociale e diritti civili e ho avuto la fortuna di lavorare con numerose grosse organizzazioni comunitarie. Pratico la  meditazione buddista da più di 30 anni, principalmente Vipassana o Meditazione Insight (la fonte della Mindfulness secolare). Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione, per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka. Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho partecipato ad un programma di formazione per insegnanti di meditazione della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein, Sharon Salzberg e altri importanti insegnanti di meditazione buddista occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al Spirit Rock Meditation Center. Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull' Huffington Post, dedicato al dharma e alla politica."
+                    }]
+        ,"more_info":""
+        ,"prerequisiti":["Prerequisiti: Questo ritiro è aperto ai praticanti esperti e agli allievi della Breaveheartfulness School ed implica una certa qualità di impegno: la capacità di sostenere il silenzio, una pratica intensa e di tollerare di non mangiare più di due volte al giorno.",
+        "Per procedere alle pre iscrizioni è necessario scrivere a segreteria@associazionemudita.org ti verrà inviato un questionario che permetterà di conoscere meglio la tua esperienza di pratica e le condizioni di salute."]
+        ,"school":true
+    },
+    {
+        "id":8,
+        "title":"WORKSHOP: UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE",
+        "conduttori":"ANUSHKA FERNANDOPULLE",
+        "date":"Eremo di Montecastello (Bs) 7 ottobre 2021",
+        "text":["In questo workshop coltiveremo la consapevolezza quale strumento per riconoscere che cosa sta avvenendo a livello di mente, emozioni e corpo. Le pratiche che svolgeremo sono basate sulla Mindfulness buddista e potrà essere di aiuto nello sviluppare maggiore consapevolezza di sè, intelligenza emotiva, una più profonda intuizione e ascolto non giudicante. Apprenderemo degli esercizi da portare nella vita quotidiana e nel lavoro."]
+        ,"image":"eremo-an.png",
+        "data_luogo":"Le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’eremo di Montecastello (bs)."
+        ,"type":"Ritiro di Vipassana"
+        ,"cit":[]
+        ,"costo":"Per coloro che non frequentano la scuola ma solo un modulo o parte del percorso la quota di partecipazione è di 550 euro per il workshop e il coaching con Anushka Fernandopulle. Il pagamento dovrà essere effettuato tramite bonifico bancario a : Associazione Mudita c/o Intesa San Paolo spa Iban IT83 E030 6909 6061 0000 0128 339 Bic BCITITMM (per i bonifici dall'estero) Causale: Cognome e Nome del partecipante – Iscrizione ritiro con Anushka Fernandopulle"
+        ,"offerta_libera":false,
+        "vitto_alloggio":"Vitto e alloggio camera singola con bagno 60 euro al giorno. La quota delle due giornate è compresa nel costo annuale della scuola.", 
+        "contatto":""
+        ,"users":[
+                    {"name":"Anushka Fernandopulle",
+                        "img":"anuska.jpg",
+                        "desc":"Insegnante allo Spirit Rock Meditation Centre",
+                         "link":"",
+                         "curriculum":"Insegno meditazione, lavoro come consulente per le organizzazioni, e faccio coaching di leadership in indiividuale e in team. Attraverso il mio lavoro, porto le pratiche orientali nella vita moderna occidentale, rendendole accessibili agli individui e alle organizzazioni. Sono particolarmente interessata ad integrare leadership, creatività e consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e compassione, affinché la loro visione possa realizzarsi. Insegno in workshop e ritiri in tutto il mondo all'interno di organizzazioni, conferenze e programmi di leadership. Il mio lavoro di consulenza strategica e di coaching è basato su un BA di Harvard, un MBA di Yale focalizzato sulla leadership e sul comportamento organizzativo, e sulla certificazione in coaching dell'Institute Coaching Training (Istituto di formazione per coach). Ho più di 20 anni di esperienza di consulenza con gruppi nei settori corporativo, governativo e no profit. Sono interessata alla vita della città e sono stata nominata sindaco della commissione di San Francisco per lo sviluppo della comunità, oltre ad aver servito in molti consigli direttivi di organizzazioni no profit. Sono da sempre coinvolta in movimenti per la giustizia sociale e diritti civili e ho avuto la fortuna di lavorare con numerose grosse organizzazioni comunitarie. Pratico la  meditazione buddista da più di 30 anni, principalmente Vipassana o Meditazione Insight (la fonte della Mindfulness secolare). Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione, per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka. Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho partecipato ad un programma di formazione per insegnanti di meditazione della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein, Sharon Salzberg e altri importanti insegnanti di meditazione buddista occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al Spirit Rock Meditation Center. Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull' Huffington Post, dedicato al dharma e alla politica."
+                    }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+    } ,
+    {
+        "id":9,
+        "title":"GIORNATA DI COACHING INDIVIDUALE",
+        "conduttori":"ANUSHKA FERNANDOPULLE",
+        "date":"Eremo di Montecastello (Bs) 8 ottobre 2021",
+        "text":["Un'opportunità per continuare ad approfondire la pratica attraverso istruzioni con lavori in piccoli gruppi e attraverso domande e risposte. Avrete un'opportunità di ricevere coaching e una guida di orientamento per la pratica e l'esperienza individuale. Le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’eremo di Montecastello (bs)."]
+        ,"image":"eremo-an.png",
+        "data_luogo":"Le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’eremo di Montecastello (bs)."
+        ,"type":"Ritiro di Vipassana"
+        ,"cit":[]
+        ,"costo":"Per coloro che non frequentano la scuola ma solo un modulo o parte del percorso la quota di partecipazione è di 550 euro per il workshop e il coaching con Anushka Fernandopulle. Il pagamento dovrà essere effettuato tramite bonifico bancario a : Associazione Mudita c/o Intesa San Paolo spa Iban IT83 E030 6909 6061 0000 0128 339 Bic BCITITMM (per i bonifici dall'estero) Causale: Cognome e Nome del partecipante – Iscrizione ritiro con Anushka Fernandopulle"
+        ,"offerta_libera":false,
+        "vitto_alloggio":"Vitto e alloggio camera singola con bagno 60 euro al giorno. La quota delle due giornate è compresa nel costo annuale della scuola.", 
+        "contatto":""
+        ,"users":[
+                    {"name":"Anushka Fernandopulle",
+                        "img":"anuska.jpg",
+                        "desc":"Insegnante allo Spirit Rock Meditation Centre",
+                         "link":"",
+                         "curriculum":"Insegno meditazione, lavoro come consulente per le organizzazioni, e faccio coaching di leadership in indiividuale e in team. Attraverso il mio lavoro, porto le pratiche orientali nella vita moderna occidentale, rendendole accessibili agli individui e alle organizzazioni. Sono particolarmente interessata ad integrare leadership, creatività e consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e compassione, affinché la loro visione possa realizzarsi. Insegno in workshop e ritiri in tutto il mondo all'interno di organizzazioni, conferenze e programmi di leadership. Il mio lavoro di consulenza strategica e di coaching è basato su un BA di Harvard, un MBA di Yale focalizzato sulla leadership e sul comportamento organizzativo, e sulla certificazione in coaching dell'Institute Coaching Training (Istituto di formazione per coach). Ho più di 20 anni di esperienza di consulenza con gruppi nei settori corporativo, governativo e no profit. Sono interessata alla vita della città e sono stata nominata sindaco della commissione di San Francisco per lo sviluppo della comunità, oltre ad aver servito in molti consigli direttivi di organizzazioni no profit. Sono da sempre coinvolta in movimenti per la giustizia sociale e diritti civili e ho avuto la fortuna di lavorare con numerose grosse organizzazioni comunitarie. Pratico la  meditazione buddista da più di 30 anni, principalmente Vipassana o Meditazione Insight (la fonte della Mindfulness secolare). Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione, per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka. Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho partecipato ad un programma di formazione per insegnanti di meditazione della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein, Sharon Salzberg e altri importanti insegnanti di meditazione buddista occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al Spirit Rock Meditation Center. Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull' Huffington Post, dedicato al dharma e alla politica."
+                    }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+    },
+    {
+        "id":10,
+        "title":"Allenare il coraggio del cuore con l’audacia dell’espressività",
+        "conduttori":"Marinella Visconti e Dafna Moscati",
+        "date":"8-10 aprile 2022",
+        "text":["Ognuno di noi porta in sé un capolavoro nascosto, però siamo d’intralcio…spostiamoci, e il capolavoro verrà alla luce…forse la più grande tragedia della nostra vita è che la libertà è possibile eppure ogni giorno ascoltiamo una voce che ci tiene piccoli.. SCOPRIRE la verità è arduo e ci chiede l’audacia del cuore tornando ad essere fanciulli e fidandoci delle braccia terapeutiche della vita Alcuni degli strumenti espressivi che ci accompagneranno in questo viaggio di ‘allenamento’ all’audacia e alla pratica contemplativa quotidiana del cuore coraggioso saranno l’Arte Intuitiva, la Performance e gli Atti Evolutivi. Queste pratiche di Arte Interattiva saranno facilitate e guidate da Dafna Moscati che le propone da molti anni come potenti e semplici modalità di autoindagine. Ciò che accomuna questi strumenti è la possibilità di permetterci di immergerci con immediatezza nella pura Presenza e al tempo stesso fare quel passo ‘oltre la zona di comfort’ verso l’investigazione profonda che ci riconduce con naturalezza all’Essenza di quello spazio di puro Amore e di pieno potenziale infinito. Cosa c’è oltre la paura, oltre la comodità, oltre la vergogna, oltre il conosciuto? Cosa ti aspetta oltre i soliti conflitti, oltre le solite dinamiche relazionali? Quando è stata l’ultima volta che hai fatto qualcosa di nuovo? Ogni partecipante sarà accompagnato ed ispirato nella creazione e nell’esperienza diretta di nuove opere espressive partendo dalle proprie ‘domande’ e da tutto ciò che vuole essere esplorato nel momento. Un’altro elemento chiave di queste pratiche è l’incontro con l’Altro come nostro specchio. Cosa mi spaventa nel contatto con l’altro? Mi incuriosisce, mi attira o mi chiudo e mi vergogno? Per arrivare fino al cuore in cui L’altro è semplicemente quel te che devi ancora incontrare. “Una mente e un cuore che si sono allargati grazie ad una nuova esperienza di Audacia non possono più tornare alle loro vecchie dimensioni”"]
+        ,"image":"allenare.jpg",
+        "data_luogo":"Il corso si terrà il 8-10 aprile 2022 dalle 10 alle 17 presso il Centro Mindfulness Milano in Via Cenisio 5."
+        ,"type":"Ritiri Laboratori"
+        ,"cit":[]
+        ,"costo":""
+        ,"offerta_libera":false,
+        "vitto_alloggio":"", 
+        "contatto":""
+        ,"users":[{"name":"Marinella Visconti",
+            "desc":"Psicoterapeuta ad orientamento contemplativo",
+            "img":"marinella.png",
+             "link":"me",
+             "curriculum":"" },
+             {"name":"Dafna Moscati",
+                 "img":"dafna.png",
+                 "desc":"Performer Ricercatrice arte espressiva contemplativa",
+                  "link":"https://www.dafnamoscati.com/biografia-dafna-moscati/",
+                  "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
     }
 ]

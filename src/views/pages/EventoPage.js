@@ -32,6 +32,12 @@ export default function EventoPage(props) {
           image={props.image}
           text={props.text}
           cit={props.cit}
+          costo={props.costo}
+          contatto={props.contatto}
+          prerequisiti={props.prerequisiti}
+          offerta_libera={props.offerta_libera}
+          vitto_alloggio={props.vitto_alloggio}
+          school={props.school}
           users={props.users}
           more_info={props.more_info}
           type={props.type}/>

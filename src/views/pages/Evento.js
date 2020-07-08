@@ -37,19 +37,34 @@ export default function Evento(props) {
               <Col className="ml-auto mr-auto text-center" md="8">
  
                 <h2 className="title">{props.title}</h2>
-                <h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>
+                {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
+                
                 <h5 align="center"><strong>{props.date}</strong><br/></h5>
                 <img
                       alt="..."
                       src={require("assets/img/ritiri/"+props.image)}
                     ></img><br/><br/>
+                {(props.school)? 
+                <div>
+                <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
+                <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
+                </div>: ""}
                     {(props.cit!==[])? props.cit.map((t)=>{
                       return <p>" {t.text} "   -    {t.author}</p>
                     }) : ""}
                     {props.text.map((t)=>{
                       return <h5 align="left">{t}</h5>
                     })}
+
+          {(props.prerequisiti!==[])? props.prerequisiti.map((t)=>{
+                      return <h5 align="left"><strong>{t}</strong></h5> 
+                    }) : ""}
+
          {(props.data_luogo!=="")?<h5 align="left"><strong>DATA E LUOGO</strong><br/>{props.data_luogo}</h5>:"" } 
+         {(props.costo!=="")?<h5 align="left"><strong>COSTO</strong><br/>{props.costo}</h5>:"" } 
+         {(props.offerta_libera)?<h5 align="left"><strong>Il ritiro come da tradizione è ad offerta libera sia per quanto concerne gli insegnamenti che per la traduzione.</strong></h5>:"" } 
+         {(props.vitto_alloggio!=="")?<h5 align="left"><strong>Costo vitto e alloggio</strong><br/>{props.vitto_alloggio}</h5>:"" } 
+         {(props.contatto!=="")?<h5 align="left"><strong>PER INFO E ISCRIZIONI CONTATTARE</strong><br/><a href={"mailto:"+props.contatto}>{props.contatto}</a></h5>:"" } 
          {(props.users.length!==0)? <h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>:""}
           <Container>
           
