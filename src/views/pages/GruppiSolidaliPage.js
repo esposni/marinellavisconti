@@ -36,11 +36,11 @@ export default function GruppiSolidaliPage() {
             <Row>
               <Col className="" md="4">
 
-              {/* <img
+              <img
                       alt="..."
                       className="info-event"
-                      src={require("assets/img/distance_healing.jpg")}
-                    ></img><br/><br/> */}
+                      src={require("assets/img/gruppi_solidali.JPG")}
+                    ></img><br/><br/>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
               
