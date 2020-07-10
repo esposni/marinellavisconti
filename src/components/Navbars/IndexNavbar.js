@@ -132,13 +132,13 @@ function IndexNavbar() {
                   </DropdownItem>
                   <DropdownItem
                     // target="_blank"
-                    to="/psicoterapia" tag={Link}
+                    to="/gruppi-solidali" tag={Link}
                   >
                    Attivismo contemplativo: gruppi solidali di Ascolto Profondo "da essere a essere "
                   </DropdownItem>
                   <DropdownItem
                     // target="_blank"
-                    to="/psicoterapia" tag={Link}
+                    to="/distance-healing" tag={Link}
                   >
                   Distance Healing : Pratiche di guarigione a distanza
                   </DropdownItem>

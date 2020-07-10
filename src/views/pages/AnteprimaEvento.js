@@ -14,10 +14,10 @@ export default function Evento(props) {
 
   return (
     <>
-     <div className="section section-about-us">
+     <div className="">
           <Container>
             <Row>
-              <Col className="">
+              <Col className="" md="4">
  
                 <img
                       alt="..."
@@ -29,17 +29,17 @@ export default function Evento(props) {
 
               <Col>
               
-              <h2 className="title">{(props.all)? props.type+": "+props.title: props.title }</h2>
+              <div className="title3"><strong>{(props.all)? props.type+": "+props.title: props.title }</strong></div>
                 {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
                 
-                <h5 align="center"><strong>{props.date}</strong><br/></h5>
+                <div align="center"><strong>{props.date}</strong><br/></div>
 
                 <Button
                       block
                       className="btn-round"
                       color="info"
                       to={"/evento-"+props.num} tag={Link}
-                      size="lg"
+                      size="sm"
                       target="_blank"
                     >Per maggiori informazioni
                 </Button>  
