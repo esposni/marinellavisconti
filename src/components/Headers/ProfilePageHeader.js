@@ -5,7 +5,7 @@ import { Container } from "reactstrap";
 
 // core components
 
-function ProfilePageHeader() {
+function ProfilePageHeader(props) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -36,10 +36,10 @@ function ProfilePageHeader() {
         ></div>
         <Container>
           <div className="photo-container">
-            <img alt="..." src={require("assets/img/marinella.png")}></img>
+            <img alt="..." src={require("assets/img/"+props.image)}></img>
           </div>
-          <h3 className="title">Marinella Visconti</h3>
-          <p className="category">Psicoterapeuta ad orientamento contemplativo e transpersonale</p>
+        <h3 className="title">{props.name}</h3>
+        <p className="category">{props.desc}</p>
           
         </Container>
       </div>

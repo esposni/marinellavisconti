@@ -101,7 +101,7 @@ function IndexNavbar() {
              <NavItem>
                 <NavLink
                   href="#pablo"
-                  to="/profile-page" tag={Link}
+                  to="/marinella-visconti" tag={Link}
                 >
                   <p>Chi sono</p>
                 </NavLink>

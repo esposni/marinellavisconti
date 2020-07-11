@@ -11,6 +11,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import Collaborazioni from "./index-sections/Collaborazioni.js";
+import Conduttori from "./pages/Conduttori"
 
 function Index() {
   React.useEffect(() => {
@@ -32,7 +33,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          
+          <Conduttori />
           <Collaborazioni />
         </div>
         <DarkFooter />

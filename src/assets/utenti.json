@@ -1,0 +1,121 @@
+[
+    {
+        "id":1,
+        "link":"marinella-visconti",
+        "name":"Marinella Visconti",
+        "desc":"Psicoterapeuta ad orientamento contemplativo",
+        "img":"marinella.png",
+        "self":false,
+         "curriculum":["Psicoterapeuta sistemico relazionale ad orientamento contemplativo e transpersonale e Supervisione contemplativa.Foundation Course con il Karuna Institute England. Formazione continua in Core Process Psychotherapy con Anne Overzee e Deirdre Gordon, docenti del Karuna Institute.Terapista Craniosacrale Biodinamica, approfondimenti della pratica con ritiri seminari tenuti da Franklin Sills co-fondatore del Karuna Institute e M. Shea. Training e pratica di Kum Nye con Maura Sills Fondatrice del Karuna Institute England. Ricercatrice in formazione del Filo d’oro con Daniel Lumera. Praticante di meditazione Vipassana e sostenitrice dell’integrazione tra psicologia buddhista e psicoterapia occidentale.Docente in percorsi di formazione professionale e di crescita personale e spirituale in Mindfulness in relazione e Mindfulness transpersonale e co-fondatore e membro dell’Associazione Mudita (www.associazionemudita.org) riferimento in Italia del Modello di Mindfulness in relazione ispirato alla Core Process Psychotherapy del Karuna Institute England. È socio, membro e co-referente organizzativo del Centro Mindfulness Milano.",
+            "Davanti alle sfide della vita, sin da bambina, alcune domande mi hanno guidata negli anni con curiosità e determinazione:",
+            "E’ possibile restituire dignità a tutte le esperienze nella vita?","Quando si inizia ad avvertire qualcosa di più grande di noi?","È possibile immaginare un gruppo di amici di Dharma (Sangha) maestri dell’apprendere da ogni situazione?","Cosa ci aiuta a far fiorire l’essere che ci abita?","Cosa ci aiuta a coltivare la persona vera semplicemente che fa ciò che dice e dice ciò che fa? La persona che aspira ad una radicale onestà?","È possibile cercare le fondamenta di una nuova cultura?","Da queste domande è sorta l’esigenza di dare il proprio personale contributo al fondare con altri un’associazione che per più di dieci anni ha organizzato seminari di crescita personale con un gruppo stabile di partecipanti con cui è stato possibile scendere molto in profondità nell’autenticità.","La conoscenza della pratica meditativa e del Dharma (gli insegnamenti del Buddha) mi hanno permesso di scoprire di respirare, mi hanno fatto percepire il momento presente e mi hanno insegnato ad assaporare qualsiasi cosa stessi vivendo e hanno restituito dignità e maggiore comprensione ad esperienze di picco che mi hanno accompagnata fin da bambina."
+            ,"L’apertura mentale e l’autonomia mi spinge a cercare e incontrare ciò che funziona e sostiene le relazioni intorno a noi facendo la differenza nel qui e ora e che consente di coltivare relazioni capaci di accrescere il senso della vita coltivando le migliori qualità del cuore che sono il lievito della trasformazione.",
+            "Il cuore in tutto questo diventa l’insegnante, per rafforzare la capacità di essere connessi, fluidi e presenti nella vita."] }
+    ,
+    
+    {
+        "id":2,
+        "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
+        "name":"Simone Spina",
+        "desc":"Psichiatra Psicoterapeuta ad orientamento transpersonale ",
+        "img":"simone-spina.png",
+        "self":true,
+        "curriculum":[]
+    },
+    {   "id":3,
+        "link":"sanda-stojkovich",
+        "name":"Sanda Stojkovich",
+        "img":"sanda.jpg",
+        "self":false,
+        "desc":"Formzione continua in core process psychotherapy - Educatrice perinatale",
+        "curriculum":["Sanda Stojkovic: Formazione continua in Psicoterapia Core Process, Educatrice Perinatale \n - Dopo aver seguito il ​Foundation Course in Core Process Psychotherapy (2005/2006) presso il ​Karuna Institute (UK)​ prosegue con la ​Formazione continua pluriennale nella Psicoterapia Core Process​ con Anne Overzee e Deirdre Gordon, docenti senior del​ Karuna Institute​ (UK). \n - Mindfulness Training per la Conduzione di Gruppi con Anne Overzee and Deirdre Gordon (2016/2017) \n - Training nella pratica del Kum Nye (in formazione) – Con Maura Sills (​Karuna Institute​) in Italia. \n- ​Educatrice perinatale​ certificata da ​MIPA Centro Studi ​(2013/2015), attualmente offre sostegno alle famiglie nel percorso nascita, offre servizi di supporto domiciliare alle madri nei primi mesi dopo il parto, organizza e facilita gruppi di confronto e mutuo aiuto tra mamme. Da diversi anni partecipa attivamente e collabora con il ​Centro Dorje Ling​ che ospita corsi e ritiri di Meditazione, Yoga e Conoscenza di sé, con gli strumenti laici offerti dalla tradizione buddista tibetana integrati alla psicologia trasformativa occidentale. Il suo obiettivo professionale risiede nel creare una sintesi tra i differenti approcci e metodi incontrati nel suo percorso di formazione, arricchita dalle esperienze lavorative e di vita, rimanendo in contatto con la natura come parte irrinunciabile dell’essere. Come praticante di meditazione di consapevolezza, è particolarmente interessata alla pratica non formale nella vita quotidiana e nell’essere genitore. Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusalemme, dove si è laureata in Psicologia. Da quindici anni si è trasferita in Sabina (Lazio), dove vive in campagna con la sua famiglia."] }
+    , {"id":4,
+        "name":"Ajahn Sucitto",
+        "img":"sucitto.png",
+        "desc":"",
+        "self":false,
+         "link":"ajahn-sucitto",
+         "curriculum":["Ajahn Sucitto è nato a Londra nel 1949, AjahnSucitto e’ diventato un bhikkhu in Tailandia nel 1976. Si è formato con Ajahn Sumedho, al suo ritorno in Gran Bretagna nel 1979. Dal 1981 tiene ritiri, con insegnamenti in Gran Bretagna e all’estero. Molti dei suoi libri, podcast, file audio e CD sono gratuitamente accessibili nei sotto elencati siti web: www.ajahnsucitto.org, www.dharmaseed.org, www.forestsangha.org"]
+    },
+    {"id":5,
+        "name":"Anushka Fernandopulle",
+        "img":"anuska.jpg",
+        "self":false,
+        "desc":"Insegnante allo Spirit Rock Meditation Centre",
+         "link":"anushka-fernandopulle",
+         "curriculum":["Insegno meditazione, lavoro come consulente per le organizzazioni, e faccio coaching di leadership in indiividuale e in team. Attraverso il mio lavoro, porto le pratiche orientali nella vita moderna occidentale, rendendole accessibili agli individui e alle organizzazioni. Sono particolarmente interessata ad integrare leadership, creatività e consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e compassione, affinché la loro visione possa realizzarsi. Insegno in workshop e ritiri in tutto il mondo all'interno di organizzazioni, conferenze e programmi di leadership. Il mio lavoro di consulenza strategica e di coaching è basato su un BA di Harvard, un MBA di Yale focalizzato sulla leadership e sul comportamento organizzativo, e sulla certificazione in coaching dell'Institute Coaching Training (Istituto di formazione per coach). Ho più di 20 anni di esperienza di consulenza con gruppi nei settori corporativo, governativo e no profit. Sono interessata alla vita della città e sono stata nominata sindaco della commissione di San Francisco per lo sviluppo della comunità, oltre ad aver servito in molti consigli direttivi di organizzazioni no profit. Sono da sempre coinvolta in movimenti per la giustizia sociale e diritti civili e ho avuto la fortuna di lavorare con numerose grosse organizzazioni comunitarie. Pratico la  meditazione buddista da più di 30 anni, principalmente Vipassana o Meditazione Insight (la fonte della Mindfulness secolare). Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione, per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka. Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho partecipato ad un programma di formazione per insegnanti di meditazione della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein, Sharon Salzberg e altri importanti insegnanti di meditazione buddista occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al Spirit Rock Meditation Center. Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull' Huffington Post, dedicato al dharma e alla politica."]
+    },
+    {
+        "id":6,
+        "link":"http://centromindfulnessmilano.com/myportfolio/paolo-testa/",
+        "name":"Paolo Testa",
+        "desc":"Psicoterapeuta ad orientamento transpersonale e contemplativo Qi Gong",
+        "img":"paolo_testa.jpg",
+        "self":true,
+        "curriculum":[]
+    }
+    , {"id":7,
+        "name":"Clarisse Zaccarino",
+        "img":"clarisse.jpeg",
+        "desc":"",
+        "self":false,
+         "link":"clarisse-zaccarino",
+         "curriculum":["Clarisse Talato Clarisse è  psicologa psicoterapeuta iscritta all’ordine degli psicologi del Piemonte numero 1942. Psicoterapeuta contemplativa secondo il modello Core Process Psycothrapy formata con Anne Overzee e Deirdre Gordon (docenti del Karuna Institute in Inghiltera)  Supervisore  psicoterapia Contemplativa, EMDR Practitioner, danzaterapeuta, esperta nel suono del tamburo e pratiche espressive dell’Africa subsahariana. Specializzata negli imprinting prenatale e alla nascita, seguendo l’approccio del maestro Dominique Degranges e delle teorie della terapia Prenatale e della Nascita, elaborata da Ray Castellino. In formazione per divenire insegnante di yoga tibetano con le pratiche del Kum Nye con la docente Maura Sills del Karuna Institute  Uk "]
+    }
+    ,  {"id":8,
+        "name":"Marialuisa Carenzi",
+        "img":"marialuisa.jpg",
+        "self":false,
+        "desc":"Psicoterapeuta ad orientamento contemplativo - Kum Nye ",
+         "link":"marialuisa-carenzi",
+         "curriculum":["Marialuisa Carenzi, Psicologa e Psicoterapeuta della Gestalt, con esperienza ventennale, ha approfondito la formazione con approcci terapeutici corporei in Bioenergetica, Danzaterapia, Espressione Corporea, Expression  Primitive, Lomi (terapia corporea gestaltica)e approcci energetici con l’uso di cristalli, suono e tocco. Da più di dieci anni anni pratica Meditazione Vipassana sotto la guida di Maestri di Dharma come Ven. Banthe Sujiva, Ven. Banthe Bodhidhamma, Ven. Virahani, Nanni De Ambrogio, James Low, Stephen Batchelor, Ajahn Sucitto. Parallelamente a ciò, da più di dieci anni approfondisce la pratica contemplativa in relazione e la mindfulness in relazione con Anne Overzee e Deirdre Gordon, Psicoterapeute Core Process e insegnanti senior del Karuna Institute (UK) che integra modelli psicoterapeutici occidentali con la psicologia buddista e pratiche di mindfulness; e frequenta il Foundation Training in Kum Nye con Maura Sills, Psicoterapeuta Core Process e fondatrice del Karuna Institute (UK)"]
+    },
+    {
+        "id":9,
+        "link":"http://centromindfulnessmilano.com/myportfolio/elsa-chiesa/",
+        "name":"Elsa Chiesa",
+        "desc":"Mindfulness Counselor e biomusica",
+        "img":"elsa01.png",
+        "self":true,
+        "curriculum":[]
+    },
+    {
+        "id":10,
+        "link":"federica-gonzati",
+        "name":"Federica Gonzati",
+        "desc":"Sociologa operatore olistico craniosacrale biodinamica",
+        "img":"federica.jpeg",
+        "self":false,
+        "curriculum":["Da anni mi occupo di ascolto consapevole del corpo attraverso differenti tecniche di massaggio. Ho approfondito l’approccio Ayurveda con un percorso in Kerala (India) diventando operatore Ayurvedico e di Yoga Therapy. Da circa vent’anni pratico Yoga; ho approfondito la pratica e lo studio dei Testi in India, diplomandomi sia in Ashtanga Yoga Mysore Style che in Hatha Yoga Tradizione Sivananda. I testi di Swami Satyananda Saraswati sono stati parte importante dello studio individuale della Scienza dello Yoga. Nella mia pratica personale orientata all’ascolto del cuore sono molto legata agli insegnamenti di Sri Krishanamacharya. Offro lezioni di Yoga, percorsi di consapevolezza del corpo e del respiro ( Pranayama) e serate di Yoga Nidra. Sono operatore di Craniosacrale Biodinamica, una volta diplomata in Italia ho iniziato ad approfondire la materia della Biodinamica e temi legati al territorio pre e perinatale con Franklin Sills co.fondatore del Karuna Institute, Cherionna Menzam-Sills. Approfondimenti della pratica Biodinamica con M. Shea e M. Boxhall. Ho frequentato il percorso di Baby Training tenuto da Matthew Appleton ( Core Process Psychoterapist). Da circa sei anni Cherionna Menzam-Sills è mia mentore per la pratica della Biodinamica, dell’esplorazione del territorio perinatale e soprattutto per l’approfondimento del Continuum Flow. Con Cherionna ho approfondito la pratica del Continuum Flow con ritiri e seminari. Con l’Associazione Mudita ho frequentato il percorso di Mindfulness in relazione, seminari di Kum Nye e di pratica contemplativa con Anna Overzee e Deirdre Gordon, docenti del Karuna Institute. Attualmente sono studente al secondo anno di PQMA (Post-Qualification MA in Mindfulness Based Psychotarapy Practice) presso il Karuna Institute. Maura Sills, co-fondatrice dell’istituto, è parte del tutors team del mio corso. Da anni faccio parte di un progetto di ricerca, osservazione etnografica e formazione sulle dinamiche di interazione e comunicazione nei mondi sanitari che ha coinvolto tra gli altri l’Università degli Studi di Padova. In particolare presso l’Azienda-Policlinico Universitario di Padova, Centro Regionale Veneto di trapianti di organi e tessuti e l’AULLS 3. Il fuoco di questa attività è di offrire spazi di consapevolezza e ascolto polisensoriale tra gli operatori della Salute per favorire la relazione di cura con le persone richiedenti cure."]
+    },
+    {
+        "id":11,
+        "link":"roberta-peano",
+        "name":"Roberta Peano",
+        "desc":" Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR",
+        "img":"roberta.jpg",
+        "self":false,
+        "curriculum":["Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR. Formata in psicoterapia del Core Process e in Mindfulness Relazionale, conduce gruppi di mindfulness a Mondovì, Cuneo e Torino, e lavora come psicoterapeuta e come supervisore contemplativo a Mondovì e a Torino. Da diversi anni coltiva la pratica meditativa personale, curando una formazione continua avanzata con gli insegnanti del Karuna Institute (UK)."]
+    }
+    ,
+    {
+        "id":12,
+        "link":"gemma-dalessandro ",
+        "name":"Gemma D'Alessandro ",
+        "desc":" Insegnante di yoga",
+        "img":"Gemma.png",
+        "self":false,
+        "curriculum":["Gemma è insegnante certificata Yoga Ratna, metodo che ha approfondito formandosi alla scuola della maestra Gabriella Cella. Lo yoga ratna, rispettando l’insegnamento tradizionale indiano, integra le tecniche corporee della sapienza occidentale attraverso una pratica sempre nuova, fondata sulla simbologia e l’ascolto. Gemma è impegnata in un percorso di formazione continuo sullo yoga e le discipline della salute indiane, iniziato nel 2006 in India, dove si reca regolarmente, proponendo anche viaggi culturali. È diplomata in Hatha yoga e yoga terapia e, oltre al metodo yoga ratna, si dedica all’insegnamento del Vinyasa yoga, secondo la tradizione di Mysore."]
+    }
+    ,
+    {
+        "id":13,
+        "link":"valeria-giunta",
+        "name":"Valeria Giunta",
+        "desc":" Arteterapeuta - la  pratica  contemplativa del mandala",
+        "img":"valeria.jpg",
+        "self":false,
+        "curriculum":["Valeria Giunta: Dopo una formazione artistica con diploma di pittura all’Accademia di Brera di Milano, credendo nell’arte non solo come ricerca estetica ma anche come possibilità di esprimere parti di sè a volte inespresse, si specializza come Arte terapeuta, alla scuola di formazione quadriennale Art Therapy Italiana e come Supervisore. È  docente in percorsi di formazione professionale di Arte Terapia. Iscritta al registro Professionale Italiano degli arti terapeuti A.P.I.Ar.T.. Apre a Milano nel 2000 il Laboratorio delle Arti, L’Artè dove conduce incontri individuali e a piccoli gruppi di arte e arte terapia con bambini, ragazzi e adulti, perché crede che l’arte permetta di comunicare, esprimere emozioni, crescere e vivere a tutte le età più liberi ed autentici, e che ognuno abbia un suo talento da poter scoprire, comunicare e condividere. Nella sua ricerca personale e spirituale sente un profondo legame tra la meditazione e l’arte e si avvicina allo yoga, alla Mindfulness, alla meditazione Vipassana con Mario Thanavaro. Ricercatrice in formazione al percorso di ricerca interiore del Filo D’Oro con Daniel Lumera."]
+    }
+    
+]

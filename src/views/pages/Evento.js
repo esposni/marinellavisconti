@@ -19,16 +19,24 @@ export default function Evento(props) {
      <div className="section section-about-us">
           <Container>
             <Row>
+              <Col className="" md="4">
+              <img
+                      alt="..."
+                      className="info-event"
+                      src={require("assets/img/ritiri/"+props.image)}
+                    ></img><br/><br/>
+              </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
  
                 <h2 className="title">{props.title}</h2>
                 {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
                 
                 <h5 align="center"><strong>{props.date}</strong><br/></h5>
-                <img
+                {/* <img
                       alt="..."
+                      className="info-event"
                       src={require("assets/img/ritiri/"+props.image)}
-                    ></img><br/><br/>
+                    ></img><br/><br/> */}
                 {(props.school)? 
                 <div>
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>

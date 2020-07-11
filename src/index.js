@@ -20,6 +20,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import data from "assets/data_events.json"
+import utenti from "assets/utenti.json"
 // styles for this kit
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss";
@@ -74,6 +75,8 @@ ReactDOM.render(
           path="/consapevolezza"
           render={props => <ConsapevolPage {...props} />}
         />
+        
+
         {data.map( (el)=>{
           return  <Route
           key={el.id} 
@@ -95,6 +98,19 @@ ReactDOM.render(
           users={el.users}
           more_info={el.more_info}
           type={el.type} {...props} />}
+          />
+        })}
+
+        {utenti.map((el)=>{
+          return  <Route
+          key={el.id} 
+          path={"/"+el.link}
+          render={props => 
+          <ProfilePage name={el.name}
+          desc={el.desc}
+          img={el.img}
+          text={el.curriculum}
+           {...props} />}
           />
         })}
          
@@ -126,10 +142,7 @@ ReactDOM.render(
           path="/psicoterapia"
           render={props => <PsicoterapiaPage {...props} />}
         />
-        <Route
-          path="/profile-page"
-          render={props => <ProfilePage {...props} />}
-        />
+       
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>
