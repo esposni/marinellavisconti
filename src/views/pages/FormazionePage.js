@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import AlertDialogSlide from "components/PopUpButton.js";
 import DataFormMessage from"components/DataFormMessage.js";
+import Conduttori from "./Conduttori"
 
 export default function FormazionePage() {
 
@@ -27,78 +27,7 @@ export default function FormazionePage() {
     };
   });
 
-  let marialuisa_curriculum=`Marialuisa Carenzi, Psicologa e Psicoterapeuta della Gestalt, con esperienza ventennale, ha approfondito la formazione con approcci terapeutici corporei in Bioenergetica, Danzaterapia, Espressione Corporea, Expression  Primitive, Lomi (terapia corporea gestaltica)e approcci energetici con l’uso di cristalli, suono e tocco.
-
-  Da più di dieci anni anni pratica Meditazione Vipassana sotto la guida di Maestri di Dharma come Ven. Banthe Sujiva, Ven. Banthe Bodhidhamma, Ven. Virahani, Nanni De Ambrogio, James Low, Stephen Batchelor, Ajahn Sucitto
-  
-  Parallelamente a ciò, da più di dieci anni approfondisce la pratica contemplativa in relazione e la mindfulness in relazione con Anne Overzee e Deirdre Gordon, Psicoterapeute Core Process e insegnanti senior del Karuna Institute (UK) che integra modelli psicoterapeutici occidentali con la psicologia buddista e pratiche di mindfulness; e frequenta il Foundation Training in Kum Nye con Maura Sills, Psicoterapeuta Core Process e fondatrice del Karuna Institute (UK)`;
-
-let valeria_curriculum=`Valeria Giunta 
-Dopo una formazione artistica con diploma di pittura all’Accademia di Brera di Milano, credendo nell’arte non solo come ricerca estetica ma anche come possibilità di esprimere parti di sè a volte inespresse, si specializza come Arte terapeuta, alla scuola di formazione quadriennale Art Therapy Italiana e come Supervisore. È  docente in percorsi di formazione professionale di Arte Terapia. Iscritta al registro Professionale Italiano degli arti terapeuti A.P.I.Ar.T.. 
-Apre a Milano nel 2000 il Laboratorio delle Arti, L’Artè dove conduce incontri individuali e a piccoli gruppi di arte e arte terapia con bambini, ragazzi e adulti, perché crede che l’arte permetta di comunicare, esprimere emozioni, crescere e vivere a tutte le età più liberi ed autentici, e che ognuno abbia un suo talento da poter scoprire, comunicare e condividere. 
-Nella sua ricerca personale e spirituale sente un profondo legame tra la meditazione e l’arte e si avvicina allo yoga, alla Mindfulness, alla meditazione Vipassana con Mario Thanavaro. Ricercatrice in formazione al percorso di ricerca interiore del Filo D’Oro con Daniel Lumera.`;
-
-let federica_curriculum=`Da anni mi occupo di ascolto consapevole del corpo attraverso differenti tecniche di massaggio. Ho approfondito l’approccio Ayurveda con un percorso in Kerala (India) diventando operatore Ayurvedico e di Yoga Therapy. Da circa vent’anni pratico Yoga; ho approfondito la pratica e lo studio dei Testi in India, diplomandomi sia in Ashtanga Yoga Mysore Style che in Hatha Yoga Tradizione Sivananda. I testi di Swami Satyananda Saraswati sono stati parte importante dello studio individuale della Scienza dello Yoga. Nella mia pratica personale orientata all’ascolto del cuore sono molto legata agli insegnamenti di Sri Krishanamacharya. Offro lezioni di Yoga, percorsi di consapevolezza del corpo e del respiro ( Pranayama) e serate di Yoga Nidra.
-Sono operatore di Craniosacrale Biodinamica, una volta diplomata in Italia ho iniziato ad approfondire la materia della Biodinamica e temi legati al territorio pre e perinatale con Franklin Sills co.fondatore del Karuna Institute, Cherionna Menzam-Sills. Approfondimenti della pratica Biodinamica con M. Shea e M. Boxhall. Ho frequentato il percorso di Baby Training tenuto da Matthew Appleton ( Core Process Psychoterapist).
-Da circa sei anni Cherionna Menzam-Sills è mia mentore per la pratica della Biodinamica, dell’esplorazione del territorio perinatale e soprattutto per l’approfondimento del Continuum Flow. Con Cherionna ho approfondito la pratica del Continuum Flow con ritiri e seminari.
-Con l’Associazione Mudita ho frequentato il percorso di Mindfulness in relazione, seminari di Kum Nye e di pratica contemplativa con Anna Overzee e Deirdre Gordon, docenti del Karuna Institute. Attualmente sono studente al secondo anno di PQMA (Post-Qualification MA in Mindfulness Based Psychotarapy Practice) presso il Karuna Institute. Maura Sills, co-fondatrice dell’istituto, è parte del tutors team del mio corso.
-Da anni faccio parte di un progetto di ricerca, osservazione etnografica e formazione sulle dinamiche di interazione e comunicazione nei mondi sanitari che ha coinvolto tra gli altri l’Università degli Studi di Padova. In particolare presso l’Azienda-Policlinico Universitario di Padova, Centro Regionale Veneto di trapianti di organi e tessuti e l’AULLS 3. Il fuoco di questa attività è di offrire spazi di consapevolezza e ascolto polisensoriale tra gli operatori della Salute per favorire la relazione di cura
-con le persone richiedenti cure.`;
-
-let sanda_curriculum=`Sanda Stojkovic
-Formazione continua in Psicoterapia Core Process, Educatrice Perinatale
-- Dopo aver seguito il ​Foundation Course in Core Process Psychotherapy (2005/2006) presso il ​Karuna Institute (UK)​ prosegue con la ​Formazione continua pluriennale nella Psicoterapia Core Process​ con Anne Overzee e Deirdre Gordon, docenti senior del​ Karuna Institute​ (UK).
-- Mindfulness Training per la Conduzione di Gruppi con Anne Overzee and Deirdre Gordon (2016/2017)
-- Training nella pratica del Kum Nye (in formazione) – Con Maura Sills (​Karuna Institute​) in Italia.
-- ​Educatrice perinatale​ certificata da ​MIPA Centro Studi ​(2013/2015), attualmente offre sostegno alle famiglie nel percorso nascita, offre servizi di supporto domiciliare alle madri nei primi mesi dopo il parto, organizza e facilita gruppi di confronto e mutuo aiuto tra mamme.
-Da diversi anni partecipa attivamente e collabora con il ​Centro Dorje Ling​ che ospita corsi e ritiri di Meditazione, Yoga e Conoscenza di sé, con gli strumenti laici offerti dalla tradizione buddista tibetana integrati alla psicologia trasformativa occidentale.
-Il suo obiettivo professionale risiede nel creare una sintesi tra i differenti approcci e metodi incontrati nel suo percorso di formazione, arricchita dalle esperienze lavorative e di vita, rimanendo in contatto con la natura come parte irrinunciabile dell’essere.
-Come praticante di meditazione di consapevolezza, è particolarmente interessata alla pratica non formale nella vita quotidiana e nell’essere genitore.
-Nata e cresciuta in Jugoslavia, oggi Serbia, ha vissuto per dieci anni a Gerusalemme, dove si è laureata in Psicologia. Da quindici anni si è trasferita in Sabina (Lazio), dove vive in campagna con la sua famiglia.`;
-
-let clarisse_curriculum=`Clarisse Talato Clarisse è  psicologa psicoterapeuta iscritta all’ordine degli psicologi del Piemonte numero 1942. Psicoterapeuta contemplativa secondo il modello Core Process Psycothrapy formata con Anne Overzee e Deirdre Gordon (docenti del Karuna Institute in Inghiltera)  Supervisore  psicoterapia Contemplativa, EMDR Practitioner, danzaterapeuta, esperta nel suono del tamburo e pratiche espressive dell’Africa subsahariana. Specializzata negli imprinting prenatale e alla nascita, seguendo l’approccio del maestro Dominique Degranges e delle teorie della terapia Prenatale e della Nascita, elaborata da Ray Castellino. In formazione per divenire insegnante di yoga tibetano con le pratiche del Kum Nye con la docente Maura Sills del Karuna Institute  Uk `;
-  
-let gemma_curriculum = `Gemma è insegnante certificata Yoga Ratna, metodo che ha approfondito formandosi alla scuola della maestra Gabriella Cella. Lo yoga ratna, rispettando l’insegnamento tradizionale indiano, integra le tecniche corporee della sapienza occidentale attraverso una pratica sempre nuova, fondata sulla simbologia e l’ascolto.
-Gemma è impegnata in un percorso di formazione continuo sullo yoga e le discipline della salute indiane, iniziato nel 2006 in India, dove si reca regolarmente, proponendo anche viaggi culturali.
-È diplomata in Hatha yoga e yoga terapia e, oltre al metodo yoga ratna, si dedica all’insegnamento del Vinyasa yoga, secondo la tradizione di Mysore.`;
-
-let anushka_curriculum=`Insegno meditazione, lavoro come consulente per le organizzazioni, e
-faccio coaching di leadership in indiividuale e in team. Attraverso il
-mio lavoro, porto le pratiche orientali nella vita moderna occidentale,
-rendendole accessibili agli individui e alle organizzazioni. Sono
-particolarmente interessata ad integrare leadership, creatività e
-consapevolezza, aiutando i leader a sviluppare coraggio, chiarezza e
-compassione, affinché la loro visione possa realizzarsi. Insegno in
-workshop e ritiri in tutto il mondo all'interno di organizzazioni,
-conferenze e programmi di leadership.
-Il mio lavoro di consulenza strategica e di coaching è basato su un BA
-di Harvard, un MBA di Yale focalizzato sulla leadership e sul
-comportamento organizzativo, e sulla certificazione in coaching
-dell'Institute Coaching Training (Istituto di formazione per coach). Ho
-più di 20 anni di esperienza di consulenza con gruppi nei settori
-corporativo, governativo e no profit. Sono interessata alla vita della
-città e sono stata nominata sindaco della commissione di San Francisco
-per lo sviluppo della comunità, oltre ad aver servito in molti consigli
-direttivi di organizzazioni no profit. Sono da sempre coinvolta in
-movimenti per la giustizia sociale e diritti civili e ho avuto la
-fortuna di lavorare con numerose grosse organizzazioni comunitarie.
-Pratico la  meditazione buddista da più di 30 anni, principalmente
-Vipassana o Meditazione Insight (la fonte della Mindfulness secolare).
-Dopo aver studiato Buddhismo ad Harvard, mi sono formata in meditazione,
-per quattro anni a tempo pieno negli Stati Uniti, India e Sri Lanka.
-Sono stata invitata ad insegnare Dharma nel 1998 e più tardi ho
-partecipato ad un programma di formazione per insegnanti di meditazione
-della durata di quattro anni insieme a Jack Kornfield, Joseph Goldstein,
-Sharon Salzberg e altri importanti insegnanti di meditazione buddista
-occidentale. Sono dal 2011 membro del  Consiglio degli Insegnanti al
-Spirit Rock Meditation Center.
-Il mio lavoro è stato descritto in pubblicazioni come Tricycle, Lion’s
-Roar, Turning Wheel, Inquiring mind, così come sul mio blog sull'
-Huffington Post,
-dedicato al dharma e alla politica.`
-
-let roberta_curriculum=`Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR. Formata in psicoterapia del Core Process e in Mindfulness Relazionale, conduce gruppi di mindfulness a Mondovì, Cuneo e Torino, e lavora come psicoterapeuta e come supervisore contemplativo a Mondovì e a Torino. Da diversi anni coltiva la pratica meditativa personale, curando una formazione continua avanzata con gli insegnanti del Karuna Institute (UK).`
-return (
+ return (
     <>
       <IndexNavbar />
       <div className="wrapper">
@@ -287,211 +216,12 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
         </div>
 
  {/* Conduttori ------------------------------------------------------------- */}
+      <Conduttori/>
+       
+{/* Luogo ------------------------------------------------------------- */}
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">CONDUTTORI</h2>
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/marinella.png")}
-                    ></img>
-                    <h4 className="title">Marinella Visconti </h4>
-                    <p className="category text-info">Psicoterapeuta ad orientamento contemplativo </p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    to="/profile-page" tag={Link}
-                    
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col>      
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                     
-                      src={require("assets/img/simone-spina.png")}
-                    ></img>
-                    <h4 className="title">Simone Spina  </h4>
-                    <p className="category text-info">Psichiatra Psicoterapeuta ad orientamento transpersonale </p>  
-                    <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/myportfolio/simone-spina/"
-                    
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                  </div>
-                </Col>   
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/anuska.jpg")}
-                    ></img>
-                    <h4 className="title">Anushka Fernandopulle </h4>
-                    <p className="category text-info">Insegnante allo Spirit Rock Meditation Centre</p>    
-                  </div>
-                  <AlertDialogSlide content={anushka_curriculum}/> 
-                </Col>   
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/sanda.jpg")}
-                    ></img>
-                    <h4 className="title">Sanda Stojkovich </h4>
-                    <p className="category text-info"> Formzione continua in core process psychotherapy - Educatrice perinatale</p>    
-                  </div>
-                  <AlertDialogSlide content={sanda_curriculum}/> 
-                </Col>  
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/dafna.png")}
-                    ></img>
-                    <h4 className="title">Dafna Moscati </h4>
-                    <p className="category text-info"> Performer Ricercatrice arte espressiva contemplativa  </p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="https://www.dafnamoscati.com/biografia-dafna-moscati/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col>  
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/clarisse.jpeg")}
-                    ></img>
-                    <h4 className="title">Clarisse Zaccarino </h4>
-                    <p className="category text-info"> Psicoterapeuta ad orientamento contemplativo -  danza contemplativa</p>    
-                  </div>
-                  <AlertDialogSlide content={clarisse_curriculum}/> 
-                </Col>  
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/marialuisa.jpg")}
-                    ></img>
-                    <h4 className="title">Marialuisa Carenzi  </h4>
-                    <p className="category text-info"> Psicoterapeuta ad orientamento contemplativo -
-
-Kum Nye </p>    
-                  </div>
-                  <AlertDialogSlide content={marialuisa_curriculum}/> 
-                  
-                </Col>  
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/elsa01.png")}
-                    ></img>
-                    <h4 className="title">Elsa Chiesa</h4>
-                    <p className="category text-info"> Mindfulness Counselor e biomusica</p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/myportfolio/elsa-chiesa/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col>  
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/federica.jpeg")}
-                    ></img>
-                    <h4 className="title">Federica Gonzati </h4>
-                    <p className="category text-info">  Sociologa operatore olistico craniosacrale biodinamica </p>    
-                  </div>
-                  <AlertDialogSlide content={federica_curriculum}/> 
-                </Col> 
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/paolo_testa.jpg")}
-                    ></img>
-                    <h4 className="title">Paolo Testa </h4>
-                    <p className="category text-info">  Psicoterapeuta ad orientamento transpersonale e contemplativo Qi Gong </p>    
-                  </div>
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/myportfolio/paolo-testa/"
-                    size="sm"
-                  >Curriculum
-                    </Button>  
-                </Col> 
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/roberta.jpg")}
-                    ></img>
-                    <h4 className="title">Roberta Peano</h4>
-                    <p className="category text-info">  Psicologa, psicoterapeuta individuale, familiare e di coppia, supervisore EMDR</p>    
-                  </div>
-                  <AlertDialogSlide content={roberta_curriculum}/> 
-                </Col> 
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/valeria.jpg")}
-                    ></img>
-                    <h4 className="title">Valeria Giunta </h4>
-                    <p className="category text-info"> Arteterapeuta - la  pratica  contemplativa del mandala</p>    
-                  </div>
-                  <AlertDialogSlide content={valeria_curriculum}/> 
-                </Col> 
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/Gemma.png")}
-                    ></img>
-                    <h4 className="title">Gemma D'Alessandro </h4>
-                    <p className="category text-info"> Insegnante di yoga</p>    
-                  </div>
-                  <AlertDialogSlide content={gemma_curriculum}/> 
-                </Col> 
-              </Row>
-            </div>
-            <br/>
+          <br/>
             <h2 className="">Costi</h2>
             
             <h5 align="left">Il costo del percorso quadriennale  è di 1200 euro l’anno  divisibile in tre rate annuali da 400 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle. <strong>Per chi si iscrive entro il 31 ottobre 2020 il costo del primo anno è di 1000 euro.</strong></h5>
@@ -502,12 +232,6 @@ Kum Nye </p>
             <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5>
             <h5 align="left">Causale: Cognome e Nome del partecipante – Iscrizione Braveheartfulness School o modulo n.    Braveheartfulness school</h5>
       
-
-          </Container>
-        </div>
-{/* Luogo ------------------------------------------------------------- */}
-        <div className="section section-team text-center">
-          <Container>
             <h2 className="title">Sede dei Ritiri/Laboratori</h2>
             <div className="team">
               <Row>

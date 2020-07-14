@@ -34,7 +34,7 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">Marinella Visconti</h1>
+            <h1 className="h1-seo" style={{color:"gold"}}>Inter<i style={{color:"red",fontSize:"1.5em"}}className="fas fa-heart"></i>essere</h1>
             <h3  className="h3-seo">Cos'è importante ora? </h3>
             <h3 className="h3-seo">Mudita e Dãna</h3>
           </div>

@@ -15,17 +15,16 @@ export default function Conduttori(props) {
 
   return (
     <>
-     <div className="wrapper">
      <div className="section section-team text-center">
-     <Container>
+     {/* <Container>
             <Row>
-              <Col className="ml-auto mr-auto text-center" md="8">
+              <Col className="ml-auto mr-auto text-center" md="8"> */}
           <Container>
             <h2 className="title">CONDUTTORI</h2>
             <div className="team">
-              <Row>
+              <Row >
                 {utenti.map(el=>{
-                  return  <Col md="4">
+                  return  <Col key={el.id} md="3" >
                       <div className="team-player">
                         <img
                           alt="..."
@@ -59,10 +58,9 @@ export default function Conduttori(props) {
               </Row>
             </div>
         </Container>
-        </Col>
+        {/* </Col>
         </Row>
-        </Container>
-    </div>
+        </Container> */}
     </div>
     </>
   );
