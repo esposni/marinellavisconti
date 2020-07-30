@@ -68,12 +68,12 @@ function IndexNavbar() {
               id="navbar-brand"
               to="/" tag={Link}
             >
-                 <img
+                 {/* <img
               alt="..."
               className="logo"
               src={require("assets/img/logo1.png")}
-            ></img>
-              MARINELLA VISCONTI
+            ></img> */}
+              Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
@@ -103,59 +103,11 @@ function IndexNavbar() {
                   href="#pablo"
                   to="/marinella-visconti" tag={Link}
                 >
-                  <p>Chi sono</p>
+                  <p>Progetto <br/>Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere</p>
                 </NavLink>
               </NavItem>
 
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-                  <p>Psicoterapia e <br/> pratiche di <br/>risorsificazione</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                <DropdownItem
-                    // target="_blank"
-                    to="/psicoterapia" tag={Link}
-                  >
-                   Psicoterapia transpersonale e contemplativa
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/psicoterapia" tag={Link}
-                  >
-                   Psicoterapia transpersonale e contemplativa - online
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/gruppi-solidali" tag={Link}
-                  >
-                   Attivismo contemplativo: gruppi solidali di Ascolto Profondo "da essere a essere "
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/distance-healing" tag={Link}
-                  >
-                  Distance Healing : Pratiche di guarigione a distanza
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/craniosacrale" tag={Link}
-                  >
-                   Craniosacrale Biodinamico
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/psicoterapia" tag={Link}
-                  >
-                  Meditazione: la pratica contemplativa nella vita quotidiana
-                  </DropdownItem>
-              </DropdownMenu>
-              </UncontrolledDropdown>
+              
               {/* <NavItem>
                 <NavLink
                   href="#pablo"
@@ -219,7 +171,7 @@ function IndexNavbar() {
                   nav
                   onClick={e => e.preventDefault()}
                 >
-                  <p>Ritiri e pratiche <br/> di consapevolezza</p>
+                  <p>Ritiri e <br/>ritiri laboratori </p>
                 </DropdownToggle>
                 <DropdownMenu>
                
@@ -272,10 +224,59 @@ function IndexNavbar() {
                   href="#pablo"
                   to="/pratica-di-servizio" tag={Link}
                 >
-                  <p>Pratica di servizio</p>
+                  <p>Attivismo contemplativo</p>
                 </NavLink>
               </NavItem>
-              
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  href="#pablo"
+                  nav
+                  onClick={e => e.preventDefault()}
+                >
+                  <p>Psicoterapia e <br/> pratiche di <br/>risorsificazione</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                   Psicoterapia transpersonale e contemplativa
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                   Psicoterapia transpersonale e contemplativa - online
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/gruppi-solidali" tag={Link}
+                  >
+                   Attivismo contemplativo: gruppi solidali di Ascolto Profondo "da essere a essere "
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/distance-healing" tag={Link}
+                  >
+                  Distance Healing : Pratiche di guarigione a distanza
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/craniosacrale" tag={Link}
+                  >
+                   Craniosacrale Biodinamico
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/psicoterapia" tag={Link}
+                  >
+                  Meditazione: la pratica contemplativa nella vita quotidiana
+                  </DropdownItem>
+              </DropdownMenu>
+              </UncontrolledDropdown>
+
               <NavItem>
                 <NavLink
                   href="#pablo"

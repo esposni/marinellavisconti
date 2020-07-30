@@ -30,12 +30,12 @@ export default function PraticaServPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Pratica di servizio - Dãna" image="ciotola.jpeg" />
+        <PageHeader title="Attivismo contemplativo" image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Pratica di servizio</h2>
+              <h2 className="title">Attivismo contemplativo</h2>
               <p>Agisci come se quel che fai facesse la differenza. La fa. 
 William James</p>
               <p>I fiumi non bevono la propria acqua; gli alberi non mangiano i propri frutti.

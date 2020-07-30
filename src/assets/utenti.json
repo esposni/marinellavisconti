@@ -15,12 +15,14 @@
     
     {
         "id":2,
-        "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
+        "link":"simone-spina",
         "name":"Simone Spina",
         "desc":"Psichiatra Psicoterapeuta ad orientamento transpersonale ",
         "img":"simone-spina.png",
-        "self":true,
-        "curriculum":[]
+        "self":false,
+        "curriculum":["Analista Adleriano, specializzato in Classical Adlerian Depth Psychotherapy presso l’Alfred Adler Institute del Northwestern Washington, USA, ha successivamente approfondito gli aspetti creativi, meta-terapici e trans-personali dei processi psicoterapici, giungendo infine a specializzarsi in Psicoterapia Contemplativa ad orientamento Core-Process presso il Karuna Institute, Devon, UK.",
+        "Da anni si occupa di Psicotraumatologia, avendo sviluppato un approccio integrativo nel quale confluiscono tanto aspetti neuroscientifici, quanto aspetti psico-spirituali Buddisti e Trans-personali, parte di una saggezza ancestrale che non può essere trascurata.",
+        "E’ terapeuta e conduttore di gruppi di supervisione secondo l’approccio EMDR (Eye Movement Desensitisation and Reprocessing). Conduce inoltre gruppi di Supervisore ad Orientamento Contemplativo secondo il modello Core-Process.","Svolge la propria attività professionale a Torino." ,"Per appuntamenti scrivere a: spinsim72@icloud.com"   ]
     },
     {   "id":3,
         "link":"sanda-stojkovich",
