@@ -37,6 +37,7 @@ export default function FormazioneAvanzataPage() {
               <Col className="ml-auto mr-auto text-center" md="8">
               
                 <h2 className="title">PERCORSO IN OTTO SIGILLI DI MINDFULNESS TRANSPERSONALE</h2>
+                <h2 align="center"><strong>Edizione 2019/2021</strong></h2>
                 <img
                       alt="..."
                       className="info-event"
@@ -62,7 +63,7 @@ Quando siamo nella Presenza, nella non reattività rispondiamo dall’aspetto pi
 <h5 align="left">Affinché il divino si incarni ed agisca attraverso di noi portando guarigione, è necessario lavorare duramente per essere impeccabili, per quanto possibile liberi dai condizionamenti e dagli inquinanti che ci spingono a dismettere il nostro sogno personale ponendo il nostro Processo Creativo Sacro al servizio di sogni sognati da altri e traslandoci così sul lato inutile dell’esistenza.</h5>
 <h5 align="left">Il processo di guarigione shamanico, relazionale per eccellenza, consiste nel prendere per risonanza su di sè la sofferenza dell’altro accogliendola in consapevolezza e guarendola in noi stessi al fine di guarire per estensione l’altro. Ci liberiamo dai condizionamenti sviluppando l’intento di lasciarci guidare dal nostro Sè Eterno verso l’Integrità, riverberandola poi nella relazione terapeutica attraverso i veli creati dal Trauma. È questo Intento che apre tutte i portali e da accesso a tutte le soglie trans-dimensionali ed è incarnando questo Intento come persone e guaritori al massimo grado possibile che gli altri guariscono nella relazione con noi come naturale conseguenza, risuonando con la potenza intatta del nostro Processo Creativo Sacro. Tuttavia non è sufficiente l’Intento di arrendersi al proprio Sé Superiore se prima non si conoscono bene i condizionamenti traumatici che hanno generato il velo della nostra Persona, legati alle vicende di questa vita. Occorre infatti recuperare la magia della Percezione Innocente, riconnettendoci al nostro Soul Child che si arrende con meraviglia all’eco dell’Eternità correndovi incontro con passo leggero, mentre riconosce e riflette la regalità e maestosità degli altri esseri attraverso l’esperienza diretta delle loro Anime eterne. E per recuperare tale innocenza occorre aver sufficientemente integrato l’energia dell’abuso avendo guardato come essa ci abbia insegnato ad abusare di noi stessi per anestetizzare il dolore originale e sedare lo struggimento per l’integrità perduta. La sintesi evolutiva che deriva dal processo psicoterapico shamanico conduce alla riconnessione con la propria Identità Cosmica lasciando respiro all’Anima come entità trans-dimensionale, parte integrante dell’Infinito, attraverso la percezione dei suoi echi più vasti. Tale processo è fonte di guarigione perché allineato con il processo relazionale karmico che tende ad includere ogni cosa. Percepire l’essenza relazionale multiforme dell’Anima significa percepire ed integrare più parti in ombra e conseguentemente più Luce partecipando consapevolmente alla vastità e sacralità del processo creativo individuale, frattale, del processo creativo cosmico e diretta manifestazione di esso.</h5>
 <h5 align="left">Paradossalmente, questo importante approccio terapeutico che oggi suscita un nuovo grande interesse in quanto armonizza perfettamente con le più recenti scoperte della Fisica Quantistica, è risorto in modo disgiunto dalla Psicologia Contemplativa, pur essendo lo shamanesimo ancestrale basato proprio sulla consapevolezza della nostra multi-dimensionalità e sulla riconnessione al divino che è in noi, raggiunta attraverso un delicato, profondo lavoro personale in relazione continuativa con un facilitatore che aiuta l’altro a scoprire ciò che già sa, non attribuendosene né accettandone il merito e non alimentando la dipendenza relazionale. Inoltre, uno dei maggiori punti di contatto tra l’approccio contemplativo e quello shamanico è l’importanza di consentire al sistema Mente- Corpo Fisico – Corpo Energetico di rallentare portando consapevolezza alle pause tra i cicli del processo interno, poiché è proprio nelle pause che risiedono i portali che immettono nella dimensione della realtà non ordinaria.</h5>
-<h5 align="left"><strong>Durata</strong><br/>8 moduli (24 giorni di formazione) a cui aggiungere un ritiro annuale in UK facoltativo (tra giugno
+<h5 align="left"><strong>Date</strong><br/>8 moduli (24 giorni di formazione) a cui aggiungere un ritiro annuale in UK facoltativo (tra giugno
 e settembre)
 
 </h5>
@@ -146,8 +147,8 @@ L’iscrizione prevede in ogni caso un colloquio preliminare.
             <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5>
             <h5 align="left">Causale: Cognome e Nome del partecipante- Percorso in Otto Sigilli di Mindfulness Transpersonale – Marinella Visconti e Simone Spina</h5>
       
-            <h2 className=""> DATE E LUOGO</h2>
-<h5 align="left"><strong>Il prossimo percorso inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong></h5>
+        
+<h3 align="left"><strong>La prossima edizione inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong></h3>
 
           </Container>
           

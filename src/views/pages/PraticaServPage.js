@@ -13,6 +13,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import Quest1 from "components/Quest1"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function PraticaServPage() {
@@ -49,7 +50,9 @@ L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
 La cura ci consente di osservare la propria mente nel bel mezzo del turbamento lasciando spazio alla nascita di qualità fondamentali come la saggezza.</h5>
 
-
+<h5 align="left">Chi desidera offrire la propria disponibilità per il progetto attivismo contemplativo puo compilare il questionario sotto e verrà contattato:</h5> 
+{/* Questionario */}
+<Quest1/>
                 <h2 className="title">LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
               <h5 align="left">
