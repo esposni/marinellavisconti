@@ -151,7 +151,12 @@ ReactDOM.render(
         />
         <Route
           path="/psicoterapia"
-          render={props => <PsicoterapiaPage {...props} />}
+          render={props => <PsicoterapiaPage online={false} {...props} />}
+        />
+
+          <Route
+          path="/psicoterapia-online"
+          render={props => <PsicoterapiaPage online={true} {...props} />}
         />
        
         <Redirect to="/index" />

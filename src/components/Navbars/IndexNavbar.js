@@ -68,12 +68,12 @@ function IndexNavbar() {
               id="navbar-brand"
               to="/" tag={Link}
             >
-                 {/* <img
+                 <img
               alt="..."
-              className="logo"
-              src={require("assets/img/logo1.png")}
-            ></img> */}
-              Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere
+              className=""
+              src={require("assets/img/marinella5.jpg")}
+            ></img>
+              {/* Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere */}
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
@@ -108,14 +108,7 @@ function IndexNavbar() {
               </NavItem>
 
               
-              {/* <NavItem>
-                <NavLink
-                  href="#pablo"
-                  to="/psicoterapia" tag={Link}
-                >
-                  <p>Psicoterapia</p>
-                </NavLink>
-              </NavItem> */}
+             
               
               {/* <NavItem>
                 <NavLink
@@ -286,7 +279,7 @@ function IndexNavbar() {
                   </DropdownItem>
                   <DropdownItem
                     // target="_blank"
-                    to="/psicoterapia" tag={Link}
+                    to="/psicoterapia-online" tag={Link}
                   >
                    Psicoterapia transpersonale e contemplativa - online
                   </DropdownItem>

@@ -14,8 +14,10 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import utenti from "../../assets/utenti.json"
+import Conduttore from "views/pages/Conduttore"
 
-function PsicoterapiaPage() {
+function PsicoterapiaPage(props) {
 
   React.useEffect(() => {
     document.body.classList.add("landing-page");
@@ -30,7 +32,7 @@ function PsicoterapiaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Psicoterapia a orientamento contemplativo e transpersonale" image="mano.jpeg" />
+        <PageHeader title={(props.online)?"Psicoterapia a orientamento contemplativo e transpersonale online":"Psicoterapia a orientamento contemplativo e transpersonale"} image="mano.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -175,8 +177,7 @@ Quando emerge un processo, il cliente impara a stabilirsi nella sensazione fisic
           </Container>
           
         </div>
-
-        {/* Luogo ------------------------------------------------------------- */}
+        {(props.online)?  <h5 className="title" align="center"> Scrivere a <a href="mailto:mariv9162@gmail.com">mariv9162@gmail.com</a>  o <a href="mailto:marinellavisconti@outlook.it">marinellavisconti@outlook.it</a> <br/> Skype: camillavis</h5> :
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">Dove Trovarmi</h2>
@@ -226,10 +227,28 @@ Quando emerge un processo, il cliente impara a stabilirsi nella sensazione fisic
                       <a href="http://centromindfulnessmilano.com/">Centro Mindfulness Milano</a>
               </row>
             </div>
+
+
           </Container>
          
-          <FormMessage />
+          
         </div>
+      }
+         <div className="section section-team text-center">
+          <Container>
+            {/* <h2 className="title">CONDUTTORI</h2> */}
+            <Row>
+            <Conduttore id={utenti[0].id}
+                    img={utenti[0].img}
+                    name={utenti[0].name}
+                    desc={utenti[0].desc}
+                    self={utenti[0].self}
+                    link={utenti[0].link}
+                    />
+            </Row>
+          </Container>
+        </div>
+        <FormMessage />
         <DefaultFooter />
       </div>
     </>
