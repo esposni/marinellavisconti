@@ -2,13 +2,11 @@ import React from "react";
 
 // reactstrap components
 import {
-   Button,
   Container,
   Row,
-  Col
 } from "reactstrap";
-import { Link } from "react-router-dom";
 import utenti from "../../assets/utenti.json"
+import Conduttore from "views/pages/Conduttore"
 // core components
 
 export default function Conduttori(props) {
@@ -24,36 +22,21 @@ export default function Conduttori(props) {
             <div className="team">
               <Row >
                 {utenti.map(el=>{
-                  return  <Col key={el.id} md="4" >
-                      <div className="team-player">
-                        <img
-                          alt="..."
-                          style={{height:"100px"}}
-                          className="rounded-circle img-fluid img-raised"
-                          src={require("assets/img/"+el.img)}
-                        ></img>
-                        <h4 className="title">{el.name} </h4>
-                        <p className="category text-info" style={{height:"65px"}}>{el.desc} </p>    
-                      </div>
-                      {(el.self)? <Button
-                        block
-                        className="btn-round"
-                        color="info"
-                        href={el.link} 
-                        target="_blank"
-                        size="sm"
-                      >Pagina personale
-                        </Button> :<Button
-                        block
-                        className="btn-round"
-                        color="info"
-                        to={el.link} tag={Link}
-                        target="_blank"
-                        size="sm"
-                      >Pagina personale
-                        </Button>}
-                     
-                    </Col>
+                 return (props.school )? (el.school)? 
+                    <Conduttore id={el.id}
+                    img={el.img}
+                    name={el.name}
+                    desc={el.desc}
+                    self={el.self}
+                    link={el.link}
+                    /> :"" :
+                    <Conduttore id={el.id}
+                    img={el.img}
+                    name={el.name}
+                    desc={el.desc}
+                    self={el.self}
+                    link={el.link}
+                    /> 
                 })}
                      
               </Row>

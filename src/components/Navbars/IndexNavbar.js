@@ -141,7 +141,7 @@ function IndexNavbar() {
                   onClick={e => e.preventDefault()}
                 >
                   <i className="now-ui-icons design_app mr-1"></i>
-                  <p>Formazione</p>
+                  <p>Formazione <br/> psico-spirituale</p>
                 </DropdownToggle>
                 <DropdownMenu>
                 <DropdownItem

@@ -43,7 +43,7 @@ export default function FormazioneAvanzataPage() {
                       className="info-event"
                       src={require("assets/img/ritiri/8sigilli.jpg")}
                     ></img><br/><br/>
-              <h5 align="left"><strong>Il gruppo in partenza è al completo. Il prossimo percorso inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong> </h5>
+              <h5 align="left"><strong> Il prossimo percorso inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong> </h5>
                 <h5 align="left">IL SENTIERO DELLA RIVELAZIONE DIRETTA ATTRAVERSO LA PERCEZIONE INNOCENTE. RICONNETTERSI ALLA PROPRIA IDENTITÀ COSMICA INCARNANDO IL CUORE TRASCENDENTE</h5>
                 <h5 align="left">
               Come ricordava lo psichiatra RD Laing, il peggior danno che un essere umano possa subire è la distruzione della capacità di accogliere ed onorare la propria esperienza unica ed irripetibile. Esso ha come conseguenza a livello interpersonale la perdita dei confini e dell’identità individuale in relazione, mentre a livello transpersonale esita nella disconnessione dalla propria Natura Eterna. Tale condizione è il principale effetto degli eventi traumatici acuti o cronici vissuti in prima persona, ma può essere anche trasmessa a livello trans-generazionale ed essere alimentata da una realtà consensuale che promuove la disconnessione da sé.

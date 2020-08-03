@@ -109,6 +109,7 @@ ReactDOM.render(
           <ProfilePage name={el.name}
           desc={el.desc}
           img={el.img}
+          school={el.school}
           text={el.curriculum}
            {...props} />}
           />

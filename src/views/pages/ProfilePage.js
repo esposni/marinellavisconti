@@ -2,7 +2,7 @@ import React from "react";
 import data from "assets/data_events.json"
 // reactstrap components
 import {
-  // Button,
+  Button,
   // NavItem,
   // NavLink,
   // Nav,
@@ -14,7 +14,7 @@ import {
   // UncontrolledTooltip
 } from "reactstrap";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
@@ -71,7 +71,16 @@ function ProfilePage(props) {
               })
             }
             
-          
+          {(props.school)? 
+        <Button
+        block
+        className="btn-round"
+        color="info"
+        to="/formazione" tag={Link}
+        target="_blank"
+        size="lg"
+        >Braveheartfulness School
+        </Button> :""}
           
           </Container>
           {/* eventi */}

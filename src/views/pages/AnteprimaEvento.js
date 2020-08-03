@@ -29,11 +29,12 @@ export default function Evento(props) {
 
               <Col>
               
-              <div className="title3"><strong>{(props.all)? props.type+": "+props.title: props.title }</strong></div>
+              <div className="title3" align="center"><strong>{(props.all)? (props.type==="")? props.title : props.type+": "+props.title: props.title }</strong></div>
                 {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
                 
                 <div align="center"><strong>{props.date}</strong><br/></div>
-
+              {
+                (props.self_link==="")?
                 <Button
                       block
                       className="btn-round"
@@ -42,7 +43,18 @@ export default function Evento(props) {
                       size="sm"
                       target="_blank"
                     >Per maggiori informazioni
-                </Button>  
+                </Button> :
+                <Button
+                      block
+                      className="btn-round"
+                      color="info"
+                      to={props.self_link} tag={Link}
+                      size="sm"
+                      target="_blank"
+                    >Per maggiori informazioni
+                </Button>
+              }
+               
               </Col>
             </Row>
           

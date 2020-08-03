@@ -37,6 +37,7 @@
         ,"school":false
         ,"offerta_libera":false,
         "vitto_alloggio":""
+        ,"self_link":""
     },
     {   "id":2,
         "title":"Braveheartfulness School – Seminario introduttivo",
@@ -60,6 +61,7 @@
         ,"school":false
         ,"offerta_libera":false,
         "vitto_alloggio":""
+        ,"self_link":""
     },
     {   "id":3,
         "title":"Incontrare a cuore aperto il mistero della sofferenza",
@@ -82,12 +84,13 @@
         ,"school":false
         ,"offerta_libera":false,
         "vitto_alloggio":""
+        ,"self_link":""
     },
     {
         "id":4,
         "title":"Quando lo Spazio si fa Sacro",
         "conduttori":"Marinella Visconti e Simone Spina",
-        "date":"10-13 Dicembre 2020",
+        "date":"10 Dicembre 2020 dalle 14:30 - 13 Dicembre 2020 fino alle 13:00",
         "text":["Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.",
         "Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che ordina la vita stessa e questo è un punto di vista che contempla il mistero.",
         "Se coltiviamo Presenza lo spazio diventa Sacro e nulla può accadere di pericoloso....i condizionamenti si resettano, le nostre storie individuali diventano quelle di tutti.....siamo nell’indifferenziato....ci incontriamo nella stessa radura...sacro e ordinario co emergono. La pratica nella vita è condivisa.... Il nostro risveglio è in relazione....il materiale che sorge nel lavoro in relazione dà forma al gruppo e parte del processo è scegliere cosa nutrire e cosa no.. Più ci sentiamo al sicuro, più andiamo in profondità e il modo in cui generiamo sicurezza pulisce lo spazio e lo rende onesto, nudo...",
@@ -114,6 +117,7 @@
         ,"school":false
         ,"offerta_libera":false,
         "vitto_alloggio":""
+        ,"self_link":""
     },
     {
         "id":5,
@@ -145,6 +149,7 @@
         ,"school":true
         ,"offerta_libera":false,
         "vitto_alloggio":""
+        ,"self_link":""
     },
     {
         "id":6,
@@ -170,6 +175,7 @@
         ,"more_info":""
         ,"prerequisiti":[]
         ,"school":false
+        ,"self_link":""
     },
     {
         "id":7,
@@ -196,6 +202,7 @@
         ,"prerequisiti":["Prerequisiti: Questo ritiro è aperto ai praticanti esperti e agli allievi della Breaveheartfulness School ed implica una certa qualità di impegno: la capacità di sostenere il silenzio, una pratica intensa e di tollerare di non mangiare più di due volte al giorno.",
         "Per procedere alle pre iscrizioni è necessario scrivere a segreteria@associazionemudita.org ti verrà inviato un questionario che permetterà di conoscere meglio la tua esperienza di pratica e le condizioni di salute."]
         ,"school":true
+        ,"self_link":""
     },
     {
         "id":8,
@@ -221,6 +228,7 @@
         ,"more_info":""
         ,"prerequisiti":[]
         ,"school":false
+        ,"self_link":""
     } ,
     {
         "id":9,
@@ -246,6 +254,7 @@
         ,"more_info":""
         ,"prerequisiti":[]
         ,"school":false
+        ,"self_link":""
     },
     {
         "id":10,
@@ -274,5 +283,35 @@
         ,"more_info":""
         ,"prerequisiti":[]
         ,"school":false
+        ,"self_link":""
+    },
+    {
+        "id":11,
+        "title":"Percorso in otto sigilli di mindfulness transpersonale in relazione avanzata",
+        "conduttori":"Marinella Visconti e Simone Spina",
+        "date":"Edizione 2019/2021",
+        "text":[]
+        ,"image":"8sigilli.jpg",
+        "data_luogo":""
+        ,"type":""
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"name":"Marinella Visconti",
+            "desc":"Psicoterapeuta ad orientamento contemplativo",
+            "img":"marinella.png",
+                "link":"marinella-visconti",
+                "curriculum":"" },
+                {"name":"Simone Spina",
+                    "img":"simone-spina.png",
+                    "desc":"Psichiatra Psicoterapeuta ad orientamento transpersonale",
+                    "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
+                    "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/formazione-avanzata"
     }
 ]

@@ -216,7 +216,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
         </div>
 
  {/* Conduttori ------------------------------------------------------------- */}
-      <Conduttori/>
+      <Conduttori school={true}/>
        
 {/* Luogo ------------------------------------------------------------- */}
         <div className="section section-team text-center">

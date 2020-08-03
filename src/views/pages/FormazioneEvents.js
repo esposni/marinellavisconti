@@ -54,7 +54,8 @@ return (
             conduttori={el.conduttori}
             date={el.date}
             image={el.image}
-            type={el.type}/> 
+            type={el.type}
+            self_link={el.self_link}/> 
         })}
         
      
