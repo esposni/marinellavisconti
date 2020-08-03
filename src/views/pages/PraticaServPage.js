@@ -31,20 +31,20 @@ export default function PraticaServPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Attivismo contemplativo" image="ciotola.jpeg" />
+        <PageHeader title="Attivismo contemplativo online" image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Attivismo contemplativo</h2>
-              <p>Agisci come se quel che fai facesse la differenza. La fa. 
-William James</p>
-              <p>I fiumi non bevono la propria acqua; gli alberi non mangiano i propri frutti.
-Il sole non brilla per se stesso; ed i fiori non disperdono la propria fragranza per se stessi.</p>
-              <h5 align="left">Vivere per gli altri è una regola della natura.
-La vita è bella quando tu sei felice, però la vita è molto meglio quando gli altri sono felici per merito tuo.</h5>
-              <h5 align="left">La nostra natura è di essere al servizio...</h5>
-              <h5 align="left">Il servizio è il modo di essere nell'amore incondizionato.</h5>
+              <h5 align="left">Compiere un gesto amichevole, offrire un servizio o prestare attenzione, ascoltare profondamente sono offerte che in alcune situazioni possono essere più importanti di oggetti materiali. Uno dei benefici a lungo termine è che attraverso la generosità cominciamo a rendere felici i rapporti.</h5>
+              <h5 align="left">Il senso di sviluppare una connessione attraverso i valori conduce ad un’apertura del cuore, perché condividiamo con gli altri e ci sosteniamo a vicenda.</h5>
+              <h5 align="left">Intuire la bellezza di fare un’offerta spontaneamente manda all’aria la mente giudicante dell’uguale, giusto, meritevole. Si dice infatti che il più elevato tipo di dana (dono) si abbia allorché una persona degna da qualcosa a un’altra persona degna.</h5>
+              <h5 align="left">È importante coltivare il dare alle persone sagge, perché sostiene chi può a sua volta sostenere molti altri .
+Così i saggi entrano a far parte del nostro tempio di consapevolezza e sostengono la nostra coscienza.</h5>
+              <h5 align="left">La generosità è parte essenziale della pratica. È il primo dei sei atteggiamenti di vasta portata (paramita) del bodhisattva.</h5>
+              <h5 align="left">Il vero spirito del dare non è diretto verso gli altri, ma anche verso sé stessi.</h5>
+              <h5 align="left">L’idea è quella di mettere in contatto chi ha la possibilità di donare con chi si trova nella possibilità di ricevere e ha prioritariamente l’intento di SOSTENERE CHI SOSTIENE.</h5>
               <h5 align="left">L'intento principale della pratica di servizio è sviluppare la cura e la sollecitudine. Il termine è spesso usato come sinonimo di attenzione-consapevolezza.
 L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
@@ -53,6 +53,7 @@ La cura ci consente di osservare la propria mente nel bel mezzo del turbamento l
 <h5 align="left">Chi desidera offrire la propria disponibilità per il progetto attivismo contemplativo puo compilare il questionario sotto e verrà contattato:</h5> 
 {/* Questionario */}
 <Quest1/>
+<hr></hr>
                 <h2 className="title">LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
               <h5 align="left">

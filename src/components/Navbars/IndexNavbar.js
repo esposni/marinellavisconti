@@ -219,14 +219,54 @@ function IndexNavbar() {
               </UncontrolledDropdown>
 
 
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  to="/pratica-di-servizio" tag={Link}
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  nav
+                  onClick={e => e.preventDefault()}
                 >
                   <p>Attivismo contemplativo</p>
-                </NavLink>
-              </NavItem>
+                </DropdownToggle>
+                <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/pratica-di-servizio" tag={Link}
+                  >
+                   Attivismo contemplativo ONLINE
+                  </DropdownItem>
+
+                  <DropdownItem
+                    // target="_blank"
+                    to="/gruppi-solidali" tag={Link}
+                  >
+                   Gruppi solidali di Ascolto Profondo "da essere a essere "
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/pratica-contemplativa" tag={Link}
+                  >
+                  Meditazione: la pratica contemplativa nella vita quotidiana
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/percorso-crescita" tag={Link}
+                  >
+                 Percorsi di creascita psico-spirituale inviduale e di coppia
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/distance-healing" tag={Link}
+                  >
+                  Distance Healing : Pratiche di guarigione a distanza
+                  </DropdownItem>
+                  
+                  
+              </DropdownMenu>
+              </UncontrolledDropdown>
+
+
+
               <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
@@ -250,30 +290,14 @@ function IndexNavbar() {
                   >
                    Psicoterapia transpersonale e contemplativa - online
                   </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/gruppi-solidali" tag={Link}
-                  >
-                   Attivismo contemplativo: gruppi solidali di Ascolto Profondo "da essere a essere "
-                  </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/distance-healing" tag={Link}
-                  >
-                  Distance Healing : Pratiche di guarigione a distanza
-                  </DropdownItem>
+                  
                   <DropdownItem
                     // target="_blank"
                     to="/craniosacrale" tag={Link}
                   >
                    Craniosacrale Biodinamico
                   </DropdownItem>
-                  <DropdownItem
-                    // target="_blank"
-                    to="/psicoterapia" tag={Link}
-                  >
-                  Meditazione: la pratica contemplativa nella vita quotidiana
-                  </DropdownItem>
+                 
               </DropdownMenu>
               </UncontrolledDropdown>
 

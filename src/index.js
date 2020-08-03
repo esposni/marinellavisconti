@@ -45,6 +45,8 @@ import EventiCentroPage from "views/pages/EventiCentroPage";
 import EventoPage from "views/pages/EventoPage";
 import DistanceHealingPage from "views/pages/DistanceHealingPage"
 import GruppiSolidaliPage from "views/pages/GruppiSolidaliPage"
+import PraticaContemplativaPage from "views/pages/PraticaContemplativaPage"
+import PercorsoCrescitaPage from "views/pages/PercorsoCrescitaPage"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -55,6 +57,10 @@ ReactDOM.render(
           path="/formazione"
           render={props => <FormazionePage {...props} />}
         />
+         <Route
+          path="/percorso-crescita"
+          render={props => <PercorsoCrescitaPage {...props} />}
+        />
         <Route
           path="/distance-healing"
           render={props => <DistanceHealingPage {...props} />}
@@ -62,6 +68,10 @@ ReactDOM.render(
          <Route
           path="/gruppi-solidali"
           render={props => <GruppiSolidaliPage {...props} />}
+        />
+        <Route
+          path="/pratica-contemplativa"
+          render={props => <PraticaContemplativaPage {...props} />}
         />
         <Route
           path="/formazione-avanzata"

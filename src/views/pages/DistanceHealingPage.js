@@ -13,6 +13,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import utenti from "../../assets/utenti.json"
+import Conduttore from "views/pages/Conduttore"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function DistanceHealingPage() {
@@ -46,7 +48,7 @@ export default function DistanceHealingPage() {
               
                 <h2 className="title">Distance Healing : Pratiche di guarigione a distanza</h2>
                 <h5 align="left">Distance healing= La guarigione intuitiva. È una pratica di guarigione a distanza. È un’esperienza che nasce da un luogo profondo del cuore ed è parte della medicina quantica. Aumenta la capacità di guarigione spirituale. Nasce originariamente dall’osteopatia e dalle successive esplorazioni del Craniosacrale biodinamico e del continuum movement. L’operatore si muove come testimone trascendentale. </h5>
-                <h5 align="left">Per informazioni e appuntamenti scrivere a </h5>
+                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:mariv9162@gmail.com">mariv9162@gmail.com</a>  o <a href="mailto:marinellavisconti@outlook.it">marinellavisconti@outlook.it</a></h5>
               
               
               </Col>
@@ -56,6 +58,20 @@ export default function DistanceHealingPage() {
         </div>
 
         <div className="section section-team text-center">
+          <Container>
+            <h2 className="title">CONDUTTORI</h2>
+            <Row>
+            <Conduttore id={utenti[0].id}
+                    img={utenti[0].img}
+                    name={utenti[0].name}
+                    desc={utenti[0].desc}
+                    self={utenti[0].self}
+                    link={utenti[0].link}
+                    />
+            </Row>
+          </Container>
+        </div>
+        {/* <div className="section section-team text-center">
           <Container>
             <h2 className="title">Dove trovarmi</h2>
             <div className="team">
@@ -68,7 +84,7 @@ export default function DistanceHealingPage() {
                       src={require("assets/img/studio-milano.jpg")}
                     ></img>
                     <h4 className="title">Centro Mindfulness Milano</h4>
-                    {/* <p className="category text-info">Model</p> */}
+                    <p className="category text-info">Model</p>
                    
                     Via Cenisio, 5 <br/>
                     Per contattarmi: 338 2331754
@@ -94,7 +110,7 @@ export default function DistanceHealingPage() {
               </Row>
             </div>
           </Container>
-        </div>
+        </div> */}
         <FormMessage/>
         <DefaultFooter />
       </div>
