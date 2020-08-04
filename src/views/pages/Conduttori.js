@@ -24,6 +24,7 @@ export default function Conduttori(props) {
                 {utenti.map(el=>{
                  return (props.school )? (el.school)? 
                     <Conduttore id={el.id}
+                    key={el.id}
                     img={el.img}
                     name={el.name}
                     desc={el.desc}
@@ -31,6 +32,7 @@ export default function Conduttori(props) {
                     link={el.link}
                     /> :"" :
                     <Conduttore id={el.id}
+                    key={el.id}
                     img={el.img}
                     name={el.name}
                     desc={el.desc}

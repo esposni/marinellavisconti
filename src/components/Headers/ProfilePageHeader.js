@@ -35,11 +35,12 @@ function ProfilePageHeader(props) {
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="photo-container">
-            <img alt="..." src={require("assets/img/"+props.image)}></img>
+          <div className="photo-container" style={{marginTop:"50px"}}>
+            <img alt="..."  src={require("assets/img/"+props.image)}></img>
           </div>
-        <h3 className="title">{props.name}</h3>
-        <p className="category">{props.desc}</p>
+          {(props.home)?<p className="category" style={{color:"gold",fontSize:"1.5em",marginTop:"20px"}}>Progetto Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>Essere</p> :<h3 className="title">{props.name}</h3>}
+        
+          {(props.home)? <p className="category" style={{color:"gold",fontSize:"1.5em"}}>{props.desc}</p>:<p className="category">{props.desc}</p>}
           
         </Container>
       </div>

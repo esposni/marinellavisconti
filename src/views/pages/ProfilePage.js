@@ -51,7 +51,8 @@ function ProfilePage(props) {
         <ProfilePageHeader 
           image={props.img} 
           name={props.name}
-          desc={props.desc}/>
+          desc={props.desc}
+          home={false}/>
         <div className="section">
           <Container>
             <h3 className="title">Chi sono</h3>

@@ -47,7 +47,7 @@ import DistanceHealingPage from "views/pages/DistanceHealingPage"
 import GruppiSolidaliPage from "views/pages/GruppiSolidaliPage"
 import PraticaContemplativaPage from "views/pages/PraticaContemplativaPage"
 import PercorsoCrescitaPage from "views/pages/PercorsoCrescitaPage"
-
+import HomePage from "views/pages/HomePage"
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -60,6 +60,10 @@ ReactDOM.render(
          <Route
           path="/percorso-crescita"
           render={props => <PercorsoCrescitaPage {...props} />}
+        />
+          <Route
+          path="/progetto"
+          render={props => <HomePage {...props} />}
         />
         <Route
           path="/distance-healing"

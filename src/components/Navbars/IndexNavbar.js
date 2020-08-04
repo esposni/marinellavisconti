@@ -101,7 +101,7 @@ function IndexNavbar() {
              <NavItem>
                 <NavLink
                   href="#pablo"
-                  to="/marinella-visconti" tag={Link}
+                  to="/progetto" tag={Link}
                 >
                   <p>Progetto <br/>Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere</p>
                 </NavLink>
