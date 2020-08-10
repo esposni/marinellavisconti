@@ -35,8 +35,14 @@ export default function PremessaPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-              <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
-                <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
+              <div align="center">
+            <img
+                alt="..."
+                className=""
+                style={{width:"20.5em",height:"20.5em"}}
+                src={require("assets/img/marinella5.jpg")}
+              ></img>
+            </div>
                 <h2 className="title">Intento Formativo</h2>
                 <h5 align="left">La nostra pratica è assecondata sorretta e stimolata dal crescente contatto con amici e insegnanti che cercano di realizzare il dharma nella loro esistenza.
 Noi nasciamo soli e moriamo soli. Molto del nostro tempo trascorre assorbito in pensieri e in sentimenti che non possiamo mai condividere interamente, e tuttavia la nostra esistenza si definisce

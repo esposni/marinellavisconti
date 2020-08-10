@@ -43,7 +43,7 @@ export default function FormazioneAvanzataPage() {
                       className="info-event"
                       src={require("assets/img/ritiri/8sigilli.jpg")}
                     ></img><br/><br/>
-              <h5 align="left"><strong> Il prossimo percorso inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong> </h5>
+              
                 <h5 align="left">IL SENTIERO DELLA RIVELAZIONE DIRETTA ATTRAVERSO LA PERCEZIONE INNOCENTE. RICONNETTERSI ALLA PROPRIA IDENTITÀ COSMICA INCARNANDO IL CUORE TRASCENDENTE</h5>
                 <h5 align="left">
               Come ricordava lo psichiatra RD Laing, il peggior danno che un essere umano possa subire è la distruzione della capacità di accogliere ed onorare la propria esperienza unica ed irripetibile. Esso ha come conseguenza a livello interpersonale la perdita dei confini e dell’identità individuale in relazione, mentre a livello transpersonale esita nella disconnessione dalla propria Natura Eterna. Tale condizione è il principale effetto degli eventi traumatici acuti o cronici vissuti in prima persona, ma può essere anche trasmessa a livello trans-generazionale ed essere alimentata da una realtà consensuale che promuove la disconnessione da sé.
@@ -139,17 +139,15 @@ L’iscrizione prevede in ogni caso un colloquio preliminare.
             </div>
             <h2 className="">Costi</h2>
             
-            <h5 align="left">Costo dell’intero percorso 2400 euro (ratealizzabili) più 25 euro di tessera sostenitore annuale dell’Associazione Mudita.</h5>
+            <h5 align="left">Costo dell’intero percorso 2400 euro (ratealizzabili) più 25 euro di tessera sostenitore annuale dell’Associazione Progetto Pienessere.</h5>
         
             <h5 align="left">Ecco le coordinate bancarie per il bonifico:</h5>
-            <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
+            {/* <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
             <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>
-            <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5>
+            <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5> */}
             <h5 align="left">Causale: Cognome e Nome del partecipante- Percorso in Otto Sigilli di Mindfulness Transpersonale – Marinella Visconti e Simone Spina</h5>
       
-        
-<h3 align="left"><strong>La prossima edizione inizierà probabilmente a dicembre 2021, si accettano sin da ora preiscrizioni. Al massimo ogni gruppo è composto da 12 persone.</strong></h3>
-
+  
           </Container>
           
         </div>

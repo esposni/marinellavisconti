@@ -32,12 +32,12 @@ function PsicoterapiaPage(props) {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title={(props.online)?"Psicoterapia a orientamento contemplativo e transpersonale online":"Psicoterapia a orientamento contemplativo e transpersonale"} image="mano.jpeg" />
+        <PageHeader title="Non è facile avere un bel giardino, è difficile come governare un regno. H.Hesse" image="mano.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                {/* <h2 className="title">Who we are?</h2> */}
+                <h2 className="title">{(props.online)?"Psicoterapia a orientamento contemplativo e transpersonale online":"Psicoterapia a orientamento contemplativo e transpersonale"}</h2>
                 <h5 align="left">
                  
 Iniziare una psicoterapia significa innanzitutto fare un passo indietro dal mondo quotidiano, per poter andare più in profondità nel nostro percorso di ricerca di benessere e di un modo più consapevole di affrontare la vita.
@@ -102,6 +102,7 @@ In un contesto clinico, questo significa che la conoscenza diretta dell’altro 
 Oltre allo stabilire la presenza, a un ambiente di contenimento sicuro, e al risveglio del testimone interiore delineato più sopra, un altro approccio molto utile è il lavoro di focusing di Gendlin. Nel suo libro, Psicoterapia orientata al focusing (Gendlin, 1996), descrive un approccio attraverso cui il terapeuta aiuta il cliente a orientarsi verso il suo mondo interiore attraverso la consapevolezza dell’immediata esperienza incarnata, che Gendlin chiama sensazione sentita. È la sensazione corporea emergente momento-dopo-momento della totalità di qualcosa che è inizialmente non chiaro e al di sotto del livello di consapevolezza di un’emozione formata, di una sensazione, o di un’immagine; eppure le include tutte.
 Quando emerge un processo, il cliente impara a stabilirsi nella sensazione fisica che dà, a sostenere consapevolmente la totalità di quello che emerge e a investigare con delicatezza sulla sua natura. Negli insegnamenti buddisti la consapevolezza olistica è un fattore di sati, ed è questo stato di presenza che può sostenere la totalità di qualcosa in un modo morbido e completo.</h5>
               <p>(tradotto e adattato da ‘Being and Becoming’ di F. Sills)</p>
+              <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               </Col>
             </Row>
             {/* <div className="section-story-overview">

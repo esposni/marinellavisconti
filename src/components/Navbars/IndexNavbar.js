@@ -68,11 +68,15 @@ function IndexNavbar() {
               id="navbar-brand"
               to="/" tag={Link}
             >
-                 <img
-              alt="..."
-              className=""
-              src={require("assets/img/marinella5.jpg")}
-            ></img>
+            <div className="photo-container" style={{width:"4.5em",height:"4.5em"}}>
+                  <img
+                alt="..."
+                className=""
+                // style={{width:"5.5em"}}
+                src={require("assets/img/marinella5.jpg")}
+              ></img>
+            </div>
+            {/* <i style={{color:"gold",fontSize:"2.5em"}} class="fas fa-home"></i> */}
               {/* Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere */}
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
@@ -184,33 +188,7 @@ function IndexNavbar() {
               </DropdownMenu>
               </UncontrolledDropdown>
 
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-                  <p>Eventi</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                <DropdownItem
-                    // target="_blank"
-                    to="/formazione-events" tag={Link}
-                  >
-                   Eventi residenziali
-                  </DropdownItem>
-
-                  <DropdownItem
-                    // target="_blank"
-                    to="/eventi-centro" tag={Link}
-                  >
-                   Eventi al centro mindfulness milano
-                  </DropdownItem>
-              </DropdownMenu>
-              </UncontrolledDropdown>
-
+              
 
               <UncontrolledDropdown nav>
                 <DropdownToggle
@@ -291,6 +269,32 @@ function IndexNavbar() {
                    Craniosacrale Biodinamico
                   </DropdownItem>
                  
+              </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                  caret
+                  color="default"
+                  href="#pablo"
+                  nav
+                  onClick={e => e.preventDefault()}
+                >
+                  <p>Eventi</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                <DropdownItem
+                    // target="_blank"
+                    to="/formazione-events" tag={Link}
+                  >
+                   Eventi residenziali
+                  </DropdownItem>
+
+                  <DropdownItem
+                    // target="_blank"
+                    to="/eventi-centro" tag={Link}
+                  >
+                   Eventi al centro mindfulness milano
+                  </DropdownItem>
               </DropdownMenu>
               </UncontrolledDropdown>
 

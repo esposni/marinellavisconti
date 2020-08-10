@@ -48,7 +48,7 @@ export default function DistanceHealingPage() {
               
                 <h2 className="title">Distance Healing : Pratiche di guarigione a distanza</h2>
                 <h5 align="left">Distance healing= La guarigione intuitiva. È una pratica di guarigione a distanza. È un’esperienza che nasce da un luogo profondo del cuore ed è parte della medicina quantica. Aumenta la capacità di guarigione spirituale. Nasce originariamente dall’osteopatia e dalle successive esplorazioni del Craniosacrale biodinamico e del continuum movement. L’operatore si muove come testimone trascendentale. </h5>
-                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:mariv9162@gmail.com">mariv9162@gmail.com</a>  o <a href="mailto:marinellavisconti@outlook.it">marinellavisconti@outlook.it</a></h5>
+                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               
               
               </Col>

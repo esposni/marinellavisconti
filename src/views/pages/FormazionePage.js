@@ -137,7 +137,7 @@ possibile.</h5>
 <h3 align="center" className="bold" >UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
 7 ottobre 2021</strong><br/><br/></h5>
-<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:segreteria@associazionemudita.org">segreteria@associazionemudita.org</a> </h5>
+<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> </h5>
 <h5 align="left">In questo workshop coltiveremo la consapevolezza quale strumento
 per
 riconoscere che cosa sta avvenendo a livello di mente, emozioni e
@@ -161,7 +161,7 @@ lavoro.</h5>
                     </Button>  
 <h2 className="">COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
 <h5 align="center"><strong>Eremo di Montecastello (Bs) 8 ottobre 2021</strong><br/><br/></h5>
-<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:segreteria@associazionemudita.org">segreteria@associazionemudita.org</a> </h5>
+<h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> </h5>
 <h5 align="left">Un'opportunità per continuare ad approfondire la pratica
 attraverso
 istruzioni con lavori in piccoli gruppi e attraverso domande e
@@ -207,14 +207,14 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
 <h5 align="left">13 modulo 12-15 dicembre 2024: Allenare il coraggio del cuore con l'audacia della creazione. Marinella Visconti e Valeria Giunta  </h5>
 <h5 align="left">14 modulo 2025: RITIRO LABORATORIO FINALE IN LUOGO A FORTE IMPATTO NATURALISTICO SPIRITUALE DA DEFINIRE</h5>
 
-
+<h5 align="left"><strong>PER INFO E ISCRIZIONI CONTATTARE</strong><br/><a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
 
               </Col>
             </Row>
           
           </Container>
         </div>
-
+      
  {/* Conduttori ------------------------------------------------------------- */}
       <Conduttori school={true}/>
        

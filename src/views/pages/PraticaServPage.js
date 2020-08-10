@@ -31,11 +31,20 @@ export default function PraticaServPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Attivismo contemplativo online" image="ciotola.jpeg" />
+        
+        <PageHeader title="C'è una voce che non usa le parole. Ascolta" image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
+              <div align="center">
+            <img
+                alt="..."
+                className=""
+                style={{width:"20.5em",height:"20.5em"}}
+                src={require("assets/img/marinella5.jpg")}
+              ></img>
+            </div>
               <h2 className="title">Attivismo contemplativo</h2>
               <h5 align="left">Compiere un gesto amichevole, offrire un servizio o prestare attenzione, ascoltare profondamente sono offerte che in alcune situazioni possono essere più importanti di oggetti materiali. Uno dei benefici a lungo termine è che attraverso la generosità cominciamo a rendere felici i rapporti.</h5>
               <h5 align="left">Il senso di sviluppare una connessione attraverso i valori conduce ad un’apertura del cuore, perché condividiamo con gli altri e ci sosteniamo a vicenda.</h5>
@@ -49,8 +58,14 @@ Così i saggi entrano a far parte del nostro tempio di consapevolezza e sostengo
 L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
 La cura ci consente di osservare la propria mente nel bel mezzo del turbamento lasciando spazio alla nascita di qualità fondamentali come la saggezza.</h5>
+<h2 className="title"> Sostenere chi sostiene</h2>
+<p className="category" align="left" style={{color:"black"}}><strong>Sono benvenuti e invitati a partecipare e a contribuire al<p className="category" style={{color:"gold",fontSize:"2.0em",margin:"0px"}} align="center">Progetto Pien<i className="fas fa-heart"></i>Essere</p> sostenendo chi sostiene tutti coloro che si sono formati in modo continuativo nell’Associazione Mudita alla
+Mindfulness in relazione avanzata in questi ultimi 15 anni, sono invitati a contribuire coloro che conoscono la Mindfulness in relazione e transpersonale, gli insegnanti di Dharma, gli insegnanti di pratiche corporee di consapevolezza e tutti coloro che attraverso la loro professione cercano di incarnare il Dharma.
+Prerequisito fondamentale è aver fatto un significativo lavoro su di sé, avere una regolare pratica e sentire una motivazione profonda a donare e a donarsi.</strong>
+</p>
+<h5>Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> e compilare il Questionario sotto:
+          </h5>
 
-<h5 align="left">Chi desidera offrire la propria disponibilità per il progetto attivismo contemplativo puo compilare il questionario sotto e verrà contattato:</h5> 
 {/* Questionario */}
 <Quest1/>
 <hr></hr>

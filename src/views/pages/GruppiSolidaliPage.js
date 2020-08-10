@@ -32,7 +32,7 @@ export default function GruppiSolidaliPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title={`Gruppi solidali di Ascolto Profondo "da essere a essere"`} />
+        <PageHeader image="orecchio.jpeg" title="Cos'è importante ora? Mudita e Dāna" />
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -61,6 +61,7 @@ Una volta al mese da ottobre a giugno  ogni primo mercoledì dalle 12.00 alle 14
 Gli incontri sono <strong>ad offerta libera</strong> e le offerte verranno impiegate per il sostegno al progetto “Braveheartfulness School" progetto formativo volto a sostenere la formazione di coloro che hanno motivazione per creare le  condizioni di un benessere più ampio nella comunità:  “piccoli bodhisattva crescono” </h5>
 <h5 align="left">E’ richiesto un colloquio preliminare per accedere al gruppo.</h5>
               
+<h5 align="left">Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>
               
               </Col>
             </Row>

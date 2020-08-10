@@ -30,7 +30,7 @@ export default function CraniosacralePage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title="Craniosacrale biodinamica" />
+        <PageHeader image="orecchio.jpeg" title="C'è una voce che non usa le parole. Ascolta" />
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -44,7 +44,7 @@ Il Craniosacrale biodinamica è un approccio alla Mindfulness attraverso il cont
               <h5 align="left">Il Craniosacrale deriva dall’osteopatia, dalla ricerca di William G. Sutherland. Agli inizi del Novecento, Sutherland scoprì il movimento intrinseco delle ossa del cranio e individuò diverse maree, movimenti ritmici e fluttuazioni sottili nel corpo. Scoprì anche che l’ascolto di questi ritmi attraverso un contatto molto delicato, è in grado di facilitarne il riequilibrio. Il contatto Craniosacrale aiuta a sviluppare un senso di integrazione e di presenza nel corpo.</h5>
               <h5 align="left">Essere ascoltati in profondità. senza giudizio e con empatia è alla base di ogni vero cambiamento.</h5>
               <h5 align="left">Tratto da Craniosacrale – Un approccio olistico alla salute – A.CS.I. Associazione Craniosacrale Italiana</h5>
-              
+              <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               </Col>
             </Row>
           
