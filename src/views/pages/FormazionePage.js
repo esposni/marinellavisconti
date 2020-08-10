@@ -31,11 +31,12 @@ export default function FormazionePage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Formazione in mindfulness transpersonale e in relazione" image="ciotola.jpeg" />
+        <PageHeader title="Agisci come se quel che fai facesse la differenza. La fa." image="ciotola.jpeg" />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
+                <h2 className="title">Formazione in mindfulness transpersonale e in relazione</h2>
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
                 <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
                 <h2 className="title">Pratiche contemplative quotidiane per cuori CORaggiosi</h2>
