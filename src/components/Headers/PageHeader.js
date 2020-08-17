@@ -35,8 +35,8 @@ export default function PageHeader(props) {
         ></div>
        
           <Container>
-            {(props.ifdesc)?<p className="category" style={{color:"gold",fontSize:"1.5em",marginTop:"20vh"}}>{props.title}</p>:
-            <h1 className="title" style={{color:"gold",marginTop:"20vh"}}> {props.title} </h1> }
+            {(props.ifdesc)?<p className="category" style={{color:"#dbbb4b",fontSize:"1.5em",marginTop:"20vh"}}>{props.title}</p>:
+            <h1 className="title" style={{color:"#dbbb4b",marginTop:"20vh"}}> {props.title} </h1> }
           
            
             {/* <div className="text-center">

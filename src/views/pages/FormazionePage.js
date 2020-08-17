@@ -36,10 +36,10 @@ export default function FormazionePage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Formazione in mindfulness transpersonale e in relazione</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Formazione in mindfulness transpersonale e in relazione</h2>
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
                 <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
-                <h2 className="title">Pratiche contemplative quotidiane per cuori CORaggiosi</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Pratiche contemplative quotidiane per cuori CORaggiosi</h2>
                 <h2 className="">Ritiri - laboratori  di ricerca interiore</h2>
                 <p>“Essere qui tutto il tempo con schiettezza e tenerezza....Puoi farlo....” C. Trungpa
 </p><h5 align="left">
