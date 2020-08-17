@@ -33,7 +33,7 @@ export default function RilassamentoYogaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title={`L'amore per la verità di mette con le spalle al muro`}  ifdesc={true}/>
+        <PageHeader image="orecchio.jpeg" title={`L'amore per la verità ti mette con le spalle al muro`}  ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -41,13 +41,13 @@ export default function RilassamentoYogaPage() {
 
               <img
                       alt="..."
-                     style={{width:"20em",height:"40em"}}
-                      src={require("assets/img/ritiri/corpocibo.jpeg")}
+                     style={{width:"30em",height:"40em"}}
+                      src={require("assets/img/ritiri/Rilassamento.jpeg")}
                     ></img><br/><br/>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">{`Rilassamento. Yoga Nidra del Cuore`} </h2>
+                <h2 className="title"  style={{color:"#dbbb4b"}}>Rilassamento. Yoga Nidra del Cuore</h2>
                 <h5 align="left">Uno spazio nel quale potersi lasciare riposare nell’ascolto del nostro cuore immerso nel cuore dell’Universo.
 </h5>
                 <h5 align="left">Di lunedì in lunedì avremo la possibilità di essere accompagnati nell’ascolto del nostro corpo immerso in qualcosa che è più grande di noi e che ospita ciò di cui il cuore fa esperienza nella nostra quotidianità emotiva e nella nostra storia personale. 

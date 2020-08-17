@@ -61,12 +61,12 @@ export default function CorpoCiboPage() {
           <Container>
             <h2 className="title">CONDUTTORI</h2>
             <Row>
-            <Conduttore id={utenti[11].id}
-                    img={utenti[11].img}
-                    name={utenti[11].name}
-                    desc={utenti[11].desc}
-                    self={utenti[11].self}
-                    link={utenti[11].link}
+            <Conduttore id={utenti[12].id}
+                    img={utenti[12].img}
+                    name={utenti[12].name}
+                    desc={utenti[12].desc}
+                    self={utenti[12].self}
+                    link={utenti[12].link}
                     />
             </Row>
           </Container>
