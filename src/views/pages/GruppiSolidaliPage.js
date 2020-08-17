@@ -15,6 +15,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
+import DonazioneButton from "views/pages/Donazione"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function GruppiSolidaliPage() {
@@ -32,7 +33,7 @@ export default function GruppiSolidaliPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title="Cos'è importante ora? Mudita e Dāna" />
+        <PageHeader image="orecchio.jpeg" title="Guarire il mondo significa guarire te stesso" ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -62,7 +63,7 @@ Gli incontri sono <strong>ad offerta libera</strong> e le offerte verranno impie
 <h5 align="left">E’ richiesto un colloquio preliminare per accedere al gruppo.</h5>
               
 <h5 align="left">Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>
-              
+              <DonazioneButton/>
               </Col>
             </Row>
           

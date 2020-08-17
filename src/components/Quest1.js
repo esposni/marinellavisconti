@@ -146,7 +146,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
         <Input
           cols="80"
           name="name"
-          placeholder="Aree in cui desidero mettermi a servizio"
+          placeholder="La mia professione"
           rows="4"
           type="textarea"
           id="aree"

@@ -30,8 +30,14 @@ export default function AlertDialogSlide(props) {
                     color="info"
                 
                     onClick={handleClickOpen}
-                    size="sm"
-                  >Curriculum
+                    size="lg"
+                  >
+                    <img
+                alt="..."
+                className=""
+                style={{width:"3.5em",height:"3.5em",marginRight:"20px"}}
+                src={require("assets/img/marinella5.jpg")}
+              ></img>{props.title}
                     </Button>  
       <Dialog
         open={open}

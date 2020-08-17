@@ -30,13 +30,13 @@ export default function FormazioneAvanzataPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="ciotola.jpeg" title="Formazione in mindfulness transpersonale e in relazione avanzata" />
+        <PageHeader image="ciotola.jpeg" title="Tutto esiste indifferentemente con lo stesso diritto" ifdesc={true} />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">PERCORSO IN OTTO SIGILLI DI MINDFULNESS TRANSPERSONALE</h2>
+                <h2 className="title">Percorso in otto sigilli di mindfulness transpersonale in relazione avanzata </h2>
                 <h2 align="center"><strong>Edizione 2019/2021</strong></h2>
                 <img
                       alt="..."

@@ -231,6 +231,24 @@ function IndexNavbar() {
                   >
                   Distance Healing : Pratiche di guarigione a distanza
                   </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/corpo-cibo" tag={Link}
+                  >
+                 "Ad ogni corpo il suo cibo..."
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/rilassamento-yoga" tag={Link}
+                  >
+                 Rilassamento. Yoga Nidra del Cuore
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/traduzione-testi" tag={Link}
+                  >
+                 Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano
+                  </DropdownItem>
                   
                   
               </DropdownMenu>

@@ -18,7 +18,7 @@ import Conduttore from "views/pages/Conduttore"
 import DonazioneButton from "views/pages/Donazione"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
-export default function PraticaContemplativaPage() {
+export default function CorpoCiboPage() {
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -33,44 +33,40 @@ export default function PraticaContemplativaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title={`Siate lì tutto il tempo con la vostra schiettezza e tenerezza...`}ifdesc={true} />
+        <PageHeader image="orecchio.jpeg" title={`"Ad ogni corpo il suo cibo..."`}  ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
-            <Col className="" md="4">
+              <Col className="" md="4">
 
               <img
                       alt="..."
-                      className="info-event"
-                      src={require("assets/img/pratica_contemplativa.png")}
+                     style={{width:"20em",height:"40em"}}
+                      src={require("assets/img/ritiri/corpocibo.jpeg")}
                     ></img><br/><br/>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">La pratica contemplativa nella vita quotidiana</h2>
-                <h5 align="center">Condotto da Marinella Visconti</h5>
-              <h5 align="left">
-              Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa
-</h5>  
-
-<h2 className="title">Incontri di pratica online di gruppo in diretta streaming </h2>
-<h5 align="left">Tutti i lunedì dalle 08:30 alle 09:10<br/> Tutti i giovedì dalle dalle 18:00 alle 18:40.</h5>
-<h5 align="left">La partecipazione è libera. Chi fosse interessato è pregato di contattare Marinella al 338-2331754 oppure via email scrivendo a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>   
-     <DonazioneButton/>         
+              
+                <h2 className="title">{`"Ad ogni corpo il suo cibo..."`} </h2>
+                
+<h5 align="left">Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>
+<DonazioneButton/>
               </Col>
             </Row>
-            </Container>
+          
+          </Container>
         </div>
-        
+
         <div className="section section-team text-center">
           <Container>
             <h2 className="title">CONDUTTORI</h2>
             <Row>
-            <Conduttore id={utenti[0].id}
-                    img={utenti[0].img}
-                    name={utenti[0].name}
-                    desc={utenti[0].desc}
-                    self={utenti[0].self}
-                    link={utenti[0].link}
+            <Conduttore id={utenti[11].id}
+                    img={utenti[11].img}
+                    name={utenti[11].name}
+                    desc={utenti[11].desc}
+                    self={utenti[11].self}
+                    link={utenti[11].link}
                     />
             </Row>
           </Container>

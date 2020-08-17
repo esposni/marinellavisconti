@@ -12,7 +12,7 @@ export default function Conduttore(props) {
 
   return (
     <>
-      <Col key={props.id} md="4" >
+      <Col key={props.id} className="ml-auto mr-auto text-center"  md="4" >
         <div className="team-player">
         <img
             alt="..."
@@ -20,8 +20,9 @@ export default function Conduttore(props) {
             className="rounded-circle img-fluid img-raised"
             src={require("assets/img/"+props.img)}
         ></img>
-        <h4 className="title">{props.name} </h4>
-        <p className="category text-info" style={{height:"65px"}}>{props.desc} </p>    
+        {(props.name!=="")?<h4 className="title">{props.name} </h4>:""}
+        
+        <p className="category text-info" style={{height:"65px",marginTop:"30px"}}>{props.desc} </p>    
         </div>
         {(props.self)? <Button
         block
@@ -37,6 +38,7 @@ export default function Conduttore(props) {
         color="info"
         to={props.link} tag={Link}
         target="_blank"
+        style={{marginTop:"9vh"}}
         size="sm"
         >Pagina personale
         </Button>}

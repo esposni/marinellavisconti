@@ -46,16 +46,20 @@ return (
           type={el.type}/>
         })} */}
         {data.map( (el)=>{
-            return  <AnteprimaEvento 
-            key={el.id}
-            num={el.id}
-            all={true}
-            title={el.title}
-            conduttori={el.conduttori}
-            date={el.date}
-            image={el.image}
-            type={el.type}
-            self_link={el.self_link}/> 
+           if(el.type==="Ritiri Laboratori" || el.type==="Ritiro di Vipassana")
+               return <AnteprimaEvento 
+              key={el.id}
+              num={el.id}
+              all={true}
+              title={el.title}
+              conduttori={el.conduttori}
+              date={el.date}
+              image={el.image}
+              type={el.type}
+              self_link={el.self_link}/> 
+          else
+            return ""
+            
         })}
         
      

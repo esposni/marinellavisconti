@@ -30,7 +30,7 @@ export default function PremessaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-      <PageHeader image="ciotola.jpeg" title="Formazione in mindfulness transpersonale e in relazione" />
+      <PageHeader image="ciotola.jpeg" title="Formazione in mindfulness transpersonale in relazione" />
         <div className="section section-about-us">
           <Container>
             <Row>

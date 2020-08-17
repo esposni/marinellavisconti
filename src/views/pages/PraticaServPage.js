@@ -7,16 +7,44 @@ import {
   Row,
   Col
 } from "reactstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import Quest1 from "components/Quest1"
-// import AlertDialogSlide from "components/PopUpButton.js";
+import PopUpButton from"components/PopUpButton";
 
+
+let textbutton1=`Progetto Pien💛Essere nutre un SOGNO....Poter disporre di uno spazio gratuito in un luogo sacro o da risacralizzare dove sviluppare l’interesse verso le pratiche contemplative e dove dare un
+contributo al sorgere di una cultura che contribuisca a far nascere un nuovo stile di vita salutare caratterizzato dal restituire bellezza, pienezza e saggezza del vivere nel qui e ora....come sostenuto dalle antiche tradizioni sapienziali e spirituali e come oggi ampiamente dimostrato dagli studi scientifici sugli effetti della Mindfulness e della meditazione sul benessere delle persone in differenti contesti di osservazione.
+Il desiderio più ambizioso, sarebbe di portare la pratica contemplativa in spazi che in passato sono stati utilizzati per pratiche spirituali e che attualmente hanno una nuova destinazione come ex conventi, chiese sconsacrate...nella convinzione che questi spazi conservino la memoria del Silenzio che ha caratterizzato i processi trasformativi e di guarigione di tante persone e nella convinzione che far rivivere i luoghi del passato sia espressione di gentilezza, cura e rispetto di tutto il lavoro materiale e spirituale che è stato dedicato a quel particolare luogo.
+L’intento è di offrire esperienze personali e il frutto della pratica a coloro che saranno interessati e che desidereranno partecipare agli incontri che saranno ad entrata libera o eventualmente nella forma dell’offerta libera come nelle antiche tradizioni spirituali.
+La pratica di servizio consente di sviluppare cura e sollecitudine. E la cura consente di osservare la nostra mente nel bel mezzo dei turbamenti lasciando spazio alla nascita di qualità fondamentali come la saggezza.
+Cura, sollecitudine, saggezza sono Valori che possono contribuire ad aumentare un senso di interconnessione e di condivisione che ci auguriamo facciano il bene della Comunità.
+Grati per l’attenzione...
+`
+let textbutton2=`
+Ti ringraziamo per il tuo supporto al Progetto Pien💛 Essere e per la raccolta fondi per le borse di
+studio per coloro che intendono formarsi nella Braveheartfulness School, progetto orientato a sostenere...“piccoli bodhisattva crescono”...” e per tutti i progetti orientati a sostenere chi sostiene`
+
+let textbutton3=`
+Se desideri iscriverti all’Associazione Progetto Pien💛Essere puoi compilare il questionario sotto e versare euro 25 di tessera sostenitore a:\n
+ Progetto Pien💛Essere  \n
+ Banca\n
+  IBAN`
 export default function PraticaServPage() {
+  const [showResults, setShowResults] = React.useState(false)
+  const onClick = () => { 
+    if(showResults===false){
+      setShowResults(true)
+    }else{
+      setShowResults(false)
+    }
+  }
+
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -32,7 +60,7 @@ export default function PraticaServPage() {
       <IndexNavbar />
       <div className="wrapper">
         
-        <PageHeader title="C'è una voce che non usa le parole. Ascolta" image="ciotola.jpeg" />
+        <PageHeader title="C'è una voce che non usa le parole. Ascolta" image="ciotola.jpeg" ifdesc={true} />
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -59,70 +87,39 @@ L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
 La cura ci consente di osservare la propria mente nel bel mezzo del turbamento lasciando spazio alla nascita di qualità fondamentali come la saggezza.</h5>
 <h2 className="title"> Sostenere chi sostiene</h2>
-<p className="category" align="left" style={{color:"black"}}><strong>Sono benvenuti e invitati a partecipare e a contribuire al<p className="category" style={{color:"gold",fontSize:"2.0em",margin:"0px"}} align="center">Progetto Pien<i className="fas fa-heart"></i>Essere</p> sostenendo chi sostiene tutti coloro che si sono formati in modo continuativo nell’Associazione Mudita alla
-Mindfulness in relazione avanzata in questi ultimi 15 anni, sono invitati a contribuire coloro che conoscono la Mindfulness in relazione e transpersonale, gli insegnanti di Dharma, gli insegnanti di pratiche corporee di consapevolezza e tutti coloro che attraverso la loro professione cercano di incarnare il Dharma.
-Prerequisito fondamentale è aver fatto un significativo lavoro su di sé, avere una regolare pratica e sentire una motivazione profonda a donare e a donarsi.</strong>
-</p>
+<h5 align="left">
+Sono benvenuti e invitati a partecipare e a contribuire al Progetto Pien<i style={{color:"gold"}}className="fas fa-heart"></i>Essere, sostenendo chi sostiene  tutti coloro che si sono formati in modo continuativo nell’Associazione Mudita alla Mindfulness in relazione avanzata in questi ultimi 15 anni, sono invitati a contribuire coloro che conoscono la Mindfulness in relazione e transpersonale, gli insegnanti di Dharma, gli insegnanti di pratiche corporee di consapevolezza e tutti coloro che attraverso la loro professione cercano di incarnare il  Dharma.<br/> <br/>
+
+Prerequisito fondamentale è aver fatto un significativo lavoro su di sé, avere una regolare pratica e sentire una motivazione profonda a donare e a donarsi.</h5>
 <h5>Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> e compilare il Questionario sotto:
           </h5>
 
 {/* Questionario */}
-<Quest1/>
-<hr></hr>
-                <h2 className="title">LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
-                <h5 align="center">Condotto da Marinella Visconti</h5>
-              <h5 align="left">
-              Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa
-</h5>  
-<h5 align="left">Siate li tutto il tempo con la vostra schiettezza e tenerezza...  C. Trungpa</h5>
+<Button 
+block
+className="btn-round"
+color="info"
+size="lg"
+onClick={onClick}> <img
+alt="..."
+className=""
+style={{width:"3.5em",height:"3.5em",marginRight:"20px"}}
+src={require("assets/img/marinella5.jpg")}
+></img>Compila il questionario</Button>
+{ showResults ?  <Quest1/> : null }
+<div>
+        <h5 align="center">Progetto pienessere nutre un sogno </h5>
+        <PopUpButton title="Sogno" content={textbutton1}/>
+        </div>
+        <div>
+        <h5 align="center">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
+        <PopUpButton title="Donazione" content={textbutton2}/>
+        </div>
+        <div>
+        <h5 align="center">Se vuoi iscriverti alla all’Associazione</h5>
+        <PopUpButton title="Iscrizione all'associazione" content={textbutton3}/>
+        </div>
 
-<h5><strong>Il gruppo di PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA con Marinella Visconti continua tutti i lunedì dalle 08:30 alle 09:10,  tutti i giovedì dalle 12.30 alle 13.30 e dalle 18:00 alle 18:40 in diretta streaming . La partecipazione è libera. Chi fosse interessato è pregato di contattare Marinella al 338-2331754 oppure via email scrivendo a <a href="mailto:mariv9162@gmail.com">mariv9162@gmail.com</a>  o <a href="mailto:marinellavisconti@outlook.it">marinellavisconti@outlook.it</a> 
-<br/><br/>
-Lunedì dalle 08:30 alle 09:10<br/>
-Giovedì dalle 12:30 alle 13:30
-e dalle 18:00 alle 18:40</strong></h5>
-
-<h3 align="center" className="bold" >Milano</h3>
-<h3 align="center" className="bold" >Entrata libera</h3>
-<h5 align="left">
-Da settembre 2020 il giovedì dalle 12:30 alle 13:30 presso il Centro Mindfulness Milano, Via Cenisio, 5.
-</h5>
-
-<br/>
-<h5 align="left">Per informazioni e iscrizioni scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
-<br/>
-
-
-<h2 className="title">Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano</h2> 
-<h5 align="left">Da distribuire in centri di ritiri e presso il Centro Mindfulness Milano ad offerta libera.
-L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tradotti sarà devoluta a sostegno del centro di ritiri Theravada Cittaviveka(<a href="http://www.cittaviveka.org">http://www.cittaviveka.org</a>) in inghilterra.</h5>
-<h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
-<h5 align="left">Potete scrivere a <a href = "mailto: marinellavisconti@outlook.it"> marinellavisconti@outlook.it</a> </h5>
-<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
-
-
-<h2 className="">ORGANIZZAZIONE DI RITIRI ED EVENTI</h2>
-<h5 align="left">Le Paramita con Ajahn Sucitto 15 Marzo 2021 - 25 Marzo 2021</h5>
-                <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="http://centromindfulnessmilano.com/event/le-paramita-con-ajahn-sucitto/"
-                    
-                    size="sm"
-                  >Ulteriori informazioni
-                    </Button>  <br/>
-<h5 align="left">Ritiro di Mindfulness e heartfulness ottobre 2021</h5>
-<Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    to="/formazione" tag={Link}
-                    
-                    size="sm"
-                  >Ulteriori informazioni
-                    </Button> <br/>
-                  
               </Col>
             </Row>
           

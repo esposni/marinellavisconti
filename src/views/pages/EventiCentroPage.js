@@ -33,7 +33,7 @@ return (
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader image="ciotola.jpeg" 
-        title="Siate li tutto il tempo con la vostra schiettezza e tenerezza..." />
+        title="Siate li tutto il tempo con la vostra schiettezza e tenerezza..." ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>

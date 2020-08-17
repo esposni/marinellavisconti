@@ -15,6 +15,8 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
+import DonazioneButton from "views/pages/Donazione"
+
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function DistanceHealingPage() {
@@ -32,7 +34,7 @@ export default function DistanceHealingPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title="Distance Healing : Pratiche di guarigione a distanza" />
+        <PageHeader image="orecchio.jpeg" title="Teniamo quello che vale la pena di tenere e poi con il fiato della gentilezza soffiamo via il resto..." ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -50,7 +52,7 @@ export default function DistanceHealingPage() {
                 <h5 align="left">Distance healing= La guarigione intuitiva. È una pratica di guarigione a distanza. È un’esperienza che nasce da un luogo profondo del cuore ed è parte della medicina quantica. Aumenta la capacità di guarigione spirituale. Nasce originariamente dall’osteopatia e dalle successive esplorazioni del Craniosacrale biodinamico e del continuum movement. L’operatore si muove come testimone trascendentale. </h5>
                 <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               
-              
+                <DonazioneButton/>
               </Col>
             </Row>
           

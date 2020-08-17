@@ -30,13 +30,13 @@ export default function ConsapevolPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Consapevolezza in cammino" image="piedi-budda.jpeg" />
+        <PageHeader title="I sentieri si tracciano camminando..." image="piedi-budda.jpeg" ifdesc={true} />
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                {/* <h2 className="title">Craniosacrale biodinamica</h2> */}
+                <h2 className="title">Consapevolezza in cammino</h2>
               
               </Col>
             </Row>

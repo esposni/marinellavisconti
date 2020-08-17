@@ -67,12 +67,15 @@
         "title":"Incontrare a cuore aperto il mistero della sofferenza",
         "conduttori":"Marinella Visconti",
         "date":"8 Novembre 10:00 - 18:00",
-        "text":["Costo per la giornata: \n Euro 30 da consegnare alla segreteria del centro D'Ompio per pranzo e uso della struttura. Il ritiro come da tradizione orientale è ad offerta libera."]
+        "text":["Sofferenza","La sofferenza è un mistero...il laboratorio nasce con l’intento di esplorare la sofferenza nelle sue svariate forme avendo come metodo la carezza, marcia verso l’invisibile, perché la carezza non sa cosa cerca....","Questo sarà il giusto tocco a cui ci addestriamo nei confronti di noi stessi e degli altri. Il ritiro laboratorio esperienziale permetterà di lasciarci accarezzare dal respiro e lasciarci toccare dalla vita invitando il nostro cuore alla compassione"," Invitare la compassione è veramente audace sia perché si sente il proprio dolore, sia perché si sente il dolore dell’altro, sia perché si rimane radicati nell’onestà e nella correttezza e ci si astiene dal danneggiare gli altri attraverso azioni negative. Se siamo compassionevoli naturalmente attribuiremo importanza alle cause e agli effetti di ciò che facciamo diventando molto attenti.","",
+        "Questo ritiro laboratorio è dedicato a psicoterapeuti, psicologi e professionisti della salute esperti o ricercatori spirituali che abbiano una pratica contemplativa regolare e che abbiano fatto lavoro personale su di sé in modo continuativo. Per poter partecipare è necessario conoscere la Mindfulness in relazione e/o la Mindfulness transpersonale in relazione, o conoscere pratiche di consapevolezza o di Mindfulness.",
+        "Eventuali richieste particolari di persone che non hanno questi requisiti saranno valutate attraverso un colloquio conoscitivo.",
+        "Il ritiro laboratorio è prevalentemente esperienziale."]
         ,"data_luogo":"Il seminario si svolgerà il 8 Novembre 2020 presso il Centro d'Ompio Via Pratolungo, 47 Pettenasco (NO) dalle ore 9:30 alle 18:00"
         ,"image":"cascata.JPG"
         ,"type":"Ritiri Laboratori"
         ,"cit":[]
-        ,"costo":""
+        ,"costo":"Costo per la giornata: \n Euro 30 da consegnare alla segreteria del centro D'Ompio per pranzo e uso della struttura. Il ritiro come da tradizione orientale è ad offerta libera."
         ,"contatto":"info@progettopienessere.com"
         ,"users":[{"name":"Marinella Visconti",
                    "desc":"Psicoterapeuta ad orientamento contemplativo",
@@ -304,7 +307,7 @@
                 {"name":"Simone Spina",
                     "img":"simone-spina.png",
                     "desc":"Psichiatra Psicoterapeuta ad orientamento transpersonale",
-                    "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
+                    "link":"simone-spina",
                     "curriculum":"" }]
         ,"more_info":""
         ,"prerequisiti":[]
@@ -312,5 +315,29 @@
         ,"offerta_libera":false,
         "vitto_alloggio":""
         ,"self_link":"/formazione-avanzata"
+    },
+    {
+        "id":12,
+        "title":"Ad ogni corpo il suo cibo...",
+        "conduttori":"Monia Talenti",
+        "date":"",
+        "text":[]
+        ,"image":"corpocibo.jpeg",
+        "data_luogo":""
+        ,"type":"Attivismo Contemplativo"
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"name":"Monia Talenti",
+            "desc":"Biologa nutrizionista e pasticciera contemplativa",
+            "img":"MoniaTalenti.png",
+                "link":"monia-talenti",
+                "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/corpo-cibo"
     }
 ]

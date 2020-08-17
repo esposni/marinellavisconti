@@ -33,9 +33,12 @@ export default function PageHeader(props) {
           }}
           ref={pageHeader}
         ></div>
-        <div className="content-center">
+       
           <Container>
-            <h1 className="title2">{props.title} </h1>
+            {(props.ifdesc)?<p className="category" style={{color:"gold",fontSize:"1.5em",marginTop:"20vh"}}>{props.title}</p>:
+            <h1 className="title" style={{color:"gold",marginTop:"20vh"}}> {props.title} </h1> }
+          
+           
             {/* <div className="text-center">
               <Button
                 className="btn-icon btn-round"
@@ -63,7 +66,7 @@ export default function PageHeader(props) {
               </Button>
             </div> */}
           </Container>
-        </div>
+
       </div>
     </>
   );

@@ -32,7 +32,7 @@ function PsicoterapiaPage(props) {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Non è facile avere un bel giardino, è difficile come governare un regno. H.Hesse" image="mano.jpeg" />
+        <PageHeader title="Non è facile avere un bel giardino, è difficile come governare un regno. H.Hesse" image="mano.jpeg" ifdesc={true} />
         <div className="section section-about-us">
           <Container>
             <Row>

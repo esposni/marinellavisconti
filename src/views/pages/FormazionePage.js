@@ -31,7 +31,7 @@ export default function FormazionePage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader title="Agisci come se quel che fai facesse la differenza. La fa." image="ciotola.jpeg" />
+        <PageHeader title="Trovare l'innocenza in ogni forma" image="ciotola.jpeg" ifdesc={true} />
         <div className="section section-about-us">
           <Container>
             <Row>

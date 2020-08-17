@@ -15,6 +15,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
+import DonazioneButton from "views/pages/Donazione"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function PercorsoCrescitaPage() {
@@ -32,7 +33,7 @@ export default function PercorsoCrescitaPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title={` Guarire è un talento...`} />
+        <PageHeader image="orecchio.jpeg" title={`Sei abbastanza semplicemente nel tuo Essere...`} ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -50,6 +51,7 @@ export default function PercorsoCrescitaPage() {
                 <h5 align="center">Guarire è un talento, può essere una scalata autonoma, oppure una cordata fra due compagni di viaggio in cui uno conosce le regole e tende la mano all’altro....</h5>
                 <h5 align="left">I percorsi individuali di coppia sono rivolti in particolare agli psicoterapeuti, medici, operatori della salute, ricercatori spirituali che abbiano già fatto un significativo lavoro su di se e che abbiano una regolare pratica di consapevolezza.</h5>
                 <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
+                <DonazioneButton/>
               </Col>
             </Row>
             </Container>

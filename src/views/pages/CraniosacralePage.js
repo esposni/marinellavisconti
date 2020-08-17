@@ -13,6 +13,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import utenti from "../../assets/utenti.json"
+import Conduttore from "views/pages/Conduttore"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function CraniosacralePage() {
@@ -30,12 +32,12 @@ export default function CraniosacralePage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title="C'è una voce che non usa le parole. Ascolta" />
+        <PageHeader image="orecchio.jpeg" title="C'è una voce che non usa le parole. Ascolta" ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-              
+           
                 <h2 className="title">Craniosacrale biodinamica</h2>
                 <h5 align="left">
 Il Craniosacrale biodinamica è un approccio alla Mindfulness attraverso il contatto con il corpo.</h5>
@@ -50,47 +52,112 @@ Il Craniosacrale biodinamica è un approccio alla Mindfulness attraverso il cont
           
           </Container>
         </div>
-
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">Dove trovarmi</h2>
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio-milano.jpg")}
-                    ></img>
-                    <h4 className="title">Centro Mindfulness Milano</h4>
-                    {/* <p className="category text-info">Model</p> */}
-                   
-                    Via Cenisio, 5 <br/>
-                    Per contattarmi: 338 2331754
+            <h2 className="title">CONDUTTORI</h2>
+            <Row>
+                  <Col className="ml-auto mr-auto text-center" md="6">
+                  <h2 className="title">{utenti[0].name}</h2>
+                  <Conduttore id={utenti[0].id}
+                          img={utenti[0].img}
+                          name={""}
+                          desc={utenti[0].desc}
+                          self={utenti[0].self}
+                          link={utenti[0].link}
+                          />
+                  </Col>
+                  <Col className="ml-auto mr-auto text-center" md="6">
+                  <h2 className="title">Dove trovarmi</h2>
+                  <div className="team">
+                    <Row>
+                      <Col md="4">
+                        <div className="team-player">
+                          <img
+                            alt="..."
+                            className="rounded-circle img-fluid img-raised"
+                            src={require("assets/img/studio-milano.jpg")}
+                          ></img>
+                          <h4 className="title">Centro Mindfulness Milano</h4>
+                          {/* <p className="category text-info">Model</p> */}
+                        
+                          Via Cenisio, 5 <br/>
+                          Per contattarmi: 338 2331754
+                          
+                        
+                        </div>
+                      </Col>
+                      <Col md="4">
+                        <div className="team-player">
+                          <img
+                            alt="..."
+                            className="rounded-circle img-fluid img-raised"
+                            src={require("assets/img/studio2.png")}
+                          ></img>
+                          <h4 className="title">Studio privato</h4>
+                        
+                          Via Auguadri 22 Como
                     
-                   
+                        
+                        </div>
+                      </Col>
+                    
+                    </Row>
                   </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio2.png")}
-                    ></img>
-                    <h4 className="title">Studio privato</h4>
-                  
-                    Via Auguadri 22 Como
-               
-                   
+      
+              </Col>
+            </Row>
+            <hr></hr>
+
+            <Row>
+                  <Col className="ml-auto mr-auto text-center" md="6">
+                  <h2 className="title">{utenti[2].name}</h2>
+                  <Conduttore id={utenti[2].id}
+                          img={utenti[2].img}
+                          name={""}
+                          desc={utenti[2].desc}
+                          self={utenti[2].self}
+                          link={utenti[2].link}
+                          />
+                  </Col>
+                  <Col className="ml-auto mr-auto text-center" md="6">
+                  <h2 className="title">Dove trovarmi</h2>
+                  <div className="team">
+                    <Row>
+                      <Col md="4">
+                        <div className="team-player">
+                          <img
+                            alt="..."
+                            className="rounded-circle img-fluid img-raised"
+                            src={require("assets/img/studioFederica.jpg")}
+                          ></img>
+                          <h4 className="title">Studio privato</h4>
+                        
+                          Via Quintino Sella, 16 <br/>
+                          Brendola(Vicenza)
+                        </div>
+                      </Col>
+                      <Col md="4">
+                        <div className="team-player">
+                          <img
+                            alt="..."
+                            className="rounded-circle img-fluid img-raised"
+                            src={require("assets/img/studio2.png")}
+                          ></img>
+                          <h4 className="title">Studio privato</h4>
+                        
+                          Via Auguadri 22 Como
+                        
+                        </div>
+                      </Col>
+                    
+                    </Row>
                   </div>
-                </Col>
-               
-              </Row>
-            </div>
+      
+              </Col>
+            </Row>
           </Container>
         </div>
+       
         <FormMessage/>
         <DefaultFooter />
       </div>

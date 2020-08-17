@@ -45,8 +45,12 @@ import EventiCentroPage from "views/pages/EventiCentroPage";
 import EventoPage from "views/pages/EventoPage";
 import DistanceHealingPage from "views/pages/DistanceHealingPage"
 import GruppiSolidaliPage from "views/pages/GruppiSolidaliPage"
+import CorpoCiboPage from "views/pages/CorpoCiboiPage"
 import PraticaContemplativaPage from "views/pages/PraticaContemplativaPage"
 import PercorsoCrescitaPage from "views/pages/PercorsoCrescitaPage"
+import RilassamentoYogaPage from "views/pages/RilassamentoYogaPage"
+import TraduzioniTestiPage from "views/pages/TraduzioniTestiPage"
+
 import HomePage from "views/pages/HomePage"
 ReactDOM.render(
   <BrowserRouter>
@@ -60,6 +64,20 @@ ReactDOM.render(
          <Route
           path="/percorso-crescita"
           render={props => <PercorsoCrescitaPage {...props} />}
+        />
+        
+         <Route
+          path="/corpo-cibo"
+          render={props => <CorpoCiboPage {...props} />}
+        />
+         <Route
+          path="/traduzione-testi"
+          render={props => <TraduzioniTestiPage {...props} />}
+        />
+
+         <Route
+          path="/rilassamento-yoga"
+          render={props => <RilassamentoYogaPage {...props} />}
         />
           <Route
           path="/progetto"
