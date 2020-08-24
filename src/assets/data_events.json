@@ -156,8 +156,8 @@
     {
         "id":6,
         "title":"Mantenere un buon cuore incontrando la sofferenza",
-        "conduttori":"Ajahn Sucitto",
-        "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021",
+        "conduttori":"Ajahn Sucitto - Posti esautirti: Lista d'attesa",
+        "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021 ",
         "text":["Il ritiro prevede solo come da tradizione theravada la colazione e il pasto prima di mezzogiorno. Alla sera sono previste solo tisane. I partecipanti devono potersi trovare a proprio agio nel silenzio e nella consumazione di un unico pasto al giorno."]
         ,"image":"sucitto.png",
         "data_luogo":"Dal 15 sera al 25 marzo pranzo 2021 presso il centro d’Ompio – via Pratolungo 47, Pratolungo 28028 Pettenasco (NO). Orario da definire in prossimità del ritiro"
@@ -339,5 +339,29 @@
         ,"offerta_libera":false,
         "vitto_alloggio":""
         ,"self_link":"/corpo-cibo"
+    },
+    {
+        "id":13,
+        "title":"Nel cuore della cura",
+        "conduttori":"Giuseppe Ruggiero",
+        "date":"",
+        "text":[]
+        ,"image":"cuorecura.png",
+        "data_luogo":""
+        ,"type":"Attivismo Contemplativo"
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"name":"Giuseppe Ruggiero",
+            "desc":"Medico e Psicoterapeuta e poetaa",
+            "img":"giuseppe-ruggiero.png",
+                "link":"giuseppe-ruggiero",
+                "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/cuore-cura"
     }
 ]

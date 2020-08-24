@@ -50,6 +50,7 @@ import PraticaContemplativaPage from "views/pages/PraticaContemplativaPage"
 import PercorsoCrescitaPage from "views/pages/PercorsoCrescitaPage"
 import RilassamentoYogaPage from "views/pages/RilassamentoYogaPage"
 import TraduzioniTestiPage from "views/pages/TraduzioniTestiPage"
+import CuoreCuraPage from "views/pages/CuoreCuraPage"
 
 import HomePage from "views/pages/HomePage"
 ReactDOM.render(
@@ -69,6 +70,10 @@ ReactDOM.render(
          <Route
           path="/corpo-cibo"
           render={props => <CorpoCiboPage {...props} />}
+        />
+        <Route
+          path="/cuore-cura"
+          render={props => <CuoreCuraPage {...props} />}
         />
          <Route
           path="/traduzione-testi"

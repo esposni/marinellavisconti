@@ -62,7 +62,7 @@ export default function RilassamentoYogaPage() {
 </h5>
             
                 <h5 align="left">Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>
-                <DonazioneButton/>
+                <DonazioneButton text={true}/>
               </Col>
             </Row>
           

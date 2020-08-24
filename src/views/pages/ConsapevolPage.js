@@ -36,7 +36,7 @@ export default function ConsapevolPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">Consapevolezza in cammino</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Consapevolezza in cammino</h2>
               
               </Col>
             </Row>

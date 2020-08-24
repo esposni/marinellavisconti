@@ -76,8 +76,8 @@ function IndexNavbar() {
                 src={require("assets/img/marinella5.jpg")}
               ></img>
             </div>
-            {/* <i style={{color:"gold",fontSize:"2.5em"}} class="fas fa-home"></i> */}
-              {/* Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere */}
+            {/* <i style={{color:"#dbbb4b",fontSize:"2.5em"}} class="fas fa-home"></i> */}
+              {/* Pien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i>essere */}
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
@@ -107,7 +107,7 @@ function IndexNavbar() {
                   href="#pablo"
                   to="/progetto" tag={Link}
                 >
-                  <p>Progetto <br/>Pien<i style={{color:"gold",fontSize:"1.5em"}}className="fas fa-heart"></i>essere</p>
+                  <p>Progetto <br/>Pien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i>essere</p>
                 </NavLink>
               </NavItem>
 
@@ -248,6 +248,12 @@ function IndexNavbar() {
                     to="/traduzione-testi" tag={Link}
                   >
                  Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/cuore-cura" tag={Link}
+                  >
+                 Nel cuore della cura
                   </DropdownItem>
                   
                   

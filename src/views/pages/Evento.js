@@ -28,7 +28,7 @@ export default function Evento(props) {
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
  
-                <h2 className="title">{props.title}</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>{props.title}</h2>
                 {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
                 
                 <h5 align="center"><strong>{props.date}</strong><br/></h5>

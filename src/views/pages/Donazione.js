@@ -10,12 +10,14 @@ Se desideri iscriverti all’Associazione Progetto Pien💛Essere puoi compilare
  Banca\n
   IBAN`
 
-export default function DonazioneButton() {
+export default function DonazioneButton(props) {
 
     return (
         <>
-    <h5 align="left">Gli incontri sono ad offerta libera. E’ molto gradita l’iscrizione all'associazione. Ci aiutereste così a sostenere chi sostiene chè è il nostro intento principale.</h5>    
+    {(props.text)?<div>
+        <h5 align="left">Gli incontri sono ad offerta libera. E’ molto gradita l’iscrizione all'associazione. Ci aiutereste così a sostenere chi sostiene che è il nostro intento principale.</h5>    
     <h5 align="left">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
+    </div>:""}
     <PopUpButton title="Donazione" content={textbutton2}/>
     </>
     );

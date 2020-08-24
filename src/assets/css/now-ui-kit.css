@@ -5937,7 +5937,7 @@ td.rdtYear:hover {
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.932));
   /* Standard syntax */ }
 
-.clear-filter[filter-color="gold"] {
+.clear-filter[filter-color="#dbbb4b"] {
   background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(216, 168, 36, 0.932));

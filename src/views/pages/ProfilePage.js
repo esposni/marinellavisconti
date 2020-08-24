@@ -39,7 +39,7 @@ function ProfilePage(props) {
     element.users.forEach( users =>{
       // console.log(users)
       if(users.name===props.name){
-        eventi.push({"title":element.title,"date":element.date,"id":element.id})
+        eventi.push({"title":element.title,"date":element.date,"id":element.id,"self_link":element.self_link})
       }
     })
   });
@@ -56,16 +56,16 @@ function ProfilePage(props) {
         <div className="section">
           <Container>
             <h3 className="title">Chi sono</h3>
-            {props.text.map((t)=>{
-                      return <h5 align="left">{t}</h5>
+            {props.text.map((t,index)=>{
+                      return <h5 key={index} align="left">{t}</h5>
                     })}
-          
+          {/* eventi */}
           <h3 className="title">Eventi</h3>
             {
               eventi.map(el=>{
                 return <ul key={el.id}>
                   <li>
-                <a style={{color: "black"}}href={"/evento-"+el.id} target="_blank" rel="noopener noreferrer" ><h5 align="left"><strong>{el.title}</strong></h5></a>
+                <a style={{color: "black"}}href={(el.self_link==="")?"/evento-"+el.id :el.self_link} target="_blank" rel="noopener noreferrer" ><h5 align="left"><strong>{el.title}</strong></h5></a>
                 <h5 align="left">{el.date}</h5>
                </li>
                 </ul>
@@ -84,7 +84,7 @@ function ProfilePage(props) {
         </Button> :""}
           
           </Container>
-          {/* eventi */}
+          
           
           <FormMessage/>
         </div>
