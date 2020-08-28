@@ -37,7 +37,7 @@ function PsicoterapiaPage(props) {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">{(props.online)?"Psicoterapia a orientamento contemplativo e transpersonale online":"Psicoterapia a orientamento contemplativo e transpersonale"}</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>{(props.online)?"Psicoterapia a orientamento contemplativo e transpersonale online":"Psicoterapia a orientamento contemplativo e transpersonale"}</h2>
                 <h5 align="left">
                  
 Iniziare una psicoterapia significa innanzitutto fare un passo indietro dal mondo quotidiano, per poter andare più in profondità nel nostro percorso di ricerca di benessere e di un modo più consapevole di affrontare la vita.

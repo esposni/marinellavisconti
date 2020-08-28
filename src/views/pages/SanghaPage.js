@@ -19,7 +19,7 @@ import DonazioneButton from "views/pages/Donazione"
 
 // import AlertDialogSlide from "components/PopUpButton.js";
 
-export default function DistanceHealingPage() {
+export default function SanghaPage() {
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -34,7 +34,7 @@ export default function DistanceHealingPage() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader image="orecchio.jpeg" title="Teniamo quello che vale la pena di tenere e poi con il fiato della gentilezza soffiamo via il resto..." ifdesc={true}/>
+        <PageHeader image="orecchio.jpeg" title="" ifdesc={true}/>
         <div className="section section-about-us">
           <Container>
             <Row>
@@ -42,17 +42,19 @@ export default function DistanceHealingPage() {
 
               <img
                       alt="..."
-                      className="info-event"
-                      src={require("assets/img/distance_healing.jpg")}
+                      style={{width:"20em",height:"40em"}}
+                      src={require("assets/img/sangha.JPG")}
                     ></img><br/><br/>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title" style={{color:"#dbbb4b"}}>Distance Healing : Pratiche di guarigione a distanza</h2>
-                <h5 align="left">Distance healing= La guarigione intuitiva. È una pratica di guarigione a distanza. È un’esperienza che nasce da un luogo profondo del cuore ed è parte della medicina quantica. Aumenta la capacità di guarigione spirituale. Nasce originariamente dall’osteopatia e dalle successive esplorazioni del Craniosacrale biodinamico e del continuum movement. L’operatore si muove come testimone trascendentale. </h5>
-                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
-              
+                <h2 className="title" style={{color:"#dbbb4b"}}>Sangha cittadini e regionali</h2>
+                <h5 align="left"><strong>Abitare noi stessi e la natura (la nostra origine) con le mani, il cuore e la consapevolezza. Piccolo sanga di pratica meditativa di consapevolezza condivisa</strong></h5>
+                <h5 align="left"><strong>Luogo:</strong></h5>
+                <h5 align="left">Monte san giovanni in sabina. Località missiani</h5>
                 <DonazioneButton/>
+                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
+                
               </Col>
             </Row>
           
@@ -63,12 +65,12 @@ export default function DistanceHealingPage() {
           <Container>
             <h2 className="title">CONDUTTORI</h2>
             <Row>
-            <Conduttore id={utenti[0].id}
-                    img={utenti[0].img}
-                    name={utenti[0].name}
-                    desc={utenti[0].desc}
-                    self={utenti[0].self}
-                    link={utenti[0].link}
+            <Conduttore id={utenti[3].id}
+                    img={utenti[3].img}
+                    name={utenti[3].name}
+                    desc={utenti[3].desc}
+                    self={utenti[3].self}
+                    link={utenti[3].link}
                     />
             </Row>
           </Container>

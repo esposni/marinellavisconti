@@ -363,5 +363,35 @@
         ,"offerta_libera":false,
         "vitto_alloggio":""
         ,"self_link":"/cuore-cura"
+    },
+    {
+        "id":14,
+        "title":"Inchinarsi al mistero supremo",
+        "conduttori":"Roberto Mander e Marinella Visconti",
+        "date":"22 - 24 gennaio 2021  Centro D’Ompio ",
+        "text":["Avviare una riflessione sulla propria Morte è la sfida che maggiormente ci permette di aprirci alla vita e di dire SI alla vita.",
+        "La morte è il non sapere che sappiamo e che difficilmente desideriamo incontrare.... Il laboratorio/ritiro vuole essere uno spazio co-creato all’interno del quale lasciare emergere le voci più intime che ci abitano.", "Creeremo un campo di sostegno reciproco all’interno del quale in sicurezza potremo esplorare la Soglia del Mistero Supremo.", "Per iscriversi è necessario fare un colloquio preliminare con uno dei conduttori.","Partecipanti:","il laboratorio /ritiro è aperto a psicoterapeuti, medici, operatori della salute, volontari e ricercatori spirituali che abbiano fatto un significativo lavoro su di sé, che abbiano una regolare pratica contemplativa o che conoscano la Mindfulness o la Mindfulness transpersonale in relazione. MASSIMO 12 PARTECIPANTI"]
+        ,"image":"inchinarsi.jpeg",
+        "data_luogo":"Il corso si terrà dal venerdì 22 gennaio 2021 alle ore 14.30 alla domenica 24 gennaio 2021 pranzo compreso"
+        ,"type":"Ritiri Laboratori"
+        ,"cit":[]
+        ,"costo":"il ritiro/laboratorio costa euro 300 più la tessera associativa di euro 25 da versare all’Associazione Progetto PienEssere. Banca IBAN"
+            ,"offerta_libera":false,
+        "vitto_alloggio":"Vitto e alloggio al Centro D’Ompio euro da pagare direttamente al Centro. Costo vitto e alloggio dal venerdì sera alla domenica a pranzo: Camera doppia 166 euro vista lago, 156 euro vista bosco. Camera multipla 136 euro.", 
+        "contatto":"info@progettopienessere.com"
+        ,"users":[{"name":"Marinella Visconti",
+            "desc":"Psicoterapeuta ad orientamento contemplativo",
+            "img":"marinella.png",
+             "link":"marinella-visconti",
+             "curriculum":"" },
+             {"name":"Roberto Mander",
+                 "img":"Roberto-Mander.png",
+                 "desc":"",
+                  "link":"roberto-mander",
+                  "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"self_link":""
     }
 ]

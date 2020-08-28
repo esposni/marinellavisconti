@@ -48,7 +48,7 @@ export default function CorpoCiboPage() {
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">{`"Ad ogni corpo il suo cibo..."`} </h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>{`"Ad ogni corpo il suo cibo..."`} </h2>
                 <h5 align="left"><strong>…..mi-ALI-mento….</strong></h5>
                 <h5 align="left">Vorrei che fossero questo i nostri incontri, appuntamenti che avranno a che fare con il cibo, con il nutrimento del corpo e dello spirito.</h5>
                 <h5 align="left">La scelta degli ingredienti, gli abbinamenti, la concentrazione nel godere di essi.</h5>

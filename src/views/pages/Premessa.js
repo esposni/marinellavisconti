@@ -43,7 +43,7 @@ export default function PremessaPage() {
                 src={require("assets/img/marinella5.jpg")}
               ></img>
             </div>
-                <h2 className="title">Intento Formativo</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Intento Formativo</h2>
                 <h5 align="left">La nostra pratica è assecondata sorretta e stimolata dal crescente contatto con amici e insegnanti che cercano di realizzare il dharma nella loro esistenza.
 Noi nasciamo soli e moriamo soli. Molto del nostro tempo trascorre assorbito in pensieri e in sentimenti che non possiamo mai condividere interamente, e tuttavia la nostra esistenza si definisce
  

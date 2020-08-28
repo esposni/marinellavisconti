@@ -255,6 +255,12 @@ function IndexNavbar() {
                   >
                  Nel cuore della cura
                   </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/sangha" tag={Link}
+                  >
+                 Sangha cittadini e regionali
+                  </DropdownItem>
                   
                   
               </DropdownMenu>

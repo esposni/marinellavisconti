@@ -47,7 +47,7 @@ export default function GruppiSolidaliPage() {
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">{`Gruppi solidali di Ascolto Profondo "da essere a essere"`} </h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>{`Gruppi solidali di Ascolto Profondo "da essere a essere"`} </h2>
                 <h5 align="left">Gruppi solidali di ascolto profondo “essere ad essere”. 
 
 I gruppi sono rivolti a psicoterapeuti, medici, educatori e ricercatori spirituali che abbiano già fatto  un lavoro su di sé, che abbiano una pratica contemplativa e/o conoscano la mindfulness e/o la mindfulness in relazione. </h5>

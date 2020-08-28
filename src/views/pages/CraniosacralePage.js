@@ -38,7 +38,7 @@ export default function CraniosacralePage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
            
-                <h2 className="title">Craniosacrale biodinamica</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Craniosacrale biodinamica</h2>
                 <h5 align="left">
 Il Craniosacrale biodinamica è un approccio alla Mindfulness attraverso il contatto con il corpo.</h5>
               <h5 align="left">

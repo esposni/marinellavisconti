@@ -46,7 +46,7 @@ export default function PraticaContemplativaPage() {
                     ></img><br/><br/>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">La pratica contemplativa nella vita quotidiana</h2>
+              <h2 className="title" style={{color:"#dbbb4b"}}>La pratica contemplativa nella vita quotidiana</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
               <h5 align="left">
               Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa

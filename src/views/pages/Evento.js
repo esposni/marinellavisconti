@@ -22,7 +22,7 @@ export default function Evento(props) {
               <Col className="" md="4">
               <img
                       alt="..."
-                      className="info-event"
+                      style={{width:"20em",height:"40em"}}
                       src={require("assets/img/ritiri/"+props.image)}
                     ></img><br/><br/>
               </Col>

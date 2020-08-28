@@ -92,7 +92,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
     </Col>
   </Row>
 </Container>
-<form action="mailto:marinellavisconti@outlook.it" method="GET" id="form1">
+<form action="mailto:info@progettopienessere.com" method="GET" id="form1">
   <textarea hidden name="body"></textarea>
 </form>
 </div>

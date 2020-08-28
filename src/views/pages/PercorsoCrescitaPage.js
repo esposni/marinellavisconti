@@ -43,7 +43,7 @@ export default function PercorsoCrescitaPage() {
                       src={require("assets/img/gruppi_individuali.JPG")}
                     ></img><br/><br/>
               <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title"> Percorsi di crescita psico-spirituale inviduale e di coppia</h2>
+              <h2 className="title" style={{color:"#dbbb4b"}}> Percorsi di crescita psico-spirituale inviduale e di coppia</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
                 <h5 align="center">Mostrare la ferita è il primo passo verso la leggerezza e la cura di sé.</h5>
                 <h5 align="center">Siddharta si abbandona alla confessione con l’amico :</h5>

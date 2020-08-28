@@ -36,8 +36,8 @@ export default function FormazioneAvanzataPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
               
-                <h2 className="title">Percorso in otto sigilli di mindfulness transpersonale in relazione avanzata </h2>
-                <h2 align="center"><strong>Edizione 2019/2021</strong></h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Percorso in otto sigilli di mindfulness transpersonale in relazione avanzata </h2>
+                <h2 align="center " style={{color:"#dbbb4b"}}><strong>Edizione 2019/2021</strong></h2>
                 <img
                       alt="..."
                       className="info-event"
