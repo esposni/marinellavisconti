@@ -19,11 +19,7 @@ export default function Poesia(props) {
     <Container>
         <Row>
             <Col>
-            <img
-        alt="..."
-        style={{width:"20em",height:"20em"}}
-        src={require("assets/img/poesia/magritte.png")}
-    ></img><br/><br/>
+           
   <p>{props.intro}</p>
   
   <h5 align="left">{props.desc}</h5>
