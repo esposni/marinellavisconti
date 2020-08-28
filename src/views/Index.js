@@ -33,7 +33,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Conduttori />
+          <Conduttori home={true}/>
           <Collaborazioni />
         </div>
         <DarkFooter />

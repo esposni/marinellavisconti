@@ -20,6 +20,13 @@ export default function Conduttori(props) {
           <Container>
             {/* <h2 className="title">CONDUTTORI</h2> */}
             <div className="team">
+              {(props.home)?<img
+                alt="..."
+                className=""
+                style={{width:"20.5em",height:"20.5em"}}
+                src={require("assets/img/marinella5.jpg")}
+              ></img>:""}
+            
               <Row >
                 {utenti.map(el=>{
                  return (props.school )? (el.school)? 
