@@ -73,7 +73,7 @@ export default function PraticaServPage() {
                 src={require("assets/img/marinella5.jpg")}
               ></img>
             </div>
-              <h2 className="title">Attivismo contemplativo</h2>
+              <h2 className="title"  style={{color:"#dbbb4b"}}>Attivismo contemplativo</h2>
               <h5 align="left">Compiere un gesto amichevole, offrire un servizio o prestare attenzione, ascoltare profondamente sono offerte che in alcune situazioni possono essere più importanti di oggetti materiali. Uno dei benefici a lungo termine è che attraverso la generosità cominciamo a rendere felici i rapporti.</h5>
               <h5 align="left">Il senso di sviluppare una connessione attraverso i valori conduce ad un’apertura del cuore, perché condividiamo con gli altri e ci sosteniamo a vicenda.</h5>
               <h5 align="left">Intuire la bellezza di fare un’offerta spontaneamente manda all’aria la mente giudicante dell’uguale, giusto, meritevole. Si dice infatti che il più elevato tipo di dana (dono) si abbia allorché una persona degna da qualcosa a un’altra persona degna.</h5>

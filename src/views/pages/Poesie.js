@@ -3,7 +3,7 @@ import React from 'react';
 
 import axios from 'axios';
 
-export default class Ricette extends React.Component {
+export default class Poesie extends React.Component {
   state = {
     posts: []
   }
@@ -14,7 +14,7 @@ export default class Ricette extends React.Component {
 
 
   getBlogPost = () => {
-    axios.get('https://pienessere-backend.herokuapp.com/api/ricetta')
+    axios.get('https://pienessere-backend.herokuapp.com/api/poesia')
       .then((response) => {
         const data = response.data;
         this.setState({ posts: data });
@@ -28,28 +28,20 @@ export default class Ricette extends React.Component {
   displayBlogPost = (posts) => {
 
     if (!posts.length) return null;
-    // console.log(posts)
+    // console.log(posts[0].poesia.split("\n"))
+
     return posts.map((post, index) => (
       <div key={index} >
-        <h2 >{post.title}</h2>
+        <p>{`"`+post.intro+`"`}</p>
         <h5 align="left">{post.desc}</h5>
-        <h5 align="left"><strong>Ricetta</strong></h5>
-        <div>
-      {post.ricetta.split("\n").map((frase,index2)=>{
+        <div align="center">
+      {post.poesia.split("\n").map((frase,index2)=>{
         return( 
-          <h5 align="center" key={index+""+index2}>{frase}</h5> 
+          <h5 key={index+""+index2}>{frase}</h5> 
           );
       })}
+      <hr></hr>
       </div>
-      <h5 align="left"><strong>Preparazione</strong></h5>
-        <div>
-      {post.preparazione.split("\n").map((frase,index2)=>{
-        return( 
-          <h5 align="left" key={index+""+index2}>{frase}</h5> 
-          );
-      })}
-      </div>
-        <hr></hr>
       </div>
     ));
   };

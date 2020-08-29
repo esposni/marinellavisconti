@@ -16,7 +16,7 @@ import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
 import DonazioneButton from "views/pages/Donazione"
-import Poesia from "views/pages/Poesia"
+import Poesie from "views/pages/Poesie"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function CuoreCuraPage() {
@@ -52,15 +52,7 @@ La poesia è una pittura che si sente e non si vede" - Leonardo Da Vinci, Tratta
 un’immagine, come dono di riflessione per chi è impegnato in una relazione di cura
 e desidera fermarsi qualche attimo per sentire dentro di sé il nutrimento della parola
 e sintonizzarsi sulla creatività della visione.</h5>
-                <Poesia intro={`“C’è bellezza in tutto ciò che comincia”`} 
-desc="Per iniziare questa esperienza, ho cercato, sia nei versi che nel dipinto di Renè Magritte,
-di connettermi con la sensazione di qualcosa che sta per cominciare, focalizzandomi sul
-momento in cui usciamo dalla notte per entrare nel giorno.
-Una finestra si apre sul mistero dell’universo.
-La rosa come simbolo di una mente meditativa.
-Buona settimana!" img="magritte.png" 
-poesia={["Fiorita la rosa","sul davanzale del sogno","restiamo al buio ancora un pò","Che ne sarà del giorno ora","che la finestra si apre?","Guarda tra i fili di luce","riflessa","l'immagine della notte","Non esitare","c'è tutto un mistero","da vivere"]}
-/>
+                <Poesie />
               </Col>  
             </Row>
           

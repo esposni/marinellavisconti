@@ -16,10 +16,11 @@ import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
 import DonazioneButton from "views/pages/Donazione"
-import Ricetta from "views/pages/Ricette"
+import Ricette from "views/pages/Ricette"
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function CorpoCiboPage() {
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -28,6 +29,7 @@ export default function CorpoCiboPage() {
       document.body.classList.remove("landing-page");
       document.body.classList.remove("sidebar-collapse");
     };
+    
   });
 
   return (
@@ -63,42 +65,7 @@ export default function CorpoCiboPage() {
                 <h5 align="left"><strong>…..mi-ALI-mento….</strong></h5>
                 <h5 align="left">Piccola rubrica di alimentazione contemplativa</h5>
                 <h5 align="left">A cura di Monia Talenti</h5>
-                <Ricetta title="Cuori sovrapposti" desc={`Eccoci al primo appuntamento della rubrica…..mi-ALI-mento!
-Pensiamo ad una persona che ci sta a cuore, un amico, un famigliare, qualcuno che possa avere bisogno di un nostro pensiero speciale.
-Focalizziamoci sui cuori; sul nostro cuore e sul quello della nostra persona speciale….
-Prepareremo un dolce da donare proprio a lui/lei; “ Cuori sovrapposti"
-Impareremo a cucinare un impasto estremamente versatile con il quale potremo fare biscotti di tanti diversi tipi, crostate o torte di frutta.
-Naturalmente  le ricette che vi proporrò non conterranno né grassi animali né zuccheri raffinati. Dolci leggeri e naturali così come proponiamo nella cucina della Grande Via del Dr. Berrino.`}
-ricetta={["300 g farina di tipo 2",
-"10 g polvere lievitante",
-"90 g di uvetta ammollata e scolata",
-"60 g di olio extra vergine di oliva",
-"70 g di succo di mela",
-"La scorza di un limone",
-"Cannella",
-"1 pz di sale",
-"2 C di marmellata senza zucchero",
-"Granella dei pistacchio per decorare"]}
-preparazione={`Mettete in una ciotola capiente la farina, il lievito e gli aromi. Mescolateli e metteteli da parte.
-In un boccale del frullatore mettete le parti liquide: olio, uvetta e succo di mela. Frullate fino ad
-ottenere una crema omogenea.
-Unite l'emulsione alla farina e impastate il tempo necessario affinché si formi un impasto elastico e facilmente lavorabile.
-Se necessario e vi accorgete che la farina assorbe molti liquido aggiungete qualche cucchiaio ancora di succo di mela.
-Formate una palla e copritela con la pellicola per qualche istante.
-Con un cartoncino alimentare di recupero (il cartone del latte vegetale per esempio) tagliate un cuore che utilizzerete come taglia pasta.
-Ora siamo pronti per la preparazione finale; infarinate leggermente un piano di lavoro appoggiateci sopra la pasta e stendetela con l’aiuto di un matterello fino alle spessore di 0,5 cm.
-Appoggiate il cartoncino sopra l’impasto e ricavate due cuori.
-Poi dal cartoncino ritagliate un altro cuore più piccolo con il quale intaglierete il centro uno dei due cuori.
-Prendete il cuore di pasta intero e spalmatelo di marmellata.
-Infine posizionate sopra il cuore con la marmellata quello il buco al centro.
-Ecco pronti i “Cuori sovrapposti”.
-Infarnate il cuore a forno caldo a 180° per 20/22 minuti circa, lasciatelo raffreddare e preparatevi per donarlo insieme al vostro sorriso più bello!
-
-
-P.s. con l’impasto rimasto dal cuore potrete preparare dei meravigliosi biscottini girella come da foto.
-Stendete l’impasto, spalmatelo di marmellata
-`}
-img="ric1.jpg"/>
+               <Ricette />
               </Col>
             </Row>
           
