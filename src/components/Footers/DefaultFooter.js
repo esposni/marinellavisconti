@@ -34,7 +34,7 @@ function DefaultFooter() {
         </nav> */}
         <div className="copyright" id="copyright">
           © {new Date().getFullYear()}{"  "}
-          Marinella Visconti
+          Progetto PienEssere
         
         </div>
         </Container>
