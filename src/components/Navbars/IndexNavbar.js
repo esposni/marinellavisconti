@@ -354,7 +354,7 @@ function IndexNavbar() {
               </NavItem> */}
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/marinella.visconti"
+                  href="#"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -362,12 +362,12 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                  Profilo
+                Progetto pienessere
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/marinella.visconti"
+                  href="#"
                   target="_blank"
                   id="facebook-tooltip2"
                 >
@@ -375,7 +375,7 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip2">
-                 Pagina scuola
+                Braveheartfulness School 
                 </UncontrolledTooltip>
               </NavItem>
               {/* <NavItem>
