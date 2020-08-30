@@ -35,7 +35,7 @@ export default class Poesie extends React.Component {
         <p>{`"`+post.intro+`"`}</p>
         <h5 align="left">{post.desc}</h5>
         <div align="center">
-        <img src={post.img} style={{width:"15em",height:"20em",marginBottom:"20px"}} alt=""/>
+        {(post.img!=="")?<img src={post.img} style={{width:"15em",height:"20em",marginBottom:"20px"}} alt=""/>:""}
       {post.poesia.split("\n").map((frase,index2)=>{
         return( 
           <h5 key={index+""+index2}>{frase}</h5> 

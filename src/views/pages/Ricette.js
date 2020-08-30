@@ -32,7 +32,7 @@ export default class Ricette extends React.Component {
     return posts.map((post, index) => (
       <div key={index} >
         <h2 >{post.title}</h2>
-        <img src={post.img} style={{width:"15em",height:"20em",marginBottom:"20px"}} alt=""/>
+        {(post.img!=="")?<img src={post.img} style={{width:"15em",height:"20em",marginBottom:"20px"}} alt=""/>:""}
         <h5 align="left">{post.desc}</h5>
         <h5 align="left"><strong>Ricetta</strong></h5>
         <div>
