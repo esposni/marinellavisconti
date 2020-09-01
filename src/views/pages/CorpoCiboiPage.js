@@ -32,6 +32,10 @@ export default function CorpoCiboPage() {
     
   });
 
+  let index = utenti.findIndex((el)=>{
+    return el.name === "Monia Talenti"
+  })
+
   return (
     <>
       <IndexNavbar />
@@ -79,12 +83,12 @@ export default function CorpoCiboPage() {
          <DonazioneButton text={false}/>
             <h2 className="title">CONDUTTORI</h2>
             <Row>
-            <Conduttore id={utenti[12].id}
-                    img={utenti[12].img}
-                    name={utenti[12].name}
-                    desc={utenti[12].desc}
-                    self={utenti[12].self}
-                    link={utenti[12].link}
+            <Conduttore id={utenti[index].id}
+                    img={utenti[index].img}
+                    name={utenti[index].name}
+                    desc={utenti[index].desc}
+                    self={utenti[index].self}
+                    link={utenti[index].link}
                     />
             </Row>
           </Container>

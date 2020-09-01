@@ -44,11 +44,11 @@
      {"id":15,
         "name":"Roberto Mander",
         "img":"Roberto-Mander.png",
-        "desc":"",
+        "desc":"Psicoterapeuta di formazione junghiana",
         "self":false,
         "school":false,
          "link":"roberto-mander",
-         "curriculum":[""]
+         "curriculum":["Roberto Mander, psicoterapeuta di formazione junghiana, socio della Società Italiana per la Psicopatologia Fenomenologica, lavora nell’ambito delle cure palliative con la Ryder Italia Onlus. Formatore di gruppi di auto mutuo aiuto per il lutto con il Gruppo Eventi. Pratica la meditazione di consapevolezza da alcuni anni ed è stato tra i fondatori delle Rete di Indra e poi responsabile per l’Italia dello Zen Peacemaker Order."]
     }, 
     {"id":4,
         "name":"Ajahn Sucitto",
@@ -155,7 +155,7 @@
         "curriculum":["Valeria Giunta: Dopo una formazione artistica con diploma di pittura all’Accademia di Brera di Milano, credendo nell’arte non solo come ricerca estetica ma anche come possibilità di esprimere parti di sè a volte inespresse, si specializza come Arte terapeuta, alla scuola di formazione quadriennale Art Therapy Italiana e come Supervisore. È  docente in percorsi di formazione professionale di Arte Terapia. Iscritta al registro Professionale Italiano degli arti terapeuti A.P.I.Ar.T.. Apre a Milano nel 2000 il Laboratorio delle Arti, L’Artè dove conduce incontri individuali e a piccoli gruppi di arte e arte terapia con bambini, ragazzi e adulti, perché crede che l’arte permetta di comunicare, esprimere emozioni, crescere e vivere a tutte le età più liberi ed autentici, e che ognuno abbia un suo talento da poter scoprire, comunicare e condividere. Nella sua ricerca personale e spirituale sente un profondo legame tra la meditazione e l’arte e si avvicina allo yoga, alla Mindfulness, alla meditazione Vipassana con Mario Thanavaro. Ricercatrice in formazione al percorso di ricerca interiore del Filo D’Oro con Daniel Lumera."]
     },
     {
-        "id":14,
+        "id":15,
         "link":"giuseppe-ruggiero",
         "name":"Giuseppe Ruggiero",
         "desc":"Medico e Psicoterapeuta e poeta",
@@ -166,7 +166,17 @@
         "Con il tempo affina il suo stile, esplora la natura poetica e musicale della mente, con l’intento di trasformare la cura del dolore in un’esperienza delicata e profonda di ricerca della bellezza. Si ispira a diverse fonti: la “poiesis” di origine greca, riscoprendo il potere curativo della parola poetica; l’improvvisazione musicale, in particolare nel jazz, approfondendo la ricerca della sonorità e della ritmicità che sta dentro le parole, i gesti, i silenzi.",
         "Riprende a scrivere versi, senza pensieri di guida, avvalendosi solo delle immagini che nascono da ciò che gli suggerisce il cuore.",
         "Una di queste immagini ha la forma di una domanda: può la poesia contribuire alla pienezza dell’essere e alla gioia di vivere, sollevando il cuore pesante di chi si prende cura degli altri?"]
-    }
+    },
+    {   "id":16,
+        "link":"dafna-moscati",
+        "name":"Dafna Moscati",
+        "img":"dafna.png",
+        "desc":"Performer Ricercatrice arte espressiva contemplativa",
+        "self":false,
+        "school":false,
+         "curriculum":["Nasce in Israele nell’ambiente educativo alternativo del kibbutz da genitori Italiani. Esplora fin da piccola molte forme espressive (dalla poesia alla danza, dal disegno al teatro, passando per la scultura, il design, la fotografia e il video). Si forma in diverse scuole tra Roma, Gerusalemme, Tel Aviv e Parigi per arrivare a trovare l’accademia su misura per lei ad Amsterdam: la Rietveld Academie. Questa, infatti, le permette un percorso formativo unico nel suo genere di Free Media, la libertà quindi di continuare ad approfondire e connettere i diversi linguaggi artistici.",
+            "Dopo il successo al termine dell’Accademia di Belle Arti di Amsterdam si definisce subito un suo stile personale dedicato a progetti interattivi esperienziali che coniugano insieme gli aspetti delle installazioni e della performance con allestimenti site specific dove lo spazio dell’opera viene utilizzato come strumento e possibilità d’introspezione profonda, creando un campo d’incontro con se stessi e con l’altro come nostro specchio.",
+            "Vince svariati premi, borse di studio e residenze artistiche (dalla prestigiosa DasArts in Olanda a Cittadellarte di Michelangelo Pistoletto in Italia) partecipando a numerose mostre e biennali in giro per l’Europa.","https://www.dafnamoscati.com/biografia-dafna-moscati/"] }
 
     
 ]

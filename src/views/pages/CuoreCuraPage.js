@@ -30,6 +30,9 @@ export default function CuoreCuraPage() {
     };
   });
 
+  let index = utenti.findIndex((el)=>{
+    return el.name === "Giuseppe Ruggiero"
+  })
   return (
     <>
       <IndexNavbar />
@@ -66,12 +69,12 @@ e sintonizzarsi sulla creatività della visione.</h5>
          <DonazioneButton text={false}/>
             <h2 className="title">CONDUTTORI</h2>
             <Row>
-            <Conduttore id={utenti[utenti.length-1].id}
-                    img={utenti[utenti.length-1].img}
-                    name={utenti[utenti.length-1].name}
-                    desc={utenti[utenti.length-1].desc}
-                    self={utenti[utenti.length-1].self}
-                    link={utenti[utenti.length-1].link}
+            <Conduttore id={utenti[index].id}
+                    img={utenti[index].img}
+                    name={utenti[index].name}
+                    desc={utenti[index].desc}
+                    self={utenti[index].self}
+                    link={utenti[index].link}
                     />
             </Row>
           </Container>
