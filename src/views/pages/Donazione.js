@@ -7,8 +7,9 @@ Ti ringraziamo per il tuo supporto al Progetto Pien💛 Essere e per la raccolta
 studio per coloro che intendono formarsi nella Braveheartfulness School, progetto orientato a sostenere...“piccoli bodhisattva crescono”...” e per tutti i progetti orientati a sostenere chi sostiene.\n
 Se desideri iscriverti all’Associazione Progetto Pien💛Essere puoi compilare il questionario sotto e versare euro 25 di tessera sostenitore a:\n
  Progetto Pien💛Essere  \n
- Banca\n
-  IBAN`
+ BANCA CREVAL CONTO NONPROFIT  \n
+ IBAN IT06W0521610901000000001859 BIC BPCVIT2S  \n
+ Causale: cognome e nome del partecipante, nome dell'evento, conduttore/i  \n`
 
 export default function DonazioneButton(props) {
 

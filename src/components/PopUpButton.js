@@ -50,7 +50,11 @@ export default function AlertDialogSlide(props) {
         {/* <DialogTitle id="alert-dialog-slide-title">{"Use Google's location service?"}</DialogTitle> */}
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            {props.content}
+            {props.content.split("\n").map((frase,index2)=>{
+              return( 
+                <div key={index2}>{frase}</div> 
+                );
+            })}
           </DialogContentText>
         </DialogContent>
        

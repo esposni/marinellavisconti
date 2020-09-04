@@ -15,6 +15,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
 import Quest1 from "components/Quest1"
 import PopUpButton from"components/PopUpButton";
+import DonazioneButton from "views/pages/Donazione"
 
 
 let textbutton1=`Progetto Pien💛Essere nutre un SOGNO....Poter disporre di uno spazio gratuito in un luogo sacro o da risacralizzare dove sviluppare l’interesse verso le pratiche contemplative e dove dare un
@@ -25,15 +26,13 @@ La pratica di servizio consente di sviluppare cura e sollecitudine. E la cura co
 Cura, sollecitudine, saggezza sono Valori che possono contribuire ad aumentare un senso di interconnessione e di condivisione che ci auguriamo facciano il bene della Comunità.
 Grati per l’attenzione...
 `
-let textbutton2=`
-Ti ringraziamo per il tuo supporto al Progetto Pien💛 Essere e per la raccolta fondi per le borse di
-studio per coloro che intendono formarsi nella Braveheartfulness School, progetto orientato a sostenere...“piccoli bodhisattva crescono”...” e per tutti i progetti orientati a sostenere chi sostiene`
 
 let textbutton3=`
 Se desideri iscriverti all’Associazione Progetto Pien💛Essere puoi compilare il questionario sotto e versare euro 25 di tessera sostenitore a:\n
  Progetto Pien💛Essere  \n
- Banca\n
-  IBAN`
+ BANCA CREVAL CONTO NONPROFIT  \n
+ IBAN IT06W0521610901000000001859 BIC BPCVIT2S  \n
+ Causale: cognome e nome del partecipante, nome dell'evento, conduttore/i  \n`
 export default function PraticaServPage() {
   const [showResults, setShowResults] = React.useState(false)
   const onClick = () => { 
@@ -113,7 +112,7 @@ src={require("assets/img/marinella5.jpg")}
         </div>
         <div>
         <h5 align="center">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
-        <PopUpButton title="Donazione" content={textbutton2}/>
+       <DonazioneButton/>
         </div>
         <div>
         <h5 align="center">Se vuoi iscriverti alla all’Associazione</h5>

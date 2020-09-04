@@ -22,7 +22,7 @@ export default function Evento(props) {
               <Col className="" md="4">
               <img
                       alt="..."
-                      style={{width:"20em",height:"40em"}}
+                      style={{width:"20em",height:"40em",objectFit : "cover"}}
                       src={require("assets/img/ritiri/"+props.image)}
                     ></img><br/><br/>
               </Col>
@@ -54,7 +54,13 @@ export default function Evento(props) {
                     }) : ""}
 
          {(props.data_luogo!=="")?<h5 align="left"><strong>DATA E LUOGO</strong><br/>{props.data_luogo}</h5>:"" } 
-         {(props.costo!=="")?<h5 align="left"><strong>COSTO</strong><br/>{props.costo}</h5>:"" } 
+         {(props.costo!=="")?<div><h5 align="left"><strong>COSTO</strong></h5>
+         {props.costo.split("\n").map((frase,index2)=>{
+              return( 
+                <h5 align="left" key={index2}>{frase}</h5> 
+                );
+            })}
+         </div>:"" } 
          {(props.offerta_libera)?<h5 align="left"><strong>Il ritiro come da tradizione è ad offerta libera sia per quanto concerne gli insegnamenti che per la traduzione.</strong></h5>:"" } 
          {(props.vitto_alloggio!=="")?<h5 align="left"><strong>Costo vitto e alloggio</strong><br/>{props.vitto_alloggio}</h5>:"" } 
          {(props.contatto!=="")?<h5 align="left"><strong>PER INFO E ISCRIZIONI CONTATTARE</strong><br/><a href={"mailto:"+props.contatto}>{props.contatto}</a></h5>:"" } 
