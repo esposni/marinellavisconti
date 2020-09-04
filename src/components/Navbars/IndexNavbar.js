@@ -223,7 +223,7 @@ function IndexNavbar() {
                     // target="_blank"
                     to="/percorso-crescita" tag={Link}
                   >
-                 Percorsi di creascita psico-spirituale inviduale e di coppia
+                 Percorsi di crescita psico-spirituale inviduale e di coppia
                   </DropdownItem>
                   <DropdownItem
                     // target="_blank"

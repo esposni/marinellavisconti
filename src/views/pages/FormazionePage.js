@@ -227,11 +227,11 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
             
             <h5 align="left">Il costo del percorso quadriennale  è di 1200 euro l’anno  divisibile in tre rate annuali da 400 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle. <strong>Per chi si iscrive entro il 31 ottobre 2020 il costo del primo anno è di 1000 euro.</strong></h5>
             <h5 align="left">La quota non comprende il ritiro finale (modulo 14) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro.</h5>
-            <h5 align="left">Ecco le coordinate bancarie per il bonifico:</h5>
-            <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
-            <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>
-            <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5>
-            <h5 align="left">Causale: Cognome e Nome del partecipante – Iscrizione Braveheartfulness School o modulo n.    Braveheartfulness school</h5>
+            <h5 align="left">I pagamenti dovranno essere effettuati tramite bonifico bancario a:</h5>
+            <h5 align="left">BANCA CREVAL CONTO NONPROFITa</h5>
+            <h5 align="left">IBAN IT06W0521610901000000001859</h5>
+            <h5 align="left">BIC BPCVIT2S</h5>
+            <h5 align="left">Causale: cognome e nome del partecipante, nome dell'evento, conduttore/i</h5>
       
             <h2 className="title">Sede dei Ritiri/Laboratori</h2>
             <div className="team">

@@ -9,7 +9,7 @@ Se desideri iscriverti all’Associazione Progetto Pien💛Essere puoi compilare
  Progetto Pien💛Essere  \n
  BANCA CREVAL CONTO NONPROFIT  \n
  IBAN IT06W0521610901000000001859 BIC BPCVIT2S  \n
- Causale: cognome e nome del partecipante, nome dell'evento, conduttore/i  \n`
+ Causale: cognome e nome del donatore, e donazione o tessera associativa  \n`
 
 export default function DonazioneButton(props) {
 

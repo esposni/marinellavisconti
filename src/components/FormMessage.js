@@ -17,7 +17,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
     
 <div className="section section-contact-us text-center">
 <Container>
-  <h2 className="title">Scrivimi</h2>
+  <h2 className="title" style={{color:"#dbbb4b"}}>Per informazioni scrivi a:</h2>
   {/* <p className="description">Your project is very important to us.</p> */}
   <Row>
     <Col className="text-center ml-auto mr-auto" lg="6" md="8">

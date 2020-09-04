@@ -22,16 +22,7 @@ export default function Collaborazioni() {
                 ></img>
               </a>
             </div>
-            <div className="col">
-              
-                <img
-                  alt="..."
-                  className="img-raised"
-                  src={require("assets/img/collaborazioni/IlFiloDOro_logo.png")}
-                ></img>
-           
-              
-            </div>
+          
             <div className="col">
               <a href="https://www.acsicraniosacrale.it/" target="_blank" rel="noopener noreferrer" >
                 <img

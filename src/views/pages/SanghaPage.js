@@ -50,7 +50,7 @@ export default function SanghaPage() {
               
                 <h2 className="title" style={{color:"#dbbb4b"}}>Sangha cittadini e regionali <br/>Online e residenziali</h2>
               
-                <h5 align="left"><strong>Abitare noi stessi e la natura (la nostra origine) con le mani, il cuore e la consapevolezza. Piccolo sanga di pratica meditativa di consapevolezza condivisa</strong></h5>
+                <h5 align="left"><strong>Abitare noi stessi e la natura (la nostra origine) con le mani, il cuore e la consapevolezza. Piccolo sangha di pratica meditativa di consapevolezza condivisa</strong></h5>
                 <h5 align="left"><strong>Luogo:</strong></h5>
                 <h5 align="left">Monte san giovanni in sabina. Località missiani</h5>
                 <DonazioneButton/>

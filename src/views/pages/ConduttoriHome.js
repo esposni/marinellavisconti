@@ -26,7 +26,7 @@ export default function ConduttoriHome(props) {
                 style={{width:"20.5em",height:"20.5em"}}
                 src={require("assets/img/marinella5.jpg")}
               ></img>
-              <h2 className="title">SOSTENERE CHI SOSTIENE</h2>
+              <h2 className="title" style={{color:"#dbbb4b"}}>SOSTENERE CHI SOSTIENE</h2>
               <h5 align="left">L’Associazione Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere approfondirà la ricerca
               interiore attraverso la formazione continua in Mindfulness
 transpersonale in relazione, così come elaborata da Anne Overzee
@@ -48,7 +48,7 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
 <h5 align="left">È spazio di crescita spirituale per leader, psicoterapeuti, medici,
 operatori della salute, insegnanti e ricercatori spirituali.</h5>
 <br/>
-<h2 className="title">CHI SIAMO</h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>CHI SIAMO</h2>
               <div className="team">
               <Row >
                 {utenti.map(el=>{
@@ -66,7 +66,7 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               </Row>
             </div>
             
-            <h2 className="title"> COLLABORANO CON NOI</h2>
+            <h2 className="title" style={{color:"#dbbb4b"}}> COLLABORANO CON NOI</h2>
             <div className="team">
             <Row >
                 {utenti.map(el=>{
@@ -86,7 +86,7 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
             <br/><br/>
   
               <hr></hr> <br/><br/>
-              <h5 align="center">Sede dell’Associazione “Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere</h5>
+              <h5 align="center">Sede dell’Associazione Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere ETS</h5>
               <h5 align="center">Via Auguadri, 22 Como 22100</h5>
               <h5 align="center">C.F. 95136600137</h5>
               <h5 align="center">Segreteria: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
