@@ -81,7 +81,6 @@ Il Craniosacrale biodinamica è un approccio alla Mindfulness attraverso il cont
                           {/* <p className="category text-info">Model</p> */}
                         
                           Via Cenisio, 5 <br/>
-                          Per contattarmi: 338 2331754
                           
                         
                         </div>

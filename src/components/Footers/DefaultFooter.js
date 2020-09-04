@@ -34,7 +34,7 @@ function DefaultFooter() {
         </nav> */}
         <div className="copyright" id="copyright">
           © {new Date().getFullYear()}{"  "}
-          Progetto PienEssere
+          Progetto Pien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i>Essere
         
         </div>
         </Container>

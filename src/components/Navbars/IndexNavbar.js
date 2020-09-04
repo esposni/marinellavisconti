@@ -367,7 +367,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#"
+                  href="https://www.facebook.com/braveheartfulneschool"
                   target="_blank"
                   id="facebook-tooltip2"
                 >
