@@ -52,8 +52,8 @@ export default function PraticaContemplativaPage() {
               Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa
 </h5>  
 
-<h2 className="title">Incontri di pratica online di gruppo in diretta streaming </h2>
-<h5 align="left">Tutti i lunedì dalle 08:30 alle 09:10<br/> Tutti i giovedì dalle dalle 12:00 alle 13:10.</h5>
+<h2 className="title" style={{color:"#dbbb4b"}}>Incontri di pratica online di gruppo in diretta streaming </h2>
+<h5 align="left">Tutti i lunedì dalle 08:30 alle 09:10<br/> Tutti i giovedì dalle 18 alle 18.40</h5>
 <h5 align="left">La partecipazione è libera. Chi fosse interessato è pregato di contattare Marinella al 338-2331754 oppure via email scrivendo a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>   
      <DonazioneButton text={true}/>         
               </Col>

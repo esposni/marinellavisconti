@@ -4013,7 +4013,7 @@ img {
 .profile-page .title {
   text-align: center;
   margin-top: 30px;
-  color: #fee069; }
+  color: #dbbb4b; }
 
 .profile-page .description,
 .profile-page .category {
@@ -5975,3 +5975,5 @@ td.rdtYear:hover {
   .nav-tabs {
     padding-left: 10px;
     padding-right: 10px; } }
+
+/*# sourceMappingURL=now-ui-kit.css.map */

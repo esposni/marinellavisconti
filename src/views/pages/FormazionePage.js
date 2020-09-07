@@ -40,7 +40,7 @@ export default function FormazionePage() {
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
                 <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
                 <h2 className="title" style={{color:"#dbbb4b"}}>Pratiche contemplative quotidiane per cuori CORaggiosi</h2>
-                <h2 className="">Ritiri - laboratori  di ricerca interiore</h2>
+                <h2 className="title" style={{color:"#dbbb4b"}}>Ritiri - laboratori  di ricerca interiore</h2>
                 <p>“Essere qui tutto il tempo con schiettezza e tenerezza....Puoi farlo....” C. Trungpa
 </p><h5 align="left">
 
@@ -76,11 +76,11 @@ Ci concentreremo sulle tempeste interiori dal momento che non siamo in grado di 
 
 Lotteremo per le condizioni che oscurano il nostro conoscere e la nostra libertà come esseri umani con compassione e chiarezza.</h5>
 
-<h2 className="">REQUISITI DI PARTECIPAZIONE </h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>REQUISITI DI PARTECIPAZIONE </h2>
 <h5 align="left">Questo percorso è aperto a tutti i ricercatori spirituali, in particolare psicoterapeuti, operatori della salute, insegnanti, meditanti che abbiano una regolare pratica e abbiano già fatto un significativo lavoro su di sé, abbiano familiarità con il lavoro  in gruppo e con la pratica del silenzio  e  desiderano offrire la propria autenticità alla vita nella consapevolezza della sacralità di ogni singola espressività e nella consapevolezza che tutte le manifestazioni dell’essere originano dalla stessa Sorgente che accoglie e sostiene</h5>
 <h5 align="left">Nota Bene: L’iscrizione al percorso è soggetta a colloquio conoscitivo</h5>
 <p>È possibile  partecipare ad un singolo incontro, a un gruppo di incontri o  abbracciare l’intero percorso nella consapevolezza che la pratica del cuore è ospitante...ma verrà data precedenza di partecipazione a coloro che seguono l’intero percorso.</p>
-<h2 className="">STRUTTURA DELLA SCUOLA </h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>STRUTTURA DELLA SCUOLA </h2>
 <h5 align="left">Il percorso  che inizia a dicembre 2020 e termina nel 2025  è suddiviso in moduli di tre o quattro giorni e prevede anche  due ritiri che saranno il  primo di 7 giorni nel 2021  e il secondo finale di 7/10 giorni da definire nel 2025.</h5>
 <h5 align="left">In tutto 14 moduli, di cui due  di 4 giorni e dieci di 3  giorni per un totale di 38 giorni di formazione più un ritiro  di 7 giorni  volto a sostenere e approfondire il percorso con <strong>Anushka Fernandopulle Insegnante di Vipassana e Heartfulness dello Spirit Rock Meditation Center di San Francisco</strong> con cui sono previste  5 giornate di pratica Vipassana e due giornate  di pratiche  heartfulness  e colloqui individualizzati per gli allievi della scuola e  infine un ritiro laboratorio finale (da definire rispetto a tempi date e costi)  in  un luogo dal  forte impatto energetico e naturalistico in cui tutte le pratiche verranno coltivate contemporaneamente con l’intento di </h5>
 <p> “non conoscere molte cose, ma mettere molte cose in contatto, uno dei primi gradini dello spirito creativo.....”.       H. Von Hofmannsthal</p>
@@ -102,7 +102,7 @@ L’amore che permette</h5>
 Durante il percorso  è suggerita la frequentazione di almeno un ritiro all’anno (verrà proposta una lista di ritiri all’inizio di ogni anno) oltre ai due previsti  all’interno del percorso volti a consolidare la pratica.</h5>
 {/* ------------------------------------------------------------- */}
 
-<h2 className="">RITIRO DI VIPASSANA E HEARTFULNESS CON ANUSHKA FERNANDOPULLE </h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>RITIRO DI VIPASSANA E HEARTFULNESS CON ANUSHKA FERNANDOPULLE </h2>
 <h3 align="center" className="bold" >MINDFULNESS E HEARTFULNESS PER LA SAGGEZZA E LA
 LIBERTA'</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
@@ -134,7 +134,7 @@ possibile.</h5>
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
-<h2 className="">WORKSHOP CON ANUSHKA FERNANDOPULLE</h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>WORKSHOP CON ANUSHKA FERNANDOPULLE</h2>
 <h3 align="center" className="bold" >UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE</h3>
 <h5 align="center"><strong>Eremo di Montecastello (Bs)
 7 ottobre 2021</strong><br/><br/></h5>
@@ -160,7 +160,7 @@ lavoro.</h5>
                     size="sm"
                   >Per maggiori informazioni
                     </Button>  
-<h2 className="">COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
+<h2 className="title" style={{color:"#dbbb4b"}}>COACHING DI UNA GIORNATA CON ANUSHKA FERNANDOPULLE</h2>
 <h5 align="center"><strong>Eremo di Montecastello (Bs) 8 ottobre 2021</strong><br/><br/></h5>
 <h5 align="left"><strong>Prerequisiti</strong>: Possono partecipare gli allievi della scuola e praticanti esperti dopo un colloquio di conoscenza. Per informazioni scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> </h5>
 <h5 align="left">Un'opportunità per continuare ad approfondire la pratica
@@ -181,7 +181,7 @@ per la pratica e l'esperienza individuale.</h5>
                     </Button>  
 {/* ------------------------------------------------------------- */}
 
-<h2 className=""> DATE E LUOGO</h2>
+<h2 className="title" style={{color:"#dbbb4b"}}> DATE E LUOGO</h2>
 <h5 align="left">Ogni modulo si svolgerà, se di quattro giorni, dal giovedì alle 14.30 alla domenica alle ore 13.00 o se di tre giorni, dal venerdì alle 14.30 alla domenica  alle ore 13.00 presso il Centro D’Ompio a Pettenasco (NO).
 
 Il ritiro dall'1 al 5 ottobre 2021 e le giornate di Heartfulness dal 7 all’8 ottobre saranno presso l’Eremo di Montecastello (BS).
@@ -223,7 +223,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
         <div className="section section-team text-center">
           <Container>
           <br/>
-            <h2 className="">Costi</h2>
+            <h2 className="title" style={{color:"#dbbb4b"}}>Costi</h2>
             
             <h5 align="left">Il costo del percorso quadriennale  è di 1200 euro l’anno  divisibile in tre rate annuali da 400 euro, più la tessera associativa di 25 euro da rinnovare ogni anno. Il  costo comprende i costi del ritiro di ottobre  2021 e le due giornate di Heartfulness e i colloqui individualizzati con Anushka Fernandopulle. <strong>Per chi si iscrive entro il 31 ottobre 2020 il costo del primo anno è di 1000 euro.</strong></h5>
             <h5 align="left">La quota non comprende il ritiro finale (modulo 14) da definire sia rispetto alla meta che ai tempi e ai costi di formazione e il   costo per vitto e alloggio  da pagare presso il Centro D’Ompio per i seminari della scuola  e il costo di vitto e alloggio per l’eremo di Montecastello che ospiterà  il  ritiro.</h5>
@@ -233,7 +233,7 @@ Seconda parte.    Marinella Visconti e Sanda Stojkovich </h5>
             <h5 align="left">BIC BPCVIT2S</h5>
             <h5 align="left">Causale: cognome e nome del partecipante, nome dell'evento, conduttore/i</h5>
       
-            <h2 className="title">Sede dei Ritiri/Laboratori</h2>
+            <h2 className="title" style={{color:"#dbbb4b"}}>Sede dei Ritiri/Laboratori</h2>
             <div className="team">
               <Row>
                 <Col md="4">

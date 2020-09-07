@@ -141,10 +141,10 @@ L’iscrizione prevede in ogni caso un colloquio preliminare.
             
             <h5 align="left">Costo dell’intero percorso 2400 euro (ratealizzabili) più 25 euro di tessera sostenitore annuale dell’Associazione Progetto Pienessere.</h5>
         
-            <h5 align="left">Ecco le coordinate bancarie per il bonifico:</h5>
-            {/* <h5 align="left">Associazione Mudita c/o Intesa San Paolo spa</h5>
-            <h5 align="left">Iban IT83 E030 6909 6061 0000 0128 339</h5>
-            <h5 align="left">Bic BCITITMM (per i bonifici dall'estero)</h5> */}
+            <h5 align="left">I pagamenti dovranno essere effettuati tramite bonifico bancario a:</h5>
+            <h5 align="left">BANCA CREVAL CONTO NONPROFITa</h5>
+            <h5 align="left">IBAN IT06W0521610901000000001859</h5>
+            <h5 align="left">BIC BPCVIT2S</h5>
             <h5 align="left">Causale: Cognome e Nome del partecipante- Percorso in Otto Sigilli di Mindfulness Transpersonale – Marinella Visconti e Simone Spina</h5>
       
   
