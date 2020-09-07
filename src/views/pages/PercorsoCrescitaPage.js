@@ -51,7 +51,7 @@ export default function PercorsoCrescitaPage() {
                 <h5 align="center">Guarire è un talento, può essere una scalata autonoma, oppure una cordata fra due compagni di viaggio in cui uno conosce le regole e tende la mano all’altro....</h5>
                 <h5 align="left">I percorsi individuali di coppia sono rivolti in particolare agli psicoterapeuti, medici, operatori della salute, ricercatori spirituali che abbiano già fatto un significativo lavoro su di se e che abbiano una regolare pratica di consapevolezza.</h5>
                 <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
-                <DonazioneButton text={true}/>
+                <DonazioneButton desc={true}  offerta={true}/ >
               </Col>
             </Row>
             </Container>

@@ -80,7 +80,7 @@ export default function CorpoCiboPage() {
           <Container>
           <h5 align="left">E’ molto gradita l’iscrizione all'associazione. Ci aiutereste così a sostenere chi sostiene che è il nostro intento principale. 
             </h5><h5 align="left">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
-         <DonazioneButton text={false}/>
+         <DonazioneButton desc={false}  offerta={true}/ >
             <h2 className="title">CONDUTTORI</h2>
             <Row>
             <Conduttore id={utenti[index].id}

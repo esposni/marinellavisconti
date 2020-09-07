@@ -53,7 +53,7 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
 <h5 align="left">Potete scrivere a <a href = "mailto:info@progettopienessere.com"> info@progettopienessere.com</a> </h5>
 <h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
-<DonazioneButton text={true}/>
+<DonazioneButton desc={true} offerta={false}/>
               </Col>
             </Row>
           

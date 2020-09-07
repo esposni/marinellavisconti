@@ -63,7 +63,7 @@ Gli incontri sono <strong>ad offerta libera</strong> e le offerte verranno impie
 <h5 align="left">E’ richiesto un colloquio preliminare per accedere al gruppo.</h5>
               
 <h5 align="left">Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a>  </h5>
-              <DonazioneButton text={true}/>
+              <DonazioneButton desc={true}  offerta={true}/ >
               </Col>
             </Row>
           
