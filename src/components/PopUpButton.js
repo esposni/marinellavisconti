@@ -52,7 +52,7 @@ export default function AlertDialogSlide(props) {
           <DialogContentText id="alert-dialog-slide-description">
             {props.content.split("\n").map((frase,index2)=>{
               return( 
-                <div key={index2}>{frase}</div> 
+                <span key={index2}>{frase}<br/></span>
                 );
             })}
           </DialogContentText>

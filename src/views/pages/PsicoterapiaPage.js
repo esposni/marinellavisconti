@@ -224,9 +224,7 @@ Quando emerge un processo, il cliente impara a stabilirsi nella sensazione fisic
                 </Col>
             
               </Row>
-              <row>  <p> Per contattarmi: 338 2331754</p>
-                      <a href="http://centromindfulnessmilano.com/">Centro Mindfulness Milano</a>
-              </row>
+             
             </div>
 
 

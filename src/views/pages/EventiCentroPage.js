@@ -47,7 +47,7 @@ return (
 </Col>
               <Col className="ml-auto mr-auto text-center" md="8">
                 
-              <h2 className="title" style={{color:"#dbbb4b"}}>Eventi al centro mindfulness milano</h2>
+              <h2 className="title" style={{color:"#dbbb4b"}}>Eventi al Centro Mindfulness Milano</h2>
               <h2 className="title" style={{color:"#dbbb4b"}}>LA PRATICA CONTEMPLATIVA NELLA VITA QUOTIDIANA</h2>
                 <h5 align="center">Condotto da Marinella Visconti</h5>
               <h5 align="left">
@@ -59,7 +59,7 @@ return (
 Presso il Centro Mindfulness Milano, Via Cenisio, 5.
 </h5>
 <h5 align="left"><strong>Per informazioni  scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></strong></h5> 
-<h5 align="left"><strong>N.B: La pratica contemplative della vita quotidiana è anche in in diretta streaming tutti i lunedì dal 14 settembre 2020 dalle 8:30 alle 9:10.</strong></h5>
+<h5 align="left"><strong>N.B: La pratica contemplativa della vita quotidiana è anche in in diretta streaming tutti i lunedì dal 14 settembre 2020 dalle 8:30 alle 9:10.</strong></h5>
 <h5 align="left"><strong>Tutti i giovedì dal 17 settembre 2020 dalle 18 alle 18:40. </strong></h5>
 <h5 align="left"><strong>Per informazioni  scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></strong></h5> 
 <br/>

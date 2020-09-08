@@ -323,7 +323,7 @@ function IndexNavbar() {
                     // target="_blank"
                     to="/eventi-centro" tag={Link}
                   >
-                   Eventi al centro mindfulness milano
+                   Eventi al Centro Mindfulness Milano
                   </DropdownItem>
               </DropdownMenu>
               </UncontrolledDropdown>
@@ -354,7 +354,7 @@ function IndexNavbar() {
               </NavItem> */}
               <NavItem>
                 <NavLink
-                  href="#"
+                  href="https://web.facebook.com/Progetto-Pienessere-ETS-103325588180193"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -362,7 +362,7 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                Progetto pienessere
+                Progetto Pien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i>Essere
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>

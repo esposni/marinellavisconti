@@ -94,7 +94,7 @@
         "data_luogo":"Il corso si terrà dal venerdì 22 gennaio 2021 alle ore 14.30 alla domenica 24 gennaio 2021 pranzo compreso"
         ,"type":"Ritiri Laboratori"
         ,"cit":[]
-        ,"costo":"il ritiro/laboratorio costa euro 300 più la tessera associativa di euro 25 da versare all’Associazione Progetto PienEssere. \n I pagamenti dovranno essere effettuati tramite bonifico bancario a: \n BANCA CREVAL CONTO NONPROFIT \n IBAN IT06W0521610901000000001859 BIC BPCVIT2S \n N"
+        ,"costo":"il ritiro/laboratorio costa euro 300 più la tessera associativa di euro 25 da versare all’Associazione Progetto PienEssere. \n I pagamenti dovranno essere effettuati tramite bonifico bancario a: \n BANCA CREVAL CONTO NONPROFIT \n IBAN IT06W0521610901000000001859 BIC BPCVIT2S \n"
             ,"offerta_libera":false,
         "vitto_alloggio":"Vitto e alloggio al Centro D’Ompio euro da pagare direttamente al Centro. Costo vitto e alloggio dal venerdì sera alla domenica a pranzo: Camera doppia 166 euro vista lago, 156 euro vista bosco. Camera multipla 136 euro.", 
         "contatto":"info@progettopienessere.com"
@@ -105,7 +105,7 @@
              "curriculum":"" },
              {"name":"Roberto Mander",
                  "img":"Roberto-Mander.png",
-                 "desc":"",
+                 "desc":"Psicoterapeuta di formazione Junghiana",
                   "link":"roberto-mander",
                   "curriculum":"" }]
         ,"more_info":""
@@ -355,5 +355,54 @@
         ,"offerta_libera":false,
         "vitto_alloggio":""
         ,"self_link":"/cuore-cura"
+    }
+    ,
+    {
+        "id":14,
+        "title":"Rilassamento. Yoga Nidra del Cuore",
+        "conduttori":"Federica Gonzati",
+        "date":"",
+        "text":[]
+        ,"image":"Rilassamento.jpeg",
+        "data_luogo":""
+        ,"type":"Attivismo Contemplativo"
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"link":"federica-gonzati",
+            "name":"Federica Gonzati",
+            "desc":"Sociologa operatore olistico craniosacrale biodinamica",
+            "img":"federica.jpeg",
+                "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/rilassamento-yoga"
+    },
+    {
+        "id":15,
+        "title":"Sangha cittadini e regionali - Online e residenziali",
+        "conduttori":"Sanda Stojkovich",
+        "date":"",
+        "text":[]
+        ,"image":"sangha.JPG",
+        "data_luogo":""
+        ,"type":"Attivismo Contemplativo"
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"link":"sanda-stojkovich",
+            "name":"Sanda Stojkovich",
+            "img":"sanda.jpg",
+            "desc":"Formazione continua in core process psychotherapy - Educatrice perinatale",
+                "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/sangha"
     }
 ]
