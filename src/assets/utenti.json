@@ -176,7 +176,22 @@
         "school":false,
          "curriculum":["Nasce in Israele nell’ambiente educativo alternativo del kibbutz da genitori Italiani. Esplora fin da piccola molte forme espressive (dalla poesia alla danza, dal disegno al teatro, passando per la scultura, il design, la fotografia e il video). Si forma in diverse scuole tra Roma, Gerusalemme, Tel Aviv e Parigi per arrivare a trovare l’accademia su misura per lei ad Amsterdam: la Rietveld Academie. Questa, infatti, le permette un percorso formativo unico nel suo genere di Free Media, la libertà quindi di continuare ad approfondire e connettere i diversi linguaggi artistici.",
             "Dopo il successo al termine dell’Accademia di Belle Arti di Amsterdam si definisce subito un suo stile personale dedicato a progetti interattivi esperienziali che coniugano insieme gli aspetti delle installazioni e della performance con allestimenti site specific dove lo spazio dell’opera viene utilizzato come strumento e possibilità d’introspezione profonda, creando un campo d’incontro con se stessi e con l’altro come nostro specchio.",
-            "Vince svariati premi, borse di studio e residenze artistiche (dalla prestigiosa DasArts in Olanda a Cittadellarte di Michelangelo Pistoletto in Italia) partecipando a numerose mostre e biennali in giro per l’Europa.","https://www.dafnamoscati.com/biografia-dafna-moscati/"] }
+            "Vince svariati premi, borse di studio e residenze artistiche (dalla prestigiosa DasArts in Olanda a Cittadellarte di Michelangelo Pistoletto in Italia) partecipando a numerose mostre e biennali in giro per l’Europa.","https://www.dafnamoscati.com/biografia-dafna-moscati/"]      
+    },
+    {   "id":16,
+        "link":"elena-cristalli",
+        "name":"Elena Cristalli",
+        "img":"ElenaCristalli.png",
+        "desc":"Psicoterapeuta specializzata in Analisi Transazionale",
+        "self":false,
+        "school":false,
+         "curriculum":["Psicoterapeuta specializzata in Analisi Transazionale, lavora come psicologa e psicoterapeuta presso uno studio privato a Milano.",
+            "Durante la specializzazione si è avvicinata alla Mindfulness formandosi in diversi centri e diventando Teacher di protocolli mindfulness based. In particolare il percorso che più ha segnato la sua formazione è stato il percorso “Foundation di Mindfulness in Relazione” presso l’Associazione Mudita di Milano, nella tradizione degli insegnamenti del Karuna Institute England (Core Process). ",
+            "In formazione costante e continua è interessata all’orientamento transpersonale e contemplativo, alla filosofia Buddhista che integra alla pratica terapeutica occidentale.",
+            "Si occupa di mindfulness anche in contesti aziendali, proponendo pratiche di consapevolezza che hanno l’obiettivo intrinseco di far emergere quelle qualità umane (come la gentilezza, la compassione, la gioia e l’equanimità) utili soprattutto in contesti complessi e stressanti.",
+            "In parallelo si occupa, all’interno di una cooperativa sociale, di accompagnamento e inserimento lavorativo di rifugiati politici.",
+            "Insegnante di Training autogeno e interessata alle tecniche di rilassamento che permettono di riappropriarsi dell’interezza mente-cuore-corpo."]      
+    }
 
     
 ]

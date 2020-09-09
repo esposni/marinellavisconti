@@ -52,6 +52,7 @@ import RilassamentoYogaPage from "views/pages/RilassamentoYogaPage"
 import TraduzioniTestiPage from "views/pages/TraduzioniTestiPage"
 import CuoreCuraPage from "views/pages/CuoreCuraPage"
 import SanghaPage from "views/pages/SanghaPage"
+import TrainingAutogenoPage from "views/pages/TrainingAutogenoPage"
 
 import HomePage from "views/pages/HomePage"
 ReactDOM.render(
@@ -66,6 +67,10 @@ ReactDOM.render(
         <Route
           path="/sangha"
           render={props => <SanghaPage {...props} />}
+        />
+         <Route
+          path="/training-autogeno"
+          render={props => <TrainingAutogenoPage {...props} />}
         />
          <Route
           path="/percorso-crescita"

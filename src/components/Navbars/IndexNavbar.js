@@ -298,6 +298,12 @@ function IndexNavbar() {
                   >
                    Craniosacrale Biodinamico
                   </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/training-autogeno" tag={Link}
+                  >
+                   Training Autogeno
+                  </DropdownItem>
                  
               </DropdownMenu>
               </UncontrolledDropdown>
