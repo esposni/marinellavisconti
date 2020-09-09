@@ -14,6 +14,7 @@ import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
 import DataFormMessage from"components/DataFormMessage.js";
+import DonazioneButton from "views/pages/Donazione"
 
 export default function EventiCentroPage() {
 
@@ -64,6 +65,7 @@ Presso il Centro Mindfulness Milano, Via Cenisio, 5.
 <h5 align="left"><strong>Per informazioni  scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></strong></h5> 
 <br/>
 <h3 align="center" className="bold" >La partecipazione è libera</h3>
+<DonazioneButton desc={true}  offerta={true}/ >  
               </Col>
             </Row>
 {/* ------------------------------------------------------------- */}
