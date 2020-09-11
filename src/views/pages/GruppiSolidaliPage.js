@@ -57,7 +57,7 @@ Coltivare lo spazio sostenuto dalle migliori qualità del cuore e rallentare ci 
 Ci addestriamo nei confronti di noi stessi e degli altri, lasciandoci accarezzare dal respiro, lasciandoci toccare dalla vita. La carezza sarà presente come metodo per accogliere se impariamo a seguire il flusso.</h5>
                 <h5 align="left">L'intento è <strong>sostenere chi sostiene</strong> per contribuire a creare un gruppo di persone che possono contribuire a creare le condizioni di un benessere più ampio nella comunità.
 
-Una volta al mese da ottobre a giugno  ogni primo mercoledì dalle 12.00 alle 14. Massimo 12 persone.
+Una volta al mese da novembre a giugno  ogni primo mercoledì dalle 12.00 alle 14. Massimo 12 persone.
 
 Gli incontri sono <strong>ad offerta libera</strong> e le offerte verranno impiegate per il sostegno al progetto “Braveheartfulness School" progetto formativo volto a sostenere la formazione di coloro che hanno motivazione per creare le  condizioni di un benessere più ampio nella comunità:  “piccoli bodhisattva crescono” </h5>
 <h5 align="left">E’ richiesto un colloquio preliminare per accedere al gruppo.</h5>

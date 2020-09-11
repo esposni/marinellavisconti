@@ -42,9 +42,7 @@ modello d’incontro dove la solidarietà, la generosità e i piccoli gesti
 quotidiani siano fondanti e si propone come punto di partenza per la
 realizzazione di contesti relazionali capaci di trasformare non solo
 l’individuo ma anche la società avendo come intento prioritario il
-SOSTENERE CHI SOSTIENE.
-È spazio di crescita spirituale per leader, psicoterapeuti, medici,
-operatori della salute, insegnanti e ricercatori spirituali.</h5>
+SOSTENERE CHI SOSTIENE.</h5>
 <h5 align="left">È spazio di crescita spirituale per leader, psicoterapeuti, medici,
 operatori della salute, insegnanti e ricercatori spirituali.</h5>
 <br/>

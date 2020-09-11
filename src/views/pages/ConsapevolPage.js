@@ -69,7 +69,7 @@ Attraverso la consapevolezza, la visualizzazione e la creatività.....Perché og
 </h5>
                 <h5 align="left">Saranno di esplorazione. Personale. E sempre rispettosa di ciò che è giusto per ognuno nel momento presente. </h5>
                 <h5 align="left">Ci sediamo in silenzio. Nella radure del bosco, accolti in un chiostro, sulle rocce accanto al ruscello, in una grotta imbevuta di misteri. Davanti ad un albero, ascoltando la sua storia di lunghi anni… ma non solo. Ci esprimeremo con il movimento, con la voce, con le mani…per sentire gli spazi con tutto il corpo. Per conoscerli con tutti i sensi.</h5>
-                <h5 align="left">Per informazioni e appuntamenti scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
+                <h5 align="left">Per informazioni scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               </Col>
             </Row>
           
