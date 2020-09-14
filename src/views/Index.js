@@ -8,6 +8,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
+import CookieConsent from "react-cookie-consent";
 
 // sections for this page
 import Collaborazioni from "./index-sections/Collaborazioni.js";
@@ -30,9 +31,12 @@ function Index() {
   return (
     <>
       <IndexNavbar />
+  
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
+        <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
+
           <ConduttoriHome />
           <Collaborazioni />
         </div>
