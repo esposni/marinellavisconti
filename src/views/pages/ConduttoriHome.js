@@ -3,11 +3,12 @@ import React from "react";
 // reactstrap components
 import {
   Container,
-  Button,
+  // Button,
   Row,
 } from "reactstrap";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
+import Iframe from 'react-iframe'
 // core components
 
 export default function ConduttoriHome(props) {
@@ -90,19 +91,16 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               <h5 align="center">C.F. 95136600137</h5>
               <h5 align="center">Segreteria: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               <br/><br/>
-              <Button
-                block
-                className="btn-round"
-                color="info"
-                
-                target="_blank"
-                size="lg"
-                >Iscriviti alla newsletter
-              </Button>
+              <Iframe url="https://86be14fe.sibforms.com/serve/MUIEALMfO72ICxIkKiRD9MR73O-WSNUaNJNlm1m6-Jf4ZTsNJUkHXl6t6q91uW1jCRh_aqL6_WvSBKlA2y-pHqtzP5fvhz_tVTnKUxyqTubx6xzkRvMSl-RhdL9GQ4ut9Oogc9xrvKlK-Dozb5PFhFfANNy0FeEWMDHh2xVBj_SSFl0Y-FqqfMFin0AJpsaNsBzGyUJyYFEvmlIR"
+        width="540px"
+        height="600vh"
+        id="Iframe"
+        display="initial"
+        allowfullscreen
+        position="relative"/>
+
         </Container>
-        {/* </Col>
-        </Row>
-        </Container> */}
+     
     </div>
     </>
   );
