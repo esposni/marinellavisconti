@@ -3,6 +3,7 @@ import React from "react";
 // reactstrap components
 import {
   Container,
+  Button,
   Row,
 } from "reactstrap";
 import utenti from "../../assets/utenti.json"
@@ -88,7 +89,16 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               <h5 align="center">Via Auguadri, 22 Como 22100</h5>
               <h5 align="center">C.F. 95136600137</h5>
               <h5 align="center">Segreteria: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
-
+              <br/><br/>
+              <Button
+                block
+                className="btn-round"
+                color="info"
+                
+                target="_blank"
+                size="lg"
+                >Iscriviti alla newsletter
+              </Button>
         </Container>
         {/* </Col>
         </Row>
