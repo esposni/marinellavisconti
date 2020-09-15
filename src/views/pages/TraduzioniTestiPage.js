@@ -52,7 +52,11 @@ export default function TraduzioniTestiPage() {
 L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tradotti sarà devoluta a sostegno del centro di ritiri Theravada Cittaviveka(<a href="http://www.cittaviveka.org">http://www.cittaviveka.org</a>) in inghilterra.</h5>
 <h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
 <h5 align="left">Potete scrivere a <a href = "mailto:info@progettopienessere.com"> info@progettopienessere.com</a> </h5>
-<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto.</h5>
+<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto(da qua in poi)
+ con la collaborazione del Monastero Santacittarama. <br/>
+"Bruschi risvegli" di Ajahn Sucitto  <br/>
+Si ringraziano dal cuore <br/>
+le tante persone che hanno contribuito a realizzare il progetto in un'ottica di servizio e dāna</h5>
 <DonazioneButton desc={true} offerta={false}/>
               </Col>
             </Row>
