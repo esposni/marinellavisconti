@@ -54,9 +54,11 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Potete scrivere a <a href = "mailto:info@progettopienessere.com"> info@progettopienessere.com</a> </h5>
 <h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto(da qua in poi)
  con la collaborazione del Monastero Santacittarama. <br/>
+ <br/>
 "Bruschi risvegli" di Ajahn Sucitto  <br/>
 “Chiarezza e Calma” di Ajahn Sucitto <br/>
-Le quattro nobili verità  di Ahahn Sucitto<br/>
+Le quattro nobili verità  di Ajahn Sucitto<br/>
+<br/>
 Si ringraziano dal cuore <br/>
 le tante persone che hanno contribuito a realizzare il progetto in un'ottica di servizio e dāna</h5>
 <DonazioneButton desc={true} offerta={false}/>

@@ -25,8 +25,8 @@ export default function ConduttoriHome(props) {
                 <img
                 alt="..."
                 className=""
-                style={{width:"20.5em",height:"20.5em"}}
-                src={require("assets/img/marinella5.jpg")}
+                style={{width:"30.5em",height:"30.5em"}}
+                src={require("assets/img/marinella5-home.png")}
               ></img>
               <h2 className="title" style={{color:"#dbbb4b"}}>SOSTENERE CHI SOSTIENE</h2>
               <h5 align="left">L’Associazione Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere approfondirà la ricerca
