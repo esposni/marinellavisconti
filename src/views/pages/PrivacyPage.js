@@ -38,7 +38,7 @@ export default function PrivacyPage() {
               <Col className="ml-auto mr-auto text-center" md="8">
               
                 <h2 className="title" style={{color:"#dbbb4b"}}>Privacy and Cookies Policy – Trattamento dei dati personali</h2>
-                <h5 align="left">L’Associazione Mudita ha aggiornato la propria Privacy and Cookies Policy in funzione della nuova legge europea, la General Data Protection Regulation (GDPR).
+                <h5 align="left">L’Associazione Progetto Pienessere ha aggiornato la propria Privacy and Cookies Policy in funzione della nuova legge europea, la General Data Protection Regulation (GDPR).
 
 I dati saranno utilizzati, dalle persone incaricate dall’Associazione, esclusivamente per lo svolgimento dell’attività istituzionale, per la gestione del rapporto associativo e per l’adempimento degli obblighi di legge. L’indicazione del nome, data di nascita, indirizzo, telefono, indirizzo e mail è necessaria per la gestione del rapporto associativo e per l’adempimento degli obblighi di legge. Il conferimento degli altri dati è facoltativo. I trattamenti dei dati saranno svolti in forma cartacea e mediante computer, con adozione delle misure di sicurezza previste dalla legge. Il trattamento potrà riguardare anche alcuni dei dati personali rientranti nel novero dei “dati sensibili” di cui all’articolo 4, comma 1, lettera d) della legge, vale a dire i dati idonei a rivelare l’origine, razziale ed etnica, le convinzioni religiose, filosofiche o di altro genere, le opinioni politiche, l’adesione a partiti, sindacati, associazioni od organizzazioni a carattere religioso, filosofico, politico e sindacale, nonché i dati personali idonei a rivelare lo stato di salute e la vita sessuale.
 
