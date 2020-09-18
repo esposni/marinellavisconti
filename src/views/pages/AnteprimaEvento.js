@@ -29,7 +29,7 @@ export default function Evento(props) {
 
               <Col>
               
-              <div className="title" align="center" style={{color:"#dbbb4b",fontSize:"1.5em"}}><strong>{(props.all)? (props.type==="")? props.title : props.type+": "+props.title: props.title }</strong></div>
+  <div className="title" align="center" style={{color:"#dbbb4b",fontSize:"1.5em"}}><strong>{(props.all)? (props.type==="")? props.title : <div><h5>{props.type}</h5><h5>{props.title}</h5></div> : props.title }</strong></div>
                 {(props.conduttori!=="")?<h5 align="center"><strong>{props.conduttori}</strong><br/><br/></h5>:"" } 
                 
                 <div align="center"><strong>{props.date}</strong><br/></div>

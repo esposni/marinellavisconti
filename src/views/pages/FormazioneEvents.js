@@ -46,7 +46,7 @@ return (
           type={el.type}/>
         })} */}
         {data.map( (el)=>{
-           if(el.type==="Ritiri Laboratori" || el.type==="Ritiro di Vipassana")
+           if(el.type==="Ritiri Laboratori" || el.type==="Ritiro di Vipassana" || el.type==="Ritiri KumNye")
                return <AnteprimaEvento 
               key={el.id}
               num={el.id}

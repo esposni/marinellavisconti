@@ -44,15 +44,7 @@ export default function Collaborazioni() {
                 ></img>
               </a>
             </div>
-            <div className="col">
-              <a href="https://www.karuna-institute.co.uk/" target="_blank" rel="noopener noreferrer" >
-                <img
-                  alt="..."
-                  className="img-raised"
-                  src={require("assets/img/collaborazioni/Karuna-Institute-logo.png")}
-                ></img>
-              </a>
-            </div>
+           
             <div className="col">
               <a href="http://associazionemudita.org/" target="_blank" rel="noopener noreferrer" >
                 <img

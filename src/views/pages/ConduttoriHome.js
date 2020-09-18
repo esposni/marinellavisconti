@@ -89,11 +89,18 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               <h5 align="center">Sede dell’Associazione Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere ETS</h5>
               <h5 align="center">Via Auguadri, 22 Como 22100</h5>
               <h5 align="center">C.F. 95136600137</h5>
-              <h5 align="center">Segreteria: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
+              <h5 align="center">Segreteria Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere :<br/>
+Telefono: <br/>
+La segreteria risponde dalle  ore... alle ore...<br/>
+
+Lunedì 11-12<br/>
+Mercoledì 12-13<br/>
+Venerdì 17-18<br/>
+Oppure potete scrivere a: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               <br/><br/>
               <Iframe url="https://86be14fe.sibforms.com/serve/MUIEALRtQhDUWkNiodhhTIlxT2PPwH6yivy5TazFadsMifMxAnYAdRDLzrVIkBZH0XZStEEAZrBiA61PTZbhFEc76_K7BqUAQ2MpVn3WEqert7_Hz72ybyN35RKsiWGCJGfwxEB_aflHm68XlrSjXbL7Ep-eBi7G0U7_R8b-CVOJLg78nxyZyYuT0v8p5OgBYOs3Jrv9uq6--bmE"
         width="540px"
-        height="600vh"
+        height="450vh"
         id="Iframe"
         display="initial"
         allowfullscreen

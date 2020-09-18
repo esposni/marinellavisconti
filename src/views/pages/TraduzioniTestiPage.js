@@ -55,6 +55,8 @@ L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tra
 <h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto(da qua in poi)
  con la collaborazione del Monastero Santacittarama. <br/>
 "Bruschi risvegli" di Ajahn Sucitto  <br/>
+“Chiarezza e Calma” di Ajahn Sucitto <br/>
+Le quattro nobili verità  di Ahahn Sucitto<br/>
 Si ringraziano dal cuore <br/>
 le tante persone che hanno contribuito a realizzare il progetto in un'ottica di servizio e dāna</h5>
 <DonazioneButton desc={true} offerta={false}/>

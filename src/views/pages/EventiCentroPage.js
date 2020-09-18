@@ -55,10 +55,11 @@ return (
               Essere consapevoli vuol dire essere qui, pienamente coscienti….ti rapporti direttamente alla situazione attuale, e ciò è precisamente tutto ciò che concerne la meditazione…semplicemente essere qui, comportandosi con molta accuratezza, completamente in relazione con il presente, senza riserve….C. Trungpa
 </h5>  
 
-<h5><strong>Da 17 settembre 2020 al 8 luglio 2021. <br/>tutti i giovedì dalle 12.30 alle 13.30  <br/> La partecipazione è libera.</strong></h5> 
-<h5 align="left">
+<h5  align="left"><strong>Dal 17 settembre 2020 all’8 luglio 2021<br/>
+Tutti i giovedì dalle 12.30 alle 13.30 sia in PRESENZA che IN DIRETTA STREAMING</strong></h5> 
+{/* <h5 align="left">
 Presso il Centro Mindfulness Milano, Via Cenisio, 5.
-</h5>
+</h5> */}
 <h5 align="left"><strong>Per informazioni  scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></strong></h5> 
 <h5 align="left"><strong>N.B: La pratica contemplativa della vita quotidiana è anche in in diretta streaming tutti i lunedì dal 14 settembre 2020 dalle 8:30 alle 9:10.</strong></h5>
 <h5 align="left"><strong>Tutti i giovedì dal 17 settembre 2020 dalle 18 alle 18:40. </strong></h5>

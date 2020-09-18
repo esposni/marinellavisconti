@@ -185,6 +185,12 @@ function IndexNavbar() {
                   >
                    Ritiri Laboratori
                   </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/ritiri-kum-nye" tag={Link}
+                  >
+                   Ritiri Kum Nye
+                  </DropdownItem>
               </DropdownMenu>
               </UncontrolledDropdown>
 
@@ -260,6 +266,12 @@ function IndexNavbar() {
                     to="/sangha" tag={Link}
                   >
                  Sangha cittadini e regionali
+                  </DropdownItem>
+                  <DropdownItem
+                    // target="_blank"
+                    to="/MindfulnesStreet" tag={Link}
+                  >
+                MindfulnesStreet
                   </DropdownItem>
                   
                   

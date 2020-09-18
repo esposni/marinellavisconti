@@ -58,6 +58,15 @@
         "school":false,
             "link":"ajahn-sucitto",
             "curriculum":["Ajahn Sucitto è nato a Londra nel 1949, AjahnSucitto e’ diventato un bhikkhu in Tailandia nel 1976. Si è formato con Ajahn Sumedho, al suo ritorno in Gran Bretagna nel 1979. Dal 1981 tiene ritiri, con insegnamenti in Gran Bretagna e all’estero. Molti dei suoi libri, podcast, file audio e CD sono gratuitamente accessibili nei sotto elencati siti web: www.ajahnsucitto.org, www.dharmaseed.org, www.forestsangha.org"]
+    },
+    {   "id":19,
+        "link":"maura-sills",
+        "name":"Maura Sills",
+        "img":"maura.jpg",
+        "desc":"Fondatrice della Psicoterapia Core Process",
+        "self":false,
+        "school":false,
+         "curriculum":["Maura Sills è la fondatrice della Psicoterapia Core Process, che offre un innovativo approccio psico-spirituale alla terapia. Il Karuna Institute integra modelli psicoterapici occidentali con la psicologia buddista e pratiche di mindfulness. Basandosi su più di 30 anni di esperienza, la Psicoterapia Core Process offre una profonda comprensione di ciò che aiuta e di ciò che ostacola la guarigione e la trasformazione."]      
     }
     ,
     {"id":5,

@@ -37,6 +37,7 @@ import PraticaServPage from "views/pages/PraticaServPage";
 import CraniosacralePage from "views/pages/CraniosacralePage";
 import RitiriPage from "views/pages/RitiriPage";
 import RitiriVipassanaPage from "views/pages/RitiriVipassanaPage";
+import RitiriKumNyePage from "views/pages/RitiriKumNyePage";
 import ProfilePage from "views/pages/ProfilePage.js";
 import ConsapevolPage from "views/pages/ConsapevolPage";
 import PremessaPage from "views/pages/Premessa";
@@ -53,6 +54,8 @@ import TraduzioniTestiPage from "views/pages/TraduzioniTestiPage"
 import CuoreCuraPage from "views/pages/CuoreCuraPage"
 import SanghaPage from "views/pages/SanghaPage"
 import TrainingAutogenoPage from "views/pages/TrainingAutogenoPage"
+import MindfulnesStreetPage from "views/pages/MindfulnesStreetPage"
+import PrivacyPage from "views/pages/PrivacyPage"
 
 import HomePage from "views/pages/HomePage"
 ReactDOM.render(
@@ -69,12 +72,20 @@ ReactDOM.render(
           render={props => <SanghaPage {...props} />}
         />
          <Route
+          path="/trattamento-dei-dati-personali"
+          render={props => <PrivacyPage {...props} />}
+        />
+         <Route
           path="/training-autogeno"
           render={props => <TrainingAutogenoPage {...props} />}
         />
          <Route
           path="/percorso-crescita"
           render={props => <PercorsoCrescitaPage {...props} />}
+        />
+        <Route
+          path="/MindfulnesStreet"
+          render={props => <MindfulnesStreetPage {...props} />}
         />
         
          <Route
@@ -84,6 +95,10 @@ ReactDOM.render(
         <Route
           path="/cuore-cura"
           render={props => <CuoreCuraPage {...props} />}
+        />
+         <Route
+          path="/ritiri-kum-nye"
+          render={props => <RitiriKumNyePage {...props} />}
         />
          <Route
           path="/traduzione-testi"

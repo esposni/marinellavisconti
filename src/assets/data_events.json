@@ -50,6 +50,29 @@
         "vitto_alloggio":""
         ,"self_link":""
     },
+    {   "id":16,
+        "title":"L’impermanenza e il campo sottile e subliminale dell’Interessere",
+        "conduttori":"Maura Sills",
+        "date":"30 Ottobre @ 17:00 - 1 Novembre @ 12:30 ",
+        "text":["Saranno coltivate le qualità sottili e subliminali della mente incarnata per risensibilizzarci ad aluni aspetti della nostra natura umana. Ciò potrebbe aituarci ad espandere la nostra consapevolezza al di là degli abituali confini del nostro sguardo, pensiero ed immaginazione. Questo ci sostiene nel conoscere e nel fare esperienza di un senso incarnato di appartenenza, interconnessione e di più profonde relazioni etiche con gli altri, con la natura e con quel grande mistero della nostra mente meno condizionata."]
+        ,"data_luogo":"Il ritiro si terrà online  da venerdì 30 ottobre a domenica 1 novembre 2020. Comincerà alle 17 del primo giorno e terminerà domenica alle 10.30 (per coloro che stanno facendo il Training terminerà alle 12.30)"
+        ,"image":"wheat-3506758_1920.jpg"
+        ,"type":"Ritiri KumNye"
+        ,"cit":[]
+        ,"costo":"Il costo del ritiro è di 35 euro + 25 euro di tessera associativa da versare al momento dell’iscrizione. \n Per l’insegnante e la traduttrice è prevista un’offerta libera. \n I pagamenti della quota di partecipazione più tessera sostenitore dovranno essere effettuati tramite bonifico bancario a: Associazione Mudita c/o Intesa San  Paolo spa – Iban IT83 E030 6909 6061 0000 0128 339 – Bic BCITITMM – Causale: Cognome e Nome del partecipante- Ritiro online Kum Nye."
+        ,"contatto":"ritirikumnye@associazionemudita.org"
+        ,"users":[{"link":"maura-sills",
+                    "name":"Maura Sills",
+                    "img":"maura.jpg",
+                    "desc":"Fondatrice della Psicoterapia Core Process",
+                    "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":""
+    },
     {
         "id":4,
         "title":"Quando lo Spazio si fa Sacro",
@@ -148,7 +171,7 @@
     {
         "id":6,
         "title":"Mantenere un buon cuore incontrando la sofferenza",
-        "conduttori":"Ajahn Sucitto - Posti esautirti: Lista d'attesa",
+        "conduttori":"Ajahn Sucitto - Posti ESAURITI: Lista d'attesa",
         "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021 ",
         "text":["Il ritiro prevede solo come da tradizione theravada la colazione e il pasto prima di mezzogiorno. Alla sera sono previste solo tisane. I partecipanti devono potersi trovare a proprio agio nel silenzio e nella consumazione di un unico pasto al giorno."]
         ,"image":"sucitto.png",
@@ -404,5 +427,30 @@
         ,"offerta_libera":false,
         "vitto_alloggio":""
         ,"self_link":"/sangha"
+    }
+    ,
+    {
+        "id":15,
+        "title":"MindfulnesStreet",
+        "conduttori":"Elena Cristalli",
+        "date":"",
+        "text":[]
+        ,"image":"street.jpg",
+        "data_luogo":""
+        ,"type":"Attivismo Contemplativo"
+        ,"cit":[]
+        ,"costo":""
+        ,"contatto":""
+        ,"users":[{"link":"elena-cristalli",
+            "name":"Elena Cristalli",
+            "img":"ElenaCristalli.png",
+            "desc":"Psicoterapeuta specializzata in Analisi Transazionale",
+                "curriculum":"" }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":false
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":"/MindfulnesStreet"
     }
 ]

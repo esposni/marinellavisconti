@@ -35,7 +35,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-        <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
+        <CookieConsent>This website uses cookies to enhance the user experience. Read more: <a href="\trattamento-dei-dati-personali">cookie e privacy</a></CookieConsent>
 
           <ConduttoriHome />
           <Collaborazioni />
