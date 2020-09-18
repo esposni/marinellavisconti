@@ -79,7 +79,7 @@ Per chi non viene da vicino (o per chi ha semplicemente la possibilità e voglia
 </h5>
                 <h5 align="left"><strong>IL LUOGO </strong></h5>
                 <h5 align="left">Un luogo isolato, immerso nella natura, fra i boschi e i prati della bellissima Sabina, provincia di Rieti, circa 80 km da Roma</h5>
-                <h5 align="left">Monte san giovanni in sabina. Località missiani</h5>
+                
                 <h5 align="left">Per chi non è mai stato manderò istruzioni precise… il navigatore qui di solito fallisce e vi porta a fare strade avventurose. </h5>
                 <h5 align="left"><strong>I COSTI </strong></h5>
                 <h5 align="left">Il contributo è basato sulla economia del dono,
