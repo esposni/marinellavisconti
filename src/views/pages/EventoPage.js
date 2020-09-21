@@ -41,7 +41,7 @@ export default function EventoPage(props) {
           users={props.users}
           more_info={props.more_info}
           type={props.type}/>
-        <DataFormMessage/>
+        <DataFormMessage title={props.title}/>
         <DefaultFooter />
       </div>
     </>

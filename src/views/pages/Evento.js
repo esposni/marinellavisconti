@@ -42,15 +42,15 @@ export default function Evento(props) {
                 <img id="small-logo" src={require("assets/img/logo1.png")} alt=""/><br/>
                 <img id="small-logo-text" src={require("assets/img/logo-text.jpeg")} alt=""/>
                 </div>: ""}
-                    {(props.cit!==[])? props.cit.map((t)=>{
-                      return <p>" {t.text} "   -    {t.author}</p>
+                    {(props.cit!==[])? props.cit.map((t,index)=>{
+                      return <p key={index}>" {t.text} "   -    {t.author}</p>
                     }) : ""}
-                    {props.text.map((t)=>{
-                      return <h5 align="left">{t}</h5>
+                    {props.text.map((t,index)=>{
+                      return <h5 key={index}align="left">{t}</h5>
                     })}
 
-          {(props.prerequisiti!==[])? props.prerequisiti.map((t)=>{
-                      return <h5 align="left"><strong>{t}</strong></h5> 
+          {(props.prerequisiti!==[])? props.prerequisiti.map((t,index)=>{
+                      return <h5 key={index} align="left"><strong>{t}</strong></h5> 
                     }) : ""}
 
          {(props.data_luogo!=="")?<h5 align="left"><strong>DATA E LUOGO</strong><br/>{props.data_luogo}</h5>:"" } 
@@ -69,8 +69,8 @@ export default function Evento(props) {
           
             <div className="team">
               <Row>
-                {props.users.map((el)=>{
-                  return <Col md="4">
+                {props.users.map((el,index)=>{
+                  return <Col md="4" key={index}>
                   <div className="team-player">
                     <img
                       alt="..."

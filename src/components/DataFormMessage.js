@@ -10,7 +10,7 @@ import {
     Col
   } from "reactstrap";
 
-export default function DataFormMessage() {
+export default function DataFormMessage(props) {
 const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
     return (
@@ -232,6 +232,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                       let form=document.getElementById("form1");
                       let textarea=form.elements["body"];
                       let message=document.getElementById("name").value;
+                      message="Iscrizione Evento: "+props.title;
                       message+="  "+document.getElementById("email").value;
                       message+="\n Indirizzo: "+ document.getElementById("indirizzo").value;
                       message+="\n CAP: "+ document.getElementById("cap").value;
@@ -266,7 +267,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
               </Col>
             </Row>
           </Container>
-          <form action="mailto:info@progettopienessere.com" method="GET" id="form1">
+          <form action={"mailto:info@progettopienessere.com?subject=Iscrizione Evento: "+props.title }method="GET" id="form1">
             <textarea hidden name="body"></textarea>
           </form>
         </div>
