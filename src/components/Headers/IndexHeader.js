@@ -33,10 +33,15 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <div style={{display:"flex",justifyContent:"flex-end",flexDirection:'row',alignItems:"center",justifyContent:"center",height:"100%"}}>
-          <div className=""style={{display:"flex",justifyContent:"center",flexDirection:'column',marginTop:'10vh', marginLeft:'40vw'}}>
+          <div className=""style={{display:"flex",justifyContent:"center",flexDirection:'column',marginTop:'30vh', marginLeft:'40vw'}}>
          
-            <h1  style={{color:"#dbbb4b",fontSize:"4.5em"}} ><strong>Progetto<br/><span style={{fontSize:"1.5em"}}>P</span>ien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i><span style={{fontSize:"1.5em"}}>E</span>ssere</strong></h1>
-            <h3  className="h3-seo" style={{color:"#dbbb4b",fontSize:"3.5em"}}>Pratiche contemplative nella vita quotidiana</h3>
+            <h1  style={{color:"#dbbb4b",
+            
+            // fontSize:"4.5em"
+            }} align="center" ><strong>Progetto<br/><span style={{fontSize:"1.5em"}}>P</span>ien<i style={{color:"#dbbb4b",fontSize:"1.5em"}}className="fas fa-heart"></i><span style={{fontSize:"1.5em"}}>E</span>ssere</strong></h1>
+            <h3  className="h3-seo" align="center" style={{color:"#dbbb4b",
+            // fontSize:"3.5em"
+            }}>Pratiche contemplative nella vita quotidiana</h3>
           </div>
           
         </div>
