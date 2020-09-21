@@ -50,9 +50,9 @@ export default function TraduzioniTestiPage() {
               <h2 className="title" style={{color:"#dbbb4b"}}>Coordinamento traduzioni testi di DHARMA dall'inglese all'italiano</h2> 
 <h5 align="left">Da distribuire in centri di ritiri e presso il Centro Mindfulness Milano.
 L'offerta  raccolta attraverso la distribuzione gratuita dei testi di Dharma tradotti sarà devoluta a sostegno del centro di ritiri Theravada Cittaviveka(<a href="http://www.cittaviveka.org">http://www.cittaviveka.org</a>) in inghilterra.</h5>
-<h5 align="left">N.B. Si raccolgono adesioni di volontari disponibii a tradurre testi dall'inglese all'italiano</h5>
+<h5 align="left">N.B. Si raccolgono adesioni di volontari disponibili a tradurre testi dall'inglese all'italiano</h5>
 <h5 align="left">Potete scrivere a <a href = "mailto:info@progettopienessere.com"> info@progettopienessere.com</a> </h5>
-<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto(da qua in poi)
+<h5 align="left">Attualmente stiamo traducendo alcuni testi di Ajahn Sucitto 
  con la collaborazione del Monastero Santacittarama. <br/>
  <br/>
 "Bruschi risvegli" di Ajahn Sucitto  <br/>

@@ -29,7 +29,7 @@ return (
         title="Ritiri Kum Nye" />
       
         {data.map( (el)=>{
-          if(el.type==="Ritiri KumNye"){
+          if(el.type==="Ritiri Kum Nye"){
             return  <AnteprimaEvento 
             key={el.id}
             num={el.id}
