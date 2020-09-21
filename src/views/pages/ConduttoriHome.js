@@ -90,20 +90,27 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               <h5 align="center">Via Auguadri, 22 Como 22100</h5>
               <h5 align="center">C.F. 95136600137</h5>
               <h5 align="center">Segreteria Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere :<br/>
-Telefono: <br/>
-La segreteria risponde dalle  ore... alle ore...<br/>
+Telefono:  </h5>
+<div style={{display:"flex",justifyContent:"center"}}>
+<h5 align="left">
 
-Lunedì 11-12<br/>
-Mercoledì 12-13<br/>
-Venerdì 17-18<br/>
-Oppure potete scrivere a: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
+La segreteria risponde:  
+<ul align="left">
+  <li>Il lunedì dalle 11 alle 12 </li>
+  <li> Il mercoledì dalle 12 alle 13</li>
+  <li> Il venerdì dalle 17 alle 18</li>
+</ul>
+</h5>
+</div>
+<h5 align="center">Oppure potete scrivere a: <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></h5>
               <br/><br/>
               <Iframe url="https://86be14fe.sibforms.com/serve/MUIEALRtQhDUWkNiodhhTIlxT2PPwH6yivy5TazFadsMifMxAnYAdRDLzrVIkBZH0XZStEEAZrBiA61PTZbhFEc76_K7BqUAQ2MpVn3WEqert7_Hz72ybyN35RKsiWGCJGfwxEB_aflHm68XlrSjXbL7Ep-eBi7G0U7_R8b-CVOJLg78nxyZyYuT0v8p5OgBYOs3Jrv9uq6--bmE"
-        width="540px"
+        width="100%"
         height="450vh"
         id="Iframe"
         display="initial"
         allowfullscreen
+        frameBorder="0"
         position="relative"/>
 {/* <iframe width="540" height="305" src="https://86be14fe.sibforms.com/serve/MUIEALRtQhDUWkNiodhhTIlxT2PPwH6yivy5TazFadsMifMxAnYAdRDLzrVIkBZH0XZStEEAZrBiA61PTZbhFEc76_K7BqUAQ2MpVn3WEqert7_Hz72ybyN35RKsiWGCJGfwxEB_aflHm68XlrSjXbL7Ep-eBi7G0U7_R8b-CVOJLg78nxyZyYuT0v8p5OgBYOs3Jrv9uq6--bmE" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe> */}
         </Container>
