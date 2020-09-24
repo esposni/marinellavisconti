@@ -188,7 +188,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
       </div>
 
 
-                <label>Ho letto la normativa sulla privacy EX ART. 13 D. LGS. 196/03 e autorizzo al trattamento dei miei dati personali </label>
+                <label>Ho letto la normativa sulla  <a target="_blank" href="\trattamento-dei-dati-personali">privacy</a> EX ART. 13 D. LGS. 196/03 e autorizzo al trattamento dei miei dati personali </label>
                 <InputGroup>
                   <Input
                     placeholder=""
@@ -247,7 +247,11 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                       }
                       textarea.value=message;
                       // console.log(textarea.value);
-                      form.submit();
+                      if(document.getElementById("authorize").checked){
+                        form.submit();
+                      }else{
+                        alert("Autorizzare il trattamento dei dati personali")
+                      }
                     }}
                     size="lg"
                   >

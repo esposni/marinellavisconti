@@ -76,8 +76,8 @@
     {
         "id":4,
         "title":"Quando lo Spazio si fa Sacro",
-        "conduttori":"Marinella Visconti e Simone Spina",
-        "date":"10 Dicembre 2020 dalle 14:30 - 13 Dicembre 2020 fino alle 13:00",
+        "conduttori":"Marinella Visconti e Federica Gonzati",
+        "date":"11 Dicembre 2020 dalle 14:30 - 13 Dicembre 2020 fino alle 13:00",
         "text":["Il Campo, lo spazio sacro è originato da forze dentro e fuori da noi più dalla quiete da cui originano.",
         "Le forze che agiscono nel campo precedono la genetica e sono espressione della Matrice che ordina la vita stessa e questo è un punto di vista che contempla il mistero.",
         "Se coltiviamo Presenza lo spazio diventa Sacro e nulla può accadere di pericoloso....i condizionamenti si resettano, le nostre storie individuali diventano quelle di tutti.....siamo nell’indifferenziato....ci incontriamo nella stessa radura...sacro e ordinario co emergono. La pratica nella vita è condivisa.... Il nostro risveglio è in relazione....il materiale che sorge nel lavoro in relazione dà forma al gruppo e parte del processo è scegliere cosa nutrire e cosa no.. Più ci sentiamo al sicuro, più andiamo in profondità e il modo in cui generiamo sicurezza pulisce lo spazio e lo rende onesto, nudo...",
@@ -94,11 +94,11 @@
                    "img":"marinella.png",
                     "link":"marinella-visconti",
                     "curriculum":"" },
-                    {"name":"Simone Spina",
-                        "img":"simone-spina.png",
-                        "desc":"Psichiatra Psicoterapeuta ad orientamento transpersonale",
-                         "link":"http://centromindfulnessmilano.com/myportfolio/simone-spina/",
-                         "curriculum":"" }]
+                    {"link":"federica-gonzati",
+                        "name":"Federica Gonzati",
+                        "desc":"Sociologa operatore olistico craniosacrale biodinamica",
+                        "img":"federica.jpg",
+                            "curriculum":"" }]
         ,"more_info":"http://centromindfulnessmilano.com/myportfolio/braveheartfulness-school-pratiche-contemplative-quotidiane-per-cuori-coraggiosi/"
         ,"prerequisiti":[]
         ,"school":false
@@ -395,7 +395,7 @@
         ,"users":[{"link":"federica-gonzati",
             "name":"Federica Gonzati",
             "desc":"Sociologa operatore olistico craniosacrale biodinamica",
-            "img":"federica.jpeg",
+            "img":"federica.jpg",
                 "curriculum":"" }]
         ,"more_info":""
         ,"prerequisiti":[]

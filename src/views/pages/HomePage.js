@@ -134,7 +134,21 @@ Sono benvenuti e invitati a partecipare e a contribuire al Progetto Pien<i style
 Prerequisito fondamentale è aver fatto un significativo lavoro su di sé, avere una regolare pratica e sentire una motivazione profonda a donare e a donarsi.</h5>
 <h5>Chi fosse interessato può scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a> e compilare il Questionario sotto:
           </h5>
-          <Button 
+        
+        <div>
+        <h5 align="center">Progetto pienessere nutre un sogno </h5>
+        <PopUpButton title="Sogno" content={textbutton1}/>
+        </div>
+        <div>
+        <h5 align="center">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
+        <DonazioneButton/>
+        </div>
+        <br/>
+        <div>
+        
+        <PopUpButton title="Iscrizione all'associazione" content={textbutton3}/>
+        <h5 align="center">Se vuoi iscriverti alla all’Associazione</h5>
+        <Button 
 block
 className="btn-round"
 color="info"
@@ -146,17 +160,6 @@ style={{width:"3.5em",height:"3.5em",marginRight:"20px"}}
 src={require("assets/img/marinella5.jpg")}
 ></img>Compila il questionario</Button>
 { showResults ?  <Quest1/> : null }
-        <div>
-        <h5 align="center">Progetto pienessere nutre un sogno </h5>
-        <PopUpButton title="Sogno" content={textbutton1}/>
-        </div>
-        <div>
-        <h5 align="center">Se desideri fare una donazione per favore clicca il bottone sottostante</h5>
-        <DonazioneButton/>
-        </div>
-        <div>
-        <h5 align="center">Se vuoi iscriverti alla all’Associazione</h5>
-        <PopUpButton title="Iscrizione all'associazione" content={textbutton3}/>
         </div>
 
           </Container>

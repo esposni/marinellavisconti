@@ -59,8 +59,11 @@ export default function MindfulnesStreetPage() {
 <h5 align="left"><strong>I TEMPI</strong></h5>
 <h5 align="left">Il gruppo di MindfulnesStreet si radunerà secondo un calendario.
 Chi vuole partecipare e/o proporre un luogo in cui meditare nelle date indicate può segnalarlo via mail. Per partecipare occorre iscriversi. </h5>
+<h5 align="left"><strong>LUOGO</strong></h5>
+<h5 align="left">
+Il primo incontro è  il 31 ottobre 2020 alle 11 30  in Milano il luogo sarà  comunicato via email.</h5>
 <h5 align="left"><strong>I COSTI</strong></h5>
-<h5 align="left">Offerta libera.</h5>
+<h5 align="left">Offerta libera.</h5>x
 
 <h5 align="left"><strong>COSA PORTARE?</strong></h5>
       <ul align="left">
