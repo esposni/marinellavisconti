@@ -231,25 +231,28 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                     onClick={e => {
                       let form=document.getElementById("form1");
                       let textarea=form.elements["body"];
+                      let subject=form.elements["subject"];
                       let message=document.getElementById("name").value;
-                      message="Iscrizione Evento: "+props.title;
-                      message+="  "+document.getElementById("email").value;
-                      message+="\n Indirizzo: "+ document.getElementById("indirizzo").value;
-                      message+="\n CAP: "+ document.getElementById("cap").value;
-                      message+="\n Paese: "+ document.getElementById("paese").value;
-                      message+="\n Codice Fiscale: "+ document.getElementById("cod_fiscale").value;
-                      message+="\n CAP: "+ document.getElementById("cap").value;
-                      message+="\n Numero di telefono: "+ document.getElementById("telefono").value;
-                      message+="\n Professione: "+ document.getElementById("professione").value;
-                      message+="\nHai già esperienza meditativa? Se si, in quale tradizione? \n";
+                      message="Dati Personali:";
+                      message+="\n- Nome e Cognome: "+document.getElementById("name").value;
+                      message+="\n- Email: "+document.getElementById("email").value;
+                      message+="\n- Indirizzo: "+ document.getElementById("indirizzo").value;
+                      message+="\n- CAP: "+ document.getElementById("cap").value;
+                      message+="\n- Paese: "+ document.getElementById("paese").value;
+                      message+="\n- Codice Fiscale: "+ document.getElementById("cod_fiscale").value;
+                      message+="\n- CAP: "+ document.getElementById("cap").value;
+                      message+="\n- Numero di telefono: "+ document.getElementById("telefono").value;
+                      message+="\n- Professione: "+ document.getElementById("professione").value;
+                      message+="\n- Hai già esperienza meditativa? Se si, in quale tradizione? \n";
                       message+= document.getElementById("professione").value;
-                      message+="\n Mi autorizzi ad inviarti newsletters in futuro e a tenerti aggiornato sulle mie iniziative?\n";
+                      message+="\n- Mi autorizzi ad inviarti newsletters in futuro e a tenerti aggiornato sulle mie iniziative?\n";
                       if(document.getElementById("newsletter").checked){
                         message+="SI\n";
                       }else{
                         message+="NO\n";
                       }
                       textarea.value=message;
+                      subject.value= "Iscrizione Evento: "+props.title ;
                       // console.log(textarea.value);
                       if(document.getElementById("authorize").checked){
                         form.submit();
@@ -267,8 +270,10 @@ const [firstFocus, setFirstFocus] = React.useState(false);
               </Col>
             </Row>
           </Container>
-          <form action={"mailto:info@progettopienessere.com?subject=Iscrizione Evento: "+props.title }method="GET" id="form1">
+          <form action={"mailto:info@progettopienessere.com"} method="GET" id="form1">
+            <textarea hidden name="subject"></textarea>
             <textarea hidden name="body"></textarea>
+           
           </form>
         </div>
 );}
