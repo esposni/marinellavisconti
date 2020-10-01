@@ -5,7 +5,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import DataFormMessage from"components/DataFormMessage.js";
+
 import Evento from "views/pages/Evento.js";
 
 export default function EventoPage(props) {
@@ -41,7 +41,7 @@ export default function EventoPage(props) {
           users={props.users}
           more_info={props.more_info}
           type={props.type}/>
-        <DataFormMessage title={props.title}/>
+       
         <DefaultFooter />
       </div>
     </>

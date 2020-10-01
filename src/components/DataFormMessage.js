@@ -15,7 +15,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
     return (
     
-<div className="section section-contact-us text-center">
+<div className=" text-center">
           <Container>
             <h2 className="title" style={{color:"#dbbb4b"}}>Per iscrizioni: <br/> Compila il questionario</h2>
             {/* <p className="description">Your project is very important to us.</p> */}

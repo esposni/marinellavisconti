@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 // core components
 
 import AlertDialogSlide from "components/PopUpButton.js";
+import DataFormMessage from"components/DataFormMessage.js";
 
 export default function Evento(props) {
 
@@ -63,7 +64,7 @@ export default function Evento(props) {
          </div>:"" } 
          {(props.offerta_libera)?<h5 align="left"><strong>Il ritiro come da tradizione è ad offerta libera sia per quanto concerne gli insegnamenti che per la traduzione.</strong></h5>:"" } 
          {(props.vitto_alloggio!=="")?<h5 align="left"><strong>Costo vitto e alloggio</strong><br/>{props.vitto_alloggio}</h5>:"" } 
-         {(props.contatto!=="")?<h5 align="left"><strong>PER INFO E ISCRIZIONI CONTATTARE</strong><br/><a href={"mailto:"+props.contatto}>{props.contatto}</a></h5>:"" } 
+         
          {(props.users.length!==0)? <h5 align="left"><strong>CONDUTTORI</strong><br/> </h5>:""}
           <Container>
           
@@ -126,12 +127,22 @@ export default function Evento(props) {
           :""
           } 
 
+{(props.contatto!=="")?<h5 align="left"><strong>PER INFO CONTATTARE</strong><br/><a href={"mailto:"+props.contatto}>{props.contatto}</a></h5>:"" } 
+
+
+
 
               </Col>
             </Row>
-          
+        
+            <Row>
+            <Col>
+            <hr></hr>
+            <DataFormMessage title={props.title}/></Col>
+           
+            </Row>
           </Container>
-          <hr></hr>
+         
         </div>
 
     </>
