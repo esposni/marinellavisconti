@@ -251,8 +251,12 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                       }else{
                         message+="NO\n";
                       }
+                      message=message.replace(/ /g,"%20")
+                      message=message.replace(/\n/g,"%0D%0A")
+                      console.log(message)
                       textarea.value=message;
-                      subject.value= "Iscrizione Evento: "+props.title ;
+                      subject.value= "Iscrizione%20Evento:%20"+props.title.replace(/ /g,"%20") ;
+                      console.log(subject.value)
                       // console.log(textarea.value);
                       if(document.getElementById("authorize").checked){
                         form.submit();
