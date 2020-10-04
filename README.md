@@ -1,7 +1,7 @@
 # Progetto Pienessere How to Use!
 Far paritire il sito:  nel terminale --> npm start
 
-# Where insert image 
+# Where insert image into Page
 --> About Ritiri inser image here: src/assets/img/ritiri
 --> Otherwise inser image here: src/assets/img
 
@@ -10,6 +10,10 @@ Far paritire il sito:  nel terminale --> npm start
     style={{width:"20em",height:"20em"}}
     src={require("assets/img/ritiri/<img>")} 
 ></img>
+
+
+# Inserire Link
+<a href="link"> link </a>
 
 ## How to add a new User:
 1. Open src/assets/utenti.json
