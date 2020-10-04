@@ -200,7 +200,18 @@
             "Si occupa di mindfulness anche in contesti aziendali, proponendo pratiche di consapevolezza che hanno l’obiettivo intrinseco di far emergere quelle qualità umane (come la gentilezza, la compassione, la gioia e l’equanimità) utili soprattutto in contesti complessi e stressanti.",
             "In parallelo si occupa, all’interno di una cooperativa sociale, di accompagnamento e inserimento lavorativo di rifugiati politici.",
             "Insegnante di Training autogeno e interessata alle tecniche di rilassamento che permettono di riappropriarsi dell’interezza mente-cuore-corpo."]      
-    }
+    },
+    {   "id":19,
+        "link":"chiara-de-servi",
+        "name":"Chiara De Servi",
+        "img":"Chiara De Servi.png",
+        "desc":"Mindfulness Coundselor",
+        "self":false,
+        "school":false,
+         "curriculum":["Mindfulness Counselor diplomata alla scuola Mindfulness Project presso l’Istituto Buddista ILTK. ",
+            "Trainer di Focusing accreditata all International Focusing Institute di New York. Coordinatrice del percorso di Mindfulness per le donne in gravidanza all'ospedale Mangiagalli di Milano. ",
+            "Conduco da anni corsi di Mindfulness in azienda, e sono responsabile dei progetti di Mindfulness e Wellbeing in Google Italia. ",
+            "Pratico meditazione da diversi anni secondo le tradizioni buddiste Theravada e Mahayana; in particolare seguo gli insegnamenti Vajrayana di Lama Tsultrim Allione."]      
 
-    
+    }
 ]
