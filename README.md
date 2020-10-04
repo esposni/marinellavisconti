@@ -1,5 +1,5 @@
 # Progetto Pienessere How to Use!
-
+Far paritire il sito:  nel terminale --> npm start
 
 # Where insert image 
 --> About Ritiri inser image here: src/assets/img/ritiri
