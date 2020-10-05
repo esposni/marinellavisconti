@@ -12,7 +12,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
 import DonazioneButton from "views/pages/Donazione"
@@ -79,7 +79,7 @@ e sintonizzarsi sulla creatività della visione.</h5>
             </Row>
           </Container>
         </div>
-        <FormMessage/>
+        {/* <FormMessage/> */}
         <DefaultFooter />
       </div>
     </>

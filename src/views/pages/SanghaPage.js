@@ -12,7 +12,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
 import DonazioneButton from "views/pages/Donazione"
@@ -160,7 +160,7 @@ Per chi non viene da vicino (o per chi ha semplicemente la possibilità e voglia
             </div>
           </Container>
         </div> */}
-        <FormMessage/>
+        {/* <FormMessage/> */}
         <DefaultFooter />
       </div>
     </>

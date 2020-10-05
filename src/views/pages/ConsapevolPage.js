@@ -12,7 +12,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 import utenti from "../../assets/utenti.json"
 import Conduttore from "views/pages/Conduttore"
 // import AlertDialogSlide from "components/PopUpButton.js";
@@ -105,7 +105,7 @@ Attraverso la consapevolezza, la visualizzazione e la creatività.....Perché og
         </div>
         
       
-        <FormMessage/>
+        {/* <FormMessage/> */}
         <DefaultFooter />
       </div>
     </>

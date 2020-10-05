@@ -1,24 +1,44 @@
 import React from "react";
 import {
-    Button,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+    // Button,
+    // Input,
+    // InputGroupAddon,
+    // InputGroupText,
+    // InputGroup,
     Container,
     Row,
     Col
   } from "reactstrap";
+import Iframe from 'react-iframe'
 
 export default function DataFormMessage(props) {
-const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
+// const [firstFocus, setFirstFocus] = React.useState(false);
+//   const [lastFocus, setLastFocus] = React.useState(false);
     return (
-    
+      <>
+      <div className=" text-center">
+          <Container>
+           
+            <Row>
+              <Col>
+              <Iframe url="https://progettopienessere.wufoo.com/embed/z1gbsyyv1767azf/"
+        width="100%"
+        height="2000"
+        scrolling="no"
+        id="Iframe"
+        display="initial"
+        allowfullscreen
+        frameBorder="0"
+        position="relative"/>
+           </Col>
+
+            </Row>
+          </Container>
+      </div>
+     {/* 
 <div className=" text-center">
           <Container>
-            <h2 className="title" style={{color:"#dbbb4b"}}>Per iscrizioni: <br/> Compila il questionario</h2>
-            {/* <p className="description">Your project is very important to us.</p> */}
+           
             <Row>
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
                 <InputGroup
@@ -66,7 +86,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                  
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -86,7 +106,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                    
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -105,7 +125,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                    
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -124,7 +144,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                   
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -143,7 +163,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                 
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -162,8 +182,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
-                    </InputGroupText>
+                                         </InputGroupText>
                   </InputGroupAddon>
                   <Input
                     placeholder="Professione..."
@@ -181,7 +200,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 >
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      {/* <i className="now-ui-icons users_circle-08"></i> */}
+                      
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
@@ -212,16 +231,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
                 </InputGroup>
                 <br/>
                 
-                {/* <div className="textarea-container">
-                  <Input
-                    cols="80"
-                    name="name"
-                    placeholder="Scrivi il messaggio..."
-                    rows="4"
-                    type="textarea"
-                    id="message"
-                  ></Input>
-                </div> */}
+                
                 <div className="send-button">
                   <Button
                     block
@@ -278,6 +288,10 @@ const [firstFocus, setFirstFocus] = React.useState(false);
             <textarea hidden name="subject"></textarea>
             <textarea hidden name="body"></textarea>
            
-          </form>
+          </form> 
+
         </div>
+
+      */}
+        </>
 );}
