@@ -12,7 +12,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function PremessaPage() {
@@ -99,7 +99,7 @@ come eguali, in cui le domande siano ritenute più importanti delle risposte....
             </div>
           </Container>
         </div> */}
-        <FormMessage/>
+        {/* <FormMessage/> */}
         <DefaultFooter />
       </div>
     </>

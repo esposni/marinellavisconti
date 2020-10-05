@@ -12,7 +12,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 import Quest1 from "components/Quest1"
 import PopUpButton from"components/PopUpButton";
 import DonazioneButton from "views/pages/Donazione"
@@ -124,7 +124,7 @@ src={require("assets/img/marinella5.jpg")}
           
           </Container>
         </div>
-        <FormMessage/>
+        {/* <FormMessage/> */}
         <DefaultFooter />
       </div>
     </>

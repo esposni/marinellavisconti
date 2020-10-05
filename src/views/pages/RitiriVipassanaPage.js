@@ -4,7 +4,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 import data from "assets/data_events.json"
 import AnteprimaEvento from "views/pages/AnteprimaEvento.js";
 
@@ -67,7 +67,7 @@ return (
           }
           
         })}
-        <FormMessage/>
+        {/* <FormMessage/> */}
      
         <DefaultFooter />
       </div>

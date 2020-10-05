@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
-import FormMessage from"components/FormMessage.js";
+// import FormMessage from"components/FormMessage.js";
 
 function ProfilePage(props) {
   // const [pills, setPills] = React.useState("2");
@@ -86,7 +86,7 @@ function ProfilePage(props) {
           </Container>
           
           
-          <FormMessage/>
+          {/* <FormMessage/> */}
         </div>
         <DefaultFooter />
       </div>
