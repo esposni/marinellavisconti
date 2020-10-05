@@ -17,7 +17,7 @@ export default class Ricette extends React.Component {
     axios.get('https://pienessere-backend.herokuapp.com/api/ricetta')
       .then((response) => {
         const data = response.data;
-        this.setState({ posts: data });
+        this.setState({ posts: data.reverse() });
         console.log('Data has been received!!');
       })
       .catch(() => {

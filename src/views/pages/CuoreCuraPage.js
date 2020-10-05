@@ -55,6 +55,7 @@ La poesia è una pittura che si sente e non si vede" - Leonardo Da Vinci, Tratta
 un’immagine, come dono di riflessione per chi è impegnato in una relazione di cura
 e desidera fermarsi qualche attimo per sentire dentro di sé il nutrimento della parola
 e sintonizzarsi sulla creatività della visione.</h5>
+<hr></hr>
                 <Poesie />
               </Col>  
             </Row>

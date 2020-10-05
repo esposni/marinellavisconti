@@ -17,7 +17,7 @@ export default class Poesie extends React.Component {
     axios.get('https://pienessere-backend.herokuapp.com/api/poesia')
       .then((response) => {
         const data = response.data;
-        this.setState({ posts: data });
+        this.setState({ posts: data.reverse() });
         console.log('Data has been received!!');
       })
       .catch(() => {
