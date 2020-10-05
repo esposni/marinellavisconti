@@ -90,7 +90,7 @@ operatori della salute, insegnanti e ricercatori spirituali.</h5>
               <h5 align="center">Via Auguadri, 22 Como 22100</h5>
               <h5 align="center">C.F. 95136600137</h5>
               <h5 align="center">Segreteria Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere :<br/>
-Telefono:  </h5>
+Telefono: 388 5665335 </h5>
 <div style={{display:"flex",justifyContent:"center"}}>
 <h5 align="left">
 
