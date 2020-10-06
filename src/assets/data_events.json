@@ -181,26 +181,20 @@
             "author":""}]
             ,"costo":""
             ,"contatto":"info@progettopienessere.com"
-        ,"users":[{"name":"Chiara De Servi",
-                   "desc":"Mindfulness Counselor",
-                   "img":"Chiara De Servi.png",
-                    "link":"chiara-de-servi",
-                    "curriculum":"" },
-                    {"name":"",
-                        "img":"",
-                        "desc":"",
-                         "link":"",
-                         "curriculum":"" 
-                    }]
-        ,"more_info":""
-        ,"prerequisiti":[]
-        ,"school":true
-        ,"offerta_libera":false,
-        "vitto_alloggio":""
-        ,"self_link":""
+            ,"users":[
+                {"name":"Chiara De Servi",
+                    "img":"Chiara De Servi.png",
+                    "desc":"Mindfulness Counselor",
+                     "link":"chiara-de-servi",
+                     "curriculum":""
+                }]
+    ,"more_info":""
+    ,"prerequisiti":[]
+    ,"school":false
+    ,"self_link":""
     },
     {
-        "id":6,
+        "id":7,
         "title":"Mantenere un buon cuore incontrando la sofferenza",
         "conduttori":"Ajahn Sucitto - Posti ESAURITI: Lista d'attesa",
         "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021 ",
@@ -226,7 +220,7 @@
         ,"self_link":""
     },
     {
-        "id":7,
+        "id":8,
         "title":"MINDFULNESS E HEARTFULNESS PER LA SAGGEZZA E LA LIBERTA'",
         "conduttori":"ANUSHKA FERNANDOPULLE",
         "date":"Eremo di Montecastello (Bs) 1-5 ottobre 2021",
@@ -253,7 +247,7 @@
         ,"self_link":""
     },
     {
-        "id":8,
+        "id":9,
         "title":"WORKSHOP: UN SENTIERO RADICALE DI ADDESTRAMENTO MENTALE",
         "conduttori":"ANUSHKA FERNANDOPULLE",
         "date":"Eremo di Montecastello (Bs) 7 ottobre 2021",
@@ -279,7 +273,7 @@
         ,"self_link":""
     } ,
     {
-        "id":9,
+        "id":10,
         "title":"GIORNATA DI COACHING INDIVIDUALE",
         "conduttori":"ANUSHKA FERNANDOPULLE",
         "date":"Eremo di Montecastello (Bs) 8 ottobre 2021",
@@ -305,7 +299,7 @@
         ,"self_link":""
     },
     {
-        "id":10,
+        "id":11,
         "title":"Allenare il coraggio del cuore con l’audacia dell’espressività",
         "conduttori":"Marinella Visconti e Dafna Moscati",
         "date":"8-10 aprile 2022",
@@ -334,7 +328,7 @@
         ,"self_link":""
     },
     {
-        "id":11,
+        "id":12,
         "title":"Percorso in otto sigilli di mindfulness transpersonale in relazione avanzata",
         "conduttori":"Marinella Visconti e Simone Spina",
         "date":"Edizione 2019/2021",
@@ -363,7 +357,7 @@
         ,"self_link":"/formazione-avanzata"
     },
     {
-        "id":12,
+        "id":13,
         "title":"Ad ogni corpo il suo cibo...",
         "conduttori":"Monia Talenti",
         "date":"",
@@ -387,7 +381,7 @@
         ,"self_link":"/corpo-cibo"
     },
     {
-        "id":13,
+        "id":14,
         "title":"Nel cuore della cura",
         "conduttori":"Giuseppe Ruggiero",
         "date":"",
@@ -412,7 +406,7 @@
     }
     ,
     {
-        "id":14,
+        "id":15,
         "title":"Rilassamento. Yoga Nidra del Cuore",
         "conduttori":"Federica Gonzati",
         "date":"",
@@ -436,7 +430,7 @@
         ,"self_link":"/rilassamento-yoga"
     },
     {
-        "id":15,
+        "id":16,
         "title":"Sangha cittadini e regionali - Online e residenziali",
         "conduttori":"Sanda Stojkovich",
         "date":"",
@@ -461,7 +455,7 @@
     }
     ,
     {
-        "id":15,
+        "id":17,
         "title":"MindfulnesStreet",
         "conduttori":"Elena Cristalli",
         "date":"",
