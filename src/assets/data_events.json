@@ -170,6 +170,37 @@
     },
     {
         "id":6,
+        "title":"Nutri i tuoi demoni",
+        "conduttori":"Chiara De Salvi",
+        "date":"5-6 Giugno 2021 presso il centro D'Ompio",
+        "text":[""]
+        ,"image":"nutriitruidemoni.JPG",
+        "data_luogo":"Il ritiro si svolge nei giorni 5-6 giugno 2021 presso il Centro D'Ompio"
+        ,"type":"Ritiri Laboratori"
+        ,"cit":[{"text":"",
+            "author":""}]
+            ,"costo":""
+            ,"contatto":"info@progettopienessere.com"
+        ,"users":[{"name":"Chiara De Servi",
+                   "desc":"Mindfulness Counselor",
+                   "img":"Chiara De Servi.png",
+                    "link":"chiara-de-servi",
+                    "curriculum":"" },
+                    {"name":"",
+                        "img":"",
+                        "desc":"",
+                         "link":"",
+                         "curriculum":"" 
+                    }]
+        ,"more_info":""
+        ,"prerequisiti":[]
+        ,"school":true
+        ,"offerta_libera":false,
+        "vitto_alloggio":""
+        ,"self_link":""
+    },
+    {
+        "id":6,
         "title":"Mantenere un buon cuore incontrando la sofferenza",
         "conduttori":"Ajahn Sucitto - Posti ESAURITI: Lista d'attesa",
         "date":"Centro d’Ompio Pettenasco dal 15 marzo sera al 25 marzo pranzo 2021 ",
