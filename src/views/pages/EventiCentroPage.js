@@ -65,7 +65,7 @@ Presso il Centro Mindfulness Milano, Via Cenisio, 5.
 <h5 align="left"><strong>Tutti i giovedì dal 17 settembre 2020 dalle 18 alle 18:40. </strong></h5>
 <h5 align="left"><strong>Per informazioni  scrivere a <a href="mailto:info@progettopienessere.com">info@progettopienessere.com</a></strong></h5> 
 <br/>
-<h3 align="center" className="bold" >La partecipazione è libera</h3>
+<h3 align="center" className="bold" style={{color:"#dbbb4b"}}>La partecipazione è libera</h3>
 <DonazioneButton desc={true}  offerta={true}/ >  
               </Col>
             </Row>
