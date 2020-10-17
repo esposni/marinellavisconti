@@ -85,7 +85,7 @@ Così i saggi entrano a far parte del nostro tempio di consapevolezza e sostengo
 L'autentica consapevolezza è animata da sollecitudine e cura.
 L'attenzione contemplativa per essere trasformante,deve esprimere l'abilità di incontrare qualunque cosa emerge di momento in momento con totale presenza e cuore aperto.
 La cura ci consente di osservare la propria mente nel bel mezzo del turbamento lasciando spazio alla nascita di qualità fondamentali come la saggezza.</h5>
-<h2 className="title"> Sostenere chi sostiene</h2>
+<h2 className="title"  style={{color:"#dbbb4b"}}>Sostenere chi sostiene</h2>
 <h5 align="left">
 Sono benvenuti e invitati a partecipare e a contribuire al Progetto Pien<i style={{color:"#dbbb4b"}}className="fas fa-heart"></i>Essere, sostenendo chi sostiene  tutti coloro che si sono formati in modo continuativo nell’Associazione Mudita alla Mindfulness in relazione avanzata in questi ultimi 15 anni, sono invitati a contribuire coloro che conoscono la Mindfulness in relazione e transpersonale, gli insegnanti di Dharma, gli insegnanti di pratiche corporee di consapevolezza e tutti coloro che attraverso la loro professione cercano di incarnare il  Dharma.<br/> <br/>
 
