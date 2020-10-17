@@ -96,8 +96,8 @@ Telefono: 388 5665335 </h5>
 
 La segreteria risponde:  
 <ul align="left">
-  <li>Il lunedì dalle 11 alle 12 </li>
-  <li> Il mercoledì dalle 12 alle 13</li>
+  <li>Il lunedì dalle 13:00 alle 14:00</li>
+  <li> Il mercoledì dalle 13:00 alle 14:00</li>
   <li> Il venerdì dalle 17 alle 18</li>
 </ul>
 </h5>
