@@ -98,7 +98,7 @@ La segreteria risponde:
 <ul align="left">
   <li>Il lunedì dalle 13:00 alle 14:00</li>
   <li> Il mercoledì dalle 13:00 alle 14:00</li>
-  <li> Il venerdì dalle 17 alle 18</li>
+  <li> Il venerdì dalle 17:00 alle 18:00</li>
 </ul>
 </h5>
 </div>
