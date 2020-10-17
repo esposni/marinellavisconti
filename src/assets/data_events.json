@@ -168,31 +168,7 @@
         "vitto_alloggio":""
         ,"self_link":""
     },
-    {
-        "id":6,
-        "title":"Nutri i tuoi demoni",
-        "conduttori":"Chiara De Servi",
-        "date":"5-6 Giugno 2021 presso il centro D'Ompio",
-        "text":[""]
-        ,"image":"nutriituoidemoni.JPG",
-        "data_luogo":"Il ritiro si svolge nei giorni 5-6 giugno 2021 presso il Centro D'Ompio via Pratolungo 47, Pettenasco (NO) dalle ore 10 del sabato alle ore 18 della domenica"
-        ,"type":"Ritiri Laboratori"
-        ,"cit":[{"text":"",
-            "author":""}]
-            ,"costo":"Il ritiro come da tradizione è ad offerta libera. Per iscriversi è necessaria la tessera associativa: euro 25 da versare a Banca Creval nonprofit \n IBAN IT06W0521610901000000001859 \n Causale: Cognome e Nome del partecipante – Tessera sostenitore Associazione anno corrente e partecipazione a: Nutri i tuoi demoni con Chiara De Servi"
-            ,"contatto":"info@progettopienessere.com"
-            ,"users":[
-                {"name":"Chiara De Servi",
-                    "img":"Chiara De Servi.png",
-                    "desc":"Mindfulness Counselor",
-                     "link":"chiara-de-servi",
-                     "curriculum":""
-                }]
-    ,"more_info":""
-    ,"prerequisiti":[]
-    ,"school":false
-    ,"self_link":""
-    },
+
     {
         "id":7,
         "title":"Mantenere un buon cuore incontrando la sofferenza",
@@ -218,6 +194,31 @@
         ,"prerequisiti":[]
         ,"school":false
         ,"self_link":""
+    },
+    {
+        "id":6,
+        "title":"Nutri i tuoi demoni",
+        "conduttori":"Chiara De Servi",
+        "date":"5-6 Giugno 2021 presso il centro D'Ompio",
+        "text":[""]
+        ,"image":"nutriituoidemoni.JPG",
+        "data_luogo":"Il ritiro si svolge nei giorni 5-6 giugno 2021 presso il Centro D'Ompio via Pratolungo 47, Pettenasco (NO) dalle ore 10 del sabato alle ore 18 della domenica"
+        ,"type":"Ritiri Laboratori"
+        ,"cit":[{"text":"",
+            "author":""}]
+            ,"costo":"Il ritiro come da tradizione è ad offerta libera. Per iscriversi è necessaria la tessera associativa: euro 25 da versare a Banca Creval nonprofit \n IBAN IT06W0521610901000000001859 \n Causale: Cognome e Nome del partecipante – Tessera sostenitore Associazione anno corrente e partecipazione a: Nutri i tuoi demoni con Chiara De Servi"
+            ,"contatto":"info@progettopienessere.com"
+            ,"users":[
+                {"name":"Chiara De Servi",
+                    "img":"Chiara De Servi.png",
+                    "desc":"Mindfulness Counselor",
+                     "link":"chiara-de-servi",
+                     "curriculum":""
+                }]
+    ,"more_info":""
+    ,"prerequisiti":[]
+    ,"school":false
+    ,"self_link":""
     },
     {
         "id":8,
