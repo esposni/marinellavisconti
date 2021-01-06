@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.1",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "moment": "2.24.0",
     "node-sass": "^4.14.1",
     "nouislider": "14.0.2",
